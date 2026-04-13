@@ -1,6 +1,7 @@
 # dennis ritchie
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Dennis Ritchie — co-created Unix, invented C, and quietly built the foundation under virtually all modern computing. Steve Jobs got the eulogies; dmr got the infrastructure.*
 
 **Field:** Operating Systems, Programming Languages
@@ -8,6 +9,8 @@
 - **Lifespan:** 1941–2011
 - **Key contribution:** C programming language, Unix operating system (with Ken Thompson)
 - **Impact:** Nearly every operating system, programming language, and piece of systems software alive today traces its DNA back to Ritchie's work
+
+<br clear="left"/>
 
 ## Biography
 

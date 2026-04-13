@@ -1,11 +1,12 @@
 # 🧠 Alan Turing
 
+<img src="images/alan-turing-portrait.jpg" alt="Alan Turing Portrait" width="280" align="left">
+
 > *The man who taught rocks to think — and then got punished for being himself.*
 
-![Alan Turing Portrait](images/alan-turing-portrait.jpg)
 *Alan Turing: mathematician, codebreaker, marathon runner, and the reason you're reading this on a computer.*
 
----
+<br clear="left"/>
 
 ## 📋 Quick Facts
 

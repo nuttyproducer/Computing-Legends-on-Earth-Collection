@@ -1,6 +1,7 @@
 # grace hopper
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Rear Admiral Grace Hopper — the "Queen of Code" who told computers to speak English, and told everyone else to stop saying "we've always done it this way."*
 
 **Field:** Programming Languages, Compilers
@@ -8,6 +9,8 @@
 - **Lifespan:** 1906–1992
 - **Key contribution:** Developed first compilers; co-created COBOL; pioneered machine-independent programming
 - **Impact:** Made programming accessible by proving computers could understand English-like instructions
+
+<br clear="left"/>
 
 ## Biography
 

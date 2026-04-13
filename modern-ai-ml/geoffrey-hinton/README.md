@@ -1,8 +1,9 @@
 # Geoffrey Hinton
 
+<img src="images/geoffrey-hinton.jpg" alt="Portrait of Geoffrey Hinton" width="280" align="left">
+
 > *"The pooling operation used in convolutional neural networks is a big mistake and the fact that it works so well is a disaster."*
 
-![Portrait of Geoffrey Hinton](images/geoffrey-hinton.jpg)
 
 **Field:** Machine Learning · Deep Learning · Neural Networks · Artificial Intelligence
 
@@ -11,7 +12,7 @@
 - **Key Contributions:** Backpropagation, Boltzmann Machines, Deep Belief Networks, Capsule Networks
 - **Impact:** Widely regarded as one of the "Godfathers of Deep Learning" — the person most responsible for making neural networks actually work
 
----
+<br clear="left"/>
 
 ## Biography
 

@@ -1,6 +1,7 @@
 # george boole
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *George Boole — the man who turned logic into math, and accidentally made computers possible.*
 
 **Field:** Mathematics, Logic
@@ -8,6 +9,8 @@
 - **Lifespan:** 1815–1864
 - **Key contribution:** Boolean algebra — the mathematical system underlying all digital computing
 - **Impact:** Every computer chip in existence runs on Boolean logic. Every. Single. One.
+
+<br clear="left"/>
 
 ## Biography
 

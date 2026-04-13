@@ -1,6 +1,7 @@
 # donald knuth
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Donald Knuth — the man who literally wrote the book on algorithms, then invented a typesetting system because the book looked ugly.*
 
 **Field:** Algorithms, Programming, Typesetting
@@ -9,7 +10,7 @@
 - **Key contribution:** *The Art of Computer Programming* (TAOCP), TeX, analysis of algorithms
 - **Impact:** Systematized the study of algorithms; created tools used by every mathematician and scientist
 
----
+<br clear="left"/>
 
 ## Biography
 

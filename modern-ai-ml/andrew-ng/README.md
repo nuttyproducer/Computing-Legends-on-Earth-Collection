@@ -1,6 +1,6 @@
 # Andrew Ng
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
 
 **Field:** Machine Learning, AI Education, Deep Learning
 
@@ -8,7 +8,7 @@
 - **Key Contributions:** Google Brain, Coursera, deeplearning.ai, Landing AI, AI education democratization
 - **Impact:** Made machine learning accessible to millions through online education; led foundational deep learning research at Google and Baidu
 
----
+<br clear="left"/>
 
 ## Early Life & Education
 

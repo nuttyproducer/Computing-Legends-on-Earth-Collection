@@ -1,6 +1,6 @@
 # Yann LeCun
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
 
 **Field:** Machine Learning, Computer Vision, Deep Learning  
 **Born:** 1960, Soisy-sous-Montmorency, near Paris, France  
@@ -8,7 +8,7 @@
 **Current Role:** Chief AI Scientist, Meta (Facebook); Silver Professor, NYU  
 **Honors:** Turing Award (2018, with Geoffrey Hinton and Yoshua Bengio)
 
----
+<br clear="left"/>
 
 ## The Guy Who Taught Computers to See
 

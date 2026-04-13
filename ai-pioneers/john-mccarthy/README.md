@@ -1,13 +1,13 @@
 # John McCarthy (1927–2011)
 
-![Portrait of John McCarthy](images/john-mccarthy.jpg)
+<img src="images/john-mccarthy.jpg" alt="Portrait of John McCarthy" width="280" align="left">
 
 **Field:** Artificial Intelligence, Programming Languages, Computer Science Theory
 
 > *"He who refuses to do arithmetic is doomed to talk nonsense."*
 > — John McCarthy
 
----
+<br clear="left"/>
 
 ## At a Glance
 

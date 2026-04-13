@@ -1,12 +1,12 @@
 # Allen Newell
 
-![Portrait of Allen Newell](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait of Allen Newell" width="280" align="left">
 
 **Field:** Artificial Intelligence, Cognitive Psychology, Computer Science
 
 > "The only reason we don't understand the mind is because it's complicated — not because it's mysterious."
 
----
+<br clear="left"/>
 
 ## At a Glance
 

@@ -1,6 +1,6 @@
 # Yoshua Bengio
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
 
 **Field:** Machine Learning, Deep Learning, Artificial Intelligence
 
@@ -9,7 +9,7 @@
 - **Key Contributions:** Neural probabilistic language models, attention mechanisms, GANs (via his lab), deep learning theory, sequence modeling
 - **Impact:** One of the three "Godfathers of AI"; built Mila into the world's largest academic AI lab; most cited computer scientist in the world (for a stretch); Turing Award laureate
 
----
+<br clear="left"/>
 
 ## Biography
 

@@ -1,6 +1,7 @@
 # linus torvalds
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Linus Torvalds — created Linux because he wanted a free Unix for his PC, then created Git because he needed better version control for Linux. Both projects are now essential infrastructure for modern civilization. Also known for his... colorful email style.*
 
 **Field:** Operating Systems, Version Control
@@ -8,6 +9,8 @@
 - **Lifespan:** b. 1969
 - **Key contribution:** Linux kernel, Git version control system
 - **Impact:** Linux powers 96%+ of servers, all Android phones, most embedded systems, and the world's top supercomputers. Git is used by virtually every software developer on Earth.
+
+<br clear="left"/>
 
 ## Biography
 

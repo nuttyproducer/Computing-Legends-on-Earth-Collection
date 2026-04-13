@@ -1,6 +1,7 @@
 # brendan eich
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Brendan Eich — created JavaScript in 10 days. Those 10 days now power virtually every website on Earth. Some say the technical debt from that sprint is still being paid off.*
 
 **Field:** Programming Languages, Web Technologies
@@ -8,6 +9,8 @@
 - **Lifespan:** b. 1961
 - **Key contribution:** JavaScript programming language, Mozilla/Firefox, Brave browser
 - **Impact:** JavaScript is the most widely deployed programming language in history — it runs in every web browser on every device
+
+<br clear="left"/>
 
 ## Biography
 

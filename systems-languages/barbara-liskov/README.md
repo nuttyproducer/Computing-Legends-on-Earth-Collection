@@ -1,6 +1,7 @@
 # barbara liskov
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Barbara Liskov — defined how objects should behave in object-oriented programming, invented data abstraction, and created the rule every OOP programmer learns: "if it quacks like a duck, it better actually be a duck." One of the first women to earn a CS PhD in the United States.*
 
 **Field:** Programming Languages, Software Engineering
@@ -8,6 +9,8 @@
 - **Lifespan:** b. 1939
 - **Key contribution:** Liskov Substitution Principle (LSP), data abstraction, CLU programming language
 - **Impact:** Foundational work in OOP, software engineering methodology, and distributed systems
+
+<br clear="left"/>
 
 ## Biography
 

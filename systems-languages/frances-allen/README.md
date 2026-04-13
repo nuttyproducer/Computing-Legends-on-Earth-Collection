@@ -1,6 +1,7 @@
 # frances allen
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Frances Allen — made your code run faster than you wrote it. First woman to win the Turing Award, and she earned it by making compilers smart enough to optimize the mess humans write into something machines could actually execute efficiently.*
 
 **Field:** Compiler Optimization
@@ -8,6 +9,8 @@
 - **Lifespan:** 1932–2020
 - **Key contribution:** Compiler optimization theory, control flow analysis, interprocedural analysis
 - **Impact:** Foundational work on how compilers optimize code; made high-level languages practical for high-performance computing
+
+<br clear="left"/>
 
 ## Biography
 

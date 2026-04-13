@@ -1,6 +1,7 @@
 # margaret hamilton
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 _Margaret Hamilton — standing next to the stack of Apollo Guidance Computer source code she and her team wrote. She coined the term "software engineering" and her code prevented an abort during the Apollo 11 moon landing._
 
 **Field:** Software Engineering
@@ -8,6 +9,8 @@ _Margaret Hamilton — standing next to the stack of Apollo Guidance Computer so
 - **Lifespan:** b. 1936
 - **Key contribution:** Apollo Guidance Computer software, coined "software engineering"
 - **Impact:** Legitimized software as an engineering discipline, pioneered error detection and recovery, saved Apollo 11
+
+<br clear="left"/>
 
 ## Biography
 

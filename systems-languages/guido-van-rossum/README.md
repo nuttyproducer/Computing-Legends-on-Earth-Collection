@@ -1,6 +1,7 @@
 # guido van rossum
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 _Guido van Rossum — created Python over a Christmas holiday because he was bored. The language became one of the most popular on Earth, and he became its "Benevolent Dictator For Life" — until he got tired of the arguments and abdicated._
 
 **Field:** Programming Languages
@@ -8,6 +9,8 @@ _Guido van Rossum — created Python over a Christmas holiday because he was bor
 - **Lifespan:** b. 1956
 - **Key contribution:** Python programming language
 - **Impact:** Dominant language in AI/ML, data science, web development, scripting, education — the Swiss Army knife of programming
+
+<br clear="left"/>
 
 ## Biography
 

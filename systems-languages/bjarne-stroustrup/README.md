@@ -1,6 +1,7 @@
 # bjarne stroustrup
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Bjarne Stroustrup — created C++, one of the most widely used and most complained-about languages in history. "There are only two kinds of languages: the ones people complain about and the ones nobody uses."*
 
 **Field:** Programming Languages
@@ -8,6 +9,8 @@
 - **Lifespan:** b. 1950
 - **Key contribution:** C++ programming language
 - **Impact:** Powers operating systems, game engines, browsers, databases, embedded systems — the invisible backbone of high-performance software
+
+<br clear="left"/>
 
 ## Biography
 

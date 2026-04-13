@@ -1,11 +1,13 @@
 # Judea Pearl
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
 
 **Field:** Artificial Intelligence, Probabilistic Reasoning, Causality
 
 > *"You are smarter than your data. Data do not understand causes and effects; humans do."*
 > — Judea Pearl
+
+<br clear="left"/>
 
 ## At a Glance
 

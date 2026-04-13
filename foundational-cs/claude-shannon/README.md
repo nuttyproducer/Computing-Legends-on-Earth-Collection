@@ -1,6 +1,7 @@
 # Claude Shannon
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Claude Shannon — the man who invented the bit and made the Information Age possible, then spent his retirement juggling on a unicycle.*
 
 **Field:** Information Theory, Digital Circuits, Mathematics
@@ -9,7 +10,7 @@
 - **Key contribution:** Founded information theory; showed Boolean algebra could design circuits
 - **Impact:** Made digital communication, compression, and error correction possible; coined "bit"
 
----
+<br clear="left"/>
 
 ## Biography
 

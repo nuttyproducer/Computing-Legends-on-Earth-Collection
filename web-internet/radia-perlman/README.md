@@ -1,6 +1,6 @@
 # Radia Perlman
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
 
 **Field:** Computer Networks, Network Security  
 **Born:** 1951, Portsmouth, Virginia, USA  
@@ -8,7 +8,7 @@
 **Known For:** Spanning Tree Protocol (STP), IS-IS, TRILL, Network Security  
 **Nickname She Hates:** "Mother of the Internet"
 
----
+<br clear="left"/>
 
 ## The One-Sentence Version
 

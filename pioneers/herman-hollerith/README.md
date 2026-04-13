@@ -1,6 +1,7 @@
 # herman hollerith
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Herman Hollerith — the man who turned the U.S. Census into a data processing revolution and accidentally founded IBM.*
 
 **Field:** Data Processing, Business Machines
@@ -8,6 +9,8 @@
 - **Lifespan:** 1860–1929
 - **Key contribution:** Invented the electromechanical punch card tabulating machine
 - **Impact:** Automated data processing; his company became IBM
+
+<br clear="left"/>
 
 ## Biography
 

@@ -1,6 +1,7 @@
 # ada lovelace
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Ada Lovelace — mathematician, visionary, and the world's first programmer (before programming was even a thing).*
 
 **Field:** Programming, Mathematics
@@ -8,6 +9,8 @@
 - **Lifespan:** 1815–1852
 - **Key contribution:** Wrote the first algorithm intended for a machine — making her the first computer programmer in history
 - **Impact:** Recognized that computing machines could go beyond mere number-crunching; foresaw general-purpose computation
+
+<br clear="left"/>
 
 ## Biography
 

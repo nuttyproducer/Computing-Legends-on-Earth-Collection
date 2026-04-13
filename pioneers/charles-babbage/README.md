@@ -1,6 +1,7 @@
 # charles babbage
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Portrait of Charles Babbage — the man who dreamed of computers before electricity was cool.*
 
 **Field:** Mechanical Computing, Mathematics
@@ -8,6 +9,8 @@
 - **Lifespan:** 1791–1871
 - **Key contribution:** Designed the Analytical Engine — essentially a mechanical general-purpose computer
 - **Impact:** Conceptual father of programmable computers; imagined the future 100 years early
+
+<br clear="left"/>
 
 ## Biography
 

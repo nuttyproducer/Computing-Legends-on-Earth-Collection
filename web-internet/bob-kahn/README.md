@@ -1,6 +1,6 @@
 # Bob Kahn
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
 
 **Field:** Computer Networks, Internet Protocols, Distributed Systems Architecture
 
@@ -10,7 +10,7 @@
 - **Key Contribution:** Co-invention of TCP/IP protocol suite (with Vint Cerf)
 - **Impact:** Co-architect of the Internet; enabled open-architecture, packet-switched networking across heterogeneous systems
 
----
+<br clear="left"/>
 
 ## Early Life & Education
 

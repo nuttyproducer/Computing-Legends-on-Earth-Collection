@@ -1,6 +1,7 @@
 # john g. kemeny
 
-![Portrait](images/portrait.svg)
+<img src="images/portrait.svg" alt="Portrait" width="280" align="left">
+
 _John G. Kemeny — Hungarian refugee who escaped the Nazis, worked on the Manhattan Project, and co-created BASIC to make computing accessible to everyone. Later became president of Dartmouth College._
 
 **Field:** Programming Languages
@@ -8,6 +9,8 @@ _John G. Kemeny — Hungarian refugee who escaped the Nazis, worked on the Manha
 - **Lifespan:** 1926-1992
 - **Key contribution:** Co-creator of BASIC programming language, pioneer of time-sharing systems
 - **Impact:** Made programming accessible to millions, influenced every home computer of the 1970s-80s
+
+<br clear="left"/>
 
 ## Biography
 

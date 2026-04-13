@@ -1,6 +1,6 @@
 # Vint Cerf
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
 
 **Field:** Computer Networks, Internet Protocols  
 **Born:** June 23, 1943, New Haven, Connecticut, USA  
@@ -8,7 +8,7 @@
 **Awards:** Turing Award (2004), Presidential Medal of Freedom (2005), National Medal of Technology  
 **Known For:** Being one of the "Fathers of the Internet," wearing three-piece suits, and having the best job title in tech history
 
----
+<br clear="left"/>
 
 ## Who Is Vint Cerf?
 

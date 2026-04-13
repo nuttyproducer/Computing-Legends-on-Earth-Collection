@@ -1,6 +1,7 @@
 # edsger dijkstra
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Edsger Dijkstra — the man who found the shortest path to legendary status in computer science.*
 
 **Field:** Algorithms, Software Engineering, Programming Methodology
@@ -9,7 +10,7 @@
 - **Key contribution:** Dijkstra's algorithm, structured programming, semaphores, "Go To Statement Considered Harmful"
 - **Impact:** Revolutionized how we think about writing correct software
 
----
+<br clear="left"/>
 
 ## Biography
 

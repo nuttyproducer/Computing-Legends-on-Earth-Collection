@@ -1,6 +1,7 @@
 # konrad zuse
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Konrad Zuse — the German engineer who quietly built the world's first programmable computer in his parents' living room.*
 
 **Field:** Computer Hardware, Early Computing
@@ -8,6 +9,8 @@
 - **Lifespan:** 1910–1995
 - **Key contribution:** Built the Z3 — the world's first working programmable, fully automatic digital computer
 - **Impact:** Proved that programmable digital computing was physically possible; also created the first high-level programming language concept
+
+<br clear="left"/>
 
 ## Biography
 

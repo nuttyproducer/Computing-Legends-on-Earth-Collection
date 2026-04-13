@@ -1,6 +1,6 @@
 # Tim Berners-Lee
 
-![Tim Berners-Lee](images/tim-berners-lee.jpg)
+<img src="images/tim-berners-lee.jpg" alt="Tim Berners-Lee" width="280" align="left">
 
 **Field:** Web Technologies, Internet Standards, Computer Science
 
@@ -10,7 +10,7 @@
 - **Key Contribution:** Invented the World Wide Web
 - **Impact:** Gave humanity a universal platform for sharing information — arguably the most transformative invention of the late 20th century
 
----
+<br clear="left"/>
 
 ## Biography
 

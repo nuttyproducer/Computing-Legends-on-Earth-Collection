@@ -1,6 +1,7 @@
 # james gosling
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *James Gosling — created Java, the language that promised "Write Once, Run Anywhere" and delivered "Write Once, Debug Everywhere." Still, it conquered the enterprise world and runs on 3 billion devices (according to every Java installer ever).*
 
 **Field:** Programming Languages
@@ -8,6 +9,8 @@
 - **Lifespan:** b. 1955
 - **Key contribution:** Java programming language, JVM
 - **Impact:** Dominant in enterprise software, Android development; pioneered managed runtime environments
+
+<br clear="left"/>
 
 ## Biography
 

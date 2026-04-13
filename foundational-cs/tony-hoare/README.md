@@ -1,6 +1,7 @@
 # tony hoare
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Sir Tony Hoare — invented Quicksort, then spent decades trying to mathematically prove software correct. Also invented the null reference, which he called his "billion dollar mistake."*
 
 **Field:** Algorithms, Programming Languages, Formal Methods
@@ -9,7 +10,7 @@
 - **Key contribution:** Quicksort, Hoare logic (formal verification), CSP (Communicating Sequential Processes), null reference
 - **Impact:** Gave us one of the fastest sorting algorithms and the tools to prove programs correct
 
----
+<br clear="left"/>
 
 ## Biography
 

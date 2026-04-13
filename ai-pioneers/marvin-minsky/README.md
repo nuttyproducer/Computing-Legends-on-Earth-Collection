@@ -1,19 +1,16 @@
 # Marvin Minsky
 
-<div align="center">
-
-![Marvin Minsky](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Marvin Minsky" width="280" align="left">
 
 **"The father of artificial intelligence"**
 
-</div>
 
 **Field:** Artificial Intelligence, Cognitive Science, Robotics, Optics
 
 **Born:** August 9, 1927 — New York City, New York, USA
 **Died:** January 24, 2016 — Boston, Massachusetts, USA
 
----
+<br clear="left"/>
 
 ## Biography
 

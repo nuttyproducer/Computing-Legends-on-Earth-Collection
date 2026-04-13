@@ -1,6 +1,7 @@
 # ken thompson
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *Ken Thompson — co-created Unix, wrote the first computer chess program, and later co-invented Go. The kind of person who builds epoch-defining systems as side projects.*
 
 **Field:** Operating Systems, Programming Languages
@@ -8,6 +9,8 @@
 - **Lifespan:** b. 1943
 - **Key contribution:** Unix, B language (precursor to C), regular expressions in computing, UTF-8 (with Rob Pike), Go language
 - **Impact:** Unix and its descendants run the modern internet, smartphones, and virtually all servers
+
+<br clear="left"/>
 
 ## Biography
 

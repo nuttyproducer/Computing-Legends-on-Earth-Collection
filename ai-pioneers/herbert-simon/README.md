@@ -1,12 +1,9 @@
 # Herbert Simon
 
-<div align="center">
-
-![Herbert Simon](images/herbert-simon.jpg)
+<img src="images/herbert-simon.jpg" alt="Herbert Simon" width="280" align="left">
 
 *Herbert Alexander Simon (1916–2001) — The man who collected entire academic fields like hobbies.*
 
-</div>
 
 **Field:** Artificial Intelligence · Cognitive Psychology · Economics · Organizational Theory · Philosophy of Science
 
@@ -16,7 +13,7 @@
 - **Key Contributions:** Logic Theorist (first AI program), General Problem Solver, Bounded Rationality, *The Sciences of the Artificial*
 - **Impact:** Fundamentally reshaped how we understand decision-making, artificial intelligence, and the design of complex systems
 
----
+<br clear="left"/>
 
 ## Biography
 

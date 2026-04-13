@@ -1,6 +1,7 @@
 # john von neumann
 
-![Portrait](images/portrait.jpg)
+<img src="images/portrait.jpg" alt="Portrait" width="280" align="left">
+
 *John von Neumann — arguably the smartest person of the 20th century, and yes, that includes Einstein.*
 
 **Field:** Computer Architecture, Mathematics, Physics, Game Theory, Economics
@@ -9,7 +10,7 @@
 - **Key contribution:** Von Neumann architecture
 - **Impact:** Stored-program computers we use today
 
----
+<br clear="left"/>
 
 ## Biography
 
