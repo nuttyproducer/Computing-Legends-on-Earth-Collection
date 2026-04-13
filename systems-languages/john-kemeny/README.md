@@ -1,6 +1,6 @@
 # john g. kemeny
 
-![Portrait](images/portrait.jpg)
+![Portrait](images/portrait.svg)
 _John G. Kemeny — Hungarian refugee who escaped the Nazis, worked on the Manhattan Project, and co-created BASIC to make computing accessible to everyone. Later became president of Dartmouth College._
 
 **Field:** Programming Languages

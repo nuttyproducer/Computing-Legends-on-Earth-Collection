@@ -1,5 +1,7 @@
 # Radia Perlman
 
+![Portrait](images/portrait.jpg)
+
 **Field:** Computer Networks, Network Security  
 **Born:** 1951, Portsmouth, Virginia, USA  
 **Alma Mater:** MIT (BS & MS in Mathematics; PhD in Computer Science, 1988)  

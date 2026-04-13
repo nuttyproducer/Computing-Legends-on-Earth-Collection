@@ -1,5 +1,7 @@
 # Yoshua Bengio
 
+![Portrait](images/portrait.jpg)
+
 **Field:** Machine Learning, Deep Learning, Artificial Intelligence
 
 - **Born:** March 5, 1964, Paris, France

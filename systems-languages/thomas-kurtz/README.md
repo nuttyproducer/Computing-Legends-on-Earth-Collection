@@ -1,6 +1,6 @@
 # thomas e. kurtz
 
-![Portrait](images/portrait.jpg)
+![Portrait](images/portrait.svg)
 _Thomas E. Kurtz — Co-creator of BASIC with John Kemeny, the language that brought programming to the masses. His vision of computing for everyone became reality when BASIC shipped with every personal computer._
 
 **Field:** Programming Languages

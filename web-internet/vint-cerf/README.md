@@ -1,5 +1,7 @@
 # Vint Cerf
 
+![Portrait](images/portrait.jpg)
+
 **Field:** Computer Networks, Internet Protocols  
 **Born:** June 23, 1943, New Haven, Connecticut, USA  
 **Key Contribution:** Co-design of TCP/IP — the protocol suite that *is* the internet  

@@ -1,5 +1,7 @@
 # Bob Kahn
 
+![Portrait](images/portrait.jpg)
+
 **Field:** Computer Networks, Internet Protocols, Distributed Systems Architecture
 
 > "We need to think about the architecture of the net, not just its applications."

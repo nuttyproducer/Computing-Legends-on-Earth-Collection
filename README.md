@@ -97,3 +97,5 @@ Suggestions and improvements are welcome!
 ## License
 
 Dual licensed under CC0-1.0 (public domain dedication) and MIT License. See `LICENSE` files for details.
+
+Portrait attributions for non-public-domain images are listed in [`PORTRAIT_CREDITS.md`](PORTRAIT_CREDITS.md).

@@ -1,5 +1,7 @@
 # Andrew Ng
 
+![Portrait](images/portrait.jpg)
+
 **Field:** Machine Learning, AI Education, Deep Learning
 
 - **Lifespan:** b. 1976 (London, England)

@@ -1,5 +1,7 @@
 # Yann LeCun
 
+![Portrait](images/portrait.jpg)
+
 **Field:** Machine Learning, Computer Vision, Deep Learning  
 **Born:** 1960, Soisy-sous-Montmorency, near Paris, France  
 **Key Contribution:** Convolutional Neural Networks (CNNs)  
