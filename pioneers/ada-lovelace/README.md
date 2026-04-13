@@ -170,6 +170,13 @@ This is sometimes called "Lady Lovelace's Objection" and was directly addressed 
 3. Lovelace, Ada. "Notes by the Translator" in *Sketch of the Analytical Engine.* Taylor's Scientific Memoirs, 1843.
 4. Turing, Alan. "Computing Machinery and Intelligence." *Mind*, 1950. (References Lady Lovelace's Objection)
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Charles Babbage](../charles-babbage/)
+- [↑ Category Overview](../README.md)
+- [Next: George Boole →](../george-boole/)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

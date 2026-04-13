@@ -190,6 +190,12 @@ And unlike many tech pioneers who cashed in and moved on, Berners-Lee has spent 
 5. W3C. "Tim Berners-Lee." https://www.w3.org/People/Berners-Lee/
 6. Solid Project. https://solidproject.org/
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Radia Perlman](../radia-perlman/)
+- [↑ Category Overview](../README.md)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

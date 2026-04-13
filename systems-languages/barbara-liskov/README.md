@@ -126,6 +126,13 @@ LSP is on every software engineering interview question list. PBFT concepts unde
 3. Liskov, B. et al. (1977). "Abstraction Mechanisms in CLU." *Communications of the ACM*, 20(8), 564-576.
 4. ACM Turing Award Citation (2008).
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Frances Allen](../frances-allen/)
+- [↑ Category Overview](../README.md)
+- [Next: Bjarne Stroustrup →](../bjarne-stroustrup/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

@@ -207,6 +207,13 @@ The sheer *breadth* of his contributions is staggering. Most scientists are thri
 6. Von Neumann, J., & Morgenstern, O. (1944). *Theory of Games and Economic Behavior*. Princeton University Press.
 7. Dyson, G. (2012). *Turing's Cathedral: The Origins of the Digital Universe*. Pantheon Books.
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Alan Turing](../alan-turing/)
+- [↑ Category Overview](../README.md)
+- [Next: Claude Shannon →](../claude-shannon/)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

@@ -97,6 +97,13 @@ Shannon wasn't just a genius — he was a *delightfully eccentric* genius:
 - Soni, J., & Goodman, R. (2017). *A Mind at Play: How Claude Shannon Invented the Information Age*. Simon & Schuster.
 - [IEEE Information Theory Society](https://www.itsoc.org/)
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: John von Neumann](../john-von-neumann/)
+- [↑ Category Overview](../README.md)
+- [Next: Grace Hopper →](../grace-hopper/)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

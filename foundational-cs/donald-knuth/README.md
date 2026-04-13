@@ -115,6 +115,13 @@ Before Knuth, "how fast does this algorithm run?" was mostly answered with hand-
 - [Knuth's Stanford Home Page](https://cs.stanford.edu/~knuth/)
 - [Knuth's FAQ and "Email" page](https://cs.stanford.edu/~knuth/email.html)
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Grace Hopper](../grace-hopper/)
+- [↑ Category Overview](../README.md)
+- [Next: Edsger Dijkstra →](../edsger-dijkstra/)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

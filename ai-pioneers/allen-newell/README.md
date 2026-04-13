@@ -252,6 +252,13 @@ If modern AI researchers sometimes forget Newell, it's only because his ideas ar
 7. McCorduck, P. (2004). *Machines Who Think* (2nd ed.). A.K. Peters.
 8. ACM Turing Award Citation (1975). [https://amturing.acm.org/award_winners/newell_3167755.cfm](https://amturing.acm.org/award_winners/newell_3167755.cfm)
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Marvin Minsky](../marvin-minsky/)
+- [↑ Category Overview](../README.md)
+- [Next: Herbert Simon →](../herbert-simon/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

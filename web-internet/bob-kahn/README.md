@@ -116,6 +116,12 @@ When people talk about "the infrastructure layer" of the Internet, they're talki
 5. Corporation for National Research Initiatives (CNRI). https://www.cnri.reston.va.us/
 6. ACM Turing Award Citation (2004). https://amturing.acm.org/award_winners/kahn_4598637.cfm
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [↑ Category Overview](../README.md)
+- [Next: Vint Cerf →](../vint-cerf/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

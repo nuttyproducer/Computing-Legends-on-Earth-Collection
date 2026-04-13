@@ -199,6 +199,13 @@ When they gave him the Turing Award in 2018, it felt overdue. When they gave him
 6. ACM A.M. Turing Award — Geoffrey E. Hinton. https://amturing.acm.org/award_winners/hinton_4791679.cfm
 7. The Nobel Prize in Physics 2024. NobelPrize.org. https://www.nobelprize.org/prizes/physics/2024/
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Judea Pearl](../judea-pearl/)
+- [↑ Category Overview](../README.md)
+- [Next: Yann LeCun →](../yann-lecun/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

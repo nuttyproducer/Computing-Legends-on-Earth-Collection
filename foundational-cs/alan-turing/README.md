@@ -243,6 +243,12 @@ Turing's paper **"The Chemical Basis of Morphogenesis"** (1952) proposed that bi
 > *"The original question, 'Can machines think?' I believe to be too meaningless to deserve discussion."*
 > — Alan Turing, 1950 (Yes, even the man who proposed the Turing Test thought the question was poorly framed. Legend.)
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [↑ Category Overview](../README.md)
+- [Next: John von Neumann →](../john-von-neumann/)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

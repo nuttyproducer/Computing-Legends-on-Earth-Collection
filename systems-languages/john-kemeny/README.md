@@ -138,6 +138,12 @@ While BASIC itself has faded, its legacy lives on: Visual Basic was ubiquitous i
 4. Dartmouth College. "John G. Kemeny: A Life in Mathematics and Computing."
 5. Slater, Robert. "Portraits in Silicon" (1987).
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [↑ Category Overview](../README.md)
+- [Next: Thomas E. Kurtz →](../thomas-kurtz/)
+
 ---
 
-**Last Updated:** 2026-03-11
+**Last Updated:** 2026-04-13

@@ -134,6 +134,12 @@ The Turing Award citation recognized his "fundamental contributions to the defin
 - [ACM Turing Award — C.A.R. Hoare](https://amturing.acm.org/award_winners/hoare_4622167.cfm)
 - [Tony Hoare at Microsoft Research](https://www.microsoft.com/en-us/research/people/thoare/)
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Edsger Dijkstra](../edsger-dijkstra/)
+- [↑ Category Overview](../README.md)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

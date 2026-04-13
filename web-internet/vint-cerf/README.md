@@ -138,6 +138,13 @@ He's also still incredibly active and visible in the tech community well into hi
 5. Google Research — Vint Cerf page.
 6. ACM Turing Award Citation (2004): Vinton G. Cerf and Robert E. Kahn.
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Bob Kahn](../bob-kahn/)
+- [↑ Category Overview](../README.md)
+- [Next: Radia Perlman →](../radia-perlman/)
+
 ---
 
-**Last Updated:** 2025-06-03  
+**Last Updated:** 2026-04-13

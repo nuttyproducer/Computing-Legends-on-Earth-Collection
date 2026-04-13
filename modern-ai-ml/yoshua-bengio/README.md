@@ -103,6 +103,13 @@ In short: Bengio didn't just help invent modern AI. He's trying to make sure it 
 - [Mila — Quebec AI Institute](https://mila.quebec/)
 - [Yoshua Bengio's Google Scholar profile](https://scholar.google.com/citations?user=kukA0LcAAAAJ)
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Yann LeCun](../yann-lecun/)
+- [↑ Category Overview](../README.md)
+- [Next: Andrew Ng →](../andrew-ng/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

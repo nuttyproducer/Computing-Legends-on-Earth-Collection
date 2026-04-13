@@ -112,6 +112,13 @@ C remains one of the most widely used languages. Linux runs 96%+ of the world's 
 2. Kernighan, B.W. and Ritchie, D.M. (1978). *The C Programming Language*. Prentice Hall.
 3. ACM Turing Award Citation (1983).
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Margaret Hamilton](../margaret-hamilton/)
+- [↑ Category Overview](../README.md)
+- [Next: Ken Thompson →](../ken-thompson/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

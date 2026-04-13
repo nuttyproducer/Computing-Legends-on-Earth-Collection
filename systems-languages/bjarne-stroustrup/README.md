@@ -116,6 +116,13 @@ C++ remains in the top 3-4 most used languages. C++11/14/17/20/23 modernized the
 2. Stroustrup, B. (2013). *The C++ Programming Language* (4th edition). Addison-Wesley.
 3. Stroustrup, B. (2022). *A Tour of C++* (3rd edition). Addison-Wesley.
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Barbara Liskov](../barbara-liskov/)
+- [↑ Category Overview](../README.md)
+- [Next: James Gosling →](../james-gosling/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

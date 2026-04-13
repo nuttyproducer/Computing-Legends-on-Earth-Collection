@@ -133,6 +133,13 @@ Go is one of the fastest-growing languages. UTF-8 dominates the web. Linux (Unix
 2. Ritchie, D.M. and Thompson, K. (1974). "The UNIX Time-Sharing System." *Communications of the ACM*.
 3. ACM Turing Award Citation (1983).
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Dennis Ritchie](../dennis-ritchie/)
+- [↑ Category Overview](../README.md)
+- [Next: Frances Allen →](../frances-allen/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

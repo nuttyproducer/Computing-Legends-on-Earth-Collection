@@ -106,6 +106,12 @@ If deep learning is the engine, Andrew Ng is the guy who wrote the driver's manu
 - deeplearning.ai — [https://www.deeplearning.ai/](https://www.deeplearning.ai/)
 - Coursera — [https://www.coursera.org/](https://www.coursera.org/)
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Yoshua Bengio](../yoshua-bengio/)
+- [↑ Category Overview](../README.md)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

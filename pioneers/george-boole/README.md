@@ -171,6 +171,13 @@ Boole's magnum opus, which formalized the relationship between logic and mathema
 3. Boole, George. *The Mathematical Analysis of Logic.* Macmillan, 1847.
 4. Shannon, Claude. "A Symbolic Analysis of Relay and Switching Circuits." *MIT Master's Thesis*, 1937.
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Ada Lovelace](../ada-lovelace/)
+- [↑ Category Overview](../README.md)
+- [Next: Herman Hollerith →](../herman-hollerith/)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

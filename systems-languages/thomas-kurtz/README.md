@@ -134,6 +134,13 @@ While modern BASIC variants are less common, the philosophy lives on: Python's s
 4. IEEE Computer Society. "Thomas E. Kurtz - Computer Pioneer Award" (1983).
 5. Dartmouth College Archives. "BASIC Programming Language History."
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: John G. Kemeny](../john-kemeny/)
+- [↑ Category Overview](../README.md)
+- [Next: Margaret Hamilton →](../margaret-hamilton/)
+
 ---
 
-**Last Updated:** 2026-03-11
+**Last Updated:** 2026-04-13

@@ -152,6 +152,13 @@ Detailed explanation of the contribution, its context, and technical details.
 3. Citation for awards or recognition
 4. Citation for quotes or interviews
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [↑ Category Overview](../README.md)
+- [← Previous: Name](../previous-person/)
+- [Next: Name →](../next-person/)
+
 ---
 
 **Last Updated:** [Date]
@@ -178,6 +185,7 @@ Detailed explanation of the contribution, its context, and technical details.
 ### Links
 - Link to other people in the repository when mentioned
 - Use relative paths: `[Name](../category/person-name/)`
+- Add a `## Navigation` section near the bottom linking to the main index, category overview, and previous/next people when applicable
 - Verify all external links are active
 
 ### Sections

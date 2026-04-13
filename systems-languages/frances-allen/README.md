@@ -120,6 +120,13 @@ LLVM and modern compiler infrastructure directly extend Allen's theoretical fram
 2. Allen, F.E. and Cocke, J. (1971). "A Catalogue of Optimizing Transformations."
 3. ACM Turing Award Citation (2006).
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Ken Thompson](../ken-thompson/)
+- [↑ Category Overview](../README.md)
+- [Next: Barbara Liskov →](../barbara-liskov/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

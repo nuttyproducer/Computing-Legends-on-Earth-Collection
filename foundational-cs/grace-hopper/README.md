@@ -73,6 +73,13 @@ She didn't just coin a programming philosophy — she lived it. Grace was famous
 - [Smithsonian — The "Bug" Log Entry](https://americanhistory.si.edu/collections/search/object/nmah_334663)
 - [Yale University — Grace Murray Hopper](https://news.yale.edu/2017/02/10/grace-murray-hopper-1906-1992)
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Claude Shannon](../claude-shannon/)
+- [↑ Category Overview](../README.md)
+- [Next: Donald Knuth →](../donald-knuth/)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

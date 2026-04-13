@@ -145,6 +145,13 @@ The iconic photo of Hamilton standing next to her stack of Apollo code has becom
 4. Presidential Medal of Freedom citation (2016).
 5. Mindell, David A. "Digital Apollo: Human and Machine in Spaceflight" (2008).
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Thomas E. Kurtz](../thomas-kurtz/)
+- [↑ Category Overview](../README.md)
+- [Next: Dennis Ritchie →](../dennis-ritchie/)
+
 ---
 
-**Last Updated:** 2026-03-11
+**Last Updated:** 2026-04-13

@@ -170,6 +170,13 @@ While Hollerith wasn't known for memorable quotes, his machines spoke louder tha
 3. Campbell-Kelly, Martin, and William Aspray. *Computer: A History of the Information Machine.* Basic Books, 2004.
 4. Hollerith, Herman. "An Electric Tabulating System." *The Quarterly, Columbia School of Mines*, 1889.
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: George Boole](../george-boole/)
+- [↑ Category Overview](../README.md)
+- [Next: Konrad Zuse →](../konrad-zuse/)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

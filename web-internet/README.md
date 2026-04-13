@@ -2,8 +2,12 @@
 
 Inventors who created the protocols and systems that connected the world through the internet and World Wide Web.
 
+## Navigation
+
+- [← Back to Main Index](../README.md)
+
 ## People in this category:
-- Tim Berners-Lee
-- Vint Cerf
-- Bob Kahn
-- Radia Perlman
+- [Bob Kahn](bob-kahn/)
+- [Vint Cerf](vint-cerf/)
+- [Radia Perlman](radia-perlman/)
+- [Tim Berners-Lee](tim-berners-lee/)

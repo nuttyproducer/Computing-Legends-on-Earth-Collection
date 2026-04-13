@@ -110,6 +110,13 @@ JavaScript/TypeScript is the most popular language on GitHub. NPM has over 2 mil
 2. Wirfs-Brock, A. and Eich, B. (2020). "JavaScript: The First 20 Years." *Proceedings of the ACM on Programming Languages*.
 3. "The History of JavaScript" — various interviews and talks.
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Guido van Rossum](../guido-van-rossum/)
+- [↑ Category Overview](../README.md)
+- [Next: Linus Torvalds →](../linus-torvalds/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

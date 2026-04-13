@@ -2,11 +2,15 @@
 
 Theorists and pioneers who established the mathematical and theoretical foundations of computer science, including algorithms, information theory, and early systems.
 
+## Navigation
+
+- [← Back to Main Index](../README.md)
+
 ## People in this category:
-- Alan Turing
-- John von Neumann
-- Claude Shannon
-- Grace Hopper
-- Donald Knuth
-- Edsger Dijkstra
-- Tony Hoare
+- [Alan Turing](alan-turing/)
+- [John von Neumann](john-von-neumann/)
+- [Claude Shannon](claude-shannon/)
+- [Grace Hopper](grace-hopper/)
+- [Donald Knuth](donald-knuth/)
+- [Edsger Dijkstra](edsger-dijkstra/)
+- [Tony Hoare](tony-hoare/)

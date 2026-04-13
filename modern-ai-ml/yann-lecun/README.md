@@ -133,6 +133,13 @@ And he's not done. His current push toward self-supervised learning and world mo
 
 Either way, he'll definitely tweet about it.
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Geoffrey Hinton](../geoffrey-hinton/)
+- [↑ Category Overview](../README.md)
+- [Next: Yoshua Bengio →](../yoshua-bengio/)
+
 ---
 
-**Last Updated:** 2025-06-03  
+**Last Updated:** 2026-04-13

@@ -124,6 +124,12 @@ Linux IS modern computing infrastructure. Cloud computing, AI training, smartpho
 2. Torvalds, L. (1991). Original Linux announcement on comp.os.minix.
 3. Computer History Museum Fellow citation (2008).
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Brendan Eich](../brendan-eich/)
+- [↑ Category Overview](../README.md)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

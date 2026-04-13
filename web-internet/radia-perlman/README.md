@@ -165,6 +165,13 @@ Her legacy is literally woven into the fabric of every network you use. Every ti
 6. Internet Hall of Fame profile: [Radia Perlman](https://www.internethalloffame.org/inductee/radia-perlman/)
 7. Computer History Museum Fellow page
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Vint Cerf](../vint-cerf/)
+- [↑ Category Overview](../README.md)
+- [Next: Tim Berners-Lee →](../tim-berners-lee/)
+
 ---
 
-**Last Updated:** 2025-06-03  
+**Last Updated:** 2026-04-13

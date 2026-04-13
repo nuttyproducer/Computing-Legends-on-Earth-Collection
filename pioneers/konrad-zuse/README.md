@@ -206,6 +206,12 @@ Zuse didn't just build computers — he also thought about how to program them p
 3. Rojas, Raúl. "How to Make Zuse's Z3 a Universal Computer." *Annals of the History of Computing*, 1998.
 4. Zuse, Konrad. *Rechnender Raum (Calculating Space).* Friedrich Vieweg & Sohn, 1969.
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Herman Hollerith](../herman-hollerith/)
+- [↑ Category Overview](../README.md)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

@@ -117,6 +117,13 @@ Later in his career, Dijkstra pioneered the concept of self-stabilizing distribu
 - [EWD Archive (University of Texas)](https://www.cs.utexas.edu/~EWD/) — The complete collection of his handwritten manuscripts.
 - [ACM Turing Award Citation (1972)](https://amturing.acm.org/award_winners/dijkstra_1053701.cfm)
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Donald Knuth](../donald-knuth/)
+- [↑ Category Overview](../README.md)
+- [Next: Tony Hoare →](../tony-hoare/)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

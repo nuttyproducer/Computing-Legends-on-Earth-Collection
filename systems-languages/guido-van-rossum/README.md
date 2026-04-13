@@ -132,6 +132,13 @@ Python is THE language of AI/ML. ChatGPT, DALL-E, and most modern AI tools are b
 2. Venners, B. (2003). "The Making of Python." Interview with Guido van Rossum.
 3. Computer History Museum Fellow citation (2018).
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: James Gosling](../james-gosling/)
+- [↑ Category Overview](../README.md)
+- [Next: Brendan Eich →](../brendan-eich/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

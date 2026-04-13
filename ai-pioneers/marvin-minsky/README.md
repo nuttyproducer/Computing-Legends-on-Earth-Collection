@@ -202,6 +202,13 @@ Beyond his technical contributions, Minsky was a singular personality — a poly
 5. Hillis, W.D. (2016). "Marvin Minsky (1927–2016)." *Nature*, 530, 282.
 6. "Marvin Minsky." *Wikipedia*. [https://en.wikipedia.org/wiki/Marvin_Minsky](https://en.wikipedia.org/wiki/Marvin_Minsky)
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: John McCarthy](../john-mccarthy/)
+- [↑ Category Overview](../README.md)
+- [Next: Allen Newell →](../allen-newell/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

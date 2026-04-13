@@ -122,6 +122,12 @@ His work is arguably the most important theoretical advance in AI that most ML p
 - [Turing Award citation (2011)](https://amturing.acm.org/award_winners/pearl_2658896.cfm)
 - *The Book of Why* — highly recommended as an entry point to Pearl's causal thinking
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [↑ Category Overview](../README.md)
+- [Next: Geoffrey Hinton →](../geoffrey-hinton/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

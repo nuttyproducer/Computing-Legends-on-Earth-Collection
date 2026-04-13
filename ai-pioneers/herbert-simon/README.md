@@ -227,10 +227,16 @@ Herbert Simon's influence is almost comically broad. He is one of the very few p
 9. Nobel Prize Committee. (1978). "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 1978." *NobelPrize.org*.
 10. ACM. (1975). "A.M. Turing Award: Herbert A. Simon." *amturing.acm.org*.
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Allen Newell](../allen-newell/)
+- [↑ Category Overview](../README.md)
+
 ---
 
 <div align="center">
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13
 
 </div>

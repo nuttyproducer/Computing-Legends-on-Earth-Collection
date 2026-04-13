@@ -168,6 +168,12 @@ This was, conceptually, a Turing-complete computer designed over a century befor
 3. Babbage, Charles. *Passages from the Life of a Philosopher.* Longman, Green, 1864.
 4. Bromley, Allan G. "Charles Babbage's Analytical Engine, 1838." *Annals of the History of Computing*, IEEE, 1982.
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [↑ Category Overview](../README.md)
+- [Next: Ada Lovelace →](../ada-lovelace/)
+
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-04-13

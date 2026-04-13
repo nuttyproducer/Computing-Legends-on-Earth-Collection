@@ -218,6 +218,12 @@ McCarthy was that rare figure who was both a visionary and a builder — someone
 6. ACM Turing Award Citation, 1971.
 7. Nilsson, N. J. (2012). "John McCarthy 1927–2011." *Biographical Memoirs of the National Academy of Sciences*.
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [↑ Category Overview](../README.md)
+- [Next: Marvin Minsky →](../marvin-minsky/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13

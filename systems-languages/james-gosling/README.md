@@ -114,6 +114,13 @@ Java remains one of the top 3 most popular languages. Enterprise backend systems
 2. Arnold, K., Gosling, J., Holmes, D. (2005). *The Java Programming Language*. Addison-Wesley.
 3. Computer History Museum Fellow citation (2019).
 
+## Navigation
+
+- [← Main Index](../../README.md)
+- [← Previous: Bjarne Stroustrup](../bjarne-stroustrup/)
+- [↑ Category Overview](../README.md)
+- [Next: Guido van Rossum →](../guido-van-rossum/)
+
 ---
 
-**Last Updated:** 2025-06-03
+**Last Updated:** 2026-04-13
