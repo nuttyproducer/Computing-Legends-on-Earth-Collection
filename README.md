@@ -13,9 +13,10 @@ This repository is organized by domain and era:
 - **[modern-ai-ml/](modern-ai-ml/)** - Deep learning revolution and modern AI
 - **[web-internet/](web-internet/)** - Inventors of internet protocols and the Web
 
-<div center>
+<div align="center">
 <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fnuttyproducer%2FComputing-Legends-on-Earth-Collection&label=Thank+you+for+passing+by%21&icon=bar-chart-fill&color=%23b02a37&message=&style=for-the-badge&tz=Europe%2FBrussels">
 </div>
+
 ## Complete List
 
 ### Pioneers (Pre-1950)
