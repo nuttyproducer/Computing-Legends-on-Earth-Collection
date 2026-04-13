@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img src=".github/header-banner.jpg" alt="The Architects of the Digital Age" width="100%">
+
 [![GitHub stars](https://img.shields.io/github/stars/nuttyproducer/Computing-Legends-on-Earth-Collection?style=for-the-badge&logo=github)](https://github.com/nuttyproducer/Computing-Legends-on-Earth-Collection/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/nuttyproducer/Computing-Legends-on-Earth-Collection?style=for-the-badge&logo=github)](https://github.com/nuttyproducer/Computing-Legends-on-Earth-Collection/network/members)
 [![Last commit](https://img.shields.io/github/last-commit/nuttyproducer/Computing-Legends-on-Earth-Collection?style=for-the-badge&label=last%20updated)](https://github.com/nuttyproducer/Computing-Legends-on-Earth-Collection/commits/main)
