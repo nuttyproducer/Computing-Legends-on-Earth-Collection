@@ -21,70 +21,315 @@ This repository is organized by domain and era:
 
 ### Pioneers (Pre-1950)
 
-| Name             | Lifespan  | Key Contribution                | Field                    |
-| ---------------- | --------- | ------------------------------- | ------------------------ |
-| [Charles Babbage](pioneers/charles-babbage/)  | 1791-1871 | Analytical Engine design        | Mechanical Computing     |
-| [Ada Lovelace](pioneers/ada-lovelace/)     | 1815-1852 | First algorithm                 | Programming, Mathematics |
-| [George Boole](pioneers/george-boole/)     | 1815-1864 | Boolean algebra                 | Mathematics, Logic       |
-| [Herman Hollerith](pioneers/herman-hollerith/) | 1860-1929 | Punch card tabulating machines  | Data Processing          |
-| [Konrad Zuse](pioneers/konrad-zuse/)      | 1910-1995 | Z3, first programmable computer | Computer Hardware        |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="25%">Name</th>
+      <th width="25%">Lifespan</th>
+      <th width="25%">Key Contribution</th>
+      <th width="25%">Field</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="pioneers/charles-babbage/">Charles Babbage</a></td>
+      <td>1791–1871</td>
+      <td>Analytical Engine design</td>
+      <td>Mechanical Computing</td>
+    </tr>
+    <tr>
+      <td><a href="pioneers/ada-lovelace/">Ada Lovelace</a></td>
+      <td>1815–1852</td>
+      <td>First algorithm</td>
+      <td>Programming, Mathematics</td>
+    </tr>
+    <tr>
+      <td><a href="pioneers/george-boole/">George Boole</a></td>
+      <td>1815–1864</td>
+      <td>Boolean algebra</td>
+      <td>Mathematics, Logic</td>
+    </tr>
+    <tr>
+      <td><a href="pioneers/herman-hollerith/">Herman Hollerith</a></td>
+      <td>1860–1929</td>
+      <td>Punch card tabulating machines</td>
+      <td>Data Processing</td>
+    </tr>
+    <tr>
+      <td><a href="pioneers/konrad-zuse/">Konrad Zuse</a></td>
+      <td>1910–1995</td>
+      <td>Z3, first programmable computer</td>
+      <td>Computer Hardware</td>
+    </tr>
+  </tbody>
+</table>
 
-### Foundational Computer Science (1950s-1970s)
+### Foundational Computer Science (1950s–1970s)
 
-| Name             | Lifespan  | Key Contribution              | Field                      |
-| ---------------- | --------- | ----------------------------- | -------------------------- |
-| [Alan Turing](foundational-cs/alan-turing/)      | 1912-1954 | Turing machine, computability | Theoretical CS, AI         |
-| [John von Neumann](foundational-cs/john-von-neumann/) | 1903-1957 | Von Neumann architecture      | Computer Architecture      |
-| [Claude Shannon](foundational-cs/claude-shannon/)   | 1916-2001 | Information theory            | Information Theory         |
-| [Grace Hopper](foundational-cs/grace-hopper/)     | 1906-1992 | First compilers, COBOL        | Programming Languages      |
-| [Donald Knuth](foundational-cs/donald-knuth/)     | b. 1938   | _TAOCP_, TeX                  | Algorithms, Typesetting    |
-| [Edsger Dijkstra](foundational-cs/edsger-dijkstra/)  | 1930-2002 | Dijkstra's algorithm          | Algorithms                 |
-| [Tony Hoare](foundational-cs/tony-hoare/)       | b. 1934   | Quicksort, Hoare logic        | Algorithms, Formal Methods |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="25%">Name</th>
+      <th width="25%">Lifespan</th>
+      <th width="25%">Key Contribution</th>
+      <th width="25%">Field</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="foundational-cs/alan-turing/">Alan Turing</a></td>
+      <td>1912–1954</td>
+      <td>Turing machine, computability</td>
+      <td>Theoretical CS, AI</td>
+    </tr>
+    <tr>
+      <td><a href="foundational-cs/john-von-neumann/">John von Neumann</a></td>
+      <td>1903–1957</td>
+      <td>Von Neumann architecture</td>
+      <td>Computer Architecture</td>
+    </tr>
+    <tr>
+      <td><a href="foundational-cs/claude-shannon/">Claude Shannon</a></td>
+      <td>1916–2001</td>
+      <td>Information theory</td>
+      <td>Information Theory</td>
+    </tr>
+    <tr>
+      <td><a href="foundational-cs/grace-hopper/">Grace Hopper</a></td>
+      <td>1906–1992</td>
+      <td>First compilers, COBOL</td>
+      <td>Programming Languages</td>
+    </tr>
+    <tr>
+      <td><a href="foundational-cs/donald-knuth/">Donald Knuth</a></td>
+      <td>b. 1938</td>
+      <td><em>TAOCP</em>, TeX</td>
+      <td>Algorithms, Typesetting</td>
+    </tr>
+    <tr>
+      <td><a href="foundational-cs/edsger-dijkstra/">Edsger Dijkstra</a></td>
+      <td>1930–2002</td>
+      <td>Dijkstra's algorithm</td>
+      <td>Algorithms</td>
+    </tr>
+    <tr>
+      <td><a href="foundational-cs/tony-hoare/">Tony Hoare</a></td>
+      <td>b. 1934</td>
+      <td>Quicksort, Hoare logic</td>
+      <td>Algorithms, Formal Methods</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Systems & Languages
 
-| Name              | Lifespan  | Key Contribution                        | Field                 |
-| ----------------- | --------- | --------------------------------------- | --------------------- |
-| [John G. Kemeny](systems-languages/john-kemeny/)    | 1926-1992 | BASIC, time-sharing                     | Programming Languages |
-| [Thomas E. Kurtz](systems-languages/thomas-kurtz/)   | b. 1928   | BASIC, time-sharing                     | Programming Languages |
-| [Margaret Hamilton](systems-languages/margaret-hamilton/) | b. 1936   | Apollo software, "software engineering" | Software Engineering  |
-| [Dennis Ritchie](systems-languages/dennis-ritchie/)    | 1941-2011 | C language, Unix                        | Operating Systems     |
-| [Ken Thompson](systems-languages/ken-thompson/)      | b. 1943   | Unix, C                                 | Operating Systems     |
-| [Frances Allen](systems-languages/frances-allen/)     | 1932-2020 | Compiler optimization                   | Compiler Theory       |
-| [Barbara Liskov](systems-languages/barbara-liskov/)    | b. 1939   | Data abstraction                        | Programming Languages |
-| [Bjarne Stroustrup](systems-languages/bjarne-stroustrup/) | b. 1950   | C++                                     | Programming Languages |
-| [James Gosling](systems-languages/james-gosling/)     | b. 1955   | Java                                    | Programming Languages |
-| [Guido van Rossum](systems-languages/guido-van-rossum/)  | b. 1956   | Python                                  | Programming Languages |
-| [Brendan Eich](systems-languages/brendan-eich/)      | b. 1961   | JavaScript                              | Web Technologies      |
-| [Linus Torvalds](systems-languages/linus-torvalds/)    | b. 1969   | Linux kernel, Git                       | Operating Systems     |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="25%">Name</th>
+      <th width="25%">Lifespan</th>
+      <th width="25%">Key Contribution</th>
+      <th width="25%">Field</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="systems-languages/john-kemeny/">John G. Kemeny</a></td>
+      <td>1926–1992</td>
+      <td>BASIC, time-sharing</td>
+      <td>Programming Languages</td>
+    </tr>
+    <tr>
+      <td><a href="systems-languages/thomas-kurtz/">Thomas E. Kurtz</a></td>
+      <td>b. 1928</td>
+      <td>BASIC, time-sharing</td>
+      <td>Programming Languages</td>
+    </tr>
+    <tr>
+      <td><a href="systems-languages/margaret-hamilton/">Margaret Hamilton</a></td>
+      <td>b. 1936</td>
+      <td>Apollo software, "software engineering"</td>
+      <td>Software Engineering</td>
+    </tr>
+    <tr>
+      <td><a href="systems-languages/dennis-ritchie/">Dennis Ritchie</a></td>
+      <td>1941–2011</td>
+      <td>C language, Unix</td>
+      <td>Operating Systems</td>
+    </tr>
+    <tr>
+      <td><a href="systems-languages/ken-thompson/">Ken Thompson</a></td>
+      <td>b. 1943</td>
+      <td>Unix, C</td>
+      <td>Operating Systems</td>
+    </tr>
+    <tr>
+      <td><a href="systems-languages/frances-allen/">Frances Allen</a></td>
+      <td>1932–2020</td>
+      <td>Compiler optimization</td>
+      <td>Compiler Theory</td>
+    </tr>
+    <tr>
+      <td><a href="systems-languages/barbara-liskov/">Barbara Liskov</a></td>
+      <td>b. 1939</td>
+      <td>Data abstraction</td>
+      <td>Programming Languages</td>
+    </tr>
+    <tr>
+      <td><a href="systems-languages/bjarne-stroustrup/">Bjarne Stroustrup</a></td>
+      <td>b. 1950</td>
+      <td>C++</td>
+      <td>Programming Languages</td>
+    </tr>
+    <tr>
+      <td><a href="systems-languages/james-gosling/">James Gosling</a></td>
+      <td>b. 1955</td>
+      <td>Java</td>
+      <td>Programming Languages</td>
+    </tr>
+    <tr>
+      <td><a href="systems-languages/guido-van-rossum/">Guido van Rossum</a></td>
+      <td>b. 1956</td>
+      <td>Python</td>
+      <td>Programming Languages</td>
+    </tr>
+    <tr>
+      <td><a href="systems-languages/brendan-eich/">Brendan Eich</a></td>
+      <td>b. 1961</td>
+      <td>JavaScript</td>
+      <td>Web Technologies</td>
+    </tr>
+    <tr>
+      <td><a href="systems-languages/linus-torvalds/">Linus Torvalds</a></td>
+      <td>b. 1969</td>
+      <td>Linux kernel, Git</td>
+      <td>Operating Systems</td>
+    </tr>
+  </tbody>
+</table>
 
-### AI Pioneers (1950s-1980s)
+### AI Pioneers (1950s–1980s)
 
-| Name          | Lifespan  | Key Contribution    | Field                    |
-| ------------- | --------- | ------------------- | ------------------------ |
-| [John McCarthy](ai-pioneers/john-mccarthy/) | 1927-2011 | Coined "AI", Lisp   | Artificial Intelligence  |
-| [Marvin Minsky](ai-pioneers/marvin-minsky/) | 1927-2016 | AI Lab, perceptrons | Artificial Intelligence  |
-| [Allen Newell](ai-pioneers/allen-newell/)  | 1927-1992 | Logic Theorist      | AI, Cognitive Psychology |
-| [Herbert Simon](ai-pioneers/herbert-simon/) | 1916-2001 | Logic Theorist      | AI, Cognitive Psychology |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="25%">Name</th>
+      <th width="25%">Lifespan</th>
+      <th width="25%">Key Contribution</th>
+      <th width="25%">Field</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="ai-pioneers/john-mccarthy/">John McCarthy</a></td>
+      <td>1927–2011</td>
+      <td>Coined "AI", Lisp</td>
+      <td>Artificial Intelligence</td>
+    </tr>
+    <tr>
+      <td><a href="ai-pioneers/marvin-minsky/">Marvin Minsky</a></td>
+      <td>1927–2016</td>
+      <td>AI Lab, perceptrons</td>
+      <td>Artificial Intelligence</td>
+    </tr>
+    <tr>
+      <td><a href="ai-pioneers/allen-newell/">Allen Newell</a></td>
+      <td>1927–1992</td>
+      <td>Logic Theorist</td>
+      <td>AI, Cognitive Psychology</td>
+    </tr>
+    <tr>
+      <td><a href="ai-pioneers/herbert-simon/">Herbert Simon</a></td>
+      <td>1916–2001</td>
+      <td>Logic Theorist</td>
+      <td>AI, Cognitive Psychology</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Modern AI & Machine Learning
 
-| Name            | Lifespan | Key Contribution              | Field                          |
-| --------------- | -------- | ----------------------------- | ------------------------------ |
-| [Judea Pearl](modern-ai-ml/judea-pearl/)     | b. 1936  | Bayesian networks, causality  | AI, Probabilistic Reasoning    |
-| [Geoffrey Hinton](modern-ai-ml/geoffrey-hinton/) | b. 1947  | Backpropagation               | Deep Learning                  |
-| [Yann LeCun](modern-ai-ml/yann-lecun/)      | b. 1960  | Convolutional neural networks | Computer Vision, Deep Learning |
-| [Yoshua Bengio](modern-ai-ml/yoshua-bengio/)   | b. 1964  | Deep learning, sequences      | Machine Learning               |
-| [Andrew Ng](modern-ai-ml/andrew-ng/)       | b. 1976  | Google Brain, AI education    | Machine Learning               |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="25%">Name</th>
+      <th width="25%">Lifespan</th>
+      <th width="25%">Key Contribution</th>
+      <th width="25%">Field</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="modern-ai-ml/judea-pearl/">Judea Pearl</a></td>
+      <td>b. 1936</td>
+      <td>Bayesian networks, causality</td>
+      <td>AI, Probabilistic Reasoning</td>
+    </tr>
+    <tr>
+      <td><a href="modern-ai-ml/geoffrey-hinton/">Geoffrey Hinton</a></td>
+      <td>b. 1947</td>
+      <td>Backpropagation</td>
+      <td>Deep Learning</td>
+    </tr>
+    <tr>
+      <td><a href="modern-ai-ml/yann-lecun/">Yann LeCun</a></td>
+      <td>b. 1960</td>
+      <td>Convolutional neural networks</td>
+      <td>Computer Vision, Deep Learning</td>
+    </tr>
+    <tr>
+      <td><a href="modern-ai-ml/yoshua-bengio/">Yoshua Bengio</a></td>
+      <td>b. 1964</td>
+      <td>Deep learning, sequences</td>
+      <td>Machine Learning</td>
+    </tr>
+    <tr>
+      <td><a href="modern-ai-ml/andrew-ng/">Andrew Ng</a></td>
+      <td>b. 1976</td>
+      <td>Google Brain, AI education</td>
+      <td>Machine Learning</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Web & Internet
 
-| Name            | Lifespan | Key Contribution       | Field             |
-| --------------- | -------- | ---------------------- | ----------------- |
-| [Bob Kahn](web-internet/bob-kahn/)        | b. 1938  | TCP/IP                 | Computer Networks |
-| [Vint Cerf](web-internet/vint-cerf/)       | b. 1943  | TCP/IP                 | Computer Networks |
-| [Radia Perlman](web-internet/radia-perlman/)   | b. 1951  | Spanning Tree Protocol | Computer Networks |
-| [Tim Berners-Lee](web-internet/tim-berners-lee/) | b. 1955  | World Wide Web         | Web Technologies  |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="25%">Name</th>
+      <th width="25%">Lifespan</th>
+      <th width="25%">Key Contribution</th>
+      <th width="25%">Field</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="web-internet/bob-kahn/">Bob Kahn</a></td>
+      <td>b. 1938</td>
+      <td>TCP/IP</td>
+      <td>Computer Networks</td>
+    </tr>
+    <tr>
+      <td><a href="web-internet/vint-cerf/">Vint Cerf</a></td>
+      <td>b. 1943</td>
+      <td>TCP/IP</td>
+      <td>Computer Networks</td>
+    </tr>
+    <tr>
+      <td><a href="web-internet/radia-perlman/">Radia Perlman</a></td>
+      <td>b. 1951</td>
+      <td>Spanning Tree Protocol</td>
+      <td>Computer Networks</td>
+    </tr>
+    <tr>
+      <td><a href="web-internet/tim-berners-lee/">Tim Berners-Lee</a></td>
+      <td>b. 1955</td>
+      <td>World Wide Web</td>
+      <td>Web Technologies</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Contributing
 
