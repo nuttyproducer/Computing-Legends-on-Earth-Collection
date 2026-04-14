@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nuttyproducer.github.io/Computing-Legends-on-Earth-Collection/sitemap.xml

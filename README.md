@@ -26,6 +26,12 @@ A curated collection of **37 computing legends** whose ideas still shape the way
 - **Why it is useful:** Every profile links historical impact to modern relevance — from Google Maps and TCP/IP to Python and deep learning.
 - **Why people bookmark it:** Portraits, concise summaries, quotes, and further-reading links make it useful for learning, teaching, and sharing.
 
+## Website SEO
+
+- **Live site:** The collection website is deployed from the `website` branch to GitHub Pages.
+- **SEO system:** Route metadata, structured data, social previews, sitemap generation, and `robots.txt` are maintained inside `site/`.
+- **Upgrade guide:** See `site/docs/SEO_PROCESS.md` for the full SEO workflow, file map, validation steps, and future upgrade checklist.
+
 ## Did You Know?
 
 - **Ada Lovelace:** Wrote an algorithm for a machine roughly a century before a programmable computer existed to run it.

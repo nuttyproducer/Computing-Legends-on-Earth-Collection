@@ -1,4 +1,4 @@
-# 🧠 Alan Turing
+# Alan Turing
 
 <img src="images/alan-turing-portrait.jpg" alt="Alan Turing Portrait" width="280" align="left">
 
