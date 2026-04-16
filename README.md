@@ -7,10 +7,10 @@
 [![GitHub stars](https://img.shields.io/github/stars/nuttyproducer/Computing-Legends-on-Earth-Collection?style=for-the-badge&logo=github)](https://github.com/nuttyproducer/Computing-Legends-on-Earth-Collection/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/nuttyproducer/Computing-Legends-on-Earth-Collection?style=for-the-badge&logo=github)](https://github.com/nuttyproducer/Computing-Legends-on-Earth-Collection/network/members)
 [![Last commit](https://img.shields.io/github/last-commit/nuttyproducer/Computing-Legends-on-Earth-Collection?style=for-the-badge&label=last%20updated)](https://github.com/nuttyproducer/Computing-Legends-on-Earth-Collection/commits/main)
-[![Entries](https://img.shields.io/badge/entries-37-informational?style=for-the-badge)](#complete-list)
+[![Entries](https://img.shields.io/badge/entries-43-informational?style=for-the-badge)](#complete-list)
 [![Categories](https://img.shields.io/badge/categories-6-blueviolet?style=for-the-badge)](#organization)
 [![Turing winners](https://img.shields.io/badge/turing%20winners-18-success?style=for-the-badge)](#complete-list)
-[![Share on X](https://img.shields.io/badge/share-on%20x-black?style=for-the-badge&logo=x)](https://twitter.com/intent/tweet?text=Exploring%2037%20computing%20legends%20%E2%80%94%20from%20Ada%20Lovelace%20to%20Geoffrey%20Hinton.&url=https%3A%2F%2Fgithub.com%2Fnuttyproducer%2FComputing-Legends-on-Earth-Collection)
+[![Share on X](https://img.shields.io/badge/share-on%20x-black?style=for-the-badge&logo=x)](https://twitter.com/intent/tweet?text=Exploring%2043%20computing%20legends%20%E2%80%94%20from%20Ada%20Lovelace%20to%20Tim%20Berners-Lee.&url=https%3A%2F%2Fgithub.com%2Fnuttyproducer%2FComputing-Legends-on-Earth-Collection)
 
 <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fnuttyproducer%2FComputing-Legends-on-Earth-Collection&label=Thank+you+for+passing+by%21&icon=bar-chart-fill&color=%23b02a37&message=&style=for-the-badge&tz=Europe%2FBrussels">
 
@@ -18,13 +18,19 @@
 
 > ⭐ If this collection taught you something, helped with a lesson, or sent you down a fun rabbit hole, please star the repo and share it.
 
-A curated collection of **37 computing legends** whose ideas still shape the way we build software, train AI, design networks, and understand computation itself.
+A curated collection of **43 computing legends** whose ideas still shape the way we build software, train AI, design networks, and understand computation itself.
 
 ## At a Glance
 
 - **What this is:** A visual, browsable collection of biographies covering computing pioneers, programming language creators, AI founders, and internet architects.
 - **Why it is useful:** Every profile links historical impact to modern relevance — from Google Maps and TCP/IP to Python and deep learning.
 - **Why people bookmark it:** Portraits, concise summaries, quotes, and further-reading links make it useful for learning, teaching, and sharing.
+
+## Latest Additions to the Catalog
+
+- **April 2026 batch:** Added `John Vincent Atanasoff`, `Alonzo Church`, `Steve Wozniak`, `Seymour Cray`, `Gordon Bell`, and `Paul Mockapetris`.
+- **Portrait readiness:** Each new entry now includes a local `images/portrait.svg` placeholder so the collection can ship cleanly while sourced portraits are gathered.
+- **Turing Award check:** This batch adds **0** new ACM Turing Award winners, so the collection total remains **18**.
 
 ## Website SEO
 
@@ -117,6 +123,15 @@ This repository is organized by domain and era:
 			<td>Computer Hardware</td>
 			<td>His Z3 and Plankalkül anticipate programmable machines and higher-level languages.</td>
 		</tr>
+		<tr>
+			<td align="center"><img src="pioneers/john-atanasoff/images/portrait.svg" alt="John Vincent Atanasoff" width="52"></td>
+			<td><a href="pioneers/john-atanasoff/"><strong>John</strong><br><strong>Atanasoff</strong></a></td>
+			<td align="center">—</td>
+			<td>1903-1995</td>
+			<td>Atanasoff-Berry Computer</td>
+			<td>Electronic Digital Hardware</td>
+			<td>His ABC introduced binary electronic computing ideas that helped define the digital era.</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -143,6 +158,15 @@ This repository is organized by domain and era:
 			<td>Turing machine, computability</td>
 			<td>Theoretical CS, AI</td>
 			<td>Computability, codebreaking, and AI evaluation still orbit Turing's ideas.</td>
+		</tr>
+		<tr>
+			<td align="center"><img src="foundational-cs/alonzo-church/images/portrait.svg" alt="Alonzo Church" width="52"></td>
+			<td><a href="foundational-cs/alonzo-church/"><strong>Alonzo</strong><br><strong>Church</strong></a></td>
+			<td align="center">—</td>
+			<td>1903-1995</td>
+			<td>Lambda calculus, Church-Turing thesis</td>
+			<td>Logic, Computability</td>
+			<td>Lambda calculus and computability theory still underpin programming languages and theoretical CS.</td>
 		</tr>
 		<tr>
 			<td align="center"><img src="foundational-cs/john-von-neumann/images/portrait.jpg" alt="John von Neumann" width="52"></td>
@@ -260,6 +284,33 @@ This repository is organized by domain and era:
 			<td>Unix, C</td>
 			<td>Operating Systems</td>
 			<td>Unix, UTF-8, and Go influence everything from servers to modern developer workflows.</td>
+		</tr>
+		<tr>
+			<td align="center"><img src="systems-languages/steve-wozniak/images/portrait.svg" alt="Steve Wozniak" width="52"></td>
+			<td><a href="systems-languages/steve-wozniak/"><strong>Steve</strong><br><strong>Wozniak</strong></a></td>
+			<td align="center">—</td>
+			<td>b. 1950</td>
+			<td>Apple I, Apple II, Disk II</td>
+			<td>Personal Computing</td>
+			<td>He made personal computers practical, approachable, and commercially transformative.</td>
+		</tr>
+		<tr>
+			<td align="center"><img src="systems-languages/seymour-cray/images/portrait.svg" alt="Seymour Cray" width="52"></td>
+			<td><a href="systems-languages/seymour-cray/"><strong>Seymour</strong><br><strong>Cray</strong></a></td>
+			<td align="center">—</td>
+			<td>1925-1996</td>
+			<td>CDC 6600, Cray-1</td>
+			<td>Supercomputing</td>
+			<td>He created the supercomputer industry and redefined high-performance system design.</td>
+		</tr>
+		<tr>
+			<td align="center"><img src="systems-languages/gordon-bell/images/portrait.svg" alt="Gordon Bell" width="52"></td>
+			<td><a href="systems-languages/gordon-bell/"><strong>Gordon</strong><br><strong>Bell</strong></a></td>
+			<td align="center">—</td>
+			<td>1934-2024</td>
+			<td>PDP systems, VAX, Bell's law</td>
+			<td>Computer Architecture</td>
+			<td>He helped define the minicomputer era and explain how new computing platforms emerge.</td>
 		</tr>
 		<tr>
 			<td align="center"><img src="systems-languages/frances-allen/images/portrait.jpg" alt="Frances Allen" width="52"></td>
@@ -485,6 +536,15 @@ This repository is organized by domain and era:
 			<td>Spanning Tree Protocol</td>
 			<td>Computer Networks</td>
 			<td>Spanning Tree Protocol still keeps Ethernet networks loop-free and stable.</td>
+		</tr>
+		<tr>
+			<td align="center"><img src="web-internet/paul-mockapetris/images/portrait.svg" alt="Paul Mockapetris" width="52"></td>
+			<td><a href="web-internet/paul-mockapetris/"><strong>Paul</strong><br><strong>Mockapetris</strong></a></td>
+			<td align="center">—</td>
+			<td>b. 1948</td>
+			<td>Domain Name System</td>
+			<td>Internet Infrastructure</td>
+			<td>DNS makes the Internet human-usable and scalable by turning names into reachable addresses.</td>
 		</tr>
 		<tr>
 			<td align="center"><img src="web-internet/tim-berners-lee/images/tim-berners-lee.jpg" alt="Tim Berners-Lee" width="52"></td>

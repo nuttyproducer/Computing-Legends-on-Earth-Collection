@@ -2,7 +2,7 @@
 
 This file lists portrait images in the repository that are **not** public domain and may require attribution and/or share-alike compliance.
 
-Public-domain portraits are not repeated here. Local placeholder portraits for `John G. Kemeny` and `Thomas E. Kurtz` are also omitted because they were created in-repo.
+Public-domain portraits are not repeated here. Local placeholder portraits for `John G. Kemeny`, `Thomas E. Kurtz`, and the April 2026 additions (`John Vincent Atanasoff`, `Alonzo Church`, `Steve Wozniak`, `Seymour Cray`, `Gordon Bell`, and `Paul Mockapetris`) are also omitted because they were created in-repo.
 
 ## Reusable With Specific Credit
 

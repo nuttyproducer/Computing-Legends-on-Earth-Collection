@@ -8,6 +8,7 @@ Theorists and pioneers who established the mathematical and theoretical foundati
 
 ## People in this category:
 - [Alan Turing](alan-turing/)
+- [Alonzo Church](alonzo-church/)
 - [John von Neumann](john-von-neumann/)
 - [Claude Shannon](claude-shannon/)
 - [Grace Hopper](grace-hopper/)
