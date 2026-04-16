@@ -2,13 +2,14 @@
 
 This file lists portrait images in the repository that are **not** public domain and may require attribution and/or share-alike compliance.
 
-Public-domain portraits are not repeated here. Local placeholder portraits for `John G. Kemeny` and `Thomas E. Kurtz` are also omitted because they were created in-repo.
+Public-domain portraits are not repeated here. Local placeholder portraits for `John G. Kemeny`, `Thomas E. Kurtz`, and `Alonzo Church` are also omitted because they were created in-repo.
 
 ## Reusable With Specific Credit
 
 | Person | Local File | Source | Attribution Notes |
 | ------ | ---------- | ------ | ----------------- |
 | John von Neumann | `foundational-cs/john-von-neumann/images/portrait.jpg` | [Wikimedia Commons / Los Alamos](https://commons.wikimedia.org/wiki/File:John_von_Neumann_in_New_Mexico.jpg) | Follow the Los Alamos reuse credit note shown on the file page. |
+| Gordon Bell | `systems-languages/gordon-bell/images/portrait.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gordon_Bell_(cropped).jpg) | Credit Queensland University of Technology; the Commons file requests attribution and notes “Permission solicited from Gordon Bell.” |
 
 ## `CC BY 2.0`
 
@@ -19,6 +20,7 @@ Public-domain portraits are not repeated here. Local placeholder portraits for `
 | Judea Pearl | `modern-ai-ml/judea-pearl/images/portrait.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Judea_Pearl_at_NIPS_2013_(11781981594).jpg) | Credit the photographer listed on Commons. |
 | Bjarne Stroustrup | `systems-languages/bjarne-stroustrup/images/portrait.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bjarne_Stroustrup_(2013).jpg) | Credit the photographer listed on Commons. |
 | Dennis Ritchie | `systems-languages/dennis-ritchie/images/portrait.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dennis_Ritchie_2011.jpg) | Credit the photographer listed on Commons. |
+| John Vincent Atanasoff | `pioneers/john-atanasoff/images/portrait.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ATANASOFF_Pic%5E2_-_Flickr_-_Eye_Steel_Film.jpg) | Credit Eye Steel Film from Canada. |
 
 ## `CC BY 3.0`
 
@@ -56,6 +58,8 @@ Public-domain portraits are not repeated here. Local placeholder portraits for `
 | Barbara Liskov | `systems-languages/barbara-liskov/images/portrait.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Barbara_Liskov_MIT_computer_scientist_2010.jpg) | Credit the file author listed on Commons; share-alike applies. |
 | Brendan Eich | `systems-languages/brendan-eich/images/portrait.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Brendan_Eich_Mozilla_Foundation_official_photo.jpg) | Credit Darcy Padilla / Mozilla; share-alike applies. |
 | Frances Allen | `systems-languages/frances-allen/images/portrait.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Frances_Allen_Dec_11_2007.jpg) | Credit the photographer listed on Commons; share-alike applies. |
+| Steve Wozniak | `systems-languages/steve-wozniak/images/portrait.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Steve_Wozniak_by_Gage_Skidmore_3_(cropped).jpg) | Credit Gage Skidmore; share-alike applies. |
+| Paul Mockapetris | `web-internet/paul-mockapetris/images/portrait.jpg` | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Paul_Mockapetris.JPG) | Credit Jordiipa; share-alike applies. |
 
 ## `CC BY-SA 4.0`
 

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" role="img" aria-labelledby="title desc">
+  <title id="title">Steve Wozniak portrait placeholder</title>
+  <desc id="desc">Local placeholder portrait for Steve Wozniak pending sourced historical artwork or photography.</desc>
+  <rect width="400" height="520" fill="#f4efe7"/>
+  <circle cx="200" cy="175" r="84" fill="#d9c7a7"/>
+  <rect x="95" y="280" width="210" height="128" rx="24" fill="#1f2937"/>
+  <text x="200" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="62" fill="#3b2f2f">SW</text>
+  <text x="200" y="448" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f2937">Steve Wozniak</text>
+  <text x="200" y="478" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#6b7280">portrait placeholder</text>
+</svg>

@@ -12,3 +12,4 @@ The earliest visionaries who laid the conceptual and mechanical foundations of c
 - [George Boole](george-boole/)
 - [Herman Hollerith](herman-hollerith/)
 - [Konrad Zuse](konrad-zuse/)
+- [John Vincent Atanasoff](john-atanasoff/)
