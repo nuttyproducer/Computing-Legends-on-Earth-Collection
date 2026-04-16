@@ -29,7 +29,7 @@ A curated collection of **43 computing legends** whose ideas still shape the way
 ## Latest Additions to the Catalog
 
 - **April 2026 batch:** Added `John Vincent Atanasoff`, `Alonzo Church`, `Steve Wozniak`, `Seymour Cray`, `Gordon Bell`, and `Paul Mockapetris`.
-- **Portrait readiness:** Each new entry now includes a local `images/portrait.svg` placeholder so the collection can ship cleanly while sourced portraits are gathered.
+- **Portrait readiness:** Five of the six April 2026 additions now use sourced local portraits. `Alonzo Church` still uses a local placeholder until a clearly reusable portrait is found.
 - **Turing Award check:** This batch adds **0** new ACM Turing Award winners, so the collection total remains **18**.
 
 ## Website SEO
@@ -124,7 +124,7 @@ This repository is organized by domain and era:
 			<td>His Z3 and Plankalkül anticipate programmable machines and higher-level languages.</td>
 		</tr>
 		<tr>
-			<td align="center"><img src="pioneers/john-atanasoff/images/portrait.svg" alt="John Vincent Atanasoff" width="52"></td>
+			<td align="center"><img src="pioneers/john-atanasoff/images/portrait.jpg" alt="John Vincent Atanasoff" width="52"></td>
 			<td><a href="pioneers/john-atanasoff/"><strong>John</strong><br><strong>Atanasoff</strong></a></td>
 			<td align="center">—</td>
 			<td>1903-1995</td>
@@ -286,7 +286,7 @@ This repository is organized by domain and era:
 			<td>Unix, UTF-8, and Go influence everything from servers to modern developer workflows.</td>
 		</tr>
 		<tr>
-			<td align="center"><img src="systems-languages/steve-wozniak/images/portrait.svg" alt="Steve Wozniak" width="52"></td>
+			<td align="center"><img src="systems-languages/steve-wozniak/images/portrait.jpg" alt="Steve Wozniak" width="52"></td>
 			<td><a href="systems-languages/steve-wozniak/"><strong>Steve</strong><br><strong>Wozniak</strong></a></td>
 			<td align="center">—</td>
 			<td>b. 1950</td>
@@ -295,7 +295,7 @@ This repository is organized by domain and era:
 			<td>He made personal computers practical, approachable, and commercially transformative.</td>
 		</tr>
 		<tr>
-			<td align="center"><img src="systems-languages/seymour-cray/images/portrait.svg" alt="Seymour Cray" width="52"></td>
+			<td align="center"><img src="systems-languages/seymour-cray/images/portrait.jpg" alt="Seymour Cray" width="52"></td>
 			<td><a href="systems-languages/seymour-cray/"><strong>Seymour</strong><br><strong>Cray</strong></a></td>
 			<td align="center">—</td>
 			<td>1925-1996</td>
@@ -304,7 +304,7 @@ This repository is organized by domain and era:
 			<td>He created the supercomputer industry and redefined high-performance system design.</td>
 		</tr>
 		<tr>
-			<td align="center"><img src="systems-languages/gordon-bell/images/portrait.svg" alt="Gordon Bell" width="52"></td>
+			<td align="center"><img src="systems-languages/gordon-bell/images/portrait.jpg" alt="Gordon Bell" width="52"></td>
 			<td><a href="systems-languages/gordon-bell/"><strong>Gordon</strong><br><strong>Bell</strong></a></td>
 			<td align="center">—</td>
 			<td>1934-2024</td>
@@ -538,7 +538,7 @@ This repository is organized by domain and era:
 			<td>Spanning Tree Protocol still keeps Ethernet networks loop-free and stable.</td>
 		</tr>
 		<tr>
-			<td align="center"><img src="web-internet/paul-mockapetris/images/portrait.svg" alt="Paul Mockapetris" width="52"></td>
+			<td align="center"><img src="web-internet/paul-mockapetris/images/portrait.jpg" alt="Paul Mockapetris" width="52"></td>
 			<td><a href="web-internet/paul-mockapetris/"><strong>Paul</strong><br><strong>Mockapetris</strong></a></td>
 			<td align="center">—</td>
 			<td>b. 1948</td>

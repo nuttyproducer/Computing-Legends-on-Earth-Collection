@@ -1,21 +1,22 @@
 import { ArrowRight, Sparkles } from 'lucide-react'
 import { motion } from 'framer-motion'
+import { ResponsiveImage } from '../components/ResponsiveImage.tsx'
 import { Seo } from '../components/Seo.tsx'
 import { ScrollLink } from '../components/ScrollLink.tsx'
-import { seoDefaults } from '../content/seo.ts'
+import { homeHeroImage, resolveAbsoluteAssetUrl } from '../content/assets.ts'
 import {
   fadeUp,
   getHomepageCategories,
   getHomepageFeaturedLegends,
   getHomepageStats,
   personaPromises,
-} from '../content/presentation'
+} from '../content/home-presentation'
+import { seoDefaults } from '../content/seo.ts'
 
 export function HomePage() {
   const categories = getHomepageCategories()
   const featuredLegends = getHomepageFeaturedLegends()
   const stats = getHomepageStats()
-  const heroBackdropSrc = `${import.meta.env.BASE_URL}images/landing/hero/hero-digital-age-archive.jpg`
   const description = 'Explore the computing pioneers, theorists, systems builders, AI researchers, and internet architects who shaped the digital age.'
   const imageAlt = 'A dramatic archive-style hero image introducing Computing Legends on Earth'
   const structuredData = [
@@ -77,7 +78,7 @@ export function HomePage() {
         position: index + 1,
         url: `${seoDefaults.siteUrl}/legend/${legend.slug}`,
         name: legend.name,
-        image: legend.image,
+        image: resolveAbsoluteAssetUrl(legend.image?.src),
         description: legend.description,
       })),
     },
@@ -109,7 +110,14 @@ export function HomePage() {
       <main id="home">
         <section className="hero-section">
           <div className="hero-backdrop" aria-hidden="true">
-            <img src={heroBackdropSrc} alt="" />
+            <ResponsiveImage
+              image={homeHeroImage}
+              alt=""
+              sizes="(max-width: 768px) 100vw, 58vw"
+              fetchPriority="high"
+              loading="eager"
+              decoding="async"
+            />
             <div className="hero-gradient" />
           </div>
 
@@ -209,7 +217,14 @@ export function HomePage() {
                 >
                   <ScrollLink className="portrait-link" to={`/legend/${legend.slug}`} aria-label={`Open ${legend.name} biography`}>
                     <div className="legend-image-frame">
-                      <img className="portrait-image" src={legend.image} alt={legend.name} />
+                      <ResponsiveImage
+                        className="portrait-image"
+                        image={legend.image}
+                        alt={legend.name}
+                        sizes="(max-width: 768px) calc(100vw - 2rem), (max-width: 1200px) 33vw, 380px"
+                        loading="lazy"
+                        decoding="async"
+                      />
                       <div className="legend-image-border" />
                     </div>
                   </ScrollLink>

@@ -14,15 +14,83 @@ export const legendDetails = {
     "categoryLabel": "Pioneers",
     "sourcePath": "pioneers/ada-lovelace/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/ada-lovelace/images/portrait.jpg",
+      "src": "images/legends/pioneers/ada-lovelace/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2439,
+      "height": 3504,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/ada-lovelace/images/portrait-240w.webp",
+          "width": 240,
+          "height": 345,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/ada-lovelace/images/portrait-320w.webp",
+          "width": 320,
+          "height": 460,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/ada-lovelace/images/portrait-480w.webp",
+          "width": 480,
+          "height": 690,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/ada-lovelace/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1034,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/ada-lovelace/images/portrait-2439w.webp",
+          "width": 2439,
+          "height": 3504,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/ada-lovelace/images/portrait.jpg",
+        "src": "images/legends/pioneers/ada-lovelace/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 2439,
+        "height": 3504,
+        "sources": [
+          {
+            "src": "images/legends/pioneers/ada-lovelace/images/portrait-240w.webp",
+            "width": 240,
+            "height": 345,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/ada-lovelace/images/portrait-320w.webp",
+            "width": 320,
+            "height": 460,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/ada-lovelace/images/portrait-480w.webp",
+            "width": 480,
+            "height": 690,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/ada-lovelace/images/portrait-720w.webp",
+            "width": 720,
+            "height": 1034,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/ada-lovelace/images/portrait-2439w.webp",
+            "width": 2439,
+            "height": 3504,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "1815–1852",
@@ -430,15 +498,83 @@ export const legendDetails = {
     "categoryLabel": "Pioneers",
     "sourcePath": "pioneers/charles-babbage/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/charles-babbage/images/portrait.jpg",
+      "src": "images/legends/pioneers/charles-babbage/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2862,
+      "height": 4478,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/charles-babbage/images/portrait-240w.webp",
+          "width": 240,
+          "height": 376,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/charles-babbage/images/portrait-320w.webp",
+          "width": 320,
+          "height": 501,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/charles-babbage/images/portrait-480w.webp",
+          "width": 480,
+          "height": 751,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/charles-babbage/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1127,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/charles-babbage/images/portrait-2862w.webp",
+          "width": 2862,
+          "height": 4478,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/charles-babbage/images/portrait.jpg",
+        "src": "images/legends/pioneers/charles-babbage/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 2862,
+        "height": 4478,
+        "sources": [
+          {
+            "src": "images/legends/pioneers/charles-babbage/images/portrait-240w.webp",
+            "width": 240,
+            "height": 376,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/charles-babbage/images/portrait-320w.webp",
+            "width": 320,
+            "height": 501,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/charles-babbage/images/portrait-480w.webp",
+            "width": 480,
+            "height": 751,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/charles-babbage/images/portrait-720w.webp",
+            "width": 720,
+            "height": 1127,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/charles-babbage/images/portrait-2862w.webp",
+            "width": 2862,
+            "height": 4478,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "1791–1871",
@@ -855,15 +991,59 @@ export const legendDetails = {
     "categoryLabel": "Pioneers",
     "sourcePath": "pioneers/george-boole/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/george-boole/images/portrait.jpg",
+      "src": "images/legends/pioneers/george-boole/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 392,
+      "height": 480,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/george-boole/images/portrait-240w.webp",
+          "width": 240,
+          "height": 294,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/george-boole/images/portrait-320w.webp",
+          "width": 320,
+          "height": 392,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/george-boole/images/portrait-392w.webp",
+          "width": 392,
+          "height": 480,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/george-boole/images/portrait.jpg",
+        "src": "images/legends/pioneers/george-boole/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 392,
+        "height": 480,
+        "sources": [
+          {
+            "src": "images/legends/pioneers/george-boole/images/portrait-240w.webp",
+            "width": 240,
+            "height": 294,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/george-boole/images/portrait-320w.webp",
+            "width": 320,
+            "height": 392,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/george-boole/images/portrait-392w.webp",
+            "width": 392,
+            "height": 480,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "1815–1864",
@@ -1285,15 +1465,83 @@ export const legendDetails = {
     "categoryLabel": "Pioneers",
     "sourcePath": "pioneers/herman-hollerith/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/herman-hollerith/images/portrait.jpg",
+      "src": "images/legends/pioneers/herman-hollerith/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 3276,
+      "height": 4096,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/herman-hollerith/images/portrait-240w.webp",
+          "width": 240,
+          "height": 300,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/herman-hollerith/images/portrait-320w.webp",
+          "width": 320,
+          "height": 400,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/herman-hollerith/images/portrait-480w.webp",
+          "width": 480,
+          "height": 600,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/herman-hollerith/images/portrait-720w.webp",
+          "width": 720,
+          "height": 900,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/herman-hollerith/images/portrait-3276w.webp",
+          "width": 3276,
+          "height": 4096,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/herman-hollerith/images/portrait.jpg",
+        "src": "images/legends/pioneers/herman-hollerith/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 3276,
+        "height": 4096,
+        "sources": [
+          {
+            "src": "images/legends/pioneers/herman-hollerith/images/portrait-240w.webp",
+            "width": 240,
+            "height": 300,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/herman-hollerith/images/portrait-320w.webp",
+            "width": 320,
+            "height": 400,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/herman-hollerith/images/portrait-480w.webp",
+            "width": 480,
+            "height": 600,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/herman-hollerith/images/portrait-720w.webp",
+            "width": 720,
+            "height": 900,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/herman-hollerith/images/portrait-3276w.webp",
+            "width": 3276,
+            "height": 4096,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "1860–1929",
@@ -1691,6 +1939,430 @@ export const legendDetails = {
       }
     ]
   },
+  "john-atanasoff": {
+    "id": "pioneers/john-atanasoff",
+    "name": "John Vincent Atanasoff",
+    "fullName": "John Vincent Atanasoff",
+    "slug": "john-atanasoff",
+    "category": "pioneers",
+    "categoryLabel": "Pioneers",
+    "sourcePath": "pioneers/john-atanasoff/README.md",
+    "portrait": {
+      "src": "images/legends/pioneers/john-atanasoff/images/portrait.jpg",
+      "alt": "John Vincent Atanasoff portrait",
+      "isPortrait": true,
+      "width": 2202,
+      "height": 2949,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/john-atanasoff/images/portrait-240w.webp",
+          "width": 240,
+          "height": 321,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/john-atanasoff/images/portrait-320w.webp",
+          "width": 320,
+          "height": 429,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/john-atanasoff/images/portrait-480w.webp",
+          "width": 480,
+          "height": 643,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/john-atanasoff/images/portrait-720w.webp",
+          "width": 720,
+          "height": 964,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/john-atanasoff/images/portrait-2202w.webp",
+          "width": 2202,
+          "height": 2949,
+          "type": "image/webp"
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "images/legends/pioneers/john-atanasoff/images/portrait.jpg",
+        "alt": "John Vincent Atanasoff portrait",
+        "isPortrait": true,
+        "width": 2202,
+        "height": 2949,
+        "sources": [
+          {
+            "src": "images/legends/pioneers/john-atanasoff/images/portrait-240w.webp",
+            "width": 240,
+            "height": 321,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/john-atanasoff/images/portrait-320w.webp",
+            "width": 320,
+            "height": 429,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/john-atanasoff/images/portrait-480w.webp",
+            "width": 480,
+            "height": 643,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/john-atanasoff/images/portrait-720w.webp",
+            "width": 720,
+            "height": 964,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/john-atanasoff/images/portrait-2202w.webp",
+            "width": 2202,
+            "height": 2949,
+            "type": "image/webp"
+          }
+        ]
+      }
+    ],
+    "lifespan": "1903–1995",
+    "field": "Early Computing, Electronic Digital Hardware, Scientific Computing",
+    "keyContribution": "Conceived and built the Atanasoff–Berry Computer (ABC)",
+    "impact": "Helped establish the core principles of electronic digital computing, especially binary arithmetic and electronic memory",
+    "summary": "He studied electrical engineering at the University of Florida, earned a master's degree in mathematics from Iowa State College, and completed a PhD in theoretical physics at the University of Wisconsin–Madison in 1930. He then joined Iowa State College as a professor of mathematics and physics.",
+    "leadMarkdown": "*John Atanasoff belongs in the earliest layer of computing history: the moment when calculation stopped being merely mechanical and began becoming electronic, digital, and fast enough to hint at the future.*\n\n**Field:** Early Computing, Electronic Digital Hardware, Scientific Computing\n\n- **Lifespan:** 1903–1995\n- **Key contribution:** Conceived and built the Atanasoff–Berry Computer (ABC)\n- **Impact:** Helped establish the core principles of electronic digital computing, especially binary arithmetic and electronic memory",
+    "tags": [
+      "Early Computing",
+      "Electronic Digital Hardware",
+      "Scientific Computing",
+      "Pioneers"
+    ],
+    "relatedSlugs": [
+      "konrad-zuse",
+      "alan-turing",
+      "john-von-neumann"
+    ],
+    "featured": false,
+    "quickFacts": [
+      {
+        "label": "Field:",
+        "normalizedLabel": "field",
+        "value": "Early Computing, Electronic Digital Hardware, Scientific Computing"
+      },
+      {
+        "label": "Lifespan:",
+        "normalizedLabel": "lifespan",
+        "value": "1903–1995"
+      },
+      {
+        "label": "Key contribution:",
+        "normalizedLabel": "key-contribution",
+        "value": "Conceived and built the Atanasoff–Berry Computer (ABC)"
+      },
+      {
+        "label": "Impact:",
+        "normalizedLabel": "impact",
+        "value": "Helped establish the core principles of electronic digital computing, especially binary arithmetic and electronic memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "biography",
+        "kind": "biography",
+        "title": "Biography",
+        "markdown": "### Early Life & Education\nJohn Vincent Atanasoff was born on October 4, 1903, in Hamilton, New York. He grew up in Florida and showed mathematical talent early, learning to use a slide rule as a child and moving quickly through school.\n\nHe studied electrical engineering at the University of Florida, earned a master's degree in mathematics from Iowa State College, and completed a PhD in theoretical physics at the University of Wisconsin–Madison in 1930. He then joined Iowa State College as a professor of mathematics and physics.\n\n### Career\nAtanasoff's route into computing came through frustration. While working on large scientific calculations, he grew tired of the limits of mechanical calculators and began thinking about how computation might be redesigned from the ground up.\n\nIn the late 1930s, with support from Iowa State and assistance from graduate student **Clifford Berry**, he developed the **Atanasoff–Berry Computer (ABC)**. The machine was not a general-purpose stored-program computer in the later von Neumann sense, but it introduced several deeply important ideas: binary arithmetic, electronic switching using vacuum tubes, and regenerative capacitor memory.\n\nThe ABC was built to solve systems of linear equations, making it a specialized machine. Even so, it represented a major conceptual leap. Atanasoff had moved beyond gears and decimal machinery into the electronic digital era.\n\nDuring World War II, he left Iowa State for wartime work with the Naval Ordnance Laboratory. Because no patent was secured for the ABC and the machine itself fell into obscurity for a time, his role in computing history was underappreciated for decades.\n\n### Later Life & Legacy\nAfter the war, Atanasoff worked on military and engineering projects, founded the Ordnance Engineering Corporation, and later created Cybernetics Incorporated. His public historical standing changed dramatically in 1973, when the **Honeywell v. Sperry Rand** decision recognized him as the inventor of the electronic digital computer in a legal context that reshaped the ENIAC patent story.\n\nHe died on June 15, 1995. Today, Atanasoff is remembered as one of the earliest architects of electronic digital computation — a figure whose contributions were real, foundational, and long undervalued.",
+        "subsections": [
+          {
+            "id": "early-life-education",
+            "title": "Early Life & Education",
+            "markdown": "John Vincent Atanasoff was born on October 4, 1903, in Hamilton, New York. He grew up in Florida and showed mathematical talent early, learning to use a slide rule as a child and moving quickly through school.\n\nHe studied electrical engineering at the University of Florida, earned a master's degree in mathematics from Iowa State College, and completed a PhD in theoretical physics at the University of Wisconsin–Madison in 1930. He then joined Iowa State College as a professor of mathematics and physics."
+          },
+          {
+            "id": "career",
+            "title": "Career",
+            "markdown": "Atanasoff's route into computing came through frustration. While working on large scientific calculations, he grew tired of the limits of mechanical calculators and began thinking about how computation might be redesigned from the ground up.\n\nIn the late 1930s, with support from Iowa State and assistance from graduate student **Clifford Berry**, he developed the **Atanasoff–Berry Computer (ABC)**. The machine was not a general-purpose stored-program computer in the later von Neumann sense, but it introduced several deeply important ideas: binary arithmetic, electronic switching using vacuum tubes, and regenerative capacitor memory.\n\nThe ABC was built to solve systems of linear equations, making it a specialized machine. Even so, it represented a major conceptual leap. Atanasoff had moved beyond gears and decimal machinery into the electronic digital era.\n\nDuring World War II, he left Iowa State for wartime work with the Naval Ordnance Laboratory. Because no patent was secured for the ABC and the machine itself fell into obscurity for a time, his role in computing history was underappreciated for decades."
+          },
+          {
+            "id": "later-life-legacy",
+            "title": "Later Life & Legacy",
+            "markdown": "After the war, Atanasoff worked on military and engineering projects, founded the Ordnance Engineering Corporation, and later created Cybernetics Incorporated. His public historical standing changed dramatically in 1973, when the **Honeywell v. Sperry Rand** decision recognized him as the inventor of the electronic digital computer in a legal context that reshaped the ENIAC patent story.\n\nHe died on June 15, 1995. Today, Atanasoff is remembered as one of the earliest architects of electronic digital computation — a figure whose contributions were real, foundational, and long undervalued."
+          }
+        ]
+      },
+      {
+        "id": "major-contributions",
+        "kind": "contributions",
+        "title": "Major Contributions",
+        "markdown": "### Atanasoff–Berry Computer (1939–1942)\n- **Year:** 1939–1942\n- **Context:** Mechanical calculators were too slow and cumbersome for advanced scientific work\n- **Technical Details:** Used binary arithmetic, vacuum tubes for electronic logic, and regenerative capacitor memory to solve systems of simultaneous linear equations\n- **Impact:** Introduced several core principles later associated with modern electronic digital computers\n\n### Binary and Electronic Design Principles\n- **Year:** Late 1930s\n- **Context:** Many earlier calculating devices still relied on decimal methods and mechanical components\n- **Technical Details:** Atanasoff deliberately favored binary representation and electronic operation, both of which proved crucial to later computer architecture\n- **Impact:** Helped move computing toward the electronic, digital direction that would define the field after World War II\n\n### Historical Recognition Through Patent Litigation\n- **Year:** 1973\n- **Context:** Questions about who had invented the electronic digital computer became central in major patent disputes\n- **Technical Details:** In *Honeywell v. Sperry Rand*, the court found that the ENIAC inventors had derived key ideas from Atanasoff's earlier work\n- **Impact:** Re-established Atanasoff as a central pioneer in the history of computing",
+        "subsections": [
+          {
+            "id": "atanasoff-berry-computer-1939-1942",
+            "title": "Atanasoff–Berry Computer (1939–1942)",
+            "markdown": "- **Year:** 1939–1942\n- **Context:** Mechanical calculators were too slow and cumbersome for advanced scientific work\n- **Technical Details:** Used binary arithmetic, vacuum tubes for electronic logic, and regenerative capacitor memory to solve systems of simultaneous linear equations\n- **Impact:** Introduced several core principles later associated with modern electronic digital computers"
+          },
+          {
+            "id": "binary-and-electronic-design-principles",
+            "title": "Binary and Electronic Design Principles",
+            "markdown": "- **Year:** Late 1930s\n- **Context:** Many earlier calculating devices still relied on decimal methods and mechanical components\n- **Technical Details:** Atanasoff deliberately favored binary representation and electronic operation, both of which proved crucial to later computer architecture\n- **Impact:** Helped move computing toward the electronic, digital direction that would define the field after World War II"
+          },
+          {
+            "id": "historical-recognition-through-patent-litigation",
+            "title": "Historical Recognition Through Patent Litigation",
+            "markdown": "- **Year:** 1973\n- **Context:** Questions about who had invented the electronic digital computer became central in major patent disputes\n- **Technical Details:** In *Honeywell v. Sperry Rand*, the court found that the ENIAC inventors had derived key ideas from Atanasoff's earlier work\n- **Impact:** Re-established Atanasoff as a central pioneer in the history of computing"
+          }
+        ]
+      },
+      {
+        "id": "publications-works",
+        "kind": "publications",
+        "title": "Publications & Works",
+        "markdown": "- **\"Advent of the Electronic Digital Computing\"** (1984) — Atanasoff's own retrospective account of early computer development\n- **The Beginning** (1985) — later publication based on his historical reflections\n- Design work and manuscripts related to the Atanasoff–Berry Computer",
+        "subsections": []
+      },
+      {
+        "id": "awards-honors",
+        "kind": "awards",
+        "title": "Awards & Honors",
+        "markdown": "| Year | Award |\n|------|-------|\n| 1970 | Order of Saints Cyril and Methodius, First Class |\n| 1981 | IEEE Computer Pioneer Medal |\n| 1985 | EDUCOM Computing Appreciation Award |\n| 1990 | United States National Medal of Technology |\n| 2001 | Iowa Award |",
+        "subsections": []
+      },
+      {
+        "id": "quotes",
+        "kind": "quotes",
+        "title": "Quotes",
+        "markdown": "> \"The challenge was not simply to calculate faster, but to think differently about what a calculating machine could be.\"\n\n> \"Electronic digital computing did not arrive all at once; it had to be imagined first.\"",
+        "subsections": []
+      },
+      {
+        "id": "influence-legacy",
+        "kind": "influence",
+        "title": "Influence & Legacy",
+        "markdown": "### Direct Influence\nThe ABC helped establish key design principles later seen across digital computing, especially binary calculation and electronic memory techniques.\n\n### Indirect Influence\nAtanasoff's story also changed how historians describe invention itself. Computing did not emerge from one lone machine or one single laboratory; it emerged through overlapping breakthroughs, and Atanasoff was one of the crucial early contributors.\n\n### Modern Relevance\nAny serious history of digital computing now has to account for the ABC and the ideas behind it. His work remains central to understanding how computers became electronic rather than merely mechanical.",
+        "subsections": [
+          {
+            "id": "direct-influence",
+            "title": "Direct Influence",
+            "markdown": "The ABC helped establish key design principles later seen across digital computing, especially binary calculation and electronic memory techniques."
+          },
+          {
+            "id": "indirect-influence",
+            "title": "Indirect Influence",
+            "markdown": "Atanasoff's story also changed how historians describe invention itself. Computing did not emerge from one lone machine or one single laboratory; it emerged through overlapping breakthroughs, and Atanasoff was one of the crucial early contributors."
+          },
+          {
+            "id": "modern-relevance",
+            "title": "Modern Relevance",
+            "markdown": "Any serious history of digital computing now has to account for the ABC and the ideas behind it. His work remains central to understanding how computers became electronic rather than merely mechanical."
+          }
+        ]
+      },
+      {
+        "id": "related-figures",
+        "kind": "related-figures",
+        "title": "Related Figures",
+        "markdown": "- [Konrad Zuse](../konrad-zuse/) — another early pioneer who independently built programmable digital machines\n- [Alan Turing](../../foundational-cs/alan-turing/) — provided the theoretical framework for computation as Atanasoff advanced hardware practice\n- [John von Neumann](../../foundational-cs/john-von-neumann/) — later central architect of stored-program computing",
+        "subsections": []
+      },
+      {
+        "id": "resources",
+        "kind": "resources",
+        "title": "Resources",
+        "markdown": "- [Iowa State University Atanasoff archive](http://jva.cs.iastate.edu/)\n- [Computer History Museum materials on early electronic computing](https://computerhistory.org/)\n- [National Medal of Technology background](https://www.uspto.gov/)",
+        "subsections": []
+      },
+      {
+        "id": "timeline",
+        "kind": "timeline",
+        "title": "Timeline",
+        "markdown": "| Year | Event |\n|------|-------|\n| 1903 | Born in Hamilton, New York |\n| 1925 | Earns electrical engineering degree from the University of Florida |\n| 1926 | Earns mathematics master's degree from Iowa State College |\n| 1930 | Completes PhD in theoretical physics at Wisconsin |\n| 1939 | Begins ABC project with Clifford Berry |\n| 1942 | ABC development reaches working prototype stage |\n| 1952 | Founds Ordnance Engineering Corporation |\n| 1973 | Recognized in *Honeywell v. Sperry Rand* decision |\n| 1990 | Receives National Medal of Technology |\n| 1995 | Dies in Maryland |",
+        "subsections": []
+      },
+      {
+        "id": "references",
+        "kind": "references",
+        "title": "References",
+        "markdown": "1. Atanasoff, John V. \"Advent of the Electronic Digital Computing.\" *IEEE Annals of the History of Computing*, 1984.\n2. Smiley, Jane. *The Man Who Invented the Computer*. Doubleday, 2010.\n3. Iowa State University materials on John Atanasoff.\n4. Historical accounts of *Honeywell v. Sperry Rand*.",
+        "subsections": []
+      },
+      {
+        "id": "navigation",
+        "kind": "navigation",
+        "title": "Navigation",
+        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Konrad Zuse](../konrad-zuse/)\n- [↑ Category Overview](../README.md)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "subsections": []
+      }
+    ],
+    "awards": [
+      {
+        "year": "1970",
+        "title": "Order of Saints Cyril and Methodius, First Class",
+        "rawCells": [
+          "1970",
+          "Order of Saints Cyril and Methodius, First Class"
+        ]
+      },
+      {
+        "year": "1981",
+        "title": "IEEE Computer Pioneer Medal",
+        "rawCells": [
+          "1981",
+          "IEEE Computer Pioneer Medal"
+        ]
+      },
+      {
+        "year": "1985",
+        "title": "EDUCOM Computing Appreciation Award",
+        "rawCells": [
+          "1985",
+          "EDUCOM Computing Appreciation Award"
+        ]
+      },
+      {
+        "year": "1990",
+        "title": "United States National Medal of Technology",
+        "rawCells": [
+          "1990",
+          "United States National Medal of Technology"
+        ]
+      },
+      {
+        "year": "2001",
+        "title": "Iowa Award",
+        "rawCells": [
+          "2001",
+          "Iowa Award"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "text": "\"The challenge was not simply to calculate faster, but to think differently about what a calculating machine could be.\""
+      },
+      {
+        "text": "\"Electronic digital computing did not arrive all at once; it had to be imagined first.\""
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1903",
+        "event": "Born in Hamilton, New York"
+      },
+      {
+        "year": "1925",
+        "event": "Earns electrical engineering degree from the University of Florida"
+      },
+      {
+        "year": "1926",
+        "event": "Earns mathematics master's degree from Iowa State College"
+      },
+      {
+        "year": "1930",
+        "event": "Completes PhD in theoretical physics at Wisconsin"
+      },
+      {
+        "year": "1939",
+        "event": "Begins ABC project with Clifford Berry"
+      },
+      {
+        "year": "1942",
+        "event": "ABC development reaches working prototype stage"
+      },
+      {
+        "year": "1952",
+        "event": "Founds Ordnance Engineering Corporation"
+      },
+      {
+        "year": "1973",
+        "event": "Recognized in *Honeywell v. Sperry Rand* decision"
+      },
+      {
+        "year": "1990",
+        "event": "Receives National Medal of Technology"
+      },
+      {
+        "year": "1995",
+        "event": "Dies in Maryland"
+      }
+    ],
+    "relatedFigures": [
+      {
+        "name": "Konrad Zuse",
+        "href": "/legend/konrad-zuse",
+        "resolvedSlug": "konrad-zuse",
+        "relationship": "another early pioneer who independently built programmable digital machines"
+      },
+      {
+        "name": "Alan Turing",
+        "href": "/legend/alan-turing",
+        "resolvedSlug": "alan-turing",
+        "relationship": "provided the theoretical framework for computation as Atanasoff advanced hardware practice"
+      },
+      {
+        "name": "John von Neumann",
+        "href": "/legend/john-von-neumann",
+        "resolvedSlug": "john-von-neumann",
+        "relationship": "later central architect of stored-program computing"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Iowa State University Atanasoff archive",
+        "url": "http://jva.cs.iastate.edu/",
+        "kind": "article",
+        "host": "jva.cs.iastate.edu",
+        "isEmbeddable": false
+      },
+      {
+        "title": "Computer History Museum materials on early electronic computing",
+        "url": "https://computerhistory.org/",
+        "kind": "article",
+        "host": "computerhistory.org",
+        "isEmbeddable": false
+      },
+      {
+        "title": "National Medal of Technology background",
+        "url": "https://www.uspto.gov/",
+        "kind": "article",
+        "host": "uspto.gov",
+        "isEmbeddable": false
+      }
+    ],
+    "mediaItems": [],
+    "references": [
+      {
+        "text": "Atanasoff, John V. \"Advent of the Electronic Digital Computing.\" *IEEE Annals of the History of Computing*, 1984."
+      },
+      {
+        "text": "Smiley, Jane. *The Man Who Invented the Computer*. Doubleday, 2010."
+      },
+      {
+        "text": "Iowa State University materials on John Atanasoff."
+      },
+      {
+        "text": "Historical accounts of *Honeywell v. Sperry Rand*."
+      }
+    ],
+    "navigation": [
+      {
+        "label": "← Main Index",
+        "href": "/",
+        "direction": "main-index"
+      },
+      {
+        "label": "← Previous: Konrad Zuse",
+        "href": "/legend/konrad-zuse",
+        "resolvedSlug": "konrad-zuse",
+        "direction": "previous"
+      },
+      {
+        "label": "↑ Category Overview",
+        "href": "/category/pioneers",
+        "direction": "category-overview"
+      }
+    ]
+  },
   "konrad-zuse": {
     "id": "pioneers/konrad-zuse",
     "name": "Konrad Zuse",
@@ -1700,15 +2372,59 @@ export const legendDetails = {
     "categoryLabel": "Pioneers",
     "sourcePath": "pioneers/konrad-zuse/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/konrad-zuse/images/portrait.jpg",
+      "src": "images/legends/pioneers/konrad-zuse/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 354,
+      "height": 472,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/konrad-zuse/images/portrait-240w.webp",
+          "width": 240,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/konrad-zuse/images/portrait-320w.webp",
+          "width": 320,
+          "height": 427,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/konrad-zuse/images/portrait-354w.webp",
+          "width": 354,
+          "height": 472,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/konrad-zuse/images/portrait.jpg",
+        "src": "images/legends/pioneers/konrad-zuse/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 354,
+        "height": 472,
+        "sources": [
+          {
+            "src": "images/legends/pioneers/konrad-zuse/images/portrait-240w.webp",
+            "width": 240,
+            "height": 320,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/konrad-zuse/images/portrait-320w.webp",
+            "width": 320,
+            "height": 427,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/pioneers/konrad-zuse/images/portrait-354w.webp",
+            "width": 354,
+            "height": 472,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "1910–1995",
@@ -2183,15 +2899,71 @@ export const legendDetails = {
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/alan-turing/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/alan-turing/images/alan-turing-portrait.jpg",
+      "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait.jpg",
       "alt": "Alan Turing Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 712,
+      "height": 949,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-240w.webp",
+          "width": 240,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-320w.webp",
+          "width": 320,
+          "height": 427,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-480w.webp",
+          "width": 480,
+          "height": 640,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-712w.webp",
+          "width": 712,
+          "height": 949,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/alan-turing/images/alan-turing-portrait.jpg",
+        "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait.jpg",
         "alt": "Alan Turing Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 712,
+        "height": 949,
+        "sources": [
+          {
+            "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-240w.webp",
+            "width": 240,
+            "height": 320,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-320w.webp",
+            "width": 320,
+            "height": 427,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-480w.webp",
+            "width": 480,
+            "height": 640,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-712w.webp",
+            "width": 712,
+            "height": 949,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "June 23, 1912 – June 7, 1954 (aged 41)",
@@ -2665,6 +3437,360 @@ export const legendDetails = {
       }
     ]
   },
+  "alonzo-church": {
+    "id": "foundational-cs/alonzo-church",
+    "name": "Alonzo Church",
+    "fullName": "Alonzo Church",
+    "slug": "alonzo-church",
+    "category": "foundational-cs",
+    "categoryLabel": "Foundational Computer Science",
+    "sourcePath": "foundational-cs/alonzo-church/README.md",
+    "portrait": {
+      "src": "images/legends/foundational-cs/alonzo-church/images/portrait.svg",
+      "alt": "Alonzo Church portrait placeholder",
+      "isPortrait": true
+    },
+    "images": [
+      {
+        "src": "images/legends/foundational-cs/alonzo-church/images/portrait.svg",
+        "alt": "Alonzo Church portrait placeholder",
+        "isPortrait": true
+      }
+    ],
+    "lifespan": "1903–1995",
+    "field": "Mathematical Logic, Computability Theory, Foundations of Computer Science",
+    "keyContribution": "Invented lambda calculus and helped formulate the Church–Turing thesis",
+    "impact": "Established major parts of the mathematical foundation beneath theoretical computer science, programming languages, and computability",
+    "summary": "He attended Princeton University, graduating in mathematics in 1924, and stayed there for doctoral work under Oswald Veblen. After a brief period teaching and holding research fellowships, he began what would become a long and highly influential academic career.",
+    "leadMarkdown": "*Alonzo Church helped define what computation is before most computers even existed. If Turing gave computing its most famous machine model, Church gave it one of its deepest mathematical languages and one of its central philosophical limits.*\n\n**Field:** Mathematical Logic, Computability Theory, Foundations of Computer Science\n\n- **Lifespan:** 1903–1995\n- **Key contribution:** Invented lambda calculus and helped formulate the Church–Turing thesis\n- **Impact:** Established major parts of the mathematical foundation beneath theoretical computer science, programming languages, and computability",
+    "tags": [
+      "Mathematical Logic",
+      "Computability Theory",
+      "Foundations of Computer Science",
+      "Foundational Computer Science"
+    ],
+    "relatedSlugs": [
+      "alan-turing",
+      "donald-knuth",
+      "john-von-neumann"
+    ],
+    "featured": false,
+    "quickFacts": [
+      {
+        "label": "Field:",
+        "normalizedLabel": "field",
+        "value": "Mathematical Logic, Computability Theory, Foundations of Computer Science"
+      },
+      {
+        "label": "Lifespan:",
+        "normalizedLabel": "lifespan",
+        "value": "1903–1995"
+      },
+      {
+        "label": "Key contribution:",
+        "normalizedLabel": "key-contribution",
+        "value": "Invented lambda calculus and helped formulate the Church–Turing thesis"
+      },
+      {
+        "label": "Impact:",
+        "normalizedLabel": "impact",
+        "value": "Established major parts of the mathematical foundation beneath theoretical computer science, programming languages, and computability"
+      }
+    ],
+    "sections": [
+      {
+        "id": "biography",
+        "kind": "biography",
+        "title": "Biography",
+        "markdown": "### Early Life & Education\nAlonzo Church was born on June 14, 1903, in Washington, D.C. As a child he suffered a partial loss of vision after an accident, but that did not prevent him from becoming one of the great logicians of the 20th century.\n\nHe attended Princeton University, graduating in mathematics in 1924, and stayed there for doctoral work under Oswald Veblen. After a brief period teaching and holding research fellowships, he began what would become a long and highly influential academic career.\n\n### Career\nChurch taught at **Princeton University** from 1929 to 1967 and later at **UCLA** from 1967 to 1990. Across those decades he shaped modern logic not only through his own work but through teaching and advising an extraordinary list of students, including **Alan Turing**, **Stephen Kleene**, **Martin Davis**, **Dana Scott**, **Michael Rabin**, and many others.\n\nHis most famous technical creation is the **lambda calculus**, a formal system for representing functions, variables, and symbolic reduction. It emerged from his work in the 1930s and became one of the intellectual foundations of computability theory and, later, functional programming.\n\nChurch also proved the undecidability of the **Entscheidungsproblem**, showing that no general mechanical procedure can decide the truth of every first-order logical statement. Around the same time, Turing reached a related conclusion using Turing machines. Their combined insight became known as the **Church–Turing thesis**, one of the central conceptual pillars of computer science.\n\nChurch was also a founding editor of the **Journal of Symbolic Logic** and wrote the influential textbook **Introduction to Mathematical Logic**, helping define the field's standards of rigor and precision.\n\n### Later Life & Legacy\nChurch remained active for decades, contributing not only to logic and computation but also to philosophy, semantics, and the theory of meaning. He died on August 11, 1995.\n\nHis name survives in concepts that run through the discipline: Church's theorem, Church encodings, Church numerals, Church–Rosser, the Church–Turing thesis, and the Alonzo Church Award. That is usually a sign that a thinker did not just solve problems within a field — he helped build the field itself.",
+        "subsections": [
+          {
+            "id": "early-life-education",
+            "title": "Early Life & Education",
+            "markdown": "Alonzo Church was born on June 14, 1903, in Washington, D.C. As a child he suffered a partial loss of vision after an accident, but that did not prevent him from becoming one of the great logicians of the 20th century.\n\nHe attended Princeton University, graduating in mathematics in 1924, and stayed there for doctoral work under Oswald Veblen. After a brief period teaching and holding research fellowships, he began what would become a long and highly influential academic career."
+          },
+          {
+            "id": "career",
+            "title": "Career",
+            "markdown": "Church taught at **Princeton University** from 1929 to 1967 and later at **UCLA** from 1967 to 1990. Across those decades he shaped modern logic not only through his own work but through teaching and advising an extraordinary list of students, including **Alan Turing**, **Stephen Kleene**, **Martin Davis**, **Dana Scott**, **Michael Rabin**, and many others.\n\nHis most famous technical creation is the **lambda calculus**, a formal system for representing functions, variables, and symbolic reduction. It emerged from his work in the 1930s and became one of the intellectual foundations of computability theory and, later, functional programming.\n\nChurch also proved the undecidability of the **Entscheidungsproblem**, showing that no general mechanical procedure can decide the truth of every first-order logical statement. Around the same time, Turing reached a related conclusion using Turing machines. Their combined insight became known as the **Church–Turing thesis**, one of the central conceptual pillars of computer science.\n\nChurch was also a founding editor of the **Journal of Symbolic Logic** and wrote the influential textbook **Introduction to Mathematical Logic**, helping define the field's standards of rigor and precision."
+          },
+          {
+            "id": "later-life-legacy",
+            "title": "Later Life & Legacy",
+            "markdown": "Church remained active for decades, contributing not only to logic and computation but also to philosophy, semantics, and the theory of meaning. He died on August 11, 1995.\n\nHis name survives in concepts that run through the discipline: Church's theorem, Church encodings, Church numerals, Church–Rosser, the Church–Turing thesis, and the Alonzo Church Award. That is usually a sign that a thinker did not just solve problems within a field — he helped build the field itself."
+          }
+        ]
+      },
+      {
+        "id": "major-contributions",
+        "kind": "contributions",
+        "title": "Major Contributions",
+        "markdown": "### Lambda Calculus (1930s)\n- **Year:** 1930s\n- **Context:** Logicians were seeking formal systems powerful enough to represent mathematical reasoning and effective procedures\n- **Technical Details:** Introduced a symbolic formalism based on abstraction, application, and variable binding to express computation through function transformation\n- **Impact:** Became a foundational model of computation and later profoundly influenced Lisp, functional programming, type theory, and semantics\n\n### Undecidability of the Entscheidungsproblem (1936)\n- **Year:** 1936\n- **Context:** David Hilbert's program asked whether mathematics could be placed on a complete mechanical decision basis\n- **Technical Details:** Using lambda calculus, Church showed there can be no universal decision procedure for first-order logic\n- **Impact:** Established hard limits on formal reasoning and became one of the great negative results that shaped computer science\n\n### Church–Turing Thesis\n- **Year:** 1930s\n- **Context:** Multiple formal models were beginning to describe effective calculation\n- **Technical Details:** Church's lambda-definability and Turing's machine-computability were shown to capture the same intuitive notion of effective procedure\n- **Impact:** Gave computer science its enduring conceptual account of what computation means in the first place",
+        "subsections": [
+          {
+            "id": "lambda-calculus-1930s",
+            "title": "Lambda Calculus (1930s)",
+            "markdown": "- **Year:** 1930s\n- **Context:** Logicians were seeking formal systems powerful enough to represent mathematical reasoning and effective procedures\n- **Technical Details:** Introduced a symbolic formalism based on abstraction, application, and variable binding to express computation through function transformation\n- **Impact:** Became a foundational model of computation and later profoundly influenced Lisp, functional programming, type theory, and semantics"
+          },
+          {
+            "id": "undecidability-of-the-entscheidungsproblem-1936",
+            "title": "Undecidability of the Entscheidungsproblem (1936)",
+            "markdown": "- **Year:** 1936\n- **Context:** David Hilbert's program asked whether mathematics could be placed on a complete mechanical decision basis\n- **Technical Details:** Using lambda calculus, Church showed there can be no universal decision procedure for first-order logic\n- **Impact:** Established hard limits on formal reasoning and became one of the great negative results that shaped computer science"
+          },
+          {
+            "id": "church-turing-thesis",
+            "title": "Church–Turing Thesis",
+            "markdown": "- **Year:** 1930s\n- **Context:** Multiple formal models were beginning to describe effective calculation\n- **Technical Details:** Church's lambda-definability and Turing's machine-computability were shown to capture the same intuitive notion of effective procedure\n- **Impact:** Gave computer science its enduring conceptual account of what computation means in the first place"
+          }
+        ]
+      },
+      {
+        "id": "publications-works",
+        "kind": "publications",
+        "title": "Publications & Works",
+        "markdown": "- **\"An Unsolvable Problem of Elementary Number Theory\"** (1936)\n- **The Calculi of Lambda-Conversion** (1941)\n- **Introduction to Mathematical Logic** (1944)\n- Long editorial work with the *Journal of Symbolic Logic*",
+        "subsections": []
+      },
+      {
+        "id": "awards-honors",
+        "kind": "awards",
+        "title": "Awards & Honors",
+        "markdown": "| Year | Award |\n|------|-------|\n| 1966 | Elected Corresponding Fellow of the British Academy |\n| 1967 | Elected to the American Academy of Arts and Sciences |\n| 1978 | Elected to the National Academy of Sciences |\n| 2015 | Alonzo Church Award established in his honor |",
+        "subsections": []
+      },
+      {
+        "id": "quotes",
+        "kind": "quotes",
+        "title": "Quotes",
+        "markdown": "> \"The significance of a formal system lies not only in what it can express, but in what it cannot decide.\"\n\n> \"Precision in logic is not a luxury; it is the condition of understanding.\"",
+        "subsections": []
+      },
+      {
+        "id": "influence-legacy",
+        "kind": "influence",
+        "title": "Influence & Legacy",
+        "markdown": "### Direct Influence\nChurch helped define computability theory, formal logic, and the mathematical study of what can and cannot be computed.\n\n### Indirect Influence\nFunctional programming languages, formal semantics, theorem proving, and whole areas of theoretical CS carry the mark of lambda calculus and Church-style rigor.\n\n### Modern Relevance\nFrom compiler theory to proof assistants to functional languages, Church's ideas remain alive in the deepest layers of modern computation.",
+        "subsections": [
+          {
+            "id": "direct-influence",
+            "title": "Direct Influence",
+            "markdown": "Church helped define computability theory, formal logic, and the mathematical study of what can and cannot be computed."
+          },
+          {
+            "id": "indirect-influence",
+            "title": "Indirect Influence",
+            "markdown": "Functional programming languages, formal semantics, theorem proving, and whole areas of theoretical CS carry the mark of lambda calculus and Church-style rigor."
+          },
+          {
+            "id": "modern-relevance",
+            "title": "Modern Relevance",
+            "markdown": "From compiler theory to proof assistants to functional languages, Church's ideas remain alive in the deepest layers of modern computation."
+          }
+        ]
+      },
+      {
+        "id": "related-figures",
+        "kind": "related-figures",
+        "title": "Related Figures",
+        "markdown": "- [Alan Turing](../alan-turing/) — Church supervised Turing at Princeton and their names are forever linked through the Church–Turing thesis\n- [Donald Knuth](../donald-knuth/) — later theorist working in a world Church helped mathematically define\n- [John von Neumann](../john-von-neumann/) — another giant of formal and architectural computing thought from the same broad era",
+        "subsections": []
+      },
+      {
+        "id": "resources",
+        "kind": "resources",
+        "title": "Resources",
+        "markdown": "- [Stanford Encyclopedia of Philosophy entry on Alonzo Church](https://plato.stanford.edu/entries/church/)\n- [MacTutor biography](https://mathshistory.st-andrews.ac.uk/Biographies/Church/)\n- [Princeton archive materials](https://arks.princeton.edu/ark:/88435/fx719m49m)",
+        "subsections": []
+      },
+      {
+        "id": "timeline",
+        "kind": "timeline",
+        "title": "Timeline",
+        "markdown": "| Year | Event |\n|------|-------|\n| 1903 | Born in Washington, D.C. |\n| 1924 | Graduates from Princeton |\n| 1927 | Earns PhD from Princeton |\n| 1929 | Joins Princeton faculty |\n| 1930s | Develops lambda calculus |\n| 1936 | Proves undecidability result tied to the Entscheidungsproblem |\n| 1936–1938 | Alan Turing studies under Church at Princeton |\n| 1944 | Publishes *Introduction to Mathematical Logic* |\n| 1967 | Moves to UCLA |\n| 1995 | Dies |",
+        "subsections": []
+      },
+      {
+        "id": "references",
+        "kind": "references",
+        "title": "References",
+        "markdown": "1. Church, Alonzo. \"An Unsolvable Problem of Elementary Number Theory.\" *American Journal of Mathematics*, 1936.\n2. Church, Alonzo. *The Calculi of Lambda-Conversion*. 1941.\n3. Church, Alonzo. *Introduction to Mathematical Logic*. 1944.\n4. Enderton, Herbert. \"Alonzo Church: Life and Work.\"",
+        "subsections": []
+      },
+      {
+        "id": "navigation",
+        "kind": "navigation",
+        "title": "Navigation",
+        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Alan Turing](../alan-turing/)\n- [↑ Category Overview](../README.md)\n- [Next: John von Neumann →](../john-von-neumann/)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "subsections": []
+      }
+    ],
+    "awards": [
+      {
+        "year": "1966",
+        "title": "Elected Corresponding Fellow of the British Academy",
+        "rawCells": [
+          "1966",
+          "Elected Corresponding Fellow of the British Academy"
+        ]
+      },
+      {
+        "year": "1967",
+        "title": "Elected to the American Academy of Arts and Sciences",
+        "rawCells": [
+          "1967",
+          "Elected to the American Academy of Arts and Sciences"
+        ]
+      },
+      {
+        "year": "1978",
+        "title": "Elected to the National Academy of Sciences",
+        "rawCells": [
+          "1978",
+          "Elected to the National Academy of Sciences"
+        ]
+      },
+      {
+        "year": "2015",
+        "title": "Alonzo Church Award established in his honor",
+        "rawCells": [
+          "2015",
+          "Alonzo Church Award established in his honor"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "text": "\"The significance of a formal system lies not only in what it can express, but in what it cannot decide.\""
+      },
+      {
+        "text": "\"Precision in logic is not a luxury; it is the condition of understanding.\""
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1903",
+        "event": "Born in Washington, D.C."
+      },
+      {
+        "year": "1924",
+        "event": "Graduates from Princeton"
+      },
+      {
+        "year": "1927",
+        "event": "Earns PhD from Princeton"
+      },
+      {
+        "year": "1929",
+        "event": "Joins Princeton faculty"
+      },
+      {
+        "year": "1930s",
+        "event": "Develops lambda calculus"
+      },
+      {
+        "year": "1936",
+        "event": "Proves undecidability result tied to the Entscheidungsproblem"
+      },
+      {
+        "year": "1936–1938",
+        "event": "Alan Turing studies under Church at Princeton"
+      },
+      {
+        "year": "1944",
+        "event": "Publishes *Introduction to Mathematical Logic*"
+      },
+      {
+        "year": "1967",
+        "event": "Moves to UCLA"
+      },
+      {
+        "year": "1995",
+        "event": "Dies"
+      }
+    ],
+    "relatedFigures": [
+      {
+        "name": "Alan Turing",
+        "href": "/legend/alan-turing",
+        "resolvedSlug": "alan-turing",
+        "relationship": "Church supervised Turing at Princeton and their names are forever linked through the Church–Turing thesis"
+      },
+      {
+        "name": "Donald Knuth",
+        "href": "/legend/donald-knuth",
+        "resolvedSlug": "donald-knuth",
+        "relationship": "later theorist working in a world Church helped mathematically define"
+      },
+      {
+        "name": "John von Neumann",
+        "href": "/legend/john-von-neumann",
+        "resolvedSlug": "john-von-neumann",
+        "relationship": "another giant of formal and architectural computing thought from the same broad era"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy entry on Alonzo Church",
+        "url": "https://plato.stanford.edu/entries/church/",
+        "kind": "article",
+        "host": "plato.stanford.edu",
+        "isEmbeddable": false
+      },
+      {
+        "title": "MacTutor biography",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Church/",
+        "kind": "book",
+        "host": "mathshistory.st-andrews.ac.uk",
+        "isEmbeddable": false
+      },
+      {
+        "title": "Princeton archive materials",
+        "url": "https://arks.princeton.edu/ark:/88435/fx719m49m",
+        "kind": "article",
+        "host": "arks.princeton.edu",
+        "isEmbeddable": false
+      }
+    ],
+    "mediaItems": [],
+    "references": [
+      {
+        "text": "Church, Alonzo. \"An Unsolvable Problem of Elementary Number Theory.\" *American Journal of Mathematics*, 1936."
+      },
+      {
+        "text": "Church, Alonzo. *The Calculi of Lambda-Conversion*. 1941."
+      },
+      {
+        "text": "Church, Alonzo. *Introduction to Mathematical Logic*. 1944."
+      },
+      {
+        "text": "Enderton, Herbert. \"Alonzo Church: Life and Work.\""
+      }
+    ],
+    "navigation": [
+      {
+        "label": "← Main Index",
+        "href": "/",
+        "direction": "main-index"
+      },
+      {
+        "label": "← Previous: Alan Turing",
+        "href": "/legend/alan-turing",
+        "resolvedSlug": "alan-turing",
+        "direction": "previous"
+      },
+      {
+        "label": "↑ Category Overview",
+        "href": "/category/foundational-cs",
+        "direction": "category-overview"
+      },
+      {
+        "label": "Next: John von Neumann →",
+        "href": "/legend/john-von-neumann",
+        "resolvedSlug": "john-von-neumann",
+        "direction": "next"
+      }
+    ]
+  },
   "claude-shannon": {
     "id": "foundational-cs/claude-shannon",
     "name": "Claude Shannon",
@@ -2674,15 +3800,47 @@ export const legendDetails = {
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/claude-shannon/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/claude-shannon/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/claude-shannon/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 284,
+      "height": 400,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/claude-shannon/images/portrait-240w.webp",
+          "width": 240,
+          "height": 338,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/claude-shannon/images/portrait-284w.webp",
+          "width": 284,
+          "height": 400,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/claude-shannon/images/portrait.jpg",
+        "src": "images/legends/foundational-cs/claude-shannon/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 284,
+        "height": 400,
+        "sources": [
+          {
+            "src": "images/legends/foundational-cs/claude-shannon/images/portrait-240w.webp",
+            "width": 240,
+            "height": 338,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/claude-shannon/images/portrait-284w.webp",
+            "width": 284,
+            "height": 400,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "1916–2001",
@@ -2867,15 +4025,83 @@ export const legendDetails = {
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/donald-knuth/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/donald-knuth/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/donald-knuth/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 797,
+      "height": 1197,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/donald-knuth/images/portrait-240w.webp",
+          "width": 240,
+          "height": 360,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/donald-knuth/images/portrait-320w.webp",
+          "width": 320,
+          "height": 481,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/donald-knuth/images/portrait-480w.webp",
+          "width": 480,
+          "height": 721,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/donald-knuth/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1081,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/donald-knuth/images/portrait-797w.webp",
+          "width": 797,
+          "height": 1197,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/donald-knuth/images/portrait.jpg",
+        "src": "images/legends/foundational-cs/donald-knuth/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 797,
+        "height": 1197,
+        "sources": [
+          {
+            "src": "images/legends/foundational-cs/donald-knuth/images/portrait-240w.webp",
+            "width": 240,
+            "height": 360,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/donald-knuth/images/portrait-320w.webp",
+            "width": 320,
+            "height": 481,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/donald-knuth/images/portrait-480w.webp",
+            "width": 480,
+            "height": 721,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/donald-knuth/images/portrait-720w.webp",
+            "width": 720,
+            "height": 1081,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/donald-knuth/images/portrait-797w.webp",
+            "width": 797,
+            "height": 1197,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1938",
@@ -3092,15 +4318,83 @@ export const legendDetails = {
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/edsger-dijkstra/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/edsger-dijkstra/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 3574,
+      "height": 2447,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-240w.webp",
+          "width": 240,
+          "height": 164,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-320w.webp",
+          "width": 320,
+          "height": 219,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-480w.webp",
+          "width": 480,
+          "height": 329,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-720w.webp",
+          "width": 720,
+          "height": 493,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-3574w.webp",
+          "width": 3574,
+          "height": 2447,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/edsger-dijkstra/images/portrait.jpg",
+        "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 3574,
+        "height": 2447,
+        "sources": [
+          {
+            "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-240w.webp",
+            "width": 240,
+            "height": 164,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-320w.webp",
+            "width": 320,
+            "height": 219,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-480w.webp",
+            "width": 480,
+            "height": 329,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-720w.webp",
+            "width": 720,
+            "height": 493,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-3574w.webp",
+            "width": 3574,
+            "height": 2447,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "1930–2002",
@@ -3312,15 +4606,83 @@ export const legendDetails = {
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/grace-hopper/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/grace-hopper/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/grace-hopper/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1542,
+      "height": 2051,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/grace-hopper/images/portrait-240w.webp",
+          "width": 240,
+          "height": 319,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/grace-hopper/images/portrait-320w.webp",
+          "width": 320,
+          "height": 426,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/grace-hopper/images/portrait-480w.webp",
+          "width": 480,
+          "height": 638,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/grace-hopper/images/portrait-720w.webp",
+          "width": 720,
+          "height": 958,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/grace-hopper/images/portrait-1542w.webp",
+          "width": 1542,
+          "height": 2051,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/grace-hopper/images/portrait.jpg",
+        "src": "images/legends/foundational-cs/grace-hopper/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 1542,
+        "height": 2051,
+        "sources": [
+          {
+            "src": "images/legends/foundational-cs/grace-hopper/images/portrait-240w.webp",
+            "width": 240,
+            "height": 319,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/grace-hopper/images/portrait-320w.webp",
+            "width": 320,
+            "height": 426,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/grace-hopper/images/portrait-480w.webp",
+            "width": 480,
+            "height": 638,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/grace-hopper/images/portrait-720w.webp",
+            "width": 720,
+            "height": 958,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/grace-hopper/images/portrait-1542w.webp",
+            "width": 1542,
+            "height": 2051,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "1906–1992",
@@ -3522,15 +4884,83 @@ export const legendDetails = {
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/john-von-neumann/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/john-von-neumann/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/john-von-neumann/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2055,
+      "height": 3000,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-240w.webp",
+          "width": 240,
+          "height": 350,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-320w.webp",
+          "width": 320,
+          "height": 467,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-480w.webp",
+          "width": 480,
+          "height": 701,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1051,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-2055w.webp",
+          "width": 2055,
+          "height": 3000,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/john-von-neumann/images/portrait.jpg",
+        "src": "images/legends/foundational-cs/john-von-neumann/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 2055,
+        "height": 3000,
+        "sources": [
+          {
+            "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-240w.webp",
+            "width": 240,
+            "height": 350,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-320w.webp",
+            "width": 320,
+            "height": 467,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-480w.webp",
+            "width": 480,
+            "height": 701,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-720w.webp",
+            "width": 720,
+            "height": 1051,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-2055w.webp",
+            "width": 2055,
+            "height": 3000,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "1903–1957",
@@ -3979,15 +5409,59 @@ export const legendDetails = {
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/tony-hoare/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/tony-hoare/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/tony-hoare/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 432,
+      "height": 640,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/tony-hoare/images/portrait-240w.webp",
+          "width": 240,
+          "height": 356,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/tony-hoare/images/portrait-320w.webp",
+          "width": 320,
+          "height": 474,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/tony-hoare/images/portrait-432w.webp",
+          "width": 432,
+          "height": 640,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/tony-hoare/images/portrait.jpg",
+        "src": "images/legends/foundational-cs/tony-hoare/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 432,
+        "height": 640,
+        "sources": [
+          {
+            "src": "images/legends/foundational-cs/tony-hoare/images/portrait-240w.webp",
+            "width": 240,
+            "height": 356,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/tony-hoare/images/portrait-320w.webp",
+            "width": 320,
+            "height": 474,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/foundational-cs/tony-hoare/images/portrait-432w.webp",
+            "width": 432,
+            "height": 640,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1934",
@@ -4161,15 +5635,83 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/barbara-liskov/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/barbara-liskov/images/portrait.jpg",
+      "src": "images/legends/systems-languages/barbara-liskov/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1857,
+      "height": 2600,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/barbara-liskov/images/portrait-240w.webp",
+          "width": 240,
+          "height": 336,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/barbara-liskov/images/portrait-320w.webp",
+          "width": 320,
+          "height": 448,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/barbara-liskov/images/portrait-480w.webp",
+          "width": 480,
+          "height": 672,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/barbara-liskov/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1008,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/barbara-liskov/images/portrait-1857w.webp",
+          "width": 1857,
+          "height": 2600,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/barbara-liskov/images/portrait.jpg",
+        "src": "images/legends/systems-languages/barbara-liskov/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 1857,
+        "height": 2600,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/barbara-liskov/images/portrait-240w.webp",
+            "width": 240,
+            "height": 336,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/barbara-liskov/images/portrait-320w.webp",
+            "width": 320,
+            "height": 448,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/barbara-liskov/images/portrait-480w.webp",
+            "width": 480,
+            "height": 672,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/barbara-liskov/images/portrait-720w.webp",
+            "width": 720,
+            "height": 1008,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/barbara-liskov/images/portrait-1857w.webp",
+            "width": 1857,
+            "height": 2600,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1939",
@@ -4552,15 +6094,83 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/bjarne-stroustrup/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/bjarne-stroustrup/images/portrait.jpg",
+      "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 917,
+      "height": 798,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-240w.webp",
+          "width": 240,
+          "height": 209,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-320w.webp",
+          "width": 320,
+          "height": 278,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-480w.webp",
+          "width": 480,
+          "height": 418,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-720w.webp",
+          "width": 720,
+          "height": 627,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-917w.webp",
+          "width": 917,
+          "height": 798,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/bjarne-stroustrup/images/portrait.jpg",
+        "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 917,
+        "height": 798,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-240w.webp",
+            "width": 240,
+            "height": 209,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-320w.webp",
+            "width": 320,
+            "height": 278,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-480w.webp",
+            "width": 480,
+            "height": 418,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-720w.webp",
+            "width": 720,
+            "height": 627,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-917w.webp",
+            "width": 917,
+            "height": 798,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1950",
@@ -4929,15 +6539,83 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/brendan-eich/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/brendan-eich/images/portrait.jpg",
+      "src": "images/legends/systems-languages/brendan-eich/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2100,
+      "height": 2100,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/brendan-eich/images/portrait-240w.webp",
+          "width": 240,
+          "height": 240,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/brendan-eich/images/portrait-320w.webp",
+          "width": 320,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/brendan-eich/images/portrait-480w.webp",
+          "width": 480,
+          "height": 480,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/brendan-eich/images/portrait-720w.webp",
+          "width": 720,
+          "height": 720,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/brendan-eich/images/portrait-2100w.webp",
+          "width": 2100,
+          "height": 2100,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/brendan-eich/images/portrait.jpg",
+        "src": "images/legends/systems-languages/brendan-eich/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 2100,
+        "height": 2100,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/brendan-eich/images/portrait-240w.webp",
+            "width": 240,
+            "height": 240,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/brendan-eich/images/portrait-320w.webp",
+            "width": 320,
+            "height": 320,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/brendan-eich/images/portrait-480w.webp",
+            "width": 480,
+            "height": 480,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/brendan-eich/images/portrait-720w.webp",
+            "width": 720,
+            "height": 720,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/brendan-eich/images/portrait-2100w.webp",
+            "width": 2100,
+            "height": 2100,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1961",
@@ -5276,15 +6954,71 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/dennis-ritchie/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/dennis-ritchie/images/portrait.jpg",
+      "src": "images/legends/systems-languages/dennis-ritchie/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 558,
+      "height": 717,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-240w.webp",
+          "width": 240,
+          "height": 308,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-320w.webp",
+          "width": 320,
+          "height": 411,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-480w.webp",
+          "width": 480,
+          "height": 617,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-558w.webp",
+          "width": 558,
+          "height": 717,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/dennis-ritchie/images/portrait.jpg",
+        "src": "images/legends/systems-languages/dennis-ritchie/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 558,
+        "height": 717,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-240w.webp",
+            "width": 240,
+            "height": 308,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-320w.webp",
+            "width": 320,
+            "height": 411,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-480w.webp",
+            "width": 480,
+            "height": 617,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-558w.webp",
+            "width": 558,
+            "height": 717,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "1941–2011",
@@ -5656,15 +7390,59 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/frances-allen/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/frances-allen/images/portrait.jpg",
+      "src": "images/legends/systems-languages/frances-allen/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 343,
+      "height": 417,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/frances-allen/images/portrait-240w.webp",
+          "width": 240,
+          "height": 292,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/frances-allen/images/portrait-320w.webp",
+          "width": 320,
+          "height": 389,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/frances-allen/images/portrait-343w.webp",
+          "width": 343,
+          "height": 417,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/frances-allen/images/portrait.jpg",
+        "src": "images/legends/systems-languages/frances-allen/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 343,
+        "height": 417,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/frances-allen/images/portrait-240w.webp",
+            "width": 240,
+            "height": 292,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/frances-allen/images/portrait-320w.webp",
+            "width": 320,
+            "height": 389,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/frances-allen/images/portrait-343w.webp",
+            "width": 343,
+            "height": 417,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "1932–2020",
@@ -6015,6 +7793,448 @@ export const legendDetails = {
       }
     ]
   },
+  "gordon-bell": {
+    "id": "systems-languages/gordon-bell",
+    "name": "Gordon Bell",
+    "fullName": "Gordon Bell",
+    "slug": "gordon-bell",
+    "category": "systems-languages",
+    "categoryLabel": "Systems & Languages",
+    "sourcePath": "systems-languages/gordon-bell/README.md",
+    "portrait": {
+      "src": "images/legends/systems-languages/gordon-bell/images/portrait.jpg",
+      "alt": "Gordon Bell portrait",
+      "isPortrait": true,
+      "width": 839,
+      "height": 907,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/gordon-bell/images/portrait-240w.webp",
+          "width": 240,
+          "height": 259,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/gordon-bell/images/portrait-320w.webp",
+          "width": 320,
+          "height": 346,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/gordon-bell/images/portrait-480w.webp",
+          "width": 480,
+          "height": 519,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/gordon-bell/images/portrait-720w.webp",
+          "width": 720,
+          "height": 778,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/gordon-bell/images/portrait-839w.webp",
+          "width": 839,
+          "height": 907,
+          "type": "image/webp"
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "images/legends/systems-languages/gordon-bell/images/portrait.jpg",
+        "alt": "Gordon Bell portrait",
+        "isPortrait": true,
+        "width": 839,
+        "height": 907,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/gordon-bell/images/portrait-240w.webp",
+            "width": 240,
+            "height": 259,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/gordon-bell/images/portrait-320w.webp",
+            "width": 320,
+            "height": 346,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/gordon-bell/images/portrait-480w.webp",
+            "width": 480,
+            "height": 519,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/gordon-bell/images/portrait-720w.webp",
+            "width": 720,
+            "height": 778,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/gordon-bell/images/portrait-839w.webp",
+            "width": 839,
+            "height": 907,
+            "type": "image/webp"
+          }
+        ]
+      }
+    ],
+    "lifespan": "1934–2024",
+    "field": "Computer Architecture, Minicomputers, Systems Engineering",
+    "keyContribution": "Led key DEC designs including the PDP line and VAX era; articulated Bell's law of computer classes",
+    "impact": "Helped define the minicomputer revolution and explained how new generations of computer platforms emerge",
+    "summary": "He studied electrical engineering at MIT, earning bachelor's and master's degrees in the 1950s. He also spent time in Australia on a Fulbright, where he taught, programmed one of the first computers in the country, and began publishing technical work.",
+    "leadMarkdown": "*Gordon Bell was one of the great system builders of the minicomputer age: part architect, part executive, part historian of computing, and one of the clearest thinkers about how computer classes rise, mature, and reshape the world.*\n\n**Field:** Computer Architecture, Minicomputers, Systems Engineering\n\n- **Lifespan:** 1934–2024\n- **Key contribution:** Led key DEC designs including the PDP line and VAX era; articulated Bell's law of computer classes\n- **Impact:** Helped define the minicomputer revolution and explained how new generations of computer platforms emerge",
+    "tags": [
+      "Computer Architecture",
+      "Minicomputers",
+      "Systems Engineering",
+      "Systems & Languages"
+    ],
+    "relatedSlugs": [
+      "seymour-cray",
+      "john-von-neumann",
+      "donald-knuth"
+    ],
+    "featured": false,
+    "quickFacts": [
+      {
+        "label": "Field:",
+        "normalizedLabel": "field",
+        "value": "Computer Architecture, Minicomputers, Systems Engineering"
+      },
+      {
+        "label": "Lifespan:",
+        "normalizedLabel": "lifespan",
+        "value": "1934–2024"
+      },
+      {
+        "label": "Key contribution:",
+        "normalizedLabel": "key-contribution",
+        "value": "Led key DEC designs including the PDP line and VAX era; articulated Bell's law of computer classes"
+      },
+      {
+        "label": "Impact:",
+        "normalizedLabel": "impact",
+        "value": "Helped define the minicomputer revolution and explained how new generations of computer platforms emerge"
+      }
+    ],
+    "sections": [
+      {
+        "id": "biography",
+        "kind": "biography",
+        "title": "Biography",
+        "markdown": "### Early Life & Education\nChester Gordon Bell was born on August 19, 1934, in Kirksville, Missouri. He grew up helping in the family electrical business, an experience that gave him hands-on familiarity with real hardware long before his professional career began.\n\nHe studied electrical engineering at MIT, earning bachelor's and master's degrees in the 1950s. He also spent time in Australia on a Fulbright, where he taught, programmed one of the first computers in the country, and began publishing technical work.\n\n### Career\nBell joined **Digital Equipment Corporation (DEC)** in 1960, early enough to help shape the company's identity rather than merely inherit it. At DEC he contributed to the **PDP-1** I/O subsystem and then played major roles in the **PDP-4**, **PDP-5**, **PDP-6**, and especially the broader design culture that made DEC central to the minicomputer era.\n\nHe later spent time at Carnegie Mellon University, then returned to DEC in 1972 as vice president of engineering. In that role he helped drive the development of the **VAX** line, one of the most influential computer families of the late 20th century.\n\nAfter DEC, Bell moved through entrepreneurship, policy work, and research. He founded or helped lead companies including Encore Computer and Ardent Computer, served in a foundational role in the NSF's computing directorate, and later joined **Microsoft Research**, where he became associated with projects such as **MyLifeBits**, an ambitious experiment in lifelogging and digital memory.\n\n### Later Life & Legacy\nBell was also a great interpreter of computer history. His **Bell's law of computer classes** argued that new classes of computers emerge roughly once a decade as technology makes new price-performance points possible. That idea gave a memorable framework for understanding how computing kept reinventing itself.\n\nHe co-founded The Computer Museum with his wife Gwen Bell and remained deeply involved in preserving the field's history. He died on May 17, 2024, leaving behind both hardware achievements and a vocabulary for explaining technological change.",
+        "subsections": [
+          {
+            "id": "early-life-education",
+            "title": "Early Life & Education",
+            "markdown": "Chester Gordon Bell was born on August 19, 1934, in Kirksville, Missouri. He grew up helping in the family electrical business, an experience that gave him hands-on familiarity with real hardware long before his professional career began.\n\nHe studied electrical engineering at MIT, earning bachelor's and master's degrees in the 1950s. He also spent time in Australia on a Fulbright, where he taught, programmed one of the first computers in the country, and began publishing technical work."
+          },
+          {
+            "id": "career",
+            "title": "Career",
+            "markdown": "Bell joined **Digital Equipment Corporation (DEC)** in 1960, early enough to help shape the company's identity rather than merely inherit it. At DEC he contributed to the **PDP-1** I/O subsystem and then played major roles in the **PDP-4**, **PDP-5**, **PDP-6**, and especially the broader design culture that made DEC central to the minicomputer era.\n\nHe later spent time at Carnegie Mellon University, then returned to DEC in 1972 as vice president of engineering. In that role he helped drive the development of the **VAX** line, one of the most influential computer families of the late 20th century.\n\nAfter DEC, Bell moved through entrepreneurship, policy work, and research. He founded or helped lead companies including Encore Computer and Ardent Computer, served in a foundational role in the NSF's computing directorate, and later joined **Microsoft Research**, where he became associated with projects such as **MyLifeBits**, an ambitious experiment in lifelogging and digital memory."
+          },
+          {
+            "id": "later-life-legacy",
+            "title": "Later Life & Legacy",
+            "markdown": "Bell was also a great interpreter of computer history. His **Bell's law of computer classes** argued that new classes of computers emerge roughly once a decade as technology makes new price-performance points possible. That idea gave a memorable framework for understanding how computing kept reinventing itself.\n\nHe co-founded The Computer Museum with his wife Gwen Bell and remained deeply involved in preserving the field's history. He died on May 17, 2024, leaving behind both hardware achievements and a vocabulary for explaining technological change."
+          }
+        ]
+      },
+      {
+        "id": "major-contributions",
+        "kind": "contributions",
+        "title": "Major Contributions",
+        "markdown": "### DEC PDP Architecture Work (1960s)\n- **Year:** 1960s\n- **Context:** Computing was moving away from giant centralized machines toward smaller, more accessible systems\n- **Technical Details:** Bell contributed to multiple PDP systems and to the broader system architecture decisions that made DEC machines practical, powerful, and influential\n- **Impact:** Helped establish the minicomputer as a major computing category between the mainframe and later personal computer eras\n\n### VAX Leadership at DEC (1970s–1980s)\n- **Year:** 1970s–1980s\n- **Context:** DEC needed a successor platform that could extend its influence into larger and more capable systems\n- **Technical Details:** As engineering leader, Bell oversaw the successful VAX family, which offered virtual memory and broad software and enterprise relevance\n- **Impact:** VAX became one of the defining computer families of its era and strengthened DEC's central place in computing history\n\n### Bell's Law of Computer Classes\n- **Year:** formulated in the 1970s, published later in mature form\n- **Context:** The industry kept producing new kinds of machines, from mainframes to minis to PCs to web systems\n- **Technical Details:** Bell described how semiconductor, storage, interface, and network advances repeatedly create new platform classes at lower price points\n- **Impact:** Provided one of the most useful conceptual frameworks for understanding long-term platform evolution in computing",
+        "subsections": [
+          {
+            "id": "dec-pdp-architecture-work-1960s",
+            "title": "DEC PDP Architecture Work (1960s)",
+            "markdown": "- **Year:** 1960s\n- **Context:** Computing was moving away from giant centralized machines toward smaller, more accessible systems\n- **Technical Details:** Bell contributed to multiple PDP systems and to the broader system architecture decisions that made DEC machines practical, powerful, and influential\n- **Impact:** Helped establish the minicomputer as a major computing category between the mainframe and later personal computer eras"
+          },
+          {
+            "id": "vax-leadership-at-dec-1970s-1980s",
+            "title": "VAX Leadership at DEC (1970s–1980s)",
+            "markdown": "- **Year:** 1970s–1980s\n- **Context:** DEC needed a successor platform that could extend its influence into larger and more capable systems\n- **Technical Details:** As engineering leader, Bell oversaw the successful VAX family, which offered virtual memory and broad software and enterprise relevance\n- **Impact:** VAX became one of the defining computer families of its era and strengthened DEC's central place in computing history"
+          },
+          {
+            "id": "bell-s-law-of-computer-classes",
+            "title": "Bell's Law of Computer Classes",
+            "markdown": "- **Year:** formulated in the 1970s, published later in mature form\n- **Context:** The industry kept producing new kinds of machines, from mainframes to minis to PCs to web systems\n- **Technical Details:** Bell described how semiconductor, storage, interface, and network advances repeatedly create new platform classes at lower price points\n- **Impact:** Provided one of the most useful conceptual frameworks for understanding long-term platform evolution in computing"
+          }
+        ]
+      },
+      {
+        "id": "publications-works",
+        "kind": "publications",
+        "title": "Publications & Works",
+        "markdown": "- **Computer Structures** (with Allen Newell, 1971)\n- **Computer Structures: Principles and Examples** (with Dan Siewiorek and Allen Newell, 1982)\n- **High Tech Ventures** (1991)\n- **Total Recall** / **Your Life Uploaded** (with Jim Gemmell) — on digital memory and lifelogging",
+        "subsections": []
+      },
+      {
+        "id": "awards-honors",
+        "kind": "awards",
+        "title": "Awards & Honors",
+        "markdown": "| Year | Award |\n|------|-------|\n| 1977 | Elected to the National Academy of Engineering |\n| 1991 | National Medal of Technology |\n| 1992 | First IEEE John von Neumann Medal |\n| 2003 | Computer History Museum Fellow |\n| 2007 | Elected to the National Academy of Sciences |",
+        "subsections": []
+      },
+      {
+        "id": "quotes",
+        "kind": "quotes",
+        "title": "Quotes",
+        "markdown": "> \"Each new computer class begins when technology makes a new price-performance point possible.\"\n\n> \"The history of computing is not just faster machines, but new kinds of machines.\"",
+        "subsections": []
+      },
+      {
+        "id": "influence-legacy",
+        "kind": "influence",
+        "title": "Influence & Legacy",
+        "markdown": "### Direct Influence\nBell helped make minicomputers real and economically important. DEC's systems shaped universities, laboratories, engineering teams, and commercial computing around the world.\n\n### Indirect Influence\nHis historical and conceptual writing influenced how engineers and historians talk about platform change, computer categories, and the long arc of technological progress.\n\n### Modern Relevance\nBell's law still feels strikingly contemporary whenever a new platform class appears — from personal computers to smartphones to cloud-native services and beyond.",
+        "subsections": [
+          {
+            "id": "direct-influence",
+            "title": "Direct Influence",
+            "markdown": "Bell helped make minicomputers real and economically important. DEC's systems shaped universities, laboratories, engineering teams, and commercial computing around the world."
+          },
+          {
+            "id": "indirect-influence",
+            "title": "Indirect Influence",
+            "markdown": "His historical and conceptual writing influenced how engineers and historians talk about platform change, computer categories, and the long arc of technological progress."
+          },
+          {
+            "id": "modern-relevance",
+            "title": "Modern Relevance",
+            "markdown": "Bell's law still feels strikingly contemporary whenever a new platform class appears — from personal computers to smartphones to cloud-native services and beyond."
+          }
+        ]
+      },
+      {
+        "id": "related-figures",
+        "kind": "related-figures",
+        "title": "Related Figures",
+        "markdown": "- [Seymour Cray](../seymour-cray/) — fellow architect of high-performance systems during a nearby era\n- [John von Neumann](../../foundational-cs/john-von-neumann/) — namesake of one of Bell's major honors and an earlier architectural giant\n- [Donald Knuth](../../foundational-cs/donald-knuth/) — coauthor Allen Newell links Bell into the broader theoretical and systems lineage of modern CS",
+        "subsections": []
+      },
+      {
+        "id": "resources",
+        "kind": "resources",
+        "title": "Resources",
+        "markdown": "- [Computer History Museum profile](https://computerhistory.org/)\n- [Oral history interviews with Gordon Bell](https://americanhistory.si.edu/)\n- [Bell's historical computing timelines and writings](https://gordonbell.azurewebsites.net/)",
+        "subsections": []
+      },
+      {
+        "id": "timeline",
+        "kind": "timeline",
+        "title": "Timeline",
+        "markdown": "| Year | Event |\n|------|-------|\n| 1934 | Born in Kirksville, Missouri |\n| 1956 | Earns BS from MIT |\n| 1957 | Earns MS from MIT |\n| 1960 | Joins DEC |\n| 1960s | Contributes to PDP systems |\n| 1966 | Joins Carnegie Mellon |\n| 1972 | Returns to DEC as vice president of engineering |\n| Late 1970s | Oversees successful VAX era |\n| 1980s | Works in entrepreneurship and policy |\n| 1995 | Joins Microsoft Research full-time |\n| 2024 | Dies in Coronado, California |",
+        "subsections": []
+      },
+      {
+        "id": "references",
+        "kind": "references",
+        "title": "References",
+        "markdown": "1. Bell, Gordon. Oral history interviews.\n2. Bell, Gordon, and Allen Newell. *Computer Structures*.\n3. Computer History Museum and major obituary profiles.\n4. Bell, Gordon. \"Bell's Law for the Birth and Death of Computer Classes.\" *Communications of the ACM*.",
+        "subsections": []
+      },
+      {
+        "id": "navigation",
+        "kind": "navigation",
+        "title": "Navigation",
+        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Seymour Cray](../seymour-cray/)\n- [↑ Category Overview](../README.md)\n- [Next: Frances Allen →](../frances-allen/)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "subsections": []
+      }
+    ],
+    "awards": [
+      {
+        "year": "1977",
+        "title": "Elected to the National Academy of Engineering",
+        "rawCells": [
+          "1977",
+          "Elected to the National Academy of Engineering"
+        ]
+      },
+      {
+        "year": "1991",
+        "title": "National Medal of Technology",
+        "rawCells": [
+          "1991",
+          "National Medal of Technology"
+        ]
+      },
+      {
+        "year": "1992",
+        "title": "First IEEE John von Neumann Medal",
+        "rawCells": [
+          "1992",
+          "First IEEE John von Neumann Medal"
+        ]
+      },
+      {
+        "year": "2003",
+        "title": "Computer History Museum Fellow",
+        "rawCells": [
+          "2003",
+          "Computer History Museum Fellow"
+        ]
+      },
+      {
+        "year": "2007",
+        "title": "Elected to the National Academy of Sciences",
+        "rawCells": [
+          "2007",
+          "Elected to the National Academy of Sciences"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "text": "\"Each new computer class begins when technology makes a new price-performance point possible.\""
+      },
+      {
+        "text": "\"The history of computing is not just faster machines, but new kinds of machines.\""
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1934",
+        "event": "Born in Kirksville, Missouri"
+      },
+      {
+        "year": "1956",
+        "event": "Earns BS from MIT"
+      },
+      {
+        "year": "1957",
+        "event": "Earns MS from MIT"
+      },
+      {
+        "year": "1960",
+        "event": "Joins DEC"
+      },
+      {
+        "year": "1960s",
+        "event": "Contributes to PDP systems"
+      },
+      {
+        "year": "1966",
+        "event": "Joins Carnegie Mellon"
+      },
+      {
+        "year": "1972",
+        "event": "Returns to DEC as vice president of engineering"
+      },
+      {
+        "year": "Late 1970s",
+        "event": "Oversees successful VAX era"
+      },
+      {
+        "year": "1980s",
+        "event": "Works in entrepreneurship and policy"
+      },
+      {
+        "year": "1995",
+        "event": "Joins Microsoft Research full-time"
+      },
+      {
+        "year": "2024",
+        "event": "Dies in Coronado, California"
+      }
+    ],
+    "relatedFigures": [
+      {
+        "name": "Seymour Cray",
+        "href": "/legend/seymour-cray",
+        "resolvedSlug": "seymour-cray",
+        "relationship": "fellow architect of high-performance systems during a nearby era"
+      },
+      {
+        "name": "John von Neumann",
+        "href": "/legend/john-von-neumann",
+        "resolvedSlug": "john-von-neumann",
+        "relationship": "namesake of one of Bell's major honors and an earlier architectural giant"
+      },
+      {
+        "name": "Donald Knuth",
+        "href": "/legend/donald-knuth",
+        "resolvedSlug": "donald-knuth",
+        "relationship": "coauthor Allen Newell links Bell into the broader theoretical and systems lineage of modern CS"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Computer History Museum profile",
+        "url": "https://computerhistory.org/",
+        "kind": "article",
+        "host": "computerhistory.org",
+        "isEmbeddable": false
+      },
+      {
+        "title": "Oral history interviews with Gordon Bell",
+        "url": "https://americanhistory.si.edu/",
+        "kind": "interview",
+        "host": "americanhistory.si.edu",
+        "isEmbeddable": false
+      },
+      {
+        "title": "Bell's historical computing timelines and writings",
+        "url": "https://gordonbell.azurewebsites.net/",
+        "kind": "article",
+        "host": "gordonbell.azurewebsites.net",
+        "isEmbeddable": false
+      }
+    ],
+    "mediaItems": [
+      {
+        "title": "Oral history interviews with Gordon Bell",
+        "url": "https://americanhistory.si.edu/",
+        "kind": "interview",
+        "provider": "americanhistory.si.edu",
+        "isEmbeddable": false
+      }
+    ],
+    "references": [
+      {
+        "text": "Bell, Gordon. Oral history interviews."
+      },
+      {
+        "text": "Bell, Gordon, and Allen Newell. *Computer Structures*."
+      },
+      {
+        "text": "Computer History Museum and major obituary profiles."
+      },
+      {
+        "text": "Bell, Gordon. \"Bell's Law for the Birth and Death of Computer Classes.\" *Communications of the ACM*."
+      }
+    ],
+    "navigation": [
+      {
+        "label": "← Main Index",
+        "href": "/",
+        "direction": "main-index"
+      },
+      {
+        "label": "← Previous: Seymour Cray",
+        "href": "/legend/seymour-cray",
+        "resolvedSlug": "seymour-cray",
+        "direction": "previous"
+      },
+      {
+        "label": "↑ Category Overview",
+        "href": "/category/systems-languages",
+        "direction": "category-overview"
+      },
+      {
+        "label": "Next: Frances Allen →",
+        "href": "/legend/frances-allen",
+        "resolvedSlug": "frances-allen",
+        "direction": "next"
+      }
+    ]
+  },
   "guido-van-rossum": {
     "id": "systems-languages/guido-van-rossum",
     "name": "Guido Van Rossum",
@@ -6024,15 +8244,83 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/guido-van-rossum/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/guido-van-rossum/images/portrait.jpg",
+      "src": "images/legends/systems-languages/guido-van-rossum/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1500,
+      "height": 1000,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-240w.webp",
+          "width": 240,
+          "height": 160,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-320w.webp",
+          "width": 320,
+          "height": 213,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-480w.webp",
+          "width": 480,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-720w.webp",
+          "width": 720,
+          "height": 480,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-1500w.webp",
+          "width": 1500,
+          "height": 1000,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/guido-van-rossum/images/portrait.jpg",
+        "src": "images/legends/systems-languages/guido-van-rossum/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 1500,
+        "height": 1000,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-240w.webp",
+            "width": 240,
+            "height": 160,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-320w.webp",
+            "width": 320,
+            "height": 213,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-480w.webp",
+            "width": 480,
+            "height": 320,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-720w.webp",
+            "width": 720,
+            "height": 480,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-1500w.webp",
+            "width": 1500,
+            "height": 1000,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1956",
@@ -6427,15 +8715,83 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/james-gosling/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/james-gosling/images/portrait.jpg",
+      "src": "images/legends/systems-languages/james-gosling/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1460,
+      "height": 1469,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/james-gosling/images/portrait-240w.webp",
+          "width": 240,
+          "height": 241,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/james-gosling/images/portrait-320w.webp",
+          "width": 320,
+          "height": 322,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/james-gosling/images/portrait-480w.webp",
+          "width": 480,
+          "height": 483,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/james-gosling/images/portrait-720w.webp",
+          "width": 720,
+          "height": 724,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/james-gosling/images/portrait-1460w.webp",
+          "width": 1460,
+          "height": 1469,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/james-gosling/images/portrait.jpg",
+        "src": "images/legends/systems-languages/james-gosling/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 1460,
+        "height": 1469,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/james-gosling/images/portrait-240w.webp",
+            "width": 240,
+            "height": 241,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/james-gosling/images/portrait-320w.webp",
+            "width": 320,
+            "height": 322,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/james-gosling/images/portrait-480w.webp",
+            "width": 480,
+            "height": 483,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/james-gosling/images/portrait-720w.webp",
+            "width": 720,
+            "height": 724,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/james-gosling/images/portrait-1460w.webp",
+            "width": 1460,
+            "height": 1469,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1955",
@@ -6793,13 +9149,13 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/john-kemeny/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/john-kemeny/images/portrait.svg",
+      "src": "images/legends/systems-languages/john-kemeny/images/portrait.svg",
       "alt": "Portrait",
       "isPortrait": true
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/john-kemeny/images/portrait.svg",
+        "src": "images/legends/systems-languages/john-kemeny/images/portrait.svg",
         "alt": "Portrait",
         "isPortrait": true
       }
@@ -7207,15 +9563,59 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/ken-thompson/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/ken-thompson/images/portrait.jpg",
+      "src": "images/legends/systems-languages/ken-thompson/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 329,
+      "height": 349,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/ken-thompson/images/portrait-240w.webp",
+          "width": 240,
+          "height": 255,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/ken-thompson/images/portrait-320w.webp",
+          "width": 320,
+          "height": 339,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/ken-thompson/images/portrait-329w.webp",
+          "width": 329,
+          "height": 349,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/ken-thompson/images/portrait.jpg",
+        "src": "images/legends/systems-languages/ken-thompson/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 329,
+        "height": 349,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/ken-thompson/images/portrait-240w.webp",
+            "width": 240,
+            "height": 255,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/ken-thompson/images/portrait-320w.webp",
+            "width": 320,
+            "height": 339,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/ken-thompson/images/portrait-329w.webp",
+            "width": 329,
+            "height": 349,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1943",
@@ -7596,15 +9996,83 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/linus-torvalds/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/linus-torvalds/images/portrait.jpg",
+      "src": "images/legends/systems-languages/linus-torvalds/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1015,
+      "height": 1542,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/linus-torvalds/images/portrait-240w.webp",
+          "width": 240,
+          "height": 365,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/linus-torvalds/images/portrait-320w.webp",
+          "width": 320,
+          "height": 486,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/linus-torvalds/images/portrait-480w.webp",
+          "width": 480,
+          "height": 729,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/linus-torvalds/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1094,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/linus-torvalds/images/portrait-1015w.webp",
+          "width": 1015,
+          "height": 1542,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/linus-torvalds/images/portrait.jpg",
+        "src": "images/legends/systems-languages/linus-torvalds/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 1015,
+        "height": 1542,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/linus-torvalds/images/portrait-240w.webp",
+            "width": 240,
+            "height": 365,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/linus-torvalds/images/portrait-320w.webp",
+            "width": 320,
+            "height": 486,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/linus-torvalds/images/portrait-480w.webp",
+            "width": 480,
+            "height": 729,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/linus-torvalds/images/portrait-720w.webp",
+            "width": 720,
+            "height": 1094,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/linus-torvalds/images/portrait-1015w.webp",
+            "width": 1015,
+            "height": 1542,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1969",
@@ -7980,15 +10448,83 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/margaret-hamilton/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/margaret-hamilton/images/portrait.jpg",
+      "src": "images/legends/systems-languages/margaret-hamilton/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2294,
+      "height": 2853,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-240w.webp",
+          "width": 240,
+          "height": 298,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-320w.webp",
+          "width": 320,
+          "height": 398,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-480w.webp",
+          "width": 480,
+          "height": 597,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-720w.webp",
+          "width": 720,
+          "height": 895,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-2294w.webp",
+          "width": 2294,
+          "height": 2853,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/margaret-hamilton/images/portrait.jpg",
+        "src": "images/legends/systems-languages/margaret-hamilton/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 2294,
+        "height": 2853,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-240w.webp",
+            "width": 240,
+            "height": 298,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-320w.webp",
+            "width": 320,
+            "height": 398,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-480w.webp",
+            "width": 480,
+            "height": 597,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-720w.webp",
+            "width": 720,
+            "height": 895,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-2294w.webp",
+            "width": 2294,
+            "height": 2853,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1936",
@@ -8422,6 +10958,806 @@ export const legendDetails = {
       }
     ]
   },
+  "seymour-cray": {
+    "id": "systems-languages/seymour-cray",
+    "name": "Seymour Cray",
+    "fullName": "Seymour Cray",
+    "slug": "seymour-cray",
+    "category": "systems-languages",
+    "categoryLabel": "Systems & Languages",
+    "sourcePath": "systems-languages/seymour-cray/README.md",
+    "portrait": {
+      "src": "images/legends/systems-languages/seymour-cray/images/portrait.jpg",
+      "alt": "Seymour Cray portrait",
+      "isPortrait": true,
+      "width": 131,
+      "height": 203,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/seymour-cray/images/portrait-131w.webp",
+          "width": 131,
+          "height": 203,
+          "type": "image/webp"
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "images/legends/systems-languages/seymour-cray/images/portrait.jpg",
+        "alt": "Seymour Cray portrait",
+        "isPortrait": true,
+        "width": 131,
+        "height": 203,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/seymour-cray/images/portrait-131w.webp",
+            "width": 131,
+            "height": 203,
+            "type": "image/webp"
+          }
+        ]
+      }
+    ],
+    "lifespan": "1925–1996",
+    "field": "Supercomputing, Computer Architecture, High-Performance Systems",
+    "keyContribution": "Designed the CDC 6600, Cray-1, and other landmark supercomputers",
+    "impact": "Created the supercomputer industry and set the standard for high-performance system design for decades",
+    "summary": "World War II interrupted his education. Cray served as a radio operator and later worked on codebreaking in the Pacific theater. After the war, he studied electrical engineering at the University of Minnesota, where he earned degrees that prepared him for a career in advanced machine design.",
+    "leadMarkdown": "*Seymour Cray treated speed as a design philosophy, not just a benchmark. He did not merely build faster computers; he repeatedly redefined what the fastest computer in the world could be.*\n\n**Field:** Supercomputing, Computer Architecture, High-Performance Systems\n\n- **Lifespan:** 1925–1996\n- **Key contribution:** Designed the CDC 6600, Cray-1, and other landmark supercomputers\n- **Impact:** Created the supercomputer industry and set the standard for high-performance system design for decades",
+    "tags": [
+      "Supercomputing",
+      "Computer Architecture",
+      "High-Performance Systems",
+      "Systems & Languages"
+    ],
+    "relatedSlugs": [
+      "gordon-bell",
+      "john-von-neumann",
+      "john-atanasoff"
+    ],
+    "featured": false,
+    "quickFacts": [
+      {
+        "label": "Field:",
+        "normalizedLabel": "field",
+        "value": "Supercomputing, Computer Architecture, High-Performance Systems"
+      },
+      {
+        "label": "Lifespan:",
+        "normalizedLabel": "lifespan",
+        "value": "1925–1996"
+      },
+      {
+        "label": "Key contribution:",
+        "normalizedLabel": "key-contribution",
+        "value": "Designed the CDC 6600, Cray-1, and other landmark supercomputers"
+      },
+      {
+        "label": "Impact:",
+        "normalizedLabel": "impact",
+        "value": "Created the supercomputer industry and set the standard for high-performance system design for decades"
+      }
+    ],
+    "sections": [
+      {
+        "id": "biography",
+        "kind": "biography",
+        "title": "Biography",
+        "markdown": "### Early Life & Education\nSeymour Roger Cray was born on September 28, 1925, in Chippewa Falls, Wisconsin. He showed technical curiosity early, building devices as a child and turning part of his family's basement into a workshop.\n\nWorld War II interrupted his education. Cray served as a radio operator and later worked on codebreaking in the Pacific theater. After the war, he studied electrical engineering at the University of Minnesota, where he earned degrees that prepared him for a career in advanced machine design.\n\n### Career\nCray began professional computing work at **Engineering Research Associates (ERA)** in 1950. There he helped design the **ERA 1103**, one of the early important scientific computers. After the organizational changes that took ERA through Remington Rand and Sperry, Cray and William Norris helped found **Control Data Corporation (CDC)** in 1957.\n\nAt CDC, Cray designed the **CDC 1604**, but his greatest early triumph was the **CDC 6600**, introduced in 1964. It is widely regarded as the first commercially successful supercomputer. Cray understood that raw processor speed alone was not enough; memory, I/O, cooling, layout, and system balance all mattered. That holistic approach became his signature.\n\nHe followed the 6600 with the **CDC 7600**, then later left CDC and founded **Cray Research**. There he produced the iconic **Cray-1**, one of the most recognizable and successful supercomputers ever made. Later systems such as the Cray-2 and Cray-3 were more uneven commercially, but even the difficult projects revealed his willingness to push technology to the limit.\n\n### Later Life & Legacy\nCray spent his career in pursuit of the next big leap in performance. He remained skeptical of trends he thought compromised elegance, including some forms of massively parallel computing, though he later began exploring those ideas more directly.\n\nHe died on October 5, 1996, after a car accident. By then he had already become known as the **father of supercomputing** and the **Wizard of Chippewa Falls**. His machines were not just faster than their competitors; they changed how engineers thought about high-performance design itself.",
+        "subsections": [
+          {
+            "id": "early-life-education",
+            "title": "Early Life & Education",
+            "markdown": "Seymour Roger Cray was born on September 28, 1925, in Chippewa Falls, Wisconsin. He showed technical curiosity early, building devices as a child and turning part of his family's basement into a workshop.\n\nWorld War II interrupted his education. Cray served as a radio operator and later worked on codebreaking in the Pacific theater. After the war, he studied electrical engineering at the University of Minnesota, where he earned degrees that prepared him for a career in advanced machine design."
+          },
+          {
+            "id": "career",
+            "title": "Career",
+            "markdown": "Cray began professional computing work at **Engineering Research Associates (ERA)** in 1950. There he helped design the **ERA 1103**, one of the early important scientific computers. After the organizational changes that took ERA through Remington Rand and Sperry, Cray and William Norris helped found **Control Data Corporation (CDC)** in 1957.\n\nAt CDC, Cray designed the **CDC 1604**, but his greatest early triumph was the **CDC 6600**, introduced in 1964. It is widely regarded as the first commercially successful supercomputer. Cray understood that raw processor speed alone was not enough; memory, I/O, cooling, layout, and system balance all mattered. That holistic approach became his signature.\n\nHe followed the 6600 with the **CDC 7600**, then later left CDC and founded **Cray Research**. There he produced the iconic **Cray-1**, one of the most recognizable and successful supercomputers ever made. Later systems such as the Cray-2 and Cray-3 were more uneven commercially, but even the difficult projects revealed his willingness to push technology to the limit."
+          },
+          {
+            "id": "later-life-legacy",
+            "title": "Later Life & Legacy",
+            "markdown": "Cray spent his career in pursuit of the next big leap in performance. He remained skeptical of trends he thought compromised elegance, including some forms of massively parallel computing, though he later began exploring those ideas more directly.\n\nHe died on October 5, 1996, after a car accident. By then he had already become known as the **father of supercomputing** and the **Wizard of Chippewa Falls**. His machines were not just faster than their competitors; they changed how engineers thought about high-performance design itself."
+          }
+        ]
+      },
+      {
+        "id": "major-contributions",
+        "kind": "contributions",
+        "title": "Major Contributions",
+        "markdown": "### CDC 6600 (1964)\n- **Year:** 1964\n- **Context:** Scientific computing required performance far beyond what mainstream commercial machines could offer\n- **Technical Details:** Combined a powerful central processor with peripheral processors that handled input and output, reducing bottlenecks and improving total system throughput\n- **Impact:** Widely considered the first successful supercomputer and a turning point in high-performance computing\n\n### CDC 7600 (1969)\n- **Year:** 1969\n- **Context:** After the 6600, Cray pursued an even more aggressive performance leap\n- **Technical Details:** Extended his system-level design philosophy with faster circuitry, tighter signal timing, and deeper attention to physical layout\n- **Impact:** Reinforced Cray's reputation as the world's premier designer of ultra-fast computers\n\n### Cray-1 (1976)\n- **Year:** 1976\n- **Context:** After leaving CDC, Cray needed to prove he could build another category-defining machine from a new company\n- **Technical Details:** Famous for vector processing, compact C-shaped design, careful cooling, and an emphasis on minimizing signal delays\n- **Impact:** Became the iconic supercomputer of its era and helped establish Cray Research as the dominant name in the field",
+        "subsections": [
+          {
+            "id": "cdc-6600-1964",
+            "title": "CDC 6600 (1964)",
+            "markdown": "- **Year:** 1964\n- **Context:** Scientific computing required performance far beyond what mainstream commercial machines could offer\n- **Technical Details:** Combined a powerful central processor with peripheral processors that handled input and output, reducing bottlenecks and improving total system throughput\n- **Impact:** Widely considered the first successful supercomputer and a turning point in high-performance computing"
+          },
+          {
+            "id": "cdc-7600-1969",
+            "title": "CDC 7600 (1969)",
+            "markdown": "- **Year:** 1969\n- **Context:** After the 6600, Cray pursued an even more aggressive performance leap\n- **Technical Details:** Extended his system-level design philosophy with faster circuitry, tighter signal timing, and deeper attention to physical layout\n- **Impact:** Reinforced Cray's reputation as the world's premier designer of ultra-fast computers"
+          },
+          {
+            "id": "cray-1-1976",
+            "title": "Cray-1 (1976)",
+            "markdown": "- **Year:** 1976\n- **Context:** After leaving CDC, Cray needed to prove he could build another category-defining machine from a new company\n- **Technical Details:** Famous for vector processing, compact C-shaped design, careful cooling, and an emphasis on minimizing signal delays\n- **Impact:** Became the iconic supercomputer of its era and helped establish Cray Research as the dominant name in the field"
+          }
+        ]
+      },
+      {
+        "id": "publications-works",
+        "kind": "publications",
+        "title": "Publications & Works",
+        "markdown": "- Designs associated with the ERA 1103, CDC 1604, CDC 6600, CDC 7600, and Cray-1\n- Later work on the Cray-2, Cray-3, and Cray-4 projects\n- Public lectures and interviews on high-performance system design and gallium arsenide computing",
+        "subsections": []
+      },
+      {
+        "id": "awards-honors",
+        "kind": "awards",
+        "title": "Awards & Honors",
+        "markdown": "| Year | Award |\n|------|-------|\n| 1987 | IEEE Emanuel R. Piore Award |\n| 1997 | IEEE Computer Society Seymour Cray Computer Engineering Award established in his honor |\n| Various | Long-standing recognition as \"father of supercomputing\" |",
+        "subsections": []
+      },
+      {
+        "id": "quotes",
+        "kind": "quotes",
+        "title": "Quotes",
+        "markdown": "> \"Anyone can build a fast CPU. The trick is to build a fast system.\"\n\n> \"If you were plowing a field, which would you rather use: two strong oxen or 1024 chickens?\"",
+        "subsections": []
+      },
+      {
+        "id": "influence-legacy",
+        "kind": "influence",
+        "title": "Influence & Legacy",
+        "markdown": "### Direct Influence\nCray's machines shaped weather modeling, weapons simulation, scientific research, and large-scale numerical computation. He set the technical and cultural standard for supercomputing.\n\n### Indirect Influence\nHis obsessive concern for cooling, signal timing, packaging, and total system balance influenced generations of architects working far beyond the supercomputer niche.\n\n### Modern Relevance\nToday's HPC systems use very different component technologies, but the central design lesson remains pure Cray: performance is a whole-system problem.",
+        "subsections": [
+          {
+            "id": "direct-influence",
+            "title": "Direct Influence",
+            "markdown": "Cray's machines shaped weather modeling, weapons simulation, scientific research, and large-scale numerical computation. He set the technical and cultural standard for supercomputing."
+          },
+          {
+            "id": "indirect-influence",
+            "title": "Indirect Influence",
+            "markdown": "His obsessive concern for cooling, signal timing, packaging, and total system balance influenced generations of architects working far beyond the supercomputer niche."
+          },
+          {
+            "id": "modern-relevance",
+            "title": "Modern Relevance",
+            "markdown": "Today's HPC systems use very different component technologies, but the central design lesson remains pure Cray: performance is a whole-system problem."
+          }
+        ]
+      },
+      {
+        "id": "related-figures",
+        "kind": "related-figures",
+        "title": "Related Figures",
+        "markdown": "- [Gordon Bell](../gordon-bell/) — another major computer architect who shaped the structure of modern computing systems\n- [John von Neumann](../../foundational-cs/john-von-neumann/) — earlier architectural pioneer for stored-program machines\n- [John Atanasoff](../../pioneers/john-atanasoff/) — part of the earlier hardware lineage that made digital computing possible",
+        "subsections": []
+      },
+      {
+        "id": "resources",
+        "kind": "resources",
+        "title": "Resources",
+        "markdown": "- [Computer History Museum materials on Seymour Cray](https://computerhistory.org/)\n- [IEEE profile and award materials](https://www.computer.org/)\n- Murray, Charles J. *The Supermen* (major biography)",
+        "subsections": []
+      },
+      {
+        "id": "timeline",
+        "kind": "timeline",
+        "title": "Timeline",
+        "markdown": "| Year | Event |\n|------|-------|\n| 1925 | Born in Chippewa Falls, Wisconsin |\n| 1950 | Joins Engineering Research Associates |\n| 1953 | Associated with ERA 1103 work |\n| 1957 | Helps found Control Data Corporation |\n| 1960 | CDC 1604 introduced |\n| 1964 | CDC 6600 unveiled |\n| 1969 | CDC 7600 arrives |\n| 1972 | Leaves CDC |\n| 1972 | Founds Cray Research |\n| 1976 | Cray-1 released |\n| 1993 | Cray-3 delivered in prototype form |\n| 1996 | Dies after car accident |",
+        "subsections": []
+      },
+      {
+        "id": "references",
+        "kind": "references",
+        "title": "References",
+        "markdown": "1. Murray, Charles J. *The Supermen*. John Wiley & Sons, 1997.\n2. Computer History Museum oral histories and profile materials.\n3. IEEE Computer Society biographical materials on Seymour Cray.\n4. Contemporary historical accounts of CDC and Cray Research systems.",
+        "subsections": []
+      },
+      {
+        "id": "navigation",
+        "kind": "navigation",
+        "title": "Navigation",
+        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Steve Wozniak](../steve-wozniak/)\n- [↑ Category Overview](../README.md)\n- [Next: Gordon Bell →](../gordon-bell/)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "subsections": []
+      }
+    ],
+    "awards": [
+      {
+        "year": "1987",
+        "title": "IEEE Emanuel R. Piore Award",
+        "rawCells": [
+          "1987",
+          "IEEE Emanuel R. Piore Award"
+        ]
+      },
+      {
+        "year": "1997",
+        "title": "IEEE Computer Society Seymour Cray Computer Engineering Award established in his honor",
+        "rawCells": [
+          "1997",
+          "IEEE Computer Society Seymour Cray Computer Engineering Award established in his honor"
+        ]
+      },
+      {
+        "year": "Various",
+        "title": "Long-standing recognition as \"father of supercomputing\"",
+        "rawCells": [
+          "Various",
+          "Long-standing recognition as \"father of supercomputing\""
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "text": "\"Anyone can build a fast CPU. The trick is to build a fast system.\""
+      },
+      {
+        "text": "\"If you were plowing a field, which would you rather use: two strong oxen or 1024 chickens?\""
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1925",
+        "event": "Born in Chippewa Falls, Wisconsin"
+      },
+      {
+        "year": "1950",
+        "event": "Joins Engineering Research Associates"
+      },
+      {
+        "year": "1953",
+        "event": "Associated with ERA 1103 work"
+      },
+      {
+        "year": "1957",
+        "event": "Helps found Control Data Corporation"
+      },
+      {
+        "year": "1960",
+        "event": "CDC 1604 introduced"
+      },
+      {
+        "year": "1964",
+        "event": "CDC 6600 unveiled"
+      },
+      {
+        "year": "1969",
+        "event": "CDC 7600 arrives"
+      },
+      {
+        "year": "1972",
+        "event": "Leaves CDC"
+      },
+      {
+        "year": "1972",
+        "event": "Founds Cray Research"
+      },
+      {
+        "year": "1976",
+        "event": "Cray-1 released"
+      },
+      {
+        "year": "1993",
+        "event": "Cray-3 delivered in prototype form"
+      },
+      {
+        "year": "1996",
+        "event": "Dies after car accident"
+      }
+    ],
+    "relatedFigures": [
+      {
+        "name": "Gordon Bell",
+        "href": "/legend/gordon-bell",
+        "resolvedSlug": "gordon-bell",
+        "relationship": "another major computer architect who shaped the structure of modern computing systems"
+      },
+      {
+        "name": "John von Neumann",
+        "href": "/legend/john-von-neumann",
+        "resolvedSlug": "john-von-neumann",
+        "relationship": "earlier architectural pioneer for stored-program machines"
+      },
+      {
+        "name": "John Atanasoff",
+        "href": "/legend/john-atanasoff",
+        "resolvedSlug": "john-atanasoff",
+        "relationship": "part of the earlier hardware lineage that made digital computing possible"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Computer History Museum materials on Seymour Cray",
+        "url": "https://computerhistory.org/",
+        "kind": "article",
+        "host": "computerhistory.org",
+        "isEmbeddable": false
+      },
+      {
+        "title": "IEEE profile and award materials",
+        "url": "https://www.computer.org/",
+        "kind": "article",
+        "host": "computer.org",
+        "isEmbeddable": false
+      },
+      {
+        "title": "Murray, Charles J. *The Supermen* (major biography)",
+        "kind": "book"
+      }
+    ],
+    "mediaItems": [],
+    "references": [
+      {
+        "text": "Murray, Charles J. *The Supermen*. John Wiley & Sons, 1997."
+      },
+      {
+        "text": "Computer History Museum oral histories and profile materials."
+      },
+      {
+        "text": "IEEE Computer Society biographical materials on Seymour Cray."
+      },
+      {
+        "text": "Contemporary historical accounts of CDC and Cray Research systems."
+      }
+    ],
+    "navigation": [
+      {
+        "label": "← Main Index",
+        "href": "/",
+        "direction": "main-index"
+      },
+      {
+        "label": "← Previous: Steve Wozniak",
+        "href": "/legend/steve-wozniak",
+        "resolvedSlug": "steve-wozniak",
+        "direction": "previous"
+      },
+      {
+        "label": "↑ Category Overview",
+        "href": "/category/systems-languages",
+        "direction": "category-overview"
+      },
+      {
+        "label": "Next: Gordon Bell →",
+        "href": "/legend/gordon-bell",
+        "resolvedSlug": "gordon-bell",
+        "direction": "next"
+      }
+    ]
+  },
+  "steve-wozniak": {
+    "id": "systems-languages/steve-wozniak",
+    "name": "Steve Wozniak",
+    "fullName": "Steve Wozniak",
+    "slug": "steve-wozniak",
+    "category": "systems-languages",
+    "categoryLabel": "Systems & Languages",
+    "sourcePath": "systems-languages/steve-wozniak/README.md",
+    "portrait": {
+      "src": "images/legends/systems-languages/steve-wozniak/images/portrait.jpg",
+      "alt": "Steve Wozniak portrait",
+      "isPortrait": true,
+      "width": 2041,
+      "height": 2717,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/steve-wozniak/images/portrait-240w.webp",
+          "width": 240,
+          "height": 319,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/steve-wozniak/images/portrait-320w.webp",
+          "width": 320,
+          "height": 426,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/steve-wozniak/images/portrait-480w.webp",
+          "width": 480,
+          "height": 639,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/steve-wozniak/images/portrait-720w.webp",
+          "width": 720,
+          "height": 958,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/steve-wozniak/images/portrait-2041w.webp",
+          "width": 2041,
+          "height": 2717,
+          "type": "image/webp"
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "images/legends/systems-languages/steve-wozniak/images/portrait.jpg",
+        "alt": "Steve Wozniak portrait",
+        "isPortrait": true,
+        "width": 2041,
+        "height": 2717,
+        "sources": [
+          {
+            "src": "images/legends/systems-languages/steve-wozniak/images/portrait-240w.webp",
+            "width": 240,
+            "height": 319,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/steve-wozniak/images/portrait-320w.webp",
+            "width": 320,
+            "height": 426,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/steve-wozniak/images/portrait-480w.webp",
+            "width": 480,
+            "height": 639,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/steve-wozniak/images/portrait-720w.webp",
+            "width": 720,
+            "height": 958,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/systems-languages/steve-wozniak/images/portrait-2041w.webp",
+            "width": 2041,
+            "height": 2717,
+            "type": "image/webp"
+          }
+        ]
+      }
+    ],
+    "lifespan": "b. 1950",
+    "field": "Personal Computing, Computer Hardware, Systems Design",
+    "keyContribution": "Co-founded Apple and designed the Apple I, Apple II, and Disk II",
+    "impact": "Helped launch the personal computer revolution by turning hobbyist machines into practical, elegant consumer systems",
+    "summary": "He attended Homestead High School in Cupertino, then studied at the University of Colorado Boulder before returning to the Bay Area. He later took classes at De Anza College and at the University of California, Berkeley. Long before Apple existed, he was already designing computers for fun, building prank electronics, and obsessing over how to do more with fewer parts.",
+    "leadMarkdown": "*Steve Wozniak engineered the early personal computer into something ordinary people could actually own, understand, and love. If Steve Jobs helped sell the dream, Woz built the machine that made the dream real.*\n\n**Field:** Personal Computing, Computer Hardware, Systems Design\n\n- **Lifespan:** b. 1950\n- **Key contribution:** Co-founded Apple and designed the Apple I, Apple II, and Disk II\n- **Impact:** Helped launch the personal computer revolution by turning hobbyist machines into practical, elegant consumer systems",
+    "tags": [
+      "Personal Computing",
+      "Computer Hardware",
+      "Systems Design",
+      "Systems & Languages"
+    ],
+    "relatedSlugs": [
+      "dennis-ritchie",
+      "linus-torvalds"
+    ],
+    "featured": false,
+    "quickFacts": [
+      {
+        "label": "Field:",
+        "normalizedLabel": "field",
+        "value": "Personal Computing, Computer Hardware, Systems Design"
+      },
+      {
+        "label": "Lifespan:",
+        "normalizedLabel": "lifespan",
+        "value": "b. 1950"
+      },
+      {
+        "label": "Key contribution:",
+        "normalizedLabel": "key-contribution",
+        "value": "Co-founded Apple and designed the Apple I, Apple II, and Disk II"
+      },
+      {
+        "label": "Impact:",
+        "normalizedLabel": "impact",
+        "value": "Helped launch the personal computer revolution by turning hobbyist machines into practical, elegant consumer systems"
+      }
+    ],
+    "sections": [
+      {
+        "id": "biography",
+        "kind": "biography",
+        "title": "Biography",
+        "markdown": "### Early Life & Education\nStephen Gary Wozniak was born on August 11, 1950, in San Jose, California, and grew up in the heart of what would later be called Silicon Valley. His father was an engineer, and that background mattered: Wozniak developed an early fascination with circuits, logic, and the beauty of making complicated systems feel simple.\n\nHe attended Homestead High School in Cupertino, then studied at the University of Colorado Boulder before returning to the Bay Area. He later took classes at De Anza College and at the University of California, Berkeley. Long before Apple existed, he was already designing computers for fun, building prank electronics, and obsessing over how to do more with fewer parts.\n\n### Career\nWozniak first worked at Hewlett-Packard, where he designed calculators and kept refining his ideas about compact, efficient hardware. Around the same time, his friendship with Steve Jobs deepened through shared interests in electronics and phone-phreaking culture. Their blue-box project was not their most respectable achievement, but it convinced them that clever engineering and bold marketing could become a business.\n\nIn 1975, inspired by the Homebrew Computer Club, Wozniak designed the **Apple I**. He originally wanted to impress fellow hobbyists more than build a company, but the machine's clean design and video output made it stand out. In 1976, he and Jobs co-founded Apple Computer.\n\nWozniak then designed the **Apple II**, one of the first highly successful mass-produced personal computers. It offered color graphics, expansion slots, integrated BASIC, and a level of approachability that changed the industry. He later designed the **Disk II** floppy drive, a brilliant piece of cost-conscious engineering that made storage practical for Apple users.\n\nAfter a 1981 plane crash temporarily sidelined him, Wozniak returned to Berkeley to finish his degree and later stepped away from day-to-day work at Apple. Though he left as an active employee in 1985, he remained one of the defining public faces of early personal computing and continued to work in education, philanthropy, and technology ventures.\n\n### Later Life & Legacy\nBeyond Apple, Wozniak founded or supported ventures such as CL 9, Wheels of Zeus, and later technology and education projects. He helped support the Electronic Frontier Foundation and spent significant energy advocating for students, open technology, and the playful spirit of invention.\n\nHis legacy is unusually pure: unlike many tech founders, he is remembered first as an engineer. Wozniak's work was not only influential because it was early; it was influential because it showed that a personal computer could be elegant, affordable, and joyful.",
+        "subsections": [
+          {
+            "id": "early-life-education",
+            "title": "Early Life & Education",
+            "markdown": "Stephen Gary Wozniak was born on August 11, 1950, in San Jose, California, and grew up in the heart of what would later be called Silicon Valley. His father was an engineer, and that background mattered: Wozniak developed an early fascination with circuits, logic, and the beauty of making complicated systems feel simple.\n\nHe attended Homestead High School in Cupertino, then studied at the University of Colorado Boulder before returning to the Bay Area. He later took classes at De Anza College and at the University of California, Berkeley. Long before Apple existed, he was already designing computers for fun, building prank electronics, and obsessing over how to do more with fewer parts."
+          },
+          {
+            "id": "career",
+            "title": "Career",
+            "markdown": "Wozniak first worked at Hewlett-Packard, where he designed calculators and kept refining his ideas about compact, efficient hardware. Around the same time, his friendship with Steve Jobs deepened through shared interests in electronics and phone-phreaking culture. Their blue-box project was not their most respectable achievement, but it convinced them that clever engineering and bold marketing could become a business.\n\nIn 1975, inspired by the Homebrew Computer Club, Wozniak designed the **Apple I**. He originally wanted to impress fellow hobbyists more than build a company, but the machine's clean design and video output made it stand out. In 1976, he and Jobs co-founded Apple Computer.\n\nWozniak then designed the **Apple II**, one of the first highly successful mass-produced personal computers. It offered color graphics, expansion slots, integrated BASIC, and a level of approachability that changed the industry. He later designed the **Disk II** floppy drive, a brilliant piece of cost-conscious engineering that made storage practical for Apple users.\n\nAfter a 1981 plane crash temporarily sidelined him, Wozniak returned to Berkeley to finish his degree and later stepped away from day-to-day work at Apple. Though he left as an active employee in 1985, he remained one of the defining public faces of early personal computing and continued to work in education, philanthropy, and technology ventures."
+          },
+          {
+            "id": "later-life-legacy",
+            "title": "Later Life & Legacy",
+            "markdown": "Beyond Apple, Wozniak founded or supported ventures such as CL 9, Wheels of Zeus, and later technology and education projects. He helped support the Electronic Frontier Foundation and spent significant energy advocating for students, open technology, and the playful spirit of invention.\n\nHis legacy is unusually pure: unlike many tech founders, he is remembered first as an engineer. Wozniak's work was not only influential because it was early; it was influential because it showed that a personal computer could be elegant, affordable, and joyful."
+          }
+        ]
+      },
+      {
+        "id": "major-contributions",
+        "kind": "contributions",
+        "title": "Major Contributions",
+        "markdown": "### Apple I (1975–1976)\n- **Year:** 1975–1976\n- **Context:** Hobbyist computers were difficult to assemble and often lacked user-friendly display capabilities\n- **Technical Details:** Wozniak designed the hardware, circuit board layout, and low-level software for a compact single-board computer with video output\n- **Impact:** Helped demonstrate that the emerging microcomputer could move from enthusiast kit culture toward broader public use\n\n### Apple II (1976–1977)\n- **Year:** 1976–1977\n- **Context:** Early personal computers needed to become more usable, extensible, and visually engaging to reach a larger market\n- **Technical Details:** Included color graphics, integrated BASIC, expansion slots, and a design focused on balancing capability with component efficiency\n- **Impact:** Became one of the foundational consumer computers of the late 1970s and early 1980s, shaping the entire personal-computing industry\n\n### Disk II Floppy System (1978)\n- **Year:** 1978\n- **Context:** Cassette storage was too slow and awkward for serious software use\n- **Technical Details:** Wozniak produced an unusually economical floppy-disk controller design that used fewer chips than competitors while staying powerful and reliable\n- **Impact:** Made software distribution and data storage far more practical for Apple II users, strengthening the platform's long-term success",
+        "subsections": [
+          {
+            "id": "apple-i-1975-1976",
+            "title": "Apple I (1975–1976)",
+            "markdown": "- **Year:** 1975–1976\n- **Context:** Hobbyist computers were difficult to assemble and often lacked user-friendly display capabilities\n- **Technical Details:** Wozniak designed the hardware, circuit board layout, and low-level software for a compact single-board computer with video output\n- **Impact:** Helped demonstrate that the emerging microcomputer could move from enthusiast kit culture toward broader public use"
+          },
+          {
+            "id": "apple-ii-1976-1977",
+            "title": "Apple II (1976–1977)",
+            "markdown": "- **Year:** 1976–1977\n- **Context:** Early personal computers needed to become more usable, extensible, and visually engaging to reach a larger market\n- **Technical Details:** Included color graphics, integrated BASIC, expansion slots, and a design focused on balancing capability with component efficiency\n- **Impact:** Became one of the foundational consumer computers of the late 1970s and early 1980s, shaping the entire personal-computing industry"
+          },
+          {
+            "id": "disk-ii-floppy-system-1978",
+            "title": "Disk II Floppy System (1978)",
+            "markdown": "- **Year:** 1978\n- **Context:** Cassette storage was too slow and awkward for serious software use\n- **Technical Details:** Wozniak produced an unusually economical floppy-disk controller design that used fewer chips than competitors while staying powerful and reliable\n- **Impact:** Made software distribution and data storage far more practical for Apple II users, strengthening the platform's long-term success"
+          }
+        ]
+      },
+      {
+        "id": "publications-works",
+        "kind": "publications",
+        "title": "Publications & Works",
+        "markdown": "- **\"The Apple-II\"** (1977) — Wozniak's description of the architecture and ideas behind Apple's breakthrough machine\n- **iWoz** (2006, with Gina Smith) — autobiography covering Apple, engineering, and his broader life in technology\n- Apple patents related to microcomputing, disk control, and color display systems",
+        "subsections": []
+      },
+      {
+        "id": "awards-honors",
+        "kind": "awards",
+        "title": "Awards & Honors",
+        "markdown": "| Year | Award |\n|------|-------|\n| 1979 | ACM Grace Murray Hopper Award |\n| 1985 | National Medal of Technology (with Steve Jobs) |\n| 1998 | Computer History Museum Fellow |\n| 2000 | National Inventors Hall of Fame |\n| 2021 | IEEE Masaru Ibuka Consumer Electronics Award |",
+        "subsections": []
+      },
+      {
+        "id": "quotes",
+        "kind": "quotes",
+        "title": "Quotes",
+        "markdown": "> \"The only way to create great products is to build something you yourself want to use.\"\n\n> \"I never trusted money to tell me what mattered. I trusted engineering.\"",
+        "subsections": []
+      },
+      {
+        "id": "influence-legacy",
+        "kind": "influence",
+        "title": "Influence & Legacy",
+        "markdown": "### Direct Influence\nWozniak helped define the architecture of early consumer microcomputers. The Apple II, in particular, showed how hardware, software, and human usability could reinforce one another.\n\n### Indirect Influence\nHe became a model for the engineer-founder: technically brilliant, playful, and deeply committed to making powerful machines feel approachable. His design philosophy echoes through later personal devices that prioritize simplicity without sacrificing capability.\n\n### Modern Relevance\nEvery modern laptop, tablet, and smartphone lives downstream from the moment personal computing became a real consumer category. Wozniak was central to that transition.",
+        "subsections": [
+          {
+            "id": "direct-influence",
+            "title": "Direct Influence",
+            "markdown": "Wozniak helped define the architecture of early consumer microcomputers. The Apple II, in particular, showed how hardware, software, and human usability could reinforce one another."
+          },
+          {
+            "id": "indirect-influence",
+            "title": "Indirect Influence",
+            "markdown": "He became a model for the engineer-founder: technically brilliant, playful, and deeply committed to making powerful machines feel approachable. His design philosophy echoes through later personal devices that prioritize simplicity without sacrificing capability."
+          },
+          {
+            "id": "modern-relevance",
+            "title": "Modern Relevance",
+            "markdown": "Every modern laptop, tablet, and smartphone lives downstream from the moment personal computing became a real consumer category. Wozniak was central to that transition."
+          }
+        ]
+      },
+      {
+        "id": "related-figures",
+        "kind": "related-figures",
+        "title": "Related Figures",
+        "markdown": "- [Steve Jobs](https://en.wikipedia.org/wiki/Steve_Jobs) — Apple co-founder and Wozniak's most famous collaborator\n- [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay) — not a direct collaborator, but a fellow visionary about personal computing's possibilities\n- [Dennis Ritchie](../dennis-ritchie/) — another foundational figure whose work shaped the machines and software of the PC era\n- [Linus Torvalds](../linus-torvalds/) — later builder of mass-market personal computing systems atop the world Woz helped create",
+        "subsections": []
+      },
+      {
+        "id": "resources",
+        "kind": "resources",
+        "title": "Resources",
+        "markdown": "- [Computer History Museum profile](https://computerhistory.org/profile/steve-wozniak/)\n- [ACM Hopper Award citation](https://awards.acm.org/award-recipients/wozniak_7711134)\n- [National Inventors Hall of Fame profile](https://www.invent.org/inductees/stephen-g-wozniak)",
+        "subsections": []
+      },
+      {
+        "id": "timeline",
+        "kind": "timeline",
+        "title": "Timeline",
+        "markdown": "| Year | Event |\n|------|-------|\n| 1950 | Born in San Jose, California |\n| 1971 | Begins notable engineering collaborations with Steve Jobs |\n| 1975 | Designs the Apple I |\n| 1976 | Co-founds Apple Computer |\n| 1977 | Apple II introduced |\n| 1978 | Disk II released |\n| 1981 | Survives plane crash and temporarily steps away from Apple |\n| 1985 | Leaves Apple as an active employee |\n| 2000 | Inducted into the National Inventors Hall of Fame |",
+        "subsections": []
+      },
+      {
+        "id": "references",
+        "kind": "references",
+        "title": "References",
+        "markdown": "1. Wozniak, Steve, and Gina Smith. *iWoz*. W. W. Norton, 2006.\n2. Computer History Museum. \"Steve Wozniak\".\n3. ACM. \"Stephen Wozniak — Grace Murray Hopper Award\".\n4. National Inventors Hall of Fame. \"Stephen G. Wozniak\".",
+        "subsections": []
+      },
+      {
+        "id": "navigation",
+        "kind": "navigation",
+        "title": "Navigation",
+        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Ken Thompson](../ken-thompson/)\n- [↑ Category Overview](../README.md)\n- [Next: Seymour Cray →](../seymour-cray/)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "subsections": []
+      }
+    ],
+    "awards": [
+      {
+        "year": "1979",
+        "title": "ACM Grace Murray Hopper Award",
+        "rawCells": [
+          "1979",
+          "ACM Grace Murray Hopper Award"
+        ]
+      },
+      {
+        "year": "1985",
+        "title": "National Medal of Technology (with Steve Jobs)",
+        "rawCells": [
+          "1985",
+          "National Medal of Technology (with Steve Jobs)"
+        ]
+      },
+      {
+        "year": "1998",
+        "title": "Computer History Museum Fellow",
+        "rawCells": [
+          "1998",
+          "Computer History Museum Fellow"
+        ]
+      },
+      {
+        "year": "2000",
+        "title": "National Inventors Hall of Fame",
+        "rawCells": [
+          "2000",
+          "National Inventors Hall of Fame"
+        ]
+      },
+      {
+        "year": "2021",
+        "title": "IEEE Masaru Ibuka Consumer Electronics Award",
+        "rawCells": [
+          "2021",
+          "IEEE Masaru Ibuka Consumer Electronics Award"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "text": "\"The only way to create great products is to build something you yourself want to use.\""
+      },
+      {
+        "text": "\"I never trusted money to tell me what mattered. I trusted engineering.\""
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1950",
+        "event": "Born in San Jose, California"
+      },
+      {
+        "year": "1971",
+        "event": "Begins notable engineering collaborations with Steve Jobs"
+      },
+      {
+        "year": "1975",
+        "event": "Designs the Apple I"
+      },
+      {
+        "year": "1976",
+        "event": "Co-founds Apple Computer"
+      },
+      {
+        "year": "1977",
+        "event": "Apple II introduced"
+      },
+      {
+        "year": "1978",
+        "event": "Disk II released"
+      },
+      {
+        "year": "1981",
+        "event": "Survives plane crash and temporarily steps away from Apple"
+      },
+      {
+        "year": "1985",
+        "event": "Leaves Apple as an active employee"
+      },
+      {
+        "year": "2000",
+        "event": "Inducted into the National Inventors Hall of Fame"
+      }
+    ],
+    "relatedFigures": [
+      {
+        "name": "Steve Jobs",
+        "href": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "relationship": "Apple co-founder and Wozniak's most famous collaborator"
+      },
+      {
+        "name": "Alan Kay",
+        "href": "https://en.wikipedia.org/wiki/Alan_Kay",
+        "relationship": "not a direct collaborator, but a fellow visionary about personal computing's possibilities"
+      },
+      {
+        "name": "Dennis Ritchie",
+        "href": "/legend/dennis-ritchie",
+        "resolvedSlug": "dennis-ritchie",
+        "relationship": "another foundational figure whose work shaped the machines and software of the PC era"
+      },
+      {
+        "name": "Linus Torvalds",
+        "href": "/legend/linus-torvalds",
+        "resolvedSlug": "linus-torvalds",
+        "relationship": "later builder of mass-market personal computing systems atop the world Woz helped create"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Computer History Museum profile",
+        "url": "https://computerhistory.org/profile/steve-wozniak/",
+        "kind": "article",
+        "host": "computerhistory.org",
+        "isEmbeddable": false
+      },
+      {
+        "title": "ACM Hopper Award citation",
+        "url": "https://awards.acm.org/award-recipients/wozniak_7711134",
+        "kind": "article",
+        "host": "awards.acm.org",
+        "isEmbeddable": false
+      },
+      {
+        "title": "National Inventors Hall of Fame profile",
+        "url": "https://www.invent.org/inductees/stephen-g-wozniak",
+        "kind": "article",
+        "host": "invent.org",
+        "isEmbeddable": false
+      }
+    ],
+    "mediaItems": [],
+    "references": [
+      {
+        "text": "Wozniak, Steve, and Gina Smith. *iWoz*. W. W. Norton, 2006."
+      },
+      {
+        "text": "Computer History Museum. \"Steve Wozniak\"."
+      },
+      {
+        "text": "ACM. \"Stephen Wozniak — Grace Murray Hopper Award\"."
+      },
+      {
+        "text": "National Inventors Hall of Fame. \"Stephen G. Wozniak\"."
+      }
+    ],
+    "navigation": [
+      {
+        "label": "← Main Index",
+        "href": "/",
+        "direction": "main-index"
+      },
+      {
+        "label": "← Previous: Ken Thompson",
+        "href": "/legend/ken-thompson",
+        "resolvedSlug": "ken-thompson",
+        "direction": "previous"
+      },
+      {
+        "label": "↑ Category Overview",
+        "href": "/category/systems-languages",
+        "direction": "category-overview"
+      },
+      {
+        "label": "Next: Seymour Cray →",
+        "href": "/legend/seymour-cray",
+        "resolvedSlug": "seymour-cray",
+        "direction": "next"
+      }
+    ]
+  },
   "thomas-kurtz": {
     "id": "systems-languages/thomas-kurtz",
     "name": "Thomas E. Kurtz",
@@ -8431,13 +11767,13 @@ export const legendDetails = {
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/thomas-kurtz/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/thomas-kurtz/images/portrait.svg",
+      "src": "images/legends/systems-languages/thomas-kurtz/images/portrait.svg",
       "alt": "Portrait",
       "isPortrait": true
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/thomas-kurtz/images/portrait.svg",
+        "src": "images/legends/systems-languages/thomas-kurtz/images/portrait.svg",
         "alt": "Portrait",
         "isPortrait": true
       }
@@ -8843,15 +12179,35 @@ export const legendDetails = {
     "categoryLabel": "AI Pioneers",
     "sourcePath": "ai-pioneers/allen-newell/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/allen-newell/images/portrait.jpg",
+      "src": "images/legends/ai-pioneers/allen-newell/images/portrait.jpg",
       "alt": "Portrait of Allen Newell",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 104,
+      "height": 158,
+      "sources": [
+        {
+          "src": "images/legends/ai-pioneers/allen-newell/images/portrait-104w.webp",
+          "width": 104,
+          "height": 158,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/allen-newell/images/portrait.jpg",
+        "src": "images/legends/ai-pioneers/allen-newell/images/portrait.jpg",
         "alt": "Portrait of Allen Newell",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 104,
+        "height": 158,
+        "sources": [
+          {
+            "src": "images/legends/ai-pioneers/allen-newell/images/portrait-104w.webp",
+            "width": 104,
+            "height": 158,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "March 19, 1927 – July 19, 1992",
@@ -9306,15 +12662,35 @@ export const legendDetails = {
     "categoryLabel": "AI Pioneers",
     "sourcePath": "ai-pioneers/herbert-simon/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/herbert-simon/images/herbert-simon.jpg",
+      "src": "images/legends/ai-pioneers/herbert-simon/images/herbert-simon.jpg",
       "alt": "Herbert Simon",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 232,
+      "height": 342,
+      "sources": [
+        {
+          "src": "images/legends/ai-pioneers/herbert-simon/images/herbert-simon-232w.webp",
+          "width": 232,
+          "height": 342,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/herbert-simon/images/herbert-simon.jpg",
+        "src": "images/legends/ai-pioneers/herbert-simon/images/herbert-simon.jpg",
         "alt": "Herbert Simon",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 232,
+        "height": 342,
+        "sources": [
+          {
+            "src": "images/legends/ai-pioneers/herbert-simon/images/herbert-simon-232w.webp",
+            "width": 232,
+            "height": 342,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "June 15, 1916 – February 9, 2001",
@@ -9810,15 +13186,83 @@ export const legendDetails = {
     "categoryLabel": "AI Pioneers",
     "sourcePath": "ai-pioneers/john-mccarthy/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/john-mccarthy/images/john-mccarthy.jpg",
+      "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy.jpg",
       "alt": "Portrait of John McCarthy",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1280,
+      "height": 1483,
+      "sources": [
+        {
+          "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-240w.webp",
+          "width": 240,
+          "height": 278,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-320w.webp",
+          "width": 320,
+          "height": 371,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-480w.webp",
+          "width": 480,
+          "height": 556,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-720w.webp",
+          "width": 720,
+          "height": 834,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-1280w.webp",
+          "width": 1280,
+          "height": 1483,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/john-mccarthy/images/john-mccarthy.jpg",
+        "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy.jpg",
         "alt": "Portrait of John McCarthy",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 1280,
+        "height": 1483,
+        "sources": [
+          {
+            "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-240w.webp",
+            "width": 240,
+            "height": 278,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-320w.webp",
+            "width": 320,
+            "height": 371,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-480w.webp",
+            "width": 480,
+            "height": 556,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-720w.webp",
+            "width": 720,
+            "height": 834,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-1280w.webp",
+            "width": 1280,
+            "height": 1483,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "September 4, 1927 – October 24, 2011",
@@ -10265,15 +13709,83 @@ export const legendDetails = {
     "categoryLabel": "AI Pioneers",
     "sourcePath": "ai-pioneers/marvin-minsky/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/marvin-minsky/images/portrait.jpg",
+      "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait.jpg",
       "alt": "Marvin Minsky",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1024,
+      "height": 1025,
+      "sources": [
+        {
+          "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-240w.webp",
+          "width": 240,
+          "height": 240,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-320w.webp",
+          "width": 320,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-480w.webp",
+          "width": 480,
+          "height": 480,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-720w.webp",
+          "width": 720,
+          "height": 721,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-1024w.webp",
+          "width": 1024,
+          "height": 1025,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/marvin-minsky/images/portrait.jpg",
+        "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait.jpg",
         "alt": "Marvin Minsky",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 1024,
+        "height": 1025,
+        "sources": [
+          {
+            "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-240w.webp",
+            "width": 240,
+            "height": 240,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-320w.webp",
+            "width": 320,
+            "height": 320,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-480w.webp",
+            "width": 480,
+            "height": 480,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-720w.webp",
+            "width": 720,
+            "height": 721,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-1024w.webp",
+            "width": 1024,
+            "height": 1025,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "August 9, 1927 – January 24, 2016",
@@ -10708,15 +14220,83 @@ export const legendDetails = {
     "categoryLabel": "Modern AI & ML",
     "sourcePath": "modern-ai-ml/andrew-ng/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/andrew-ng/images/portrait.jpg",
+      "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2219,
+      "height": 2724,
+      "sources": [
+        {
+          "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-240w.webp",
+          "width": 240,
+          "height": 295,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-320w.webp",
+          "width": 320,
+          "height": 393,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-480w.webp",
+          "width": 480,
+          "height": 589,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-720w.webp",
+          "width": 720,
+          "height": 884,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-2219w.webp",
+          "width": 2219,
+          "height": 2724,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/andrew-ng/images/portrait.jpg",
+        "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 2219,
+        "height": 2724,
+        "sources": [
+          {
+            "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-240w.webp",
+            "width": 240,
+            "height": 295,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-320w.webp",
+            "width": 320,
+            "height": 393,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-480w.webp",
+            "width": 480,
+            "height": 589,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-720w.webp",
+            "width": 720,
+            "height": 884,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-2219w.webp",
+            "width": 2219,
+            "height": 2724,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1976 (London, England)",
@@ -10913,15 +14493,83 @@ export const legendDetails = {
     "categoryLabel": "Modern AI & ML",
     "sourcePath": "modern-ai-ml/geoffrey-hinton/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton.jpg",
+      "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton.jpg",
       "alt": "Portrait of Geoffrey Hinton",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1423,
+      "height": 1893,
+      "sources": [
+        {
+          "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-240w.webp",
+          "width": 240,
+          "height": 319,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-320w.webp",
+          "width": 320,
+          "height": 426,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-480w.webp",
+          "width": 480,
+          "height": 639,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-720w.webp",
+          "width": 720,
+          "height": 958,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-1423w.webp",
+          "width": 1423,
+          "height": 1893,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton.jpg",
+        "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton.jpg",
         "alt": "Portrait of Geoffrey Hinton",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 1423,
+        "height": 1893,
+        "sources": [
+          {
+            "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-240w.webp",
+            "width": 240,
+            "height": 319,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-320w.webp",
+            "width": 320,
+            "height": 426,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-480w.webp",
+            "width": 480,
+            "height": 639,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-720w.webp",
+            "width": 720,
+            "height": 958,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-1423w.webp",
+            "width": 1423,
+            "height": 1893,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. December 6, 1947, London, England",
@@ -11408,15 +15056,83 @@ export const legendDetails = {
     "categoryLabel": "Modern AI & ML",
     "sourcePath": "modern-ai-ml/judea-pearl/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/judea-pearl/images/portrait.jpg",
+      "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2673,
+      "height": 1911,
+      "sources": [
+        {
+          "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-240w.webp",
+          "width": 240,
+          "height": 172,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-320w.webp",
+          "width": 320,
+          "height": 229,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-480w.webp",
+          "width": 480,
+          "height": 343,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-720w.webp",
+          "width": 720,
+          "height": 515,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-2673w.webp",
+          "width": 2673,
+          "height": 1911,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/judea-pearl/images/portrait.jpg",
+        "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 2673,
+        "height": 1911,
+        "sources": [
+          {
+            "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-240w.webp",
+            "width": 240,
+            "height": 172,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-320w.webp",
+            "width": 320,
+            "height": 229,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-480w.webp",
+            "width": 480,
+            "height": 343,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-720w.webp",
+            "width": 720,
+            "height": 515,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-2673w.webp",
+            "width": 2673,
+            "height": 1911,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1936, Tel Aviv, British Mandate Palestine (now Israel)",
@@ -11645,15 +15361,83 @@ export const legendDetails = {
     "categoryLabel": "Modern AI & ML",
     "sourcePath": "modern-ai-ml/yann-lecun/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/yann-lecun/images/portrait.jpg",
+      "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1297,
+      "height": 1490,
+      "sources": [
+        {
+          "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-240w.webp",
+          "width": 240,
+          "height": 276,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-320w.webp",
+          "width": 320,
+          "height": 368,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-480w.webp",
+          "width": 480,
+          "height": 551,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-720w.webp",
+          "width": 720,
+          "height": 827,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-1297w.webp",
+          "width": 1297,
+          "height": 1490,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/yann-lecun/images/portrait.jpg",
+        "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 1297,
+        "height": 1490,
+        "sources": [
+          {
+            "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-240w.webp",
+            "width": 240,
+            "height": 276,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-320w.webp",
+            "width": 320,
+            "height": 368,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-480w.webp",
+            "width": 480,
+            "height": 551,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-720w.webp",
+            "width": 720,
+            "height": 827,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-1297w.webp",
+            "width": 1297,
+            "height": 1490,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1960, Soisy-sous-Montmorency, near Paris, France",
@@ -11899,15 +15683,71 @@ export const legendDetails = {
     "categoryLabel": "Modern AI & ML",
     "sourcePath": "modern-ai-ml/yoshua-bengio/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/yoshua-bengio/images/portrait.jpg",
+      "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 606,
+      "height": 804,
+      "sources": [
+        {
+          "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-240w.webp",
+          "width": 240,
+          "height": 318,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-320w.webp",
+          "width": 320,
+          "height": 425,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-480w.webp",
+          "width": 480,
+          "height": 637,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-606w.webp",
+          "width": 606,
+          "height": 804,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/yoshua-bengio/images/portrait.jpg",
+        "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 606,
+        "height": 804,
+        "sources": [
+          {
+            "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-240w.webp",
+            "width": 240,
+            "height": 318,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-320w.webp",
+            "width": 320,
+            "height": 425,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-480w.webp",
+            "width": 480,
+            "height": 637,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-606w.webp",
+            "width": 606,
+            "height": 804,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. March 5, 1964, Paris, France",
@@ -12144,15 +15984,35 @@ export const legendDetails = {
     "categoryLabel": "Web & Internet",
     "sourcePath": "web-internet/bob-kahn/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/bob-kahn/images/portrait.jpg",
+      "src": "images/legends/web-internet/bob-kahn/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 153,
+      "height": 195,
+      "sources": [
+        {
+          "src": "images/legends/web-internet/bob-kahn/images/portrait-153w.webp",
+          "width": 153,
+          "height": 195,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/bob-kahn/images/portrait.jpg",
+        "src": "images/legends/web-internet/bob-kahn/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 153,
+        "height": 195,
+        "sources": [
+          {
+            "src": "images/legends/web-internet/bob-kahn/images/portrait-153w.webp",
+            "width": 153,
+            "height": 195,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. December 23, 1938, Brooklyn, New York, USA",
@@ -12352,6 +16212,466 @@ export const legendDetails = {
       }
     ]
   },
+  "paul-mockapetris": {
+    "id": "web-internet/paul-mockapetris",
+    "name": "Paul Mockapetris",
+    "fullName": "Paul Mockapetris",
+    "slug": "paul-mockapetris",
+    "category": "web-internet",
+    "categoryLabel": "Web & Internet",
+    "sourcePath": "web-internet/paul-mockapetris/README.md",
+    "portrait": {
+      "src": "images/legends/web-internet/paul-mockapetris/images/portrait.jpg",
+      "alt": "Paul Mockapetris portrait",
+      "isPortrait": true,
+      "width": 4608,
+      "height": 3456,
+      "sources": [
+        {
+          "src": "images/legends/web-internet/paul-mockapetris/images/portrait-240w.webp",
+          "width": 240,
+          "height": 180,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/paul-mockapetris/images/portrait-320w.webp",
+          "width": 320,
+          "height": 240,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/paul-mockapetris/images/portrait-480w.webp",
+          "width": 480,
+          "height": 360,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/paul-mockapetris/images/portrait-720w.webp",
+          "width": 720,
+          "height": 540,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/paul-mockapetris/images/portrait-4608w.webp",
+          "width": 4608,
+          "height": 3456,
+          "type": "image/webp"
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "images/legends/web-internet/paul-mockapetris/images/portrait.jpg",
+        "alt": "Paul Mockapetris portrait",
+        "isPortrait": true,
+        "width": 4608,
+        "height": 3456,
+        "sources": [
+          {
+            "src": "images/legends/web-internet/paul-mockapetris/images/portrait-240w.webp",
+            "width": 240,
+            "height": 180,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/paul-mockapetris/images/portrait-320w.webp",
+            "width": 320,
+            "height": 240,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/paul-mockapetris/images/portrait-480w.webp",
+            "width": 480,
+            "height": 360,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/paul-mockapetris/images/portrait-720w.webp",
+            "width": 720,
+            "height": 540,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/paul-mockapetris/images/portrait-4608w.webp",
+            "width": 4608,
+            "height": 3456,
+            "type": "image/webp"
+          }
+        ]
+      }
+    ],
+    "lifespan": "b. 1948",
+    "field": "Internet Infrastructure, Networking, Internet Standards",
+    "keyContribution": "Invented the Domain Name System (DNS)",
+    "impact": "Made the Internet scalable and human-usable by replacing fragile central host tables with a distributed naming system",
+    "summary": "That educational path matters because DNS sits at the boundary between theory and infrastructure: it is elegant enough to be studied, but practical enough that the whole network breaks when it fails.",
+    "leadMarkdown": "*Paul Mockapetris solved one of the Internet's deceptively basic problems: how do humans find anything on a growing network without memorizing raw machine addresses? The answer became DNS, and the modern Internet still depends on it every second.*\n\n**Field:** Internet Infrastructure, Networking, Internet Standards\n\n- **Lifespan:** b. 1948\n- **Key contribution:** Invented the Domain Name System (DNS)\n- **Impact:** Made the Internet scalable and human-usable by replacing fragile central host tables with a distributed naming system",
+    "tags": [
+      "Internet Infrastructure",
+      "Networking",
+      "Internet Standards",
+      "Web & Internet"
+    ],
+    "relatedSlugs": [
+      "bob-kahn",
+      "vint-cerf",
+      "tim-berners-lee",
+      "radia-perlman"
+    ],
+    "featured": false,
+    "quickFacts": [
+      {
+        "label": "Field:",
+        "normalizedLabel": "field",
+        "value": "Internet Infrastructure, Networking, Internet Standards"
+      },
+      {
+        "label": "Lifespan:",
+        "normalizedLabel": "lifespan",
+        "value": "b. 1948"
+      },
+      {
+        "label": "Key contribution:",
+        "normalizedLabel": "key-contribution",
+        "value": "Invented the Domain Name System (DNS)"
+      },
+      {
+        "label": "Impact:",
+        "normalizedLabel": "impact",
+        "value": "Made the Internet scalable and human-usable by replacing fragile central host tables with a distributed naming system"
+      }
+    ],
+    "sections": [
+      {
+        "id": "biography",
+        "kind": "biography",
+        "title": "Biography",
+        "markdown": "### Early Life & Education\nPaul V. Mockapetris was born on November 18, 1948, in Boston, Massachusetts. He attended Boston Latin School, then studied physics and electrical engineering at MIT. He later earned a doctorate in information and computer science from the University of California, Irvine.\n\nThat educational path matters because DNS sits at the boundary between theory and infrastructure: it is elegant enough to be studied, but practical enough that the whole network breaks when it fails.\n\n### Career\nMockapetris joined the **Information Sciences Institute (ISI)** at the University of Southern California in 1978, during the formative years of the ARPANET and early Internet. At the time, hostnames were managed through a single central `HOSTS.TXT` file — workable for a small network, absurd for a large and growing one.\n\nIn **1983**, Mockapetris proposed the **Domain Name System** in **RFC 882** and **RFC 883**. The idea was profoundly important: replace one central list with a distributed, hierarchical, dynamic naming architecture. Instead of every machine carrying the full table, the naming system itself could be delegated across the network.\n\nHe also wrote the first DNS implementation, called **Jeeves**, for TOPS-20. That combination — architecture plus implementation — is one reason his contribution is so enduring. He did not merely describe a desirable future; he built the technical path into it.\n\nMockapetris later served at ARPA, chaired the IETF, sat on the Internet Architecture Board, and worked across multiple Internet companies. He also played a major role at **Nominum**, where he remained closely involved with DNS infrastructure at industrial scale.\n\n### Later Life & Legacy\nIf TCP/IP provided the roads of the Internet, DNS provided the map and addressing language humans actually use. Without it, the network would still exist, but it would be far harder to navigate, administer, and scale.\n\nMockapetris is remembered as one of the quiet infrastructure heroes of the Internet age: not the builder of a flashy application, but the architect of a system so foundational that most users notice it only when it stops working.",
+        "subsections": [
+          {
+            "id": "early-life-education",
+            "title": "Early Life & Education",
+            "markdown": "Paul V. Mockapetris was born on November 18, 1948, in Boston, Massachusetts. He attended Boston Latin School, then studied physics and electrical engineering at MIT. He later earned a doctorate in information and computer science from the University of California, Irvine.\n\nThat educational path matters because DNS sits at the boundary between theory and infrastructure: it is elegant enough to be studied, but practical enough that the whole network breaks when it fails."
+          },
+          {
+            "id": "career",
+            "title": "Career",
+            "markdown": "Mockapetris joined the **Information Sciences Institute (ISI)** at the University of Southern California in 1978, during the formative years of the ARPANET and early Internet. At the time, hostnames were managed through a single central `HOSTS.TXT` file — workable for a small network, absurd for a large and growing one.\n\nIn **1983**, Mockapetris proposed the **Domain Name System** in **RFC 882** and **RFC 883**. The idea was profoundly important: replace one central list with a distributed, hierarchical, dynamic naming architecture. Instead of every machine carrying the full table, the naming system itself could be delegated across the network.\n\nHe also wrote the first DNS implementation, called **Jeeves**, for TOPS-20. That combination — architecture plus implementation — is one reason his contribution is so enduring. He did not merely describe a desirable future; he built the technical path into it.\n\nMockapetris later served at ARPA, chaired the IETF, sat on the Internet Architecture Board, and worked across multiple Internet companies. He also played a major role at **Nominum**, where he remained closely involved with DNS infrastructure at industrial scale."
+          },
+          {
+            "id": "later-life-legacy",
+            "title": "Later Life & Legacy",
+            "markdown": "If TCP/IP provided the roads of the Internet, DNS provided the map and addressing language humans actually use. Without it, the network would still exist, but it would be far harder to navigate, administer, and scale.\n\nMockapetris is remembered as one of the quiet infrastructure heroes of the Internet age: not the builder of a flashy application, but the architect of a system so foundational that most users notice it only when it stops working."
+          }
+        ]
+      },
+      {
+        "id": "major-contributions",
+        "kind": "contributions",
+        "title": "Major Contributions",
+        "markdown": "### Domain Name System (1983)\n- **Year:** 1983\n- **Context:** The single `HOSTS.TXT` model could not scale with the growth of the ARPANET and Internet\n- **Technical Details:** Introduced a distributed, hierarchical database for translating human-readable domain names into network addresses, with delegation across zones and servers\n- **Impact:** Enabled Internet-scale naming, management, and service discovery, becoming one of the essential pillars of the modern network\n\n### First DNS Implementation — Jeeves\n- **Year:** 1983\n- **Context:** A standard becomes real only when it can be implemented and deployed\n- **Technical Details:** Mockapetris wrote the first DNS implementation for TOPS-20, proving the architecture could function in practice\n- **Impact:** Helped turn DNS from a proposal into working infrastructure\n\n### Later Internet Governance and Standards Leadership\n- **Year:** 1990s\n- **Context:** The Internet's rapid growth required technical leadership beyond the design of individual protocols\n- **Technical Details:** Served as ARPA program manager for networking, chaired the IETF, and worked with the IAB and later commercial Internet infrastructure firms\n- **Impact:** Extended his influence from one protocol into the broader architecture and stewardship of the networked world",
+        "subsections": [
+          {
+            "id": "domain-name-system-1983",
+            "title": "Domain Name System (1983)",
+            "markdown": "- **Year:** 1983\n- **Context:** The single `HOSTS.TXT` model could not scale with the growth of the ARPANET and Internet\n- **Technical Details:** Introduced a distributed, hierarchical database for translating human-readable domain names into network addresses, with delegation across zones and servers\n- **Impact:** Enabled Internet-scale naming, management, and service discovery, becoming one of the essential pillars of the modern network"
+          },
+          {
+            "id": "first-dns-implementation-jeeves",
+            "title": "First DNS Implementation — Jeeves",
+            "markdown": "- **Year:** 1983\n- **Context:** A standard becomes real only when it can be implemented and deployed\n- **Technical Details:** Mockapetris wrote the first DNS implementation for TOPS-20, proving the architecture could function in practice\n- **Impact:** Helped turn DNS from a proposal into working infrastructure"
+          },
+          {
+            "id": "later-internet-governance-and-standards-leadership",
+            "title": "Later Internet Governance and Standards Leadership",
+            "markdown": "- **Year:** 1990s\n- **Context:** The Internet's rapid growth required technical leadership beyond the design of individual protocols\n- **Technical Details:** Served as ARPA program manager for networking, chaired the IETF, and worked with the IAB and later commercial Internet infrastructure firms\n- **Impact:** Extended his influence from one protocol into the broader architecture and stewardship of the networked world"
+          }
+        ]
+      },
+      {
+        "id": "publications-works",
+        "kind": "publications",
+        "title": "Publications & Works",
+        "markdown": "- **RFC 882** — *Domain Names: Concepts and Facilities* (1983)\n- **RFC 883** — *Domain Names: Implementation and Specification* (1983)\n- **RFC 1034** — *Domain Names: Concepts and Facilities* (1987)\n- **RFC 1035** — *Domain Names: Implementation and Specification* (1987)\n- Work on SMTP and early Internet infrastructure at USC ISI",
+        "subsections": []
+      },
+      {
+        "id": "awards-honors",
+        "kind": "awards",
+        "title": "Awards & Honors",
+        "markdown": "| Year | Award |\n|------|-------|\n| 1997 | John C. Dvorak Telecommunications Excellence Award |\n| 2003 | IEEE Internet Award |\n| 2004 | ACM Fellow |\n| 2005 | ACM SIGCOMM Award |\n| 2006 | Elected to the National Academy of Engineering |\n| 2012 | Internet Hall of Fame |\n| 2019 | ACM Software System Award |",
+        "subsections": []
+      },
+      {
+        "id": "quotes",
+        "kind": "quotes",
+        "title": "Quotes",
+        "markdown": "> \"Names are how humans use networks; numbers alone are how machines survive them.\"\n\n> \"The Internet needed a naming system that could grow without central collapse.\"",
+        "subsections": []
+      },
+      {
+        "id": "influence-legacy",
+        "kind": "influence",
+        "title": "Influence & Legacy",
+        "markdown": "### Direct Influence\nDNS remains one of the indispensable services of the Internet. Web browsing, email delivery, cloud services, and modern distributed systems all rely on it.\n\n### Indirect Influence\nMockapetris helped establish the Internet tradition of open, interoperable protocol design documented through RFCs and refined by community process.\n\n### Modern Relevance\nEvery typed URL, email route lookup, CDN edge selection, and many security and service-discovery systems still depend on the naming architecture he introduced.",
+        "subsections": [
+          {
+            "id": "direct-influence",
+            "title": "Direct Influence",
+            "markdown": "DNS remains one of the indispensable services of the Internet. Web browsing, email delivery, cloud services, and modern distributed systems all rely on it."
+          },
+          {
+            "id": "indirect-influence",
+            "title": "Indirect Influence",
+            "markdown": "Mockapetris helped establish the Internet tradition of open, interoperable protocol design documented through RFCs and refined by community process."
+          },
+          {
+            "id": "modern-relevance",
+            "title": "Modern Relevance",
+            "markdown": "Every typed URL, email route lookup, CDN edge selection, and many security and service-discovery systems still depend on the naming architecture he introduced."
+          }
+        ]
+      },
+      {
+        "id": "related-figures",
+        "kind": "related-figures",
+        "title": "Related Figures",
+        "markdown": "- [Bob Kahn](../bob-kahn/) — co-creator of the Internet's transport foundations\n- [Vint Cerf](../vint-cerf/) — co-creator of TCP/IP, the protocol suite DNS runs atop\n- [Tim Berners-Lee](../tim-berners-lee/) — built the Web on the human-usable Internet that DNS helped scale\n- [Radia Perlman](../radia-perlman/) — another key architect of Internet-scale infrastructure",
+        "subsections": []
+      },
+      {
+        "id": "resources",
+        "kind": "resources",
+        "title": "Resources",
+        "markdown": "- [Internet Hall of Fame profile](https://www.internethalloffame.org/inductee/paul-mockapetris/)\n- [ACM award profile](https://awards.acm.org/award_winners/mockapetris_3342151)\n- [RFC 1034](https://www.rfc-editor.org/rfc/rfc1034)\n- [RFC 1035](https://www.rfc-editor.org/rfc/rfc1035)",
+        "subsections": []
+      },
+      {
+        "id": "timeline",
+        "kind": "timeline",
+        "title": "Timeline",
+        "markdown": "| Year | Event |\n|------|-------|\n| 1948 | Born in Boston, Massachusetts |\n| 1971 | Earns bachelor's degrees from MIT |\n| 1978 | Joins USC Information Sciences Institute |\n| 1982 | Earns doctorate from UC Irvine |\n| 1983 | Proposes DNS in RFC 882 and RFC 883 |\n| 1983 | Writes first DNS implementation |\n| 1990–1993 | Serves as ARPA program manager for networking |\n| 1994–1996 | Chairs the IETF |\n| 1999–2016 | Serves as chief scientist and chairman at Nominum |\n| 2012 | Inducted into the Internet Hall of Fame |",
+        "subsections": []
+      },
+      {
+        "id": "references",
+        "kind": "references",
+        "title": "References",
+        "markdown": "1. Mockapetris, Paul. RFC 882 and RFC 883, 1983.\n2. Mockapetris, Paul. RFC 1034 and RFC 1035, 1987.\n3. Internet Hall of Fame profile.\n4. ACM and IEEE award materials.",
+        "subsections": []
+      },
+      {
+        "id": "navigation",
+        "kind": "navigation",
+        "title": "Navigation",
+        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Radia Perlman](../radia-perlman/)\n- [↑ Category Overview](../README.md)\n- [Next: Tim Berners-Lee →](../tim-berners-lee/)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "subsections": []
+      }
+    ],
+    "awards": [
+      {
+        "year": "1997",
+        "title": "John C. Dvorak Telecommunications Excellence Award",
+        "rawCells": [
+          "1997",
+          "John C. Dvorak Telecommunications Excellence Award"
+        ]
+      },
+      {
+        "year": "2003",
+        "title": "IEEE Internet Award",
+        "rawCells": [
+          "2003",
+          "IEEE Internet Award"
+        ]
+      },
+      {
+        "year": "2004",
+        "title": "ACM Fellow",
+        "rawCells": [
+          "2004",
+          "ACM Fellow"
+        ]
+      },
+      {
+        "year": "2005",
+        "title": "ACM SIGCOMM Award",
+        "rawCells": [
+          "2005",
+          "ACM SIGCOMM Award"
+        ]
+      },
+      {
+        "year": "2006",
+        "title": "Elected to the National Academy of Engineering",
+        "rawCells": [
+          "2006",
+          "Elected to the National Academy of Engineering"
+        ]
+      },
+      {
+        "year": "2012",
+        "title": "Internet Hall of Fame",
+        "rawCells": [
+          "2012",
+          "Internet Hall of Fame"
+        ]
+      },
+      {
+        "year": "2019",
+        "title": "ACM Software System Award",
+        "rawCells": [
+          "2019",
+          "ACM Software System Award"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "text": "\"Names are how humans use networks; numbers alone are how machines survive them.\""
+      },
+      {
+        "text": "\"The Internet needed a naming system that could grow without central collapse.\""
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1948",
+        "event": "Born in Boston, Massachusetts"
+      },
+      {
+        "year": "1971",
+        "event": "Earns bachelor's degrees from MIT"
+      },
+      {
+        "year": "1978",
+        "event": "Joins USC Information Sciences Institute"
+      },
+      {
+        "year": "1982",
+        "event": "Earns doctorate from UC Irvine"
+      },
+      {
+        "year": "1983",
+        "event": "Proposes DNS in RFC 882 and RFC 883"
+      },
+      {
+        "year": "1983",
+        "event": "Writes first DNS implementation"
+      },
+      {
+        "year": "1990–1993",
+        "event": "Serves as ARPA program manager for networking"
+      },
+      {
+        "year": "1994–1996",
+        "event": "Chairs the IETF"
+      },
+      {
+        "year": "1999–2016",
+        "event": "Serves as chief scientist and chairman at Nominum"
+      },
+      {
+        "year": "2012",
+        "event": "Inducted into the Internet Hall of Fame"
+      }
+    ],
+    "relatedFigures": [
+      {
+        "name": "Bob Kahn",
+        "href": "/legend/bob-kahn",
+        "resolvedSlug": "bob-kahn",
+        "relationship": "co-creator of the Internet's transport foundations"
+      },
+      {
+        "name": "Vint Cerf",
+        "href": "/legend/vint-cerf",
+        "resolvedSlug": "vint-cerf",
+        "relationship": "co-creator of TCP/IP, the protocol suite DNS runs atop"
+      },
+      {
+        "name": "Tim Berners-Lee",
+        "href": "/legend/tim-berners-lee",
+        "resolvedSlug": "tim-berners-lee",
+        "relationship": "built the Web on the human-usable Internet that DNS helped scale"
+      },
+      {
+        "name": "Radia Perlman",
+        "href": "/legend/radia-perlman",
+        "resolvedSlug": "radia-perlman",
+        "relationship": "another key architect of Internet-scale infrastructure"
+      }
+    ],
+    "resources": [
+      {
+        "title": "Internet Hall of Fame profile",
+        "url": "https://www.internethalloffame.org/inductee/paul-mockapetris/",
+        "kind": "article",
+        "host": "internethalloffame.org",
+        "isEmbeddable": false
+      },
+      {
+        "title": "ACM award profile",
+        "url": "https://awards.acm.org/award_winners/mockapetris_3342151",
+        "kind": "article",
+        "host": "awards.acm.org",
+        "isEmbeddable": false
+      },
+      {
+        "title": "RFC 1034",
+        "url": "https://www.rfc-editor.org/rfc/rfc1034",
+        "kind": "article",
+        "host": "rfc-editor.org",
+        "isEmbeddable": false
+      },
+      {
+        "title": "RFC 1035",
+        "url": "https://www.rfc-editor.org/rfc/rfc1035",
+        "kind": "article",
+        "host": "rfc-editor.org",
+        "isEmbeddable": false
+      }
+    ],
+    "mediaItems": [],
+    "references": [
+      {
+        "text": "Mockapetris, Paul. RFC 882 and RFC 883, 1983."
+      },
+      {
+        "text": "Mockapetris, Paul. RFC 1034 and RFC 1035, 1987."
+      },
+      {
+        "text": "Internet Hall of Fame profile."
+      },
+      {
+        "text": "ACM and IEEE award materials."
+      }
+    ],
+    "navigation": [
+      {
+        "label": "← Main Index",
+        "href": "/",
+        "direction": "main-index"
+      },
+      {
+        "label": "← Previous: Radia Perlman",
+        "href": "/legend/radia-perlman",
+        "resolvedSlug": "radia-perlman",
+        "direction": "previous"
+      },
+      {
+        "label": "↑ Category Overview",
+        "href": "/category/web-internet",
+        "direction": "category-overview"
+      },
+      {
+        "label": "Next: Tim Berners-Lee →",
+        "href": "/legend/tim-berners-lee",
+        "resolvedSlug": "tim-berners-lee",
+        "direction": "next"
+      }
+    ]
+  },
   "radia-perlman": {
     "id": "web-internet/radia-perlman",
     "name": "Radia Perlman",
@@ -12361,15 +16681,83 @@ export const legendDetails = {
     "categoryLabel": "Web & Internet",
     "sourcePath": "web-internet/radia-perlman/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/radia-perlman/images/portrait.jpg",
+      "src": "images/legends/web-internet/radia-perlman/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1067,
+      "height": 1600,
+      "sources": [
+        {
+          "src": "images/legends/web-internet/radia-perlman/images/portrait-240w.webp",
+          "width": 240,
+          "height": 360,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/radia-perlman/images/portrait-320w.webp",
+          "width": 320,
+          "height": 480,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/radia-perlman/images/portrait-480w.webp",
+          "width": 480,
+          "height": 720,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/radia-perlman/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1080,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/radia-perlman/images/portrait-1067w.webp",
+          "width": 1067,
+          "height": 1600,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/radia-perlman/images/portrait.jpg",
+        "src": "images/legends/web-internet/radia-perlman/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 1067,
+        "height": 1600,
+        "sources": [
+          {
+            "src": "images/legends/web-internet/radia-perlman/images/portrait-240w.webp",
+            "width": 240,
+            "height": 360,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/radia-perlman/images/portrait-320w.webp",
+            "width": 320,
+            "height": 480,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/radia-perlman/images/portrait-480w.webp",
+            "width": 480,
+            "height": 720,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/radia-perlman/images/portrait-720w.webp",
+            "width": 720,
+            "height": 1080,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/radia-perlman/images/portrait-1067w.webp",
+            "width": 1067,
+            "height": 1600,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. 1951, Portsmouth, Virginia, USA",
@@ -12618,15 +17006,71 @@ export const legendDetails = {
     "categoryLabel": "Web & Internet",
     "sourcePath": "web-internet/tim-berners-lee/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/tim-berners-lee/images/tim-berners-lee.jpg",
+      "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee.jpg",
       "alt": "Tim Berners-Lee",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 642,
+      "height": 886,
+      "sources": [
+        {
+          "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-240w.webp",
+          "width": 240,
+          "height": 331,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-320w.webp",
+          "width": 320,
+          "height": 442,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-480w.webp",
+          "width": 480,
+          "height": 662,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-642w.webp",
+          "width": 642,
+          "height": 886,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/tim-berners-lee/images/tim-berners-lee.jpg",
+        "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee.jpg",
         "alt": "Tim Berners-Lee",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 642,
+        "height": 886,
+        "sources": [
+          {
+            "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-240w.webp",
+            "width": 240,
+            "height": 331,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-320w.webp",
+            "width": 320,
+            "height": 442,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-480w.webp",
+            "width": 480,
+            "height": 662,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-642w.webp",
+            "width": 642,
+            "height": 886,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "Born 8 June 1955, London, England",
@@ -13094,15 +17538,83 @@ export const legendDetails = {
     "categoryLabel": "Web & Internet",
     "sourcePath": "web-internet/vint-cerf/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/vint-cerf/images/portrait.jpg",
+      "src": "images/legends/web-internet/vint-cerf/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1280,
+      "height": 1280,
+      "sources": [
+        {
+          "src": "images/legends/web-internet/vint-cerf/images/portrait-240w.webp",
+          "width": 240,
+          "height": 240,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/vint-cerf/images/portrait-320w.webp",
+          "width": 320,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/vint-cerf/images/portrait-480w.webp",
+          "width": 480,
+          "height": 480,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/vint-cerf/images/portrait-720w.webp",
+          "width": 720,
+          "height": 720,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/vint-cerf/images/portrait-1280w.webp",
+          "width": 1280,
+          "height": 1280,
+          "type": "image/webp"
+        }
+      ]
     },
     "images": [
       {
-        "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/vint-cerf/images/portrait.jpg",
+        "src": "images/legends/web-internet/vint-cerf/images/portrait.jpg",
         "alt": "Portrait",
-        "isPortrait": true
+        "isPortrait": true,
+        "width": 1280,
+        "height": 1280,
+        "sources": [
+          {
+            "src": "images/legends/web-internet/vint-cerf/images/portrait-240w.webp",
+            "width": 240,
+            "height": 240,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/vint-cerf/images/portrait-320w.webp",
+            "width": 320,
+            "height": 320,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/vint-cerf/images/portrait-480w.webp",
+            "width": 480,
+            "height": 480,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/vint-cerf/images/portrait-720w.webp",
+            "width": 720,
+            "height": 720,
+            "type": "image/webp"
+          },
+          {
+            "src": "images/legends/web-internet/vint-cerf/images/portrait-1280w.webp",
+            "width": 1280,
+            "height": 1280,
+            "type": "image/webp"
+          }
+        ]
       }
     ],
     "lifespan": "b. June 23, 1943, New Haven, Connecticut, USA",

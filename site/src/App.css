@@ -440,6 +440,15 @@
   background: var(--surface-container);
 }
 
+.responsive-picture {
+  display: block;
+}
+
+.responsive-picture-fill {
+  width: 100%;
+  height: 100%;
+}
+
 .portrait-link {
   display: block;
   color: inherit;

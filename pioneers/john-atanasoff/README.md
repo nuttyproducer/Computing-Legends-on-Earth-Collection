@@ -1,6 +1,6 @@
 # John Vincent Atanasoff
 
-<img src="images/portrait.svg" alt="John Vincent Atanasoff portrait placeholder" width="280" align="left">
+<img src="images/portrait.jpg" alt="John Vincent Atanasoff portrait" width="280" align="left">
 
 *John Atanasoff belongs in the earliest layer of computing history: the moment when calculation stopped being merely mechanical and began becoming electronic, digital, and fast enough to hint at the future.*
 

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Placeholder portrait for Thomas E. Kurtz">
+  <rect width="800" height="1000" fill="#f3f4f6"/>
+  <circle cx="400" cy="300" r="140" fill="#d1d5db"/>
+  <path d="M180 840c20-170 120-270 220-270s200 100 220 270" fill="#d1d5db"/>
+  <text x="400" y="920" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#374151">Thomas E. Kurtz</text>
+  <text x="400" y="965" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#6b7280">No clearly reusable portrait found yet</text>
+</svg>

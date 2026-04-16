@@ -1,6 +1,6 @@
 import { Menu, Search } from 'lucide-react'
 import { Outlet } from 'react-router-dom'
-import { categories } from '../content/generated'
+import { categories } from '../content/generated/categories.generated'
 import { ScrollNavLink } from './ScrollLink.tsx'
 
 export function SiteLayout() {

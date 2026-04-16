@@ -3,9 +3,9 @@
 // Do not edit manually.
 
 export const collectionMeta = {
-  "legendCount": 37,
+  "legendCount": 43,
   "categoryCount": 6,
-  "totalResources": 272,
+  "totalResources": 315,
   "earliestYear": 1791,
   "latestYear": 2024
 } as const

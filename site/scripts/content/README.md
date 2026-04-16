@@ -20,5 +20,6 @@ The generator currently writes:
 ## Notes
 
 - Source markdown outside `site/` remains untouched.
-- Relative portrait paths are resolved to raw GitHub URLs on the `website` branch for now.
+- Relative portrait and legend image paths are copied into `site/public/images/legends/` during `npm run content:build` and emitted as first-party local asset URLs.
+- Raster legend images now also get generated responsive WebP variants, and the homepage hero image gets generated WebP variants under `site/public/images/landing/hero/generated/`.
 - Internal markdown links are normalized into site routes such as `/legend/:slug` and `/category/:slug`.

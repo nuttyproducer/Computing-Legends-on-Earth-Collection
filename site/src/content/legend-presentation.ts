@@ -1,6 +1,6 @@
-import { legendIndex } from './generated'
+import { legendIndex } from './generated/legend-index.generated'
 import type { CategoryId, LegendDetail, RenderableSectionKind } from './types'
-import { extractBulletItems, extractParagraphs, summarizeMarkdown } from './presentation'
+import { extractBulletItems, extractParagraphs, summarizeMarkdown } from './text-utils'
 
 let detailMapPromise: Promise<Record<string, LegendDetail>> | undefined
 

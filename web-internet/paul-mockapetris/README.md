@@ -1,6 +1,6 @@
 # Paul Mockapetris
 
-<img src="images/portrait.svg" alt="Paul Mockapetris portrait placeholder" width="280" align="left">
+<img src="images/portrait.jpg" alt="Paul Mockapetris portrait" width="280" align="left">
 
 *Paul Mockapetris solved one of the Internet's deceptively basic problems: how do humans find anything on a growing network without memorizing raw machine addresses? The answer became DNS, and the modern Internet still depends on it every second.*
 

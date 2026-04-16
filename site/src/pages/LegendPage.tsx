@@ -3,11 +3,13 @@ import { useEffect, useMemo, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { useParams } from 'react-router-dom'
+import { ResponsiveImage } from '../components/ResponsiveImage.tsx'
 import { Seo } from '../components/Seo.tsx'
 import { ScrollLink } from '../components/ScrollLink.tsx'
+import { resolveAbsoluteAssetUrl } from '../content/assets.ts'
 import { loadLegendDetail } from '../content/legend-presentation'
 import { seoDefaults } from '../content/seo.ts'
-import { extractYears, formatCompactLifespan } from '../content/presentation'
+import { extractYears, formatCompactLifespan } from '../content/text-utils'
 import type { LegendDetail } from '../content/types'
 import { NotFoundPage } from './NotFoundPage'
 
@@ -54,7 +56,7 @@ function getLegendStructuredData(legend: LegendDetail, description: string) {
   const canonicalUrl = `${seoDefaults.siteUrl}/legend/${legend.slug}`
   const personId = `${canonicalUrl}#person`
   const breadcrumbId = `${canonicalUrl}#breadcrumb`
-  const imageUrls = legend.images.map((image) => image.src).filter(Boolean)
+  const imageUrls = legend.images.map((image) => resolveAbsoluteAssetUrl(image.src)).filter(Boolean)
   const sameAs = [...new Set([
     ...legend.resources.map((resource) => resource.url).filter(Boolean),
     ...legend.references.map((reference) => reference.url).filter(Boolean),
@@ -259,7 +261,15 @@ export function LegendPage() {
             </div>
 
             <aside className="legend-portrait-panel">
-              {legend.portrait ? <img src={legend.portrait.src} alt={legend.name} /> : <div className="exhibit-image-fallback" />}
+              {legend.portrait ? (
+                <ResponsiveImage
+                  image={legend.portrait}
+                  alt={legend.name}
+                  sizes="(max-width: 768px) calc(100vw - 2rem), 26rem"
+                  loading="eager"
+                  decoding="async"
+                />
+              ) : <div className="exhibit-image-fallback" />}
             </aside>
           </div>
         </section>

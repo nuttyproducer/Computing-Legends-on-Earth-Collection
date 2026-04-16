@@ -8,7 +8,7 @@ export const categories = [
   {
     "id": "pioneers",
     "label": "Pioneers",
-    "count": 5,
+    "count": 6,
     "featuredSlugs": [
       "ada-lovelace",
       "charles-babbage",
@@ -18,17 +18,17 @@ export const categories = [
   {
     "id": "foundational-cs",
     "label": "Foundational Computer Science",
-    "count": 7,
+    "count": 8,
     "featuredSlugs": [
       "alan-turing",
-      "claude-shannon",
-      "donald-knuth"
+      "alonzo-church",
+      "claude-shannon"
     ]
   },
   {
     "id": "systems-languages",
     "label": "Systems & Languages",
-    "count": 12,
+    "count": 15,
     "featuredSlugs": [
       "barbara-liskov",
       "bjarne-stroustrup",
@@ -58,11 +58,11 @@ export const categories = [
   {
     "id": "web-internet",
     "label": "Web & Internet",
-    "count": 4,
+    "count": 5,
     "featuredSlugs": [
       "bob-kahn",
-      "radia-perlman",
-      "tim-berners-lee"
+      "paul-mockapetris",
+      "radia-perlman"
     ]
   }
 ] satisfies CategorySummary[]

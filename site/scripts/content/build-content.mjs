@@ -1,6 +1,7 @@
-import { mkdir, writeFile } from 'node:fs/promises'
+import { copyFile, mkdir, rm, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import sharp from 'sharp'
 import { parseLegendFile, sortLegendDetails } from './parse-legend.mjs'
 import { scanRepositoryContent } from './scan-repo.mjs'
 
@@ -8,6 +9,13 @@ const SITE_ROOT = fileURLToPath(new URL('../../', import.meta.url))
 const GENERATED_DIR = path.join(SITE_ROOT, 'src/content/generated')
 const PUBLIC_DATA_DIR = path.join(SITE_ROOT, 'public/data')
 const PUBLIC_DIR = path.join(SITE_ROOT, 'public')
+const PUBLIC_LEGEND_IMAGE_DIR = path.join(PUBLIC_DIR, 'images/legends')
+const PUBLIC_LEGEND_IMAGE_PREFIX = 'images/legends'
+const PUBLIC_HERO_IMAGE_PATH = path.join(PUBLIC_DIR, 'images/landing/hero/hero-digital-age-archive.jpg')
+const PUBLIC_HERO_GENERATED_DIR = path.join(PUBLIC_DIR, 'images/landing/hero/generated')
+const PUBLIC_HERO_GENERATED_PREFIX = 'images/landing/hero/generated/hero-digital-age-archive'
+const PORTRAIT_VARIANT_WIDTHS = [240, 320, 480, 720]
+const HERO_VARIANT_WIDTHS = [320, 512]
 
 const REPOSITORY_INFO = {
   owner: process.env.BITLORE_GITHUB_OWNER ?? 'nuttyproducer',
@@ -16,6 +24,67 @@ const REPOSITORY_INFO = {
 }
 
 REPOSITORY_INFO.rawContentBase = `https://raw.githubusercontent.com/${REPOSITORY_INFO.owner}/${REPOSITORY_INFO.repo}/${REPOSITORY_INFO.branch}`
+
+function normalizePosixPath(value) {
+  return value.split(path.sep).join(path.posix.sep)
+}
+
+function getAssetExtension(filePath) {
+  return path.extname(filePath).toLowerCase()
+}
+
+function isRasterImage(filePath) {
+  return ['.jpg', '.jpeg', '.png', '.webp'].includes(getAssetExtension(filePath))
+}
+
+function withoutFileExtension(filePath) {
+  return filePath.replace(/\.[^.]+$/, '')
+}
+
+function getVariantWidths(widths, sourceWidth) {
+  return [...new Set(widths.filter((width) => width <= sourceWidth).concat(sourceWidth))]
+    .sort((left, right) => left - right)
+}
+
+async function createResponsiveWebpSources(sourceFilePath, publicRelativeBasePath, widths) {
+  if (!isRasterImage(sourceFilePath)) {
+    return {}
+  }
+
+  const metadata = await sharp(sourceFilePath).metadata()
+
+  if (!metadata.width || !metadata.height) {
+    return {}
+  }
+
+  const variantWidths = getVariantWidths(widths, metadata.width)
+  const sources = await Promise.all(
+    variantWidths.map(async (width) => {
+      const height = Math.round((metadata.height / metadata.width) * width)
+      const publicRelativePath = `${publicRelativeBasePath}-${width}w.webp`
+      const targetFilePath = path.join(PUBLIC_DIR, normalizePosixPath(publicRelativePath))
+
+      await mkdir(path.dirname(targetFilePath), { recursive: true })
+      await sharp(sourceFilePath)
+        .resize({ width, withoutEnlargement: true })
+        .webp({ quality: 72 })
+        .toFile(targetFilePath)
+
+      return {
+        src: normalizePosixPath(publicRelativePath),
+        width,
+        height,
+        type: 'image/webp',
+      }
+    }),
+  )
+
+  return {
+    width: metadata.width,
+    height: metadata.height,
+    sources,
+  }
+}
 
 function serializeWithBanner(contents) {
   return [
@@ -41,6 +110,84 @@ async function writePublicDataFile(fileName, source) {
 async function writePublicFile(fileName, source) {
   await mkdir(PUBLIC_DIR, { recursive: true })
   await writeFile(path.join(PUBLIC_DIR, fileName), source, 'utf8')
+}
+
+function toRepoRelativeAssetPath(sourceUrl, repositoryInfo) {
+  const normalizedBase = `${repositoryInfo.rawContentBase}/`
+
+  if (!sourceUrl.startsWith(normalizedBase)) {
+    return undefined
+  }
+
+  return sourceUrl.slice(normalizedBase.length).split(/[?#]/, 1)[0]
+}
+
+async function localizeLegendImageAsset(sourceUrl, repoRoot, repositoryInfo, localizedAssetMap) {
+  const cached = localizedAssetMap.get(sourceUrl)
+  if (cached) {
+    return cached
+  }
+
+  const localizationPromise = (async () => {
+    const repoRelativeAssetPath = toRepoRelativeAssetPath(sourceUrl, repositoryInfo)
+
+    if (!repoRelativeAssetPath) {
+      return { src: sourceUrl }
+    }
+
+    const publicRelativePath = normalizePosixPath(path.join(PUBLIC_LEGEND_IMAGE_PREFIX, repoRelativeAssetPath))
+    const sourceFilePath = path.join(repoRoot, repoRelativeAssetPath)
+    const targetFilePath = path.join(PUBLIC_DIR, publicRelativePath)
+    const responsivePublicRelativeBasePath = normalizePosixPath(path.join(PUBLIC_LEGEND_IMAGE_PREFIX, withoutFileExtension(repoRelativeAssetPath)))
+
+    await mkdir(path.dirname(targetFilePath), { recursive: true })
+    await copyFile(sourceFilePath, targetFilePath)
+
+    const responsiveMetadata = await createResponsiveWebpSources(
+      sourceFilePath,
+      responsivePublicRelativeBasePath,
+      PORTRAIT_VARIANT_WIDTHS,
+    )
+
+    return {
+      src: publicRelativePath,
+      ...responsiveMetadata,
+    }
+  })()
+
+  localizedAssetMap.set(sourceUrl, localizationPromise)
+  return localizationPromise
+}
+
+async function localizeLegendDetailImages(detail, repoRoot, repositoryInfo, localizedAssetMap) {
+  const localizedImages = await Promise.all(
+    detail.images.map(async (image) => ({
+      ...image,
+      ...(await localizeLegendImageAsset(image.src, repoRoot, repositoryInfo, localizedAssetMap)),
+    })),
+  )
+
+  const localizedPortrait = detail.portrait
+    ? {
+      ...detail.portrait,
+      ...(await localizeLegendImageAsset(detail.portrait.src, repoRoot, repositoryInfo, localizedAssetMap)),
+    }
+    : undefined
+
+  return {
+    ...detail,
+    images: localizedImages,
+    portrait: localizedPortrait,
+  }
+}
+
+async function generateHeroImageVariants() {
+  await rm(PUBLIC_HERO_GENERATED_DIR, { recursive: true, force: true })
+  await createResponsiveWebpSources(
+    PUBLIC_HERO_IMAGE_PATH,
+    PUBLIC_HERO_GENERATED_PREFIX,
+    HERO_VARIANT_WIDTHS,
+  )
 }
 
 function extractYears(text) {
@@ -160,8 +307,18 @@ function createRobotsTxt() {
 async function buildContent() {
   const scanResult = await scanRepositoryContent()
   const legends = scanResult.categories.flatMap((category) => category.legends)
+  const localizedAssetMap = new Map()
+
+  await rm(PUBLIC_LEGEND_IMAGE_DIR, { recursive: true, force: true })
+  await generateHeroImageVariants()
+
+  const parsedLegendDetails = await Promise.all(legends.map((legend) => parseLegendFile(legend, REPOSITORY_INFO)))
   const legendDetailsList = sortLegendDetails(
-    await Promise.all(legends.map((legend) => parseLegendFile(legend, REPOSITORY_INFO))),
+    await Promise.all(
+      parsedLegendDetails.map((detail) =>
+        localizeLegendDetailImages(detail, scanResult.repoRoot, REPOSITORY_INFO, localizedAssetMap),
+      ),
+    ),
   )
   const legendIndex = createLegendIndex(legendDetailsList)
   const categories = createCategorySummaries(scanResult, legendIndex)
@@ -238,6 +395,8 @@ async function buildContent() {
 
   console.log(`Generated content for ${legendIndex.length} legends.`)
   console.log(`Output directory: ${GENERATED_DIR}`)
+  console.log(`Localized legend images written to: ${PUBLIC_LEGEND_IMAGE_DIR}`)
+  console.log(`Responsive hero images written to: ${PUBLIC_HERO_GENERATED_DIR}`)
   console.log(`Sitemap written to: ${path.join(PUBLIC_DIR, 'sitemap.xml')}`)
   console.log(`Robots written to: ${path.join(PUBLIC_DIR, 'robots.txt')}`)
 }

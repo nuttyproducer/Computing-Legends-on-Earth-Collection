@@ -77,8 +77,21 @@ export interface SourceLocation {
   slug: string
 }
 
-export interface LegendImage {
+export interface ResponsiveImageSource {
   src: string
+  width: number
+  height: number
+  type: string
+}
+
+export interface ResponsiveImageAsset {
+  src: string
+  width?: number
+  height?: number
+  sources?: ResponsiveImageSource[]
+}
+
+export interface LegendImage extends ResponsiveImageAsset {
   alt: string
   caption?: string
   credit?: string

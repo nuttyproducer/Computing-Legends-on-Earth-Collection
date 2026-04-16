@@ -1,4 +1,5 @@
 import { useEffect, useMemo } from 'react'
+import { resolveAbsoluteAssetUrl } from '../content/assets.ts'
 import { seoDefaults } from '../content/seo.ts'
 
 const STRUCTURED_DATA_ID = 'seo-structured-data'
@@ -59,6 +60,7 @@ export function Seo({
 }: SeoProps) {
   const fullTitle = title === seoDefaults.siteName ? title : `${title} | ${seoDefaults.siteName}`
   const canonicalUrl = getAbsoluteUrl(path)
+  const resolvedImage = resolveAbsoluteAssetUrl(image) ?? seoDefaults.image
   const robots = noIndex ? 'noindex, nofollow' : 'index, follow'
   const structuredDataJson = useMemo(
     () => (structuredData ? JSON.stringify(structuredData) : undefined),
@@ -75,14 +77,14 @@ export function Seo({
     ensureMeta('property', 'og:title').content = fullTitle
     ensureMeta('property', 'og:description').content = description
     ensureMeta('property', 'og:url').content = canonicalUrl
-    ensureMeta('property', 'og:image').content = image
+    ensureMeta('property', 'og:image').content = resolvedImage
     ensureMeta('property', 'og:image:alt').content = imageAlt
     ensureMeta('property', 'og:locale').content = seoDefaults.locale
     ensureMeta('property', 'og:site_name').content = seoDefaults.siteName
     ensureMeta('name', 'twitter:card').content = 'summary_large_image'
     ensureMeta('name', 'twitter:title').content = fullTitle
     ensureMeta('name', 'twitter:description').content = description
-    ensureMeta('name', 'twitter:image').content = image
+    ensureMeta('name', 'twitter:image').content = resolvedImage
     ensureMeta('name', 'twitter:image:alt').content = imageAlt
     ensureMeta('name', 'twitter:url').content = canonicalUrl
     ensureLink('canonical').href = canonicalUrl
@@ -101,7 +103,7 @@ export function Seo({
     } else {
       existingStructuredData?.remove()
     }
-  }, [canonicalUrl, description, fullTitle, image, imageAlt, robots, structuredDataJson, type])
+  }, [canonicalUrl, description, fullTitle, imageAlt, resolvedImage, robots, structuredDataJson, type])
 
   return null
 }

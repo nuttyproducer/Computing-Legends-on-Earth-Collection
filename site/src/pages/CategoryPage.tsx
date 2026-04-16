@@ -1,10 +1,14 @@
 import { ArrowRight } from 'lucide-react'
 import { useParams } from 'react-router-dom'
+import { ResponsiveImage } from '../components/ResponsiveImage.tsx'
 import { Seo } from '../components/Seo.tsx'
 import { ScrollLink } from '../components/ScrollLink.tsx'
-import { categories, legendIndex } from '../content/generated'
+import { resolveAbsoluteAssetUrl } from '../content/assets.ts'
+import { categoryPresentation } from '../content/home-presentation'
+import { categories } from '../content/generated/categories.generated'
+import { legendIndex } from '../content/generated/legend-index.generated'
 import { seoDefaults } from '../content/seo.ts'
-import { categoryPresentation, summarizeMarkdown } from '../content/presentation'
+import { summarizeMarkdown } from '../content/text-utils'
 import { NotFoundPage } from './NotFoundPage'
 
 export function CategoryPage() {
@@ -25,7 +29,7 @@ export function CategoryPage() {
   const legendsWithPortraits = legends.filter((legend) => legend.portrait).length
   const description = `${presentation.description} Explore ${category.count} legends in the ${category.label} exhibit wing.`
   const socialLegend = legends.find((legend) => legend.portrait)
-  const image = socialLegend?.portrait?.src ?? seoDefaults.image
+  const image = resolveAbsoluteAssetUrl(socialLegend?.portrait?.src) ?? seoDefaults.image
   const imageAlt = socialLegend?.portrait?.alt
     ? `${socialLegend.portrait.alt} — featured in the ${category.label} exhibit wing`
     : `${category.label} exhibit wing preview image`
@@ -85,7 +89,7 @@ export function CategoryPage() {
         position: index + 1,
         url: `${seoDefaults.siteUrl}/legend/${legend.slug}`,
         name: legend.name,
-        image: legend.portrait?.src,
+        image: resolveAbsoluteAssetUrl(legend.portrait?.src),
         description: legend.impact ?? legend.summary,
       })),
     },
@@ -144,7 +148,16 @@ export function CategoryPage() {
                 <article key={legend.slug} className="exhibit-card">
                   <ScrollLink className="portrait-link" to={`/legend/${legend.slug}`} aria-label={`Open ${legend.name} biography`}>
                     <div className="exhibit-image-frame">
-                      {legend.portrait ? <img className="portrait-image" src={legend.portrait.src} alt={legend.name} /> : <div className="exhibit-image-fallback" />}
+                      {legend.portrait ? (
+                        <ResponsiveImage
+                          className="portrait-image"
+                          image={legend.portrait}
+                          alt={legend.name}
+                          sizes="(max-width: 768px) calc(100vw - 2rem), (max-width: 1200px) 50vw, 380px"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      ) : <div className="exhibit-image-fallback" />}
                     </div>
                   </ScrollLink>
                   <div className="exhibit-body">

@@ -13,9 +13,43 @@ export const legendIndex = [
     "categoryLabel": "Pioneers",
     "sourcePath": "pioneers/ada-lovelace/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/ada-lovelace/images/portrait.jpg",
+      "src": "images/legends/pioneers/ada-lovelace/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2439,
+      "height": 3504,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/ada-lovelace/images/portrait-240w.webp",
+          "width": 240,
+          "height": 345,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/ada-lovelace/images/portrait-320w.webp",
+          "width": 320,
+          "height": 460,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/ada-lovelace/images/portrait-480w.webp",
+          "width": 480,
+          "height": 690,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/ada-lovelace/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1034,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/ada-lovelace/images/portrait-2439w.webp",
+          "width": 2439,
+          "height": 3504,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1815–1852",
     "field": "Programming, Mathematics",
@@ -42,9 +76,43 @@ export const legendIndex = [
     "categoryLabel": "Pioneers",
     "sourcePath": "pioneers/charles-babbage/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/charles-babbage/images/portrait.jpg",
+      "src": "images/legends/pioneers/charles-babbage/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2862,
+      "height": 4478,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/charles-babbage/images/portrait-240w.webp",
+          "width": 240,
+          "height": 376,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/charles-babbage/images/portrait-320w.webp",
+          "width": 320,
+          "height": 501,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/charles-babbage/images/portrait-480w.webp",
+          "width": 480,
+          "height": 751,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/charles-babbage/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1127,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/charles-babbage/images/portrait-2862w.webp",
+          "width": 2862,
+          "height": 4478,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1791–1871",
     "field": "Mechanical Computing, Mathematics",
@@ -71,9 +139,31 @@ export const legendIndex = [
     "categoryLabel": "Pioneers",
     "sourcePath": "pioneers/george-boole/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/george-boole/images/portrait.jpg",
+      "src": "images/legends/pioneers/george-boole/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 392,
+      "height": 480,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/george-boole/images/portrait-240w.webp",
+          "width": 240,
+          "height": 294,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/george-boole/images/portrait-320w.webp",
+          "width": 320,
+          "height": 392,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/george-boole/images/portrait-392w.webp",
+          "width": 392,
+          "height": 480,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1815–1864",
     "field": "Mathematics, Logic",
@@ -100,9 +190,43 @@ export const legendIndex = [
     "categoryLabel": "Pioneers",
     "sourcePath": "pioneers/herman-hollerith/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/herman-hollerith/images/portrait.jpg",
+      "src": "images/legends/pioneers/herman-hollerith/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 3276,
+      "height": 4096,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/herman-hollerith/images/portrait-240w.webp",
+          "width": 240,
+          "height": 300,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/herman-hollerith/images/portrait-320w.webp",
+          "width": 320,
+          "height": 400,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/herman-hollerith/images/portrait-480w.webp",
+          "width": 480,
+          "height": 600,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/herman-hollerith/images/portrait-720w.webp",
+          "width": 720,
+          "height": 900,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/herman-hollerith/images/portrait-3276w.webp",
+          "width": 3276,
+          "height": 4096,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1860–1929",
     "field": "Data Processing, Business Machines",
@@ -122,6 +246,70 @@ export const legendIndex = [
     "featured": false
   },
   {
+    "id": "pioneers/john-atanasoff",
+    "name": "John Vincent Atanasoff",
+    "slug": "john-atanasoff",
+    "category": "pioneers",
+    "categoryLabel": "Pioneers",
+    "sourcePath": "pioneers/john-atanasoff/README.md",
+    "portrait": {
+      "src": "images/legends/pioneers/john-atanasoff/images/portrait.jpg",
+      "alt": "John Vincent Atanasoff portrait",
+      "isPortrait": true,
+      "width": 2202,
+      "height": 2949,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/john-atanasoff/images/portrait-240w.webp",
+          "width": 240,
+          "height": 321,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/john-atanasoff/images/portrait-320w.webp",
+          "width": 320,
+          "height": 429,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/john-atanasoff/images/portrait-480w.webp",
+          "width": 480,
+          "height": 643,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/john-atanasoff/images/portrait-720w.webp",
+          "width": 720,
+          "height": 964,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/john-atanasoff/images/portrait-2202w.webp",
+          "width": 2202,
+          "height": 2949,
+          "type": "image/webp"
+        }
+      ]
+    },
+    "lifespan": "1903–1995",
+    "field": "Early Computing, Electronic Digital Hardware, Scientific Computing",
+    "keyContribution": "Conceived and built the Atanasoff–Berry Computer (ABC)",
+    "impact": "Helped establish the core principles of electronic digital computing, especially binary arithmetic and electronic memory",
+    "summary": "He studied electrical engineering at the University of Florida, earned a master's degree in mathematics from Iowa State College, and completed a PhD in theoretical physics at the University of Wisconsin–Madison in 1930. He then joined Iowa State College as a professor of mathematics and physics.",
+    "tags": [
+      "Early Computing",
+      "Electronic Digital Hardware",
+      "Scientific Computing",
+      "Pioneers"
+    ],
+    "relatedSlugs": [
+      "konrad-zuse",
+      "alan-turing",
+      "john-von-neumann"
+    ],
+    "featured": false
+  },
+  {
     "id": "pioneers/konrad-zuse",
     "name": "Konrad Zuse",
     "slug": "konrad-zuse",
@@ -129,9 +317,31 @@ export const legendIndex = [
     "categoryLabel": "Pioneers",
     "sourcePath": "pioneers/konrad-zuse/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/pioneers/konrad-zuse/images/portrait.jpg",
+      "src": "images/legends/pioneers/konrad-zuse/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 354,
+      "height": 472,
+      "sources": [
+        {
+          "src": "images/legends/pioneers/konrad-zuse/images/portrait-240w.webp",
+          "width": 240,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/konrad-zuse/images/portrait-320w.webp",
+          "width": 320,
+          "height": 427,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/pioneers/konrad-zuse/images/portrait-354w.webp",
+          "width": 354,
+          "height": 472,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1910–1995",
     "field": "Computer Hardware, Early Computing",
@@ -159,9 +369,37 @@ export const legendIndex = [
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/alan-turing/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/alan-turing/images/alan-turing-portrait.jpg",
+      "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait.jpg",
       "alt": "Alan Turing Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 712,
+      "height": 949,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-240w.webp",
+          "width": 240,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-320w.webp",
+          "width": 320,
+          "height": 427,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-480w.webp",
+          "width": 480,
+          "height": 640,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/alan-turing/images/alan-turing-portrait-712w.webp",
+          "width": 712,
+          "height": 949,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1912–1954",
     "field": "Theoretical Computer Science, Artificial Intelligence, Cryptography, Mathematical Biology",
@@ -179,6 +417,36 @@ export const legendIndex = [
     "featured": false
   },
   {
+    "id": "foundational-cs/alonzo-church",
+    "name": "Alonzo Church",
+    "slug": "alonzo-church",
+    "category": "foundational-cs",
+    "categoryLabel": "Foundational Computer Science",
+    "sourcePath": "foundational-cs/alonzo-church/README.md",
+    "portrait": {
+      "src": "images/legends/foundational-cs/alonzo-church/images/portrait.svg",
+      "alt": "Alonzo Church portrait placeholder",
+      "isPortrait": true
+    },
+    "lifespan": "1903–1995",
+    "field": "Mathematical Logic, Computability Theory, Foundations of Computer Science",
+    "keyContribution": "Invented lambda calculus and helped formulate the Church–Turing thesis",
+    "impact": "Established major parts of the mathematical foundation beneath theoretical computer science, programming languages, and computability",
+    "summary": "He attended Princeton University, graduating in mathematics in 1924, and stayed there for doctoral work under Oswald Veblen. After a brief period teaching and holding research fellowships, he began what would become a long and highly influential academic career.",
+    "tags": [
+      "Mathematical Logic",
+      "Computability Theory",
+      "Foundations of Computer Science",
+      "Foundational Computer Science"
+    ],
+    "relatedSlugs": [
+      "alan-turing",
+      "donald-knuth",
+      "john-von-neumann"
+    ],
+    "featured": false
+  },
+  {
     "id": "foundational-cs/claude-shannon",
     "name": "Claude Shannon",
     "slug": "claude-shannon",
@@ -186,9 +454,25 @@ export const legendIndex = [
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/claude-shannon/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/claude-shannon/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/claude-shannon/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 284,
+      "height": 400,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/claude-shannon/images/portrait-240w.webp",
+          "width": 240,
+          "height": 338,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/claude-shannon/images/portrait-284w.webp",
+          "width": 284,
+          "height": 400,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1916–2001",
     "field": "Information Theory, Digital Circuits, Mathematics",
@@ -216,9 +500,43 @@ export const legendIndex = [
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/donald-knuth/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/donald-knuth/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/donald-knuth/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 797,
+      "height": 1197,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/donald-knuth/images/portrait-240w.webp",
+          "width": 240,
+          "height": 360,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/donald-knuth/images/portrait-320w.webp",
+          "width": 320,
+          "height": 481,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/donald-knuth/images/portrait-480w.webp",
+          "width": 480,
+          "height": 721,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/donald-knuth/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1081,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/donald-knuth/images/portrait-797w.webp",
+          "width": 797,
+          "height": 1197,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1938",
     "field": "Algorithms, Programming, Typesetting",
@@ -248,9 +566,43 @@ export const legendIndex = [
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/edsger-dijkstra/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/edsger-dijkstra/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 3574,
+      "height": 2447,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-240w.webp",
+          "width": 240,
+          "height": 164,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-320w.webp",
+          "width": 320,
+          "height": 219,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-480w.webp",
+          "width": 480,
+          "height": 329,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-720w.webp",
+          "width": 720,
+          "height": 493,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/edsger-dijkstra/images/portrait-3574w.webp",
+          "width": 3574,
+          "height": 2447,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1930–2002",
     "field": "Algorithms, Software Engineering, Programming Methodology",
@@ -278,9 +630,43 @@ export const legendIndex = [
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/grace-hopper/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/grace-hopper/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/grace-hopper/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1542,
+      "height": 2051,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/grace-hopper/images/portrait-240w.webp",
+          "width": 240,
+          "height": 319,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/grace-hopper/images/portrait-320w.webp",
+          "width": 320,
+          "height": 426,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/grace-hopper/images/portrait-480w.webp",
+          "width": 480,
+          "height": 638,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/grace-hopper/images/portrait-720w.webp",
+          "width": 720,
+          "height": 958,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/grace-hopper/images/portrait-1542w.webp",
+          "width": 1542,
+          "height": 2051,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1906–1992",
     "field": "Programming Languages, Compilers",
@@ -308,9 +694,43 @@ export const legendIndex = [
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/john-von-neumann/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/john-von-neumann/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/john-von-neumann/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2055,
+      "height": 3000,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-240w.webp",
+          "width": 240,
+          "height": 350,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-320w.webp",
+          "width": 320,
+          "height": 467,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-480w.webp",
+          "width": 480,
+          "height": 701,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1051,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/john-von-neumann/images/portrait-2055w.webp",
+          "width": 2055,
+          "height": 3000,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1903–1957",
     "field": "Computer Architecture, Mathematics, Physics, Game Theory, Economics",
@@ -341,9 +761,31 @@ export const legendIndex = [
     "categoryLabel": "Foundational Computer Science",
     "sourcePath": "foundational-cs/tony-hoare/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/foundational-cs/tony-hoare/images/portrait.jpg",
+      "src": "images/legends/foundational-cs/tony-hoare/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 432,
+      "height": 640,
+      "sources": [
+        {
+          "src": "images/legends/foundational-cs/tony-hoare/images/portrait-240w.webp",
+          "width": 240,
+          "height": 356,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/tony-hoare/images/portrait-320w.webp",
+          "width": 320,
+          "height": 474,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/foundational-cs/tony-hoare/images/portrait-432w.webp",
+          "width": 432,
+          "height": 640,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1934",
     "field": "Algorithms, Programming Languages, Formal Methods",
@@ -371,9 +813,43 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/barbara-liskov/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/barbara-liskov/images/portrait.jpg",
+      "src": "images/legends/systems-languages/barbara-liskov/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1857,
+      "height": 2600,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/barbara-liskov/images/portrait-240w.webp",
+          "width": 240,
+          "height": 336,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/barbara-liskov/images/portrait-320w.webp",
+          "width": 320,
+          "height": 448,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/barbara-liskov/images/portrait-480w.webp",
+          "width": 480,
+          "height": 672,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/barbara-liskov/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1008,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/barbara-liskov/images/portrait-1857w.webp",
+          "width": 1857,
+          "height": 2600,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1939",
     "field": "Programming Languages, Software Engineering",
@@ -402,9 +878,43 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/bjarne-stroustrup/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/bjarne-stroustrup/images/portrait.jpg",
+      "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 917,
+      "height": 798,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-240w.webp",
+          "width": 240,
+          "height": 209,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-320w.webp",
+          "width": 320,
+          "height": 278,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-480w.webp",
+          "width": 480,
+          "height": 418,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-720w.webp",
+          "width": 720,
+          "height": 627,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/bjarne-stroustrup/images/portrait-917w.webp",
+          "width": 917,
+          "height": 798,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1950",
     "field": "Programming Languages",
@@ -431,9 +941,43 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/brendan-eich/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/brendan-eich/images/portrait.jpg",
+      "src": "images/legends/systems-languages/brendan-eich/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2100,
+      "height": 2100,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/brendan-eich/images/portrait-240w.webp",
+          "width": 240,
+          "height": 240,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/brendan-eich/images/portrait-320w.webp",
+          "width": 320,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/brendan-eich/images/portrait-480w.webp",
+          "width": 480,
+          "height": 480,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/brendan-eich/images/portrait-720w.webp",
+          "width": 720,
+          "height": 720,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/brendan-eich/images/portrait-2100w.webp",
+          "width": 2100,
+          "height": 2100,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1961",
     "field": "Programming Languages, Web Technologies",
@@ -461,9 +1005,37 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/dennis-ritchie/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/dennis-ritchie/images/portrait.jpg",
+      "src": "images/legends/systems-languages/dennis-ritchie/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 558,
+      "height": 717,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-240w.webp",
+          "width": 240,
+          "height": 308,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-320w.webp",
+          "width": 320,
+          "height": 411,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-480w.webp",
+          "width": 480,
+          "height": 617,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/dennis-ritchie/images/portrait-558w.webp",
+          "width": 558,
+          "height": 717,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1941–2011",
     "field": "Operating Systems, Programming Languages",
@@ -490,9 +1062,31 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/frances-allen/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/frances-allen/images/portrait.jpg",
+      "src": "images/legends/systems-languages/frances-allen/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 343,
+      "height": 417,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/frances-allen/images/portrait-240w.webp",
+          "width": 240,
+          "height": 292,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/frances-allen/images/portrait-320w.webp",
+          "width": 320,
+          "height": 389,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/frances-allen/images/portrait-343w.webp",
+          "width": 343,
+          "height": 417,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1932–2020",
     "field": "Compiler Optimization",
@@ -511,6 +1105,70 @@ export const legendIndex = [
     "featured": false
   },
   {
+    "id": "systems-languages/gordon-bell",
+    "name": "Gordon Bell",
+    "slug": "gordon-bell",
+    "category": "systems-languages",
+    "categoryLabel": "Systems & Languages",
+    "sourcePath": "systems-languages/gordon-bell/README.md",
+    "portrait": {
+      "src": "images/legends/systems-languages/gordon-bell/images/portrait.jpg",
+      "alt": "Gordon Bell portrait",
+      "isPortrait": true,
+      "width": 839,
+      "height": 907,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/gordon-bell/images/portrait-240w.webp",
+          "width": 240,
+          "height": 259,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/gordon-bell/images/portrait-320w.webp",
+          "width": 320,
+          "height": 346,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/gordon-bell/images/portrait-480w.webp",
+          "width": 480,
+          "height": 519,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/gordon-bell/images/portrait-720w.webp",
+          "width": 720,
+          "height": 778,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/gordon-bell/images/portrait-839w.webp",
+          "width": 839,
+          "height": 907,
+          "type": "image/webp"
+        }
+      ]
+    },
+    "lifespan": "1934–2024",
+    "field": "Computer Architecture, Minicomputers, Systems Engineering",
+    "keyContribution": "Led key DEC designs including the PDP line and VAX era; articulated Bell's law of computer classes",
+    "impact": "Helped define the minicomputer revolution and explained how new generations of computer platforms emerge",
+    "summary": "He studied electrical engineering at MIT, earning bachelor's and master's degrees in the 1950s. He also spent time in Australia on a Fulbright, where he taught, programmed one of the first computers in the country, and began publishing technical work.",
+    "tags": [
+      "Computer Architecture",
+      "Minicomputers",
+      "Systems Engineering",
+      "Systems & Languages"
+    ],
+    "relatedSlugs": [
+      "seymour-cray",
+      "john-von-neumann",
+      "donald-knuth"
+    ],
+    "featured": false
+  },
+  {
     "id": "systems-languages/guido-van-rossum",
     "name": "Guido Van Rossum",
     "slug": "guido-van-rossum",
@@ -518,9 +1176,43 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/guido-van-rossum/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/guido-van-rossum/images/portrait.jpg",
+      "src": "images/legends/systems-languages/guido-van-rossum/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1500,
+      "height": 1000,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-240w.webp",
+          "width": 240,
+          "height": 160,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-320w.webp",
+          "width": 320,
+          "height": 213,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-480w.webp",
+          "width": 480,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-720w.webp",
+          "width": 720,
+          "height": 480,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/guido-van-rossum/images/portrait-1500w.webp",
+          "width": 1500,
+          "height": 1000,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1956",
     "field": "Programming Languages",
@@ -547,9 +1239,43 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/james-gosling/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/james-gosling/images/portrait.jpg",
+      "src": "images/legends/systems-languages/james-gosling/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1460,
+      "height": 1469,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/james-gosling/images/portrait-240w.webp",
+          "width": 240,
+          "height": 241,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/james-gosling/images/portrait-320w.webp",
+          "width": 320,
+          "height": 322,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/james-gosling/images/portrait-480w.webp",
+          "width": 480,
+          "height": 483,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/james-gosling/images/portrait-720w.webp",
+          "width": 720,
+          "height": 724,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/james-gosling/images/portrait-1460w.webp",
+          "width": 1460,
+          "height": 1469,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1955",
     "field": "Programming Languages",
@@ -576,7 +1302,7 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/john-kemeny/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/john-kemeny/images/portrait.svg",
+      "src": "images/legends/systems-languages/john-kemeny/images/portrait.svg",
       "alt": "Portrait",
       "isPortrait": true
     },
@@ -606,9 +1332,31 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/ken-thompson/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/ken-thompson/images/portrait.jpg",
+      "src": "images/legends/systems-languages/ken-thompson/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 329,
+      "height": 349,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/ken-thompson/images/portrait-240w.webp",
+          "width": 240,
+          "height": 255,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/ken-thompson/images/portrait-320w.webp",
+          "width": 320,
+          "height": 339,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/ken-thompson/images/portrait-329w.webp",
+          "width": 329,
+          "height": 349,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1943",
     "field": "Operating Systems, Programming Languages",
@@ -635,9 +1383,43 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/linus-torvalds/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/linus-torvalds/images/portrait.jpg",
+      "src": "images/legends/systems-languages/linus-torvalds/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1015,
+      "height": 1542,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/linus-torvalds/images/portrait-240w.webp",
+          "width": 240,
+          "height": 365,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/linus-torvalds/images/portrait-320w.webp",
+          "width": 320,
+          "height": 486,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/linus-torvalds/images/portrait-480w.webp",
+          "width": 480,
+          "height": 729,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/linus-torvalds/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1094,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/linus-torvalds/images/portrait-1015w.webp",
+          "width": 1015,
+          "height": 1542,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1969",
     "field": "Operating Systems, Version Control",
@@ -663,9 +1445,43 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/margaret-hamilton/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/margaret-hamilton/images/portrait.jpg",
+      "src": "images/legends/systems-languages/margaret-hamilton/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2294,
+      "height": 2853,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-240w.webp",
+          "width": 240,
+          "height": 298,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-320w.webp",
+          "width": 320,
+          "height": 398,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-480w.webp",
+          "width": 480,
+          "height": 597,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-720w.webp",
+          "width": 720,
+          "height": 895,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/margaret-hamilton/images/portrait-2294w.webp",
+          "width": 2294,
+          "height": 2853,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1936",
     "field": "Software Engineering",
@@ -686,6 +1502,109 @@ export const legendIndex = [
     "featured": false
   },
   {
+    "id": "systems-languages/seymour-cray",
+    "name": "Seymour Cray",
+    "slug": "seymour-cray",
+    "category": "systems-languages",
+    "categoryLabel": "Systems & Languages",
+    "sourcePath": "systems-languages/seymour-cray/README.md",
+    "portrait": {
+      "src": "images/legends/systems-languages/seymour-cray/images/portrait.jpg",
+      "alt": "Seymour Cray portrait",
+      "isPortrait": true,
+      "width": 131,
+      "height": 203,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/seymour-cray/images/portrait-131w.webp",
+          "width": 131,
+          "height": 203,
+          "type": "image/webp"
+        }
+      ]
+    },
+    "lifespan": "1925–1996",
+    "field": "Supercomputing, Computer Architecture, High-Performance Systems",
+    "keyContribution": "Designed the CDC 6600, Cray-1, and other landmark supercomputers",
+    "impact": "Created the supercomputer industry and set the standard for high-performance system design for decades",
+    "summary": "World War II interrupted his education. Cray served as a radio operator and later worked on codebreaking in the Pacific theater. After the war, he studied electrical engineering at the University of Minnesota, where he earned degrees that prepared him for a career in advanced machine design.",
+    "tags": [
+      "Supercomputing",
+      "Computer Architecture",
+      "High-Performance Systems",
+      "Systems & Languages"
+    ],
+    "relatedSlugs": [
+      "gordon-bell",
+      "john-von-neumann",
+      "john-atanasoff"
+    ],
+    "featured": false
+  },
+  {
+    "id": "systems-languages/steve-wozniak",
+    "name": "Steve Wozniak",
+    "slug": "steve-wozniak",
+    "category": "systems-languages",
+    "categoryLabel": "Systems & Languages",
+    "sourcePath": "systems-languages/steve-wozniak/README.md",
+    "portrait": {
+      "src": "images/legends/systems-languages/steve-wozniak/images/portrait.jpg",
+      "alt": "Steve Wozniak portrait",
+      "isPortrait": true,
+      "width": 2041,
+      "height": 2717,
+      "sources": [
+        {
+          "src": "images/legends/systems-languages/steve-wozniak/images/portrait-240w.webp",
+          "width": 240,
+          "height": 319,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/steve-wozniak/images/portrait-320w.webp",
+          "width": 320,
+          "height": 426,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/steve-wozniak/images/portrait-480w.webp",
+          "width": 480,
+          "height": 639,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/steve-wozniak/images/portrait-720w.webp",
+          "width": 720,
+          "height": 958,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/systems-languages/steve-wozniak/images/portrait-2041w.webp",
+          "width": 2041,
+          "height": 2717,
+          "type": "image/webp"
+        }
+      ]
+    },
+    "lifespan": "b. 1950",
+    "field": "Personal Computing, Computer Hardware, Systems Design",
+    "keyContribution": "Co-founded Apple and designed the Apple I, Apple II, and Disk II",
+    "impact": "Helped launch the personal computer revolution by turning hobbyist machines into practical, elegant consumer systems",
+    "summary": "He attended Homestead High School in Cupertino, then studied at the University of Colorado Boulder before returning to the Bay Area. He later took classes at De Anza College and at the University of California, Berkeley. Long before Apple existed, he was already designing computers for fun, building prank electronics, and obsessing over how to do more with fewer parts.",
+    "tags": [
+      "Personal Computing",
+      "Computer Hardware",
+      "Systems Design",
+      "Systems & Languages"
+    ],
+    "relatedSlugs": [
+      "dennis-ritchie",
+      "linus-torvalds"
+    ],
+    "featured": false
+  },
+  {
     "id": "systems-languages/thomas-kurtz",
     "name": "Thomas E. Kurtz",
     "slug": "thomas-kurtz",
@@ -693,7 +1612,7 @@ export const legendIndex = [
     "categoryLabel": "Systems & Languages",
     "sourcePath": "systems-languages/thomas-kurtz/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/systems-languages/thomas-kurtz/images/portrait.svg",
+      "src": "images/legends/systems-languages/thomas-kurtz/images/portrait.svg",
       "alt": "Portrait",
       "isPortrait": true
     },
@@ -723,9 +1642,19 @@ export const legendIndex = [
     "categoryLabel": "AI Pioneers",
     "sourcePath": "ai-pioneers/allen-newell/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/allen-newell/images/portrait.jpg",
+      "src": "images/legends/ai-pioneers/allen-newell/images/portrait.jpg",
       "alt": "Portrait of Allen Newell",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 104,
+      "height": 158,
+      "sources": [
+        {
+          "src": "images/legends/ai-pioneers/allen-newell/images/portrait-104w.webp",
+          "width": 104,
+          "height": 158,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1927–1992",
     "field": "Artificial Intelligence, Cognitive Psychology, Computer Science",
@@ -747,9 +1676,19 @@ export const legendIndex = [
     "categoryLabel": "AI Pioneers",
     "sourcePath": "ai-pioneers/herbert-simon/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/herbert-simon/images/herbert-simon.jpg",
+      "src": "images/legends/ai-pioneers/herbert-simon/images/herbert-simon.jpg",
       "alt": "Herbert Simon",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 232,
+      "height": 342,
+      "sources": [
+        {
+          "src": "images/legends/ai-pioneers/herbert-simon/images/herbert-simon-232w.webp",
+          "width": 232,
+          "height": 342,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1916–2001",
     "field": "Artificial Intelligence · Cognitive Psychology · Economics · Organizational Theory · Philosophy of Science",
@@ -777,9 +1716,43 @@ export const legendIndex = [
     "categoryLabel": "AI Pioneers",
     "sourcePath": "ai-pioneers/john-mccarthy/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/john-mccarthy/images/john-mccarthy.jpg",
+      "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy.jpg",
       "alt": "Portrait of John McCarthy",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1280,
+      "height": 1483,
+      "sources": [
+        {
+          "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-240w.webp",
+          "width": 240,
+          "height": 278,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-320w.webp",
+          "width": 320,
+          "height": 371,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-480w.webp",
+          "width": 480,
+          "height": 556,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-720w.webp",
+          "width": 720,
+          "height": 834,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/john-mccarthy/images/john-mccarthy-1280w.webp",
+          "width": 1280,
+          "height": 1483,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1927–2011",
     "field": "Artificial Intelligence, Programming Languages, Computer Science Theory",
@@ -808,9 +1781,43 @@ export const legendIndex = [
     "categoryLabel": "AI Pioneers",
     "sourcePath": "ai-pioneers/marvin-minsky/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/ai-pioneers/marvin-minsky/images/portrait.jpg",
+      "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait.jpg",
       "alt": "Marvin Minsky",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1024,
+      "height": 1025,
+      "sources": [
+        {
+          "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-240w.webp",
+          "width": 240,
+          "height": 240,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-320w.webp",
+          "width": 320,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-480w.webp",
+          "width": 480,
+          "height": 480,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-720w.webp",
+          "width": 720,
+          "height": 721,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/ai-pioneers/marvin-minsky/images/portrait-1024w.webp",
+          "width": 1024,
+          "height": 1025,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "1927–2016",
     "field": "Artificial Intelligence, Cognitive Science, Robotics, Optics",
@@ -839,9 +1846,43 @@ export const legendIndex = [
     "categoryLabel": "Modern AI & ML",
     "sourcePath": "modern-ai-ml/andrew-ng/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/andrew-ng/images/portrait.jpg",
+      "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2219,
+      "height": 2724,
+      "sources": [
+        {
+          "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-240w.webp",
+          "width": 240,
+          "height": 295,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-320w.webp",
+          "width": 320,
+          "height": 393,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-480w.webp",
+          "width": 480,
+          "height": 589,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-720w.webp",
+          "width": 720,
+          "height": 884,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/andrew-ng/images/portrait-2219w.webp",
+          "width": 2219,
+          "height": 2724,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1976",
     "field": "Machine Learning, AI Education, Deep Learning",
@@ -869,9 +1910,43 @@ export const legendIndex = [
     "categoryLabel": "Modern AI & ML",
     "sourcePath": "modern-ai-ml/geoffrey-hinton/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton.jpg",
+      "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton.jpg",
       "alt": "Portrait of Geoffrey Hinton",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1423,
+      "height": 1893,
+      "sources": [
+        {
+          "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-240w.webp",
+          "width": 240,
+          "height": 319,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-320w.webp",
+          "width": 320,
+          "height": 426,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-480w.webp",
+          "width": 480,
+          "height": 639,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-720w.webp",
+          "width": 720,
+          "height": 958,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/geoffrey-hinton/images/geoffrey-hinton-1423w.webp",
+          "width": 1423,
+          "height": 1893,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1947",
     "field": "Machine Learning · Deep Learning · Neural Networks · Artificial Intelligence",
@@ -899,9 +1974,43 @@ export const legendIndex = [
     "categoryLabel": "Modern AI & ML",
     "sourcePath": "modern-ai-ml/judea-pearl/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/judea-pearl/images/portrait.jpg",
+      "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 2673,
+      "height": 1911,
+      "sources": [
+        {
+          "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-240w.webp",
+          "width": 240,
+          "height": 172,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-320w.webp",
+          "width": 320,
+          "height": 229,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-480w.webp",
+          "width": 480,
+          "height": 343,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-720w.webp",
+          "width": 720,
+          "height": 515,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/judea-pearl/images/portrait-2673w.webp",
+          "width": 2673,
+          "height": 1911,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1936",
     "field": "Artificial Intelligence, Probabilistic Reasoning, Causality",
@@ -929,9 +2038,43 @@ export const legendIndex = [
     "categoryLabel": "Modern AI & ML",
     "sourcePath": "modern-ai-ml/yann-lecun/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/yann-lecun/images/portrait.jpg",
+      "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1297,
+      "height": 1490,
+      "sources": [
+        {
+          "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-240w.webp",
+          "width": 240,
+          "height": 276,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-320w.webp",
+          "width": 320,
+          "height": 368,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-480w.webp",
+          "width": 480,
+          "height": 551,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-720w.webp",
+          "width": 720,
+          "height": 827,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yann-lecun/images/portrait-1297w.webp",
+          "width": 1297,
+          "height": 1490,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1960",
     "field": "Machine Learning, Computer Vision, Deep Learning",
@@ -959,9 +2102,37 @@ export const legendIndex = [
     "categoryLabel": "Modern AI & ML",
     "sourcePath": "modern-ai-ml/yoshua-bengio/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/modern-ai-ml/yoshua-bengio/images/portrait.jpg",
+      "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 606,
+      "height": 804,
+      "sources": [
+        {
+          "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-240w.webp",
+          "width": 240,
+          "height": 318,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-320w.webp",
+          "width": 320,
+          "height": 425,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-480w.webp",
+          "width": 480,
+          "height": 637,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/modern-ai-ml/yoshua-bengio/images/portrait-606w.webp",
+          "width": 606,
+          "height": 804,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1964",
     "field": "Machine Learning, Deep Learning, Artificial Intelligence",
@@ -990,9 +2161,19 @@ export const legendIndex = [
     "categoryLabel": "Web & Internet",
     "sourcePath": "web-internet/bob-kahn/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/bob-kahn/images/portrait.jpg",
+      "src": "images/legends/web-internet/bob-kahn/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 153,
+      "height": 195,
+      "sources": [
+        {
+          "src": "images/legends/web-internet/bob-kahn/images/portrait-153w.webp",
+          "width": 153,
+          "height": 195,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1938",
     "field": "Computer Networks, Internet Protocols, Distributed Systems Architecture",
@@ -1014,6 +2195,71 @@ export const legendIndex = [
     "featured": false
   },
   {
+    "id": "web-internet/paul-mockapetris",
+    "name": "Paul Mockapetris",
+    "slug": "paul-mockapetris",
+    "category": "web-internet",
+    "categoryLabel": "Web & Internet",
+    "sourcePath": "web-internet/paul-mockapetris/README.md",
+    "portrait": {
+      "src": "images/legends/web-internet/paul-mockapetris/images/portrait.jpg",
+      "alt": "Paul Mockapetris portrait",
+      "isPortrait": true,
+      "width": 4608,
+      "height": 3456,
+      "sources": [
+        {
+          "src": "images/legends/web-internet/paul-mockapetris/images/portrait-240w.webp",
+          "width": 240,
+          "height": 180,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/paul-mockapetris/images/portrait-320w.webp",
+          "width": 320,
+          "height": 240,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/paul-mockapetris/images/portrait-480w.webp",
+          "width": 480,
+          "height": 360,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/paul-mockapetris/images/portrait-720w.webp",
+          "width": 720,
+          "height": 540,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/paul-mockapetris/images/portrait-4608w.webp",
+          "width": 4608,
+          "height": 3456,
+          "type": "image/webp"
+        }
+      ]
+    },
+    "lifespan": "b. 1948",
+    "field": "Internet Infrastructure, Networking, Internet Standards",
+    "keyContribution": "Invented the Domain Name System (DNS)",
+    "impact": "Made the Internet scalable and human-usable by replacing fragile central host tables with a distributed naming system",
+    "summary": "That educational path matters because DNS sits at the boundary between theory and infrastructure: it is elegant enough to be studied, but practical enough that the whole network breaks when it fails.",
+    "tags": [
+      "Internet Infrastructure",
+      "Networking",
+      "Internet Standards",
+      "Web & Internet"
+    ],
+    "relatedSlugs": [
+      "bob-kahn",
+      "vint-cerf",
+      "tim-berners-lee",
+      "radia-perlman"
+    ],
+    "featured": false
+  },
+  {
     "id": "web-internet/radia-perlman",
     "name": "Radia Perlman",
     "slug": "radia-perlman",
@@ -1021,9 +2267,43 @@ export const legendIndex = [
     "categoryLabel": "Web & Internet",
     "sourcePath": "web-internet/radia-perlman/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/radia-perlman/images/portrait.jpg",
+      "src": "images/legends/web-internet/radia-perlman/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1067,
+      "height": 1600,
+      "sources": [
+        {
+          "src": "images/legends/web-internet/radia-perlman/images/portrait-240w.webp",
+          "width": 240,
+          "height": 360,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/radia-perlman/images/portrait-320w.webp",
+          "width": 320,
+          "height": 480,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/radia-perlman/images/portrait-480w.webp",
+          "width": 480,
+          "height": 720,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/radia-perlman/images/portrait-720w.webp",
+          "width": 720,
+          "height": 1080,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/radia-perlman/images/portrait-1067w.webp",
+          "width": 1067,
+          "height": 1600,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1951",
     "field": "Computer Networks, Network Security",
@@ -1050,9 +2330,37 @@ export const legendIndex = [
     "categoryLabel": "Web & Internet",
     "sourcePath": "web-internet/tim-berners-lee/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/tim-berners-lee/images/tim-berners-lee.jpg",
+      "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee.jpg",
       "alt": "Tim Berners-Lee",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 642,
+      "height": 886,
+      "sources": [
+        {
+          "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-240w.webp",
+          "width": 240,
+          "height": 331,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-320w.webp",
+          "width": 320,
+          "height": 442,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-480w.webp",
+          "width": 480,
+          "height": 662,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/tim-berners-lee/images/tim-berners-lee-642w.webp",
+          "width": 642,
+          "height": 886,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1955",
     "field": "Web Technologies, Internet Standards, Computer Science",
@@ -1082,9 +2390,43 @@ export const legendIndex = [
     "categoryLabel": "Web & Internet",
     "sourcePath": "web-internet/vint-cerf/README.md",
     "portrait": {
-      "src": "https://raw.githubusercontent.com/nuttyproducer/Computing-Legends-on-Earth-Collection/website/web-internet/vint-cerf/images/portrait.jpg",
+      "src": "images/legends/web-internet/vint-cerf/images/portrait.jpg",
       "alt": "Portrait",
-      "isPortrait": true
+      "isPortrait": true,
+      "width": 1280,
+      "height": 1280,
+      "sources": [
+        {
+          "src": "images/legends/web-internet/vint-cerf/images/portrait-240w.webp",
+          "width": 240,
+          "height": 240,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/vint-cerf/images/portrait-320w.webp",
+          "width": 320,
+          "height": 320,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/vint-cerf/images/portrait-480w.webp",
+          "width": 480,
+          "height": 480,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/vint-cerf/images/portrait-720w.webp",
+          "width": 720,
+          "height": 720,
+          "type": "image/webp"
+        },
+        {
+          "src": "images/legends/web-internet/vint-cerf/images/portrait-1280w.webp",
+          "width": 1280,
+          "height": 1280,
+          "type": "image/webp"
+        }
+      ]
     },
     "lifespan": "b. 1943",
     "field": "Computer Networks, Internet Protocols",

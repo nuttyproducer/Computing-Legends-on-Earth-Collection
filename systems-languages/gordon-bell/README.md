@@ -1,6 +1,6 @@
 # Gordon Bell
 
-<img src="images/portrait.svg" alt="Gordon Bell portrait placeholder" width="280" align="left">
+<img src="images/portrait.jpg" alt="Gordon Bell portrait" width="280" align="left">
 
 *Gordon Bell was one of the great system builders of the minicomputer age: part architect, part executive, part historian of computing, and one of the clearest thinkers about how computer classes rise, mature, and reshape the world.*
 

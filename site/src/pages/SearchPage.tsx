@@ -2,16 +2,18 @@ import { Search as SearchIcon } from 'lucide-react'
 import type { KeyboardEvent, ReactNode } from 'react'
 import { useMemo, useRef } from 'react'
 import { useSearchParams } from 'react-router-dom'
+import { ResponsiveImage } from '../components/ResponsiveImage.tsx'
 import { Seo } from '../components/Seo.tsx'
 import { ScrollLink } from '../components/ScrollLink.tsx'
-import { seoDefaults } from '../content/seo.ts'
+import { resolveAbsoluteAssetUrl } from '../content/assets.ts'
 import {
   getSearchCategoryOptions,
   getSearchSuggestions,
   getSearchTerms,
   searchLegends,
-  summarizeMarkdown,
-} from '../content/presentation'
+} from '../content/search-presentation'
+import { seoDefaults } from '../content/seo.ts'
+import { summarizeMarkdown } from '../content/text-utils'
 import type { CategoryId } from '../content/types'
 
 function escapeRegExp(value: string) {
@@ -71,7 +73,7 @@ export function SearchPage() {
   const description = query.trim().length > 0
     ? `Search results for ${query.trim()} across the ${seoDefaults.siteName} collection.`
     : 'Search across names, domains, contributions, and exhibit wings in the Computing Legends on Earth archive.'
-  const socialImage = results.find((legend) => legend.portrait)?.portrait?.src ?? seoDefaults.image
+  const socialImage = resolveAbsoluteAssetUrl(results.find((legend) => legend.portrait)?.portrait?.src) ?? seoDefaults.image
   const socialImageAlt = query.trim().length > 0
     ? `Search results preview for ${query.trim()} in ${seoDefaults.siteName}`
     : 'Archive search preview image for Computing Legends on Earth'
@@ -367,7 +369,16 @@ export function SearchPage() {
                 <article key={legend.slug} className="exhibit-card">
                   <ScrollLink className="portrait-link" to={`/legend/${legend.slug}`} aria-label={`Open ${legend.name} biography`}>
                     <div className="exhibit-image-frame">
-                      {legend.portrait ? <img className="portrait-image" src={legend.portrait.src} alt={legend.name} /> : <div className="exhibit-image-fallback" />}
+                      {legend.portrait ? (
+                        <ResponsiveImage
+                          className="portrait-image"
+                          image={legend.portrait}
+                          alt={legend.name}
+                          sizes="(max-width: 768px) calc(100vw - 2rem), (max-width: 1200px) 50vw, 380px"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      ) : <div className="exhibit-image-fallback" />}
                     </div>
                   </ScrollLink>
                   <div className="exhibit-body">

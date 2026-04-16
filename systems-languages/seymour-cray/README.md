@@ -1,6 +1,6 @@
 # Seymour Cray
 
-<img src="images/portrait.svg" alt="Seymour Cray portrait placeholder" width="280" align="left">
+<img src="images/portrait.jpg" alt="Seymour Cray portrait" width="280" align="left">
 
 *Seymour Cray treated speed as a design philosophy, not just a benchmark. He did not merely build faster computers; he repeatedly redefined what the fastest computer in the world could be.*
 

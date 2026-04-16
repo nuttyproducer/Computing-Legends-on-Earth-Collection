@@ -1,6 +1,6 @@
 # Steve Wozniak
 
-<img src="images/portrait.svg" alt="Steve Wozniak portrait placeholder" width="280" align="left">
+<img src="images/portrait.jpg" alt="Steve Wozniak portrait" width="280" align="left">
 
 *Steve Wozniak engineered the early personal computer into something ordinary people could actually own, understand, and love. If Steve Jobs helped sell the dream, Woz built the machine that made the dream real.*
 
