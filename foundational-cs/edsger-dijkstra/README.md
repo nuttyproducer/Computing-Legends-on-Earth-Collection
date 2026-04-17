@@ -102,11 +102,14 @@ Later in his career, Dijkstra pioneered the concept of self-stabilizing distribu
 
 ---
 
-## Related Figures
 
-- [Donald Knuth](../donald-knuth/) — Fellow giant of algorithms and programming methodology. Knuth and Dijkstra had enormous mutual respect, despite very different working styles.
-- [Tony Hoare](../tony-hoare/) — Collaborated on structured programming. Invented quicksort and CSP. Another champion of program correctness.
-- [Alan Turing](../alan-turing/) — The foundational figure whose theoretical work underpinned everything Dijkstra built upon.
+## 🔗 Related Figures
+
+| Person | Connection | Link |
+|--------|-----------|------|
+| **Donald Knuth** | Fellow giant of algorithms and programming methodology. Knuth and Dijkstra had enormous mutual respect, despite very different working styles. | [Donald Knuth](../donald-knuth/) |
+| **Tony Hoare** | Collaborated on structured programming. Invented quicksort and CSP. Another champion of program correctness. | [Tony Hoare](../tony-hoare/) |
+| **Alan Turing** | The foundational figure whose theoretical work underpinned everything Dijkstra built upon. | [Alan Turing](../alan-turing/) |
 
 ---
 

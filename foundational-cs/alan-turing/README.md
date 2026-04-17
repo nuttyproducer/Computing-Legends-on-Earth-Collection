@@ -165,6 +165,7 @@ Turing's paper **"The Chemical Basis of Morphogenesis"** (1952) proposed that bi
 
 ---
 
+
 ## 🔗 Related Figures
 
 | Person | Connection | Link |
@@ -172,7 +173,7 @@ Turing's paper **"The Chemical Basis of Morphogenesis"** (1952) proposed that bi
 | **Ada Lovelace** | Conceptual predecessor — wrote the first algorithm; Turing brought the theory to mathematical rigor | [Ada Lovelace](../../pioneers/ada-lovelace/) |
 | **Claude Shannon** | Contemporary; Shannon's information theory complemented Turing's computational theory | [Claude Shannon](../claude-shannon/) |
 | **John von Neumann** | Colleague at Princeton; von Neumann architecture drew on Turing's theoretical work | [John von Neumann](../john-von-neumann/) |
-| **Alonzo Church** | PhD advisor at Princeton; co-creator of the Church-Turing thesis | *Not yet in repo* |
+| **Alonzo Church** | PhD advisor at Princeton; co-creator of the Church-Turing thesis | [Alonzo Church](../alonzo-church/) |
 | **Donald Knuth** | Carried forward Turing's legacy in algorithmic analysis | [Donald Knuth](../donald-knuth/) |
 
 ---

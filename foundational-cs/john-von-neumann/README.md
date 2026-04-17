@@ -145,12 +145,15 @@ The sheer *breadth* of his contributions is staggering. Most scientists are thri
 
 ---
 
-## Related Figures
 
-- [**Alan Turing**](../alan-turing/) — Fellow computing pioneer; Turing's theoretical work on computability complemented von Neumann's practical architectural designs. They met and deeply respected each other's work.
-- [**Claude Shannon**](../claude-shannon/) — Father of information theory; both worked at the intersection of mathematics and engineering to lay the foundations of the digital age.
-- [**Grace Hopper**](../grace-hopper/) — Programming pioneer who built on the stored-program concepts that von Neumann helped formalize.
-- [**Herman Hollerith**](../../pioneers/herman-hollerith/) — Earlier computing pioneer whose tabulating machines were precursors to the electronic computers von Neumann helped design.
+## 🔗 Related Figures
+
+| Person | Connection | Link |
+|--------|-----------|------|
+| **Alan Turing** | Fellow computing pioneer; Turing's theoretical work on computability complemented von Neumann's practical architectural designs | [Alan Turing](../alan-turing/) |
+| **Claude Shannon** | Father of information theory; both worked at the intersection of mathematics and engineering to lay the foundations of the digital age | [Claude Shannon](../claude-shannon/) |
+| **Grace Hopper** | Programming pioneer who built on the stored-program concepts that von Neumann helped formalize | [Grace Hopper](../grace-hopper/) |
+| **Herman Hollerith** | Earlier computing pioneer whose tabulating machines were precursors to the electronic computers von Neumann helped design | [Herman Hollerith](../../pioneers/herman-hollerith/) |
 
 ---
 

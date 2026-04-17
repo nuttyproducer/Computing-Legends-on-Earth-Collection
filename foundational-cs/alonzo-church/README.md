@@ -86,11 +86,14 @@ Functional programming languages, formal semantics, theorem proving, and whole a
 ### Modern Relevance
 From compiler theory to proof assistants to functional languages, Church's ideas remain alive in the deepest layers of modern computation.
 
-## Related Figures
 
-- [Alan Turing](../alan-turing/) — Church supervised Turing at Princeton and their names are forever linked through the Church–Turing thesis
-- [Donald Knuth](../donald-knuth/) — later theorist working in a world Church helped mathematically define
-- [John von Neumann](../john-von-neumann/) — another giant of formal and architectural computing thought from the same broad era
+## 🔗 Related Figures
+
+| Person | Connection | Link |
+|--------|-----------|------|
+| **Alan Turing** | Supervised by Church at Princeton; co-namesake of the Church–Turing thesis | [Alan Turing](../alan-turing/) |
+| **Donald Knuth** | Later theorist working in a world Church helped mathematically define | [Donald Knuth](../donald-knuth/) |
+| **John von Neumann** | Another giant of formal and architectural computing thought from the same era | [John von Neumann](../john-von-neumann/) |
 
 ## Resources
 

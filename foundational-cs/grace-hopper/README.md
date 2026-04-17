@@ -62,12 +62,15 @@ She didn't just coin a programming philosophy — she lived it. Grace was famous
 
 > *"Humans are allergic to change. They love to say, 'We've always done it this way.' I try to fight that."*
 
-## Related Figures
 
-- [Ada Lovelace](../../pioneers/ada-lovelace/) — The original computing visionary, a century before Grace
-- [Dennis Ritchie](../../systems-languages/dennis-ritchie/) — Created C, carrying forward the compiler revolution Grace started
-- [Alan Turing](../alan-turing/) — Laid the theoretical foundation for everything Grace built
-- [Frances Allen](../../systems-languages/frances-allen/) — Continued Grace's compiler optimization legacy and became the first woman to win the Turing Award
+## 🔗 Related Figures
+
+| Person | Connection | Link |
+|--------|-----------|------|
+| **Ada Lovelace** | The original computing visionary, a century before Grace | [Ada Lovelace](../../pioneers/ada-lovelace/) |
+| **Dennis Ritchie** | Created C, carrying forward the compiler revolution Grace started | [Dennis Ritchie](../../systems-languages/dennis-ritchie/) |
+| **Alan Turing** | Laid the theoretical foundation for everything Grace built | [Alan Turing](../alan-turing/) |
+| **Frances Allen** | Continued Grace's compiler optimization legacy and became the first woman to win the Turing Award | [Frances Allen](../../systems-languages/frances-allen/) |
 
 ## References & Further Reading
 

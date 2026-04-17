@@ -118,11 +118,14 @@ The Turing Award citation recognized his "fundamental contributions to the defin
 
 ---
 
-## Related Figures
 
-- [Donald Knuth](../donald-knuth/) — Fellow algorithms giant; the Knuth-Hoare quote attribution mystery endures
-- [Edsger Dijkstra](../edsger-dijkstra/) — Shared Hoare's passion for formal methods and program correctness; they were kindred spirits in the "programs should be provably correct" camp
-- [Alan Turing](../alan-turing/) — The award Hoare received in 1980 bears this man's name, and for good reason
+## 🔗 Related Figures
+
+| Person | Connection | Link |
+|--------|-----------|------|
+| **Donald Knuth** | Fellow algorithms giant; the Knuth-Hoare quote attribution mystery endures | [Donald Knuth](../donald-knuth/) |
+| **Edsger Dijkstra** | Shared Hoare's passion for formal methods and program correctness; they were kindred spirits in the "programs should be provably correct" camp | [Edsger Dijkstra](../edsger-dijkstra/) |
+| **Alan Turing** | The award Hoare received in 1980 bears this man's name, and for good reason | [Alan Turing](../alan-turing/) |
 
 ---
 

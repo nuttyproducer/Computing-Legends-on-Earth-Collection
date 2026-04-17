@@ -59,6 +59,12 @@ The mathematical system that makes digital computing possible.
   - **AND** (conjunction): A ∧ B — true only when both A and B are true
   - **OR** (disjunction): A ∨ B — true when either A or B is true
   - **NOT** (negation): ¬A — inverts the value
+
+### Influenced
+- [Claude Shannon](../../foundational-cs/claude-shannon/) — Applied Boolean algebra to electrical circuits, creating the bridge between abstract logic and physical computing
+- [Alan Turing](../../foundational-cs/alan-turing/) — Boolean logic is fundamental to the theory of computation
+- [Ada Lovelace](../ada-lovelace/) — Contemporary who also worked at the intersection of mathematics and computing concepts
+
 - Showed that complex logical statements could be expressed and simplified as algebraic equations
 - Proved that logical reasoning follows mathematical laws, just like arithmetic
 

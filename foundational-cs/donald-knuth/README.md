@@ -97,13 +97,16 @@ Before Knuth, "how fast does this algorithm run?" was mostly answered with hand-
 
 ---
 
-## Related Figures
 
-- [Edsger Dijkstra](../edsger-dijkstra/) — fellow algorithm pioneer and opinionated genius
-- [Tony Hoare](../tony-hoare/) — inventor of Quicksort, which Knuth analyzed extensively in TAOCP
-- [Alan Turing](../alan-turing/) — the theoretical foundation upon which Knuth built
-- [Claude Shannon](../claude-shannon/) — another mathematician who changed everything
-- [Grace Hopper](../grace-hopper/) — pioneer of practical programming
+## 🔗 Related Figures
+
+| Person | Connection | Link |
+|--------|-----------|------|
+| **Edsger Dijkstra** | Fellow algorithm pioneer and opinionated genius | [Edsger Dijkstra](../edsger-dijkstra/) |
+| **Tony Hoare** | Inventor of Quicksort, which Knuth analyzed extensively in TAOCP | [Tony Hoare](../tony-hoare/) |
+| **Alan Turing** | The theoretical foundation upon which Knuth built | [Alan Turing](../alan-turing/) |
+| **Claude Shannon** | Another mathematician who changed everything | [Claude Shannon](../claude-shannon/) |
+| **Grace Hopper** | Pioneer of practical programming | [Grace Hopper](../grace-hopper/) |
 
 ---
 

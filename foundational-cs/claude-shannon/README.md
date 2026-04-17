@@ -83,11 +83,14 @@ Shannon wasn't just a genius — he was a *delightfully eccentric* genius:
 
 ---
 
-## Related Figures
 
-- **[George Boole](../../pioneers/george-boole/)** — Created the Boolean algebra that Shannon applied to circuit design. Boole provided the math; Shannon made it *physical*.
-- **[Alan Turing](../alan-turing/)** — Fellow giant of 20th-century theoretical computer science. While Turing formalized computation, Shannon formalized communication. They actually met and discussed the idea of thinking machines over tea. (Peak nerd energy.)
-- **[John von Neumann](../john-von-neumann/)** — Polymath extraordinaire who worked in overlapping fields. The guy who told Shannon to call his measure "entropy" for strategic debate purposes.
+## 🔗 Related Figures
+
+| Person | Connection | Link |
+|--------|-----------|------|
+| **George Boole** | Created the Boolean algebra that Shannon applied to circuit design. Boole provided the math; Shannon made it physical. | [George Boole](../../pioneers/george-boole/) |
+| **Alan Turing** | Fellow giant of 20th-century theoretical computer science. While Turing formalized computation, Shannon formalized communication. | [Alan Turing](../alan-turing/) |
+| **John von Neumann** | Polymath extraordinaire who worked in overlapping fields. The guy who told Shannon to call his measure "entropy" for strategic debate purposes. | [John von Neumann](../john-von-neumann/) |
 
 ---
 
