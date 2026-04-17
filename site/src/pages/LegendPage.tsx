@@ -17,6 +17,10 @@ function isVideoHref(href: string) {
   return /(?:youtube\.com|youtu\.be|vimeo\.com)/i.test(href)
 }
 
+function isInternalHref(href: string) {
+  return href.startsWith('/') && !href.startsWith('//')
+}
+
 function MarkdownBlock({ markdown }: { markdown: string }) {
   const cleanedMarkdown = useMemo(
     () => markdown
@@ -33,16 +37,27 @@ function MarkdownBlock({ markdown }: { markdown: string }) {
         remarkPlugins={[remarkGfm]}
         components={{
           a: ({ href, children, ...props }) => (
-            <a
-              {...props}
-              href={href}
-              target="_blank"
-              rel="noreferrer"
-              className={isVideoHref(href ?? '') ? 'markdown-video-link' : undefined}
-            >
-              {isVideoHref(href ?? '') ? <PlayCircle size={16} aria-hidden="true" /> : null}
-              {children}
-            </a>
+            isInternalHref(href ?? '') ? (
+              <ScrollLink
+                {...props}
+                to={href ?? '/'}
+                className={isVideoHref(href ?? '') ? 'markdown-video-link' : undefined}
+              >
+                {isVideoHref(href ?? '') ? <PlayCircle size={16} aria-hidden="true" /> : null}
+                {children}
+              </ScrollLink>
+            ) : (
+              <a
+                {...props}
+                href={href}
+                target="_blank"
+                rel="noreferrer"
+                className={isVideoHref(href ?? '') ? 'markdown-video-link' : undefined}
+              >
+                {isVideoHref(href ?? '') ? <PlayCircle size={16} aria-hidden="true" /> : null}
+                {children}
+              </a>
+            )
           ),
         }}
       >

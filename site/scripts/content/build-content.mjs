@@ -29,6 +29,243 @@ function normalizePosixPath(value) {
   return value.split(path.sep).join(path.posix.sep)
 }
 
+function stripMarkdownDecoration(value) {
+  return value
+    .replace(/\*\*/g, '')
+    .replace(/__/g, '')
+    .replace(/`/g, '')
+    .trim()
+}
+
+function normalizeLookupKey(value) {
+  return value
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+}
+
+function titleFromSlug(slug) {
+  return slug
+    .split('-')
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ')
+}
+
+function createWikipediaUrl(name) {
+  return `https://en.wikipedia.org/wiki/${encodeURIComponent(name.trim().replace(/\s+/g, '_'))}`
+}
+
+function resolveContentPath(sourceDir, href) {
+  const cleanHref = href.split('#')[0]
+  return path.posix.normalize(path.posix.join(sourceDir, cleanHref))
+}
+
+function isExternalUrl(value) {
+  return /^https?:\/\//i.test(value)
+}
+
+function createLegendCatalog(legendDetails) {
+  const bySlug = new Map()
+  const bySourceDirectory = new Map()
+  const byName = new Map()
+
+  const addName = (name, entry) => {
+    if (!name) {
+      return
+    }
+
+    const normalized = normalizeLookupKey(name)
+    if (!normalized || byName.has(normalized)) {
+      return
+    }
+
+    byName.set(normalized, entry)
+  }
+
+  for (const detail of legendDetails) {
+    const entry = {
+      slug: detail.slug,
+      name: detail.name,
+      fullName: detail.fullName,
+      sourceDirectory: normalizePosixPath(path.posix.dirname(detail.sourcePath)),
+    }
+
+    bySlug.set(detail.slug, entry)
+    bySourceDirectory.set(entry.sourceDirectory, entry)
+    addName(detail.name, entry)
+    addName(detail.fullName, entry)
+    addName(titleFromSlug(detail.slug), entry)
+  }
+
+  return {
+    bySlug,
+    bySourceDirectory,
+    byName,
+  }
+}
+
+function resolveCatalogLink({ name, href, sourceDir, catalog }) {
+  if (href) {
+    if (isExternalUrl(href)) {
+      return { href, resolvedSlug: undefined, kind: 'external' }
+    }
+
+    if (href.startsWith('/legend/')) {
+      const slug = href.split('/').filter(Boolean).at(-1)
+      return { href, resolvedSlug: slug, kind: 'internal' }
+    }
+
+    if (href.startsWith('/category/') || href === '/') {
+      return { href, resolvedSlug: undefined, kind: 'internal' }
+    }
+
+    const normalizedTarget = resolveContentPath(sourceDir, href).replace(/\/$/, '')
+
+    if (normalizedTarget === 'README.md' || normalizedTarget === 'README') {
+      return { href: '/', resolvedSlug: undefined, kind: 'internal' }
+    }
+
+    const categoryOverviewMatch = normalizedTarget.match(/^([^/]+)\/README\.md$/)
+    if (categoryOverviewMatch) {
+      return { href: `/category/${categoryOverviewMatch[1]}`, resolvedSlug: undefined, kind: 'internal' }
+    }
+
+    const legendDirectory = normalizedTarget.replace(/\/README\.md$/, '')
+    const directMatch = catalog.bySourceDirectory.get(legendDirectory)
+    if (directMatch) {
+      return { href: `/legend/${directMatch.slug}`, resolvedSlug: directMatch.slug, kind: 'internal' }
+    }
+  }
+
+  const matchedEntry = name ? catalog.byName.get(normalizeLookupKey(name)) : undefined
+  if (matchedEntry) {
+    return { href: `/legend/${matchedEntry.slug}`, resolvedSlug: matchedEntry.slug, kind: 'internal' }
+  }
+
+  if (name) {
+    return { href: createWikipediaUrl(name), resolvedSlug: undefined, kind: 'external' }
+  }
+
+  return { href: href ?? '/', resolvedSlug: undefined, kind: href && isExternalUrl(href) ? 'external' : 'internal' }
+}
+
+function normalizeMarkdownLinks(markdown, sourceDir, catalog) {
+  return markdown.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, label, href) => {
+    const resolved = resolveCatalogLink({
+      name: stripMarkdownDecoration(label),
+      href: href.trim(),
+      sourceDir,
+      catalog,
+    })
+
+    return `[${label}](${resolved.href})`
+  })
+}
+
+function normalizeRelatedFiguresMarkdown(markdown, sourceDir, catalog) {
+  const normalizedLinkedMarkdown = normalizeMarkdownLinks(markdown, sourceDir, catalog)
+
+  return normalizedLinkedMarkdown
+    .split('\n')
+    .map((line) => {
+      const trimmed = line.trim()
+
+      if (/^\|/.test(trimmed) && !/^\|?(?:\s*:?-+:?\s*\|)+\s*$/.test(trimmed)) {
+        const cells = trimmed.split('|').slice(1, -1).map((cell) => cell.trim())
+        const firstCell = stripMarkdownDecoration(cells[0] ?? '')
+        const secondCell = stripMarkdownDecoration(cells[1] ?? '')
+        const thirdCell = stripMarkdownDecoration(cells[2] ?? '')
+        const isHeaderRow = /^(person|name)$/i.test(firstCell)
+          && /^(connection|relationship)$/i.test(secondCell)
+          && /^(link|source)$/i.test(thirdCell)
+
+        if (cells.length >= 3 && !isHeaderRow) {
+          const personName = firstCell
+          const currentHref = (cells[2].match(/\[[^\]]+\]\(([^)]+)\)/) ?? [])[1]
+          const resolved = resolveCatalogLink({
+            name: personName,
+            href: currentHref,
+            sourceDir,
+            catalog,
+          })
+
+          cells[2] = `[${personName}](${resolved.href})`
+          return `| ${cells.join(' | ')} |`
+        }
+
+        return line
+      }
+
+      if (trimmed.startsWith('- ') && !trimmed.includes('](')) {
+        const bulletMatch = trimmed.match(/^[-*]\s+(?:\*\*|__)?(.+?)(?:\*\*|__)?\s+—\s+(.+)$/)
+
+        if (bulletMatch) {
+          const personName = stripMarkdownDecoration(bulletMatch[1])
+          const resolved = resolveCatalogLink({
+            name: personName,
+            href: undefined,
+            sourceDir,
+            catalog,
+          })
+
+          return `- [${personName}](${resolved.href}) — ${bulletMatch[2]}`
+        }
+      }
+
+      return line
+    })
+    .join('\n')
+}
+
+function normalizeRelatedFigures(relatedFigures, sourceDir, catalog) {
+  return relatedFigures.map((figure) => {
+    const resolved = resolveCatalogLink({
+      name: figure.name,
+      href: figure.href,
+      sourceDir,
+      catalog,
+    })
+
+    return {
+      ...figure,
+      href: resolved.href,
+      resolvedSlug: resolved.resolvedSlug,
+    }
+  })
+}
+
+function normalizeLegendDetail(detail, catalog) {
+  const sourceDir = normalizePosixPath(path.posix.dirname(detail.sourcePath))
+  const sections = detail.sections.map((section) => {
+    const markdown = section.kind === 'related-figures'
+      ? normalizeRelatedFiguresMarkdown(section.markdown, sourceDir, catalog)
+      : normalizeMarkdownLinks(section.markdown, sourceDir, catalog)
+
+    return {
+      ...section,
+      markdown,
+      subsections: section.subsections?.map((subsection) => ({
+        ...subsection,
+        markdown: normalizeMarkdownLinks(subsection.markdown, sourceDir, catalog),
+      })),
+    }
+  })
+
+  const relatedFigures = normalizeRelatedFigures(detail.relatedFigures, sourceDir, catalog)
+
+  return {
+    ...detail,
+    leadMarkdown: detail.leadMarkdown ? normalizeMarkdownLinks(detail.leadMarkdown, sourceDir, catalog) : detail.leadMarkdown,
+    sections,
+    relatedFigures,
+    relatedSlugs: [...new Set(relatedFigures.map((item) => item.resolvedSlug).filter(Boolean))],
+  }
+}
+
 function getAssetExtension(filePath) {
   return path.extname(filePath).toLowerCase()
 }
@@ -320,10 +557,12 @@ async function buildContent() {
       ),
     ),
   )
-  const legendIndex = createLegendIndex(legendDetailsList)
+  const catalog = createLegendCatalog(legendDetailsList)
+  const normalizedLegendDetailsList = legendDetailsList.map((detail) => normalizeLegendDetail(detail, catalog))
+  const legendIndex = createLegendIndex(normalizedLegendDetailsList)
   const categories = createCategorySummaries(scanResult, legendIndex)
-  const legendDetails = Object.fromEntries(legendDetailsList.map((detail) => [detail.slug, detail]))
-  const collectionMeta = createCollectionMeta(scanResult, legendDetailsList)
+  const legendDetails = Object.fromEntries(normalizedLegendDetailsList.map((detail) => [detail.slug, detail]))
+  const collectionMeta = createCollectionMeta(scanResult, normalizedLegendDetailsList)
 
   await writeGeneratedFile(
     'legend-index.generated.ts',

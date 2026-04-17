@@ -132,7 +132,7 @@ export interface LegendLink {
 
 export interface RelatedFigure {
   name: string
-  href: string
+  href?: string
   resolvedSlug?: string
   relationship?: string
 }

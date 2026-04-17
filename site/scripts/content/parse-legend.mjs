@@ -629,27 +629,64 @@ function extractAwards(markdown) {
 }
 
 function extractRelatedFigures(markdown, sourceDir) {
+  const table = parseMarkdownTable(markdown)
+
+  if (table) {
+    return table.rows
+      .filter((row) => row.length >= 2)
+      .map((row) => {
+        const personCell = row[0] ?? ''
+        const relationshipCell = row[1] ?? ''
+        const linkCell = row[2] ?? ''
+        const personLink = extractMarkdownLinks(personCell)[0]
+        const linkLink = extractMarkdownLinks(linkCell)[0]
+        const href = linkLink?.href ?? personLink?.href
+        const resolved = href ? resolveInternalLink(href, sourceDir) : undefined
+
+        return {
+          name: stripMarkdownDecoration(personLink?.label ?? personCell),
+          href: resolved?.href,
+          resolvedSlug: resolved?.resolvedSlug,
+          relationship: stripMarkdownDecoration(relationshipCell) || undefined,
+        }
+      })
+      .filter((item) => item.name)
+  }
+
   return markdown
     .split('\n')
     .map((line) => line.trim())
     .filter((line) => line.startsWith('- '))
     .flatMap((line) => {
       const links = extractMarkdownLinks(line)
-      if (links.length === 0) {
+      const relationshipMatch = line.match(/\s+—\s+(.+)$/)
+
+      if (links.length > 0) {
+        return links.map((link) => {
+          const resolved = resolveInternalLink(link.href, sourceDir)
+
+          return {
+            name: link.label,
+            href: resolved.href,
+            resolvedSlug: resolved.resolvedSlug,
+            relationship: relationshipMatch ? stripMarkdownDecoration(relationshipMatch[1]) : undefined,
+          }
+        })
+      }
+
+      const plainNameMatch = line.match(/^[-*]\s+(?:\*\*|__)?(.+?)(?:\*\*|__)?\s+—\s+(.+)$/)
+      if (!plainNameMatch) {
         return []
       }
 
-      return links.map((link) => {
-        const resolved = resolveInternalLink(link.href, sourceDir)
-        const relationshipMatch = line.match(/\s+—\s+(.+)$/)
-
-        return {
-          name: link.label,
-          href: resolved.href,
-          resolvedSlug: resolved.resolvedSlug,
-          relationship: relationshipMatch ? stripMarkdownDecoration(relationshipMatch[1]) : undefined,
-        }
-      })
+      return [
+        {
+          name: stripMarkdownDecoration(plainNameMatch[1]),
+          href: undefined,
+          resolvedSlug: undefined,
+          relationship: stripMarkdownDecoration(plainNameMatch[2]) || undefined,
+        },
+      ]
     })
 }
 

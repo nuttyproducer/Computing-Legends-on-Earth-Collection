@@ -413,7 +413,13 @@ export const legendIndex = [
       "Mathematical Biology",
       "Foundational Computer Science"
     ],
-    "relatedSlugs": [],
+    "relatedSlugs": [
+      "ada-lovelace",
+      "claude-shannon",
+      "john-von-neumann",
+      "alonzo-church",
+      "donald-knuth"
+    ],
     "featured": false
   },
   {
@@ -1665,7 +1671,13 @@ export const legendIndex = [
       "Computer Science",
       "AI Pioneers"
     ],
-    "relatedSlugs": [],
+    "relatedSlugs": [
+      "herbert-simon",
+      "john-mccarthy",
+      "marvin-minsky",
+      "alan-turing",
+      "claude-shannon"
+    ],
     "featured": false
   },
   {

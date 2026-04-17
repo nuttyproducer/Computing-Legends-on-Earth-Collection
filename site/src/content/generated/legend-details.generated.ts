@@ -228,17 +228,17 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "### Collaborators\n- [Charles Babbage](../charles-babbage/) — Designer of the Analytical Engine; Babbage and Ada's intellectual partnership is one of the most important in computing history\n\n### Influenced\n- [Alan Turing](../../foundational-cs/alan-turing/) — Directly addressed \"Lady Lovelace's Objection\" in his landmark 1950 paper \"Computing Machinery and Intelligence\"\n- [Grace Hopper](../../foundational-cs/grace-hopper/) — Continued the tradition of making programming more accessible and human-readable",
+        "markdown": "### Collaborators\n- [Charles Babbage](/legend/charles-babbage) — Designer of the Analytical Engine; Babbage and Ada's intellectual partnership is one of the most important in computing history\n\n### Influenced\n- [Alan Turing](/legend/alan-turing) — Directly addressed \"Lady Lovelace's Objection\" in his landmark 1950 paper \"Computing Machinery and Intelligence\"\n- [Grace Hopper](/legend/grace-hopper) — Continued the tradition of making programming more accessible and human-readable",
         "subsections": [
           {
             "id": "collaborators",
             "title": "Collaborators",
-            "markdown": "- [Charles Babbage](../charles-babbage/) — Designer of the Analytical Engine; Babbage and Ada's intellectual partnership is one of the most important in computing history"
+            "markdown": "- [Charles Babbage](/legend/charles-babbage) — Designer of the Analytical Engine; Babbage and Ada's intellectual partnership is one of the most important in computing history"
           },
           {
             "id": "influenced",
             "title": "Influenced",
-            "markdown": "- [Alan Turing](../../foundational-cs/alan-turing/) — Directly addressed \"Lady Lovelace's Objection\" in his landmark 1950 paper \"Computing Machinery and Intelligence\"\n- [Grace Hopper](../../foundational-cs/grace-hopper/) — Continued the tradition of making programming more accessible and human-readable"
+            "markdown": "- [Alan Turing](/legend/alan-turing) — Directly addressed \"Lady Lovelace's Objection\" in his landmark 1950 paper \"Computing Machinery and Intelligence\"\n- [Grace Hopper](/legend/grace-hopper) — Continued the tradition of making programming more accessible and human-readable"
           }
         ]
       },
@@ -283,7 +283,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Charles Babbage](../charles-babbage/)\n- [↑ Category Overview](../README.md)\n- [Next: George Boole →](../george-boole/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Charles Babbage](/legend/charles-babbage)\n- [↑ Category Overview](/category/pioneers)\n- [Next: George Boole →](/legend/george-boole)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -717,17 +717,17 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "### Collaborators\n- [Ada Lovelace](../ada-lovelace/) — Wrote the first algorithms for the Analytical Engine; arguably understood its potential better than anyone except Babbage himself\n\n### Influenced\n- [Alan Turing](../../foundational-cs/alan-turing/) — While Turing's work was independent, the lineage of ideas connects back to Babbage\n- [Konrad Zuse](../konrad-zuse/) — Built the first working programmable computer, realizing what Babbage could only design",
+        "markdown": "### Collaborators\n- [Ada Lovelace](/legend/ada-lovelace) — Wrote the first algorithms for the Analytical Engine; arguably understood its potential better than anyone except Babbage himself\n\n### Influenced\n- [Alan Turing](/legend/alan-turing) — While Turing's work was independent, the lineage of ideas connects back to Babbage\n- [Konrad Zuse](/legend/konrad-zuse) — Built the first working programmable computer, realizing what Babbage could only design",
         "subsections": [
           {
             "id": "collaborators",
             "title": "Collaborators",
-            "markdown": "- [Ada Lovelace](../ada-lovelace/) — Wrote the first algorithms for the Analytical Engine; arguably understood its potential better than anyone except Babbage himself"
+            "markdown": "- [Ada Lovelace](/legend/ada-lovelace) — Wrote the first algorithms for the Analytical Engine; arguably understood its potential better than anyone except Babbage himself"
           },
           {
             "id": "influenced",
             "title": "Influenced",
-            "markdown": "- [Alan Turing](../../foundational-cs/alan-turing/) — While Turing's work was independent, the lineage of ideas connects back to Babbage\n- [Konrad Zuse](../konrad-zuse/) — Built the first working programmable computer, realizing what Babbage could only design"
+            "markdown": "- [Alan Turing](/legend/alan-turing) — While Turing's work was independent, the lineage of ideas connects back to Babbage\n- [Konrad Zuse](/legend/konrad-zuse) — Built the first working programmable computer, realizing what Babbage could only design"
           }
         ]
       },
@@ -772,7 +772,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [↑ Category Overview](../README.md)\n- [Next: Ada Lovelace →](../ada-lovelace/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [↑ Category Overview](/category/pioneers)\n- [Next: Ada Lovelace →](/legend/ada-lovelace)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -1113,12 +1113,17 @@ export const legendDetails = {
         "id": "major-contributions",
         "kind": "contributions",
         "title": "Major Contributions",
-        "markdown": "### Boolean Algebra\n\nThe mathematical system that makes digital computing possible.\n\n**Year(s):** 1847–1854\n\n**Context:** Logic had been a branch of philosophy since Aristotle. Boole wanted to give it mathematical rigor — to create an \"algebra of logic\" where reasoning could be expressed as equations.\n\n**Technical Details:**\n- Reduced logic to algebra using just two values: **1** (TRUE) and **0** (FALSE)\n- Defined three fundamental operations:\n  - **AND** (conjunction): A ∧ B — true only when both A and B are true\n  - **OR** (disjunction): A ∨ B — true when either A or B is true\n  - **NOT** (negation): ¬A — inverts the value\n- Showed that complex logical statements could be expressed and simplified as algebraic equations\n- Proved that logical reasoning follows mathematical laws, just like arithmetic\n\n**Impact:** In 1937, Claude Shannon demonstrated that Boolean algebra could be used to design electrical switching circuits — the basis of all digital computers. Every logic gate in every processor, every `if` statement in every program, every database query — all Boolean algebra. Boole essentially wrote the mathematical language that computers think in.\n\n### The Laws of Thought\n\nBoole's magnum opus, which formalized the relationship between logic and mathematics.\n\n**Year(s):** 1854\n\n**Context:** Building on his 1847 work, Boole wanted to create a comprehensive mathematical framework for human reasoning itself.\n\n**Technical Details:**\n- Full title: *An Investigation of the Laws of Thought, on Which Are Founded the Mathematical Theories of Logic and Probabilities*\n- Extended Boolean algebra to handle probabilities\n- Introduced the concept of a \"universe of discourse\" — the set of all things being discussed\n- Showed how to translate English logical statements into mathematical equations and solve them\n\n**Impact:** Established the field of mathematical logic. Influenced later logicians like Augustus De Morgan, Gottlob Frege, Bertrand Russell, and ultimately the theoretical foundations of computer science.",
+        "markdown": "### Boolean Algebra\n\nThe mathematical system that makes digital computing possible.\n\n**Year(s):** 1847–1854\n\n**Context:** Logic had been a branch of philosophy since Aristotle. Boole wanted to give it mathematical rigor — to create an \"algebra of logic\" where reasoning could be expressed as equations.\n\n**Technical Details:**\n- Reduced logic to algebra using just two values: **1** (TRUE) and **0** (FALSE)\n- Defined three fundamental operations:\n  - **AND** (conjunction): A ∧ B — true only when both A and B are true\n  - **OR** (disjunction): A ∨ B — true when either A or B is true\n  - **NOT** (negation): ¬A — inverts the value\n\n### Influenced\n- [Claude Shannon](/legend/claude-shannon) — Applied Boolean algebra to electrical circuits, creating the bridge between abstract logic and physical computing\n- [Alan Turing](/legend/alan-turing) — Boolean logic is fundamental to the theory of computation\n- [Ada Lovelace](/legend/ada-lovelace) — Contemporary who also worked at the intersection of mathematics and computing concepts\n\n- Showed that complex logical statements could be expressed and simplified as algebraic equations\n- Proved that logical reasoning follows mathematical laws, just like arithmetic\n\n**Impact:** In 1937, Claude Shannon demonstrated that Boolean algebra could be used to design electrical switching circuits — the basis of all digital computers. Every logic gate in every processor, every `if` statement in every program, every database query — all Boolean algebra. Boole essentially wrote the mathematical language that computers think in.\n\n### The Laws of Thought\n\nBoole's magnum opus, which formalized the relationship between logic and mathematics.\n\n**Year(s):** 1854\n\n**Context:** Building on his 1847 work, Boole wanted to create a comprehensive mathematical framework for human reasoning itself.\n\n**Technical Details:**\n- Full title: *An Investigation of the Laws of Thought, on Which Are Founded the Mathematical Theories of Logic and Probabilities*\n- Extended Boolean algebra to handle probabilities\n- Introduced the concept of a \"universe of discourse\" — the set of all things being discussed\n- Showed how to translate English logical statements into mathematical equations and solve them\n\n**Impact:** Established the field of mathematical logic. Influenced later logicians like Augustus De Morgan, Gottlob Frege, Bertrand Russell, and ultimately the theoretical foundations of computer science.",
         "subsections": [
           {
             "id": "boolean-algebra",
             "title": "Boolean Algebra",
-            "markdown": "The mathematical system that makes digital computing possible.\n\n**Year(s):** 1847–1854\n\n**Context:** Logic had been a branch of philosophy since Aristotle. Boole wanted to give it mathematical rigor — to create an \"algebra of logic\" where reasoning could be expressed as equations.\n\n**Technical Details:**\n- Reduced logic to algebra using just two values: **1** (TRUE) and **0** (FALSE)\n- Defined three fundamental operations:\n  - **AND** (conjunction): A ∧ B — true only when both A and B are true\n  - **OR** (disjunction): A ∨ B — true when either A or B is true\n  - **NOT** (negation): ¬A — inverts the value\n- Showed that complex logical statements could be expressed and simplified as algebraic equations\n- Proved that logical reasoning follows mathematical laws, just like arithmetic\n\n**Impact:** In 1937, Claude Shannon demonstrated that Boolean algebra could be used to design electrical switching circuits — the basis of all digital computers. Every logic gate in every processor, every `if` statement in every program, every database query — all Boolean algebra. Boole essentially wrote the mathematical language that computers think in."
+            "markdown": "The mathematical system that makes digital computing possible.\n\n**Year(s):** 1847–1854\n\n**Context:** Logic had been a branch of philosophy since Aristotle. Boole wanted to give it mathematical rigor — to create an \"algebra of logic\" where reasoning could be expressed as equations.\n\n**Technical Details:**\n- Reduced logic to algebra using just two values: **1** (TRUE) and **0** (FALSE)\n- Defined three fundamental operations:\n  - **AND** (conjunction): A ∧ B — true only when both A and B are true\n  - **OR** (disjunction): A ∨ B — true when either A or B is true\n  - **NOT** (negation): ¬A — inverts the value"
+          },
+          {
+            "id": "influenced",
+            "title": "Influenced",
+            "markdown": "- [Claude Shannon](/legend/claude-shannon) — Applied Boolean algebra to electrical circuits, creating the bridge between abstract logic and physical computing\n- [Alan Turing](/legend/alan-turing) — Boolean logic is fundamental to the theory of computation\n- [Ada Lovelace](/legend/ada-lovelace) — Contemporary who also worked at the intersection of mathematics and computing concepts\n\n- Showed that complex logical statements could be expressed and simplified as algebraic equations\n- Proved that logical reasoning follows mathematical laws, just like arithmetic\n\n**Impact:** In 1937, Claude Shannon demonstrated that Boolean algebra could be used to design electrical switching circuits — the basis of all digital computers. Every logic gate in every processor, every `if` statement in every program, every database query — all Boolean algebra. Boole essentially wrote the mathematical language that computers think in."
           },
           {
             "id": "the-laws-of-thought",
@@ -1186,12 +1191,12 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "### Influenced\n- [Claude Shannon](../../foundational-cs/claude-shannon/) — Applied Boolean algebra to electrical circuits, creating the bridge between abstract logic and physical computing\n- [Alan Turing](../../foundational-cs/alan-turing/) — Boolean logic is fundamental to the theory of computation\n- [Ada Lovelace](../ada-lovelace/) — Contemporary who also worked at the intersection of mathematics and computing concepts",
+        "markdown": "### Influenced\n- [Claude Shannon](/legend/claude-shannon) — Applied Boolean algebra to electrical circuits, creating the bridge between abstract logic and physical computing\n- [Alan Turing](/legend/alan-turing) — Boolean logic is fundamental to the theory of computation\n- [Ada Lovelace](/legend/ada-lovelace) — Contemporary who also worked at the intersection of mathematics and computing concepts",
         "subsections": [
           {
             "id": "influenced",
             "title": "Influenced",
-            "markdown": "- [Claude Shannon](../../foundational-cs/claude-shannon/) — Applied Boolean algebra to electrical circuits, creating the bridge between abstract logic and physical computing\n- [Alan Turing](../../foundational-cs/alan-turing/) — Boolean logic is fundamental to the theory of computation\n- [Ada Lovelace](../ada-lovelace/) — Contemporary who also worked at the intersection of mathematics and computing concepts"
+            "markdown": "- [Claude Shannon](/legend/claude-shannon) — Applied Boolean algebra to electrical circuits, creating the bridge between abstract logic and physical computing\n- [Alan Turing](/legend/alan-turing) — Boolean logic is fundamental to the theory of computation\n- [Ada Lovelace](/legend/ada-lovelace) — Contemporary who also worked at the intersection of mathematics and computing concepts"
           }
         ]
       },
@@ -1236,7 +1241,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Ada Lovelace](../ada-lovelace/)\n- [↑ Category Overview](../README.md)\n- [Next: Herman Hollerith →](../herman-hollerith/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Ada Lovelace](/legend/ada-lovelace)\n- [↑ Category Overview](/category/pioneers)\n- [Next: Herman Hollerith →](/legend/herman-hollerith)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -1684,17 +1689,17 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "### Influenced By\n- [Charles Babbage](../charles-babbage/) — Babbage and Ada Lovelace used punch cards (from the Jacquard loom) in their Analytical Engine design; Hollerith adapted the concept for data encoding\n\n### Influenced\n- [Grace Hopper](../../foundational-cs/grace-hopper/) — Worked in the computing world that Hollerith's machines helped create\n- [Alan Turing](../../foundational-cs/alan-turing/) — The data processing industry Hollerith founded provided context for theoretical computing work",
+        "markdown": "### Influenced By\n- [Charles Babbage](/legend/charles-babbage) — Babbage and Ada Lovelace used punch cards (from the Jacquard loom) in their Analytical Engine design; Hollerith adapted the concept for data encoding\n\n### Influenced\n- [Grace Hopper](/legend/grace-hopper) — Worked in the computing world that Hollerith's machines helped create\n- [Alan Turing](/legend/alan-turing) — The data processing industry Hollerith founded provided context for theoretical computing work",
         "subsections": [
           {
             "id": "influenced-by",
             "title": "Influenced By",
-            "markdown": "- [Charles Babbage](../charles-babbage/) — Babbage and Ada Lovelace used punch cards (from the Jacquard loom) in their Analytical Engine design; Hollerith adapted the concept for data encoding"
+            "markdown": "- [Charles Babbage](/legend/charles-babbage) — Babbage and Ada Lovelace used punch cards (from the Jacquard loom) in their Analytical Engine design; Hollerith adapted the concept for data encoding"
           },
           {
             "id": "influenced",
             "title": "Influenced",
-            "markdown": "- [Grace Hopper](../../foundational-cs/grace-hopper/) — Worked in the computing world that Hollerith's machines helped create\n- [Alan Turing](../../foundational-cs/alan-turing/) — The data processing industry Hollerith founded provided context for theoretical computing work"
+            "markdown": "- [Grace Hopper](/legend/grace-hopper) — Worked in the computing world that Hollerith's machines helped create\n- [Alan Turing](/legend/alan-turing) — The data processing industry Hollerith founded provided context for theoretical computing work"
           }
         ]
       },
@@ -1739,7 +1744,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: George Boole](../george-boole/)\n- [↑ Category Overview](../README.md)\n- [Next: Konrad Zuse →](../konrad-zuse/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: George Boole](/legend/george-boole)\n- [↑ Category Overview](/category/pioneers)\n- [Next: Konrad Zuse →](/legend/konrad-zuse)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -2162,7 +2167,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Konrad Zuse](../konrad-zuse/) — another early pioneer who independently built programmable digital machines\n- [Alan Turing](../../foundational-cs/alan-turing/) — provided the theoretical framework for computation as Atanasoff advanced hardware practice\n- [John von Neumann](../../foundational-cs/john-von-neumann/) — later central architect of stored-program computing",
+        "markdown": "- [Konrad Zuse](/legend/konrad-zuse) — another early pioneer who independently built programmable digital machines\n- [Alan Turing](/legend/alan-turing) — provided the theoretical framework for computation as Atanasoff advanced hardware practice\n- [John von Neumann](/legend/john-von-neumann) — later central architect of stored-program computing",
         "subsections": []
       },
       {
@@ -2190,7 +2195,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Konrad Zuse](../konrad-zuse/)\n- [↑ Category Overview](../README.md)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Konrad Zuse](/legend/konrad-zuse)\n- [↑ Category Overview](/category/pioneers)\n\n---\n\n**Last Updated:** 2026-04-16",
         "subsections": []
       }
     ],
@@ -2578,17 +2583,17 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "### Influenced By\n- [Charles Babbage](../charles-babbage/) — Babbage's Analytical Engine was a conceptual predecessor, though Zuse developed his ideas independently\n\n### Contemporaries (worked independently)\n- [Alan Turing](../../foundational-cs/alan-turing/) — Developed the theoretical framework for computing around the same time; Zuse was unaware of Turing's work due to wartime isolation\n- [John von Neumann](../../foundational-cs/john-von-neumann/) — Developed the stored-program architecture; also worked independently from Zuse\n- [Claude Shannon](../../foundational-cs/claude-shannon/) — Applied Boolean algebra to circuits in 1937; Zuse independently adopted binary computing",
+        "markdown": "### Influenced By\n- [Charles Babbage](/legend/charles-babbage) — Babbage's Analytical Engine was a conceptual predecessor, though Zuse developed his ideas independently\n\n### Contemporaries (worked independently)\n- [Alan Turing](/legend/alan-turing) — Developed the theoretical framework for computing around the same time; Zuse was unaware of Turing's work due to wartime isolation\n- [John von Neumann](/legend/john-von-neumann) — Developed the stored-program architecture; also worked independently from Zuse\n- [Claude Shannon](/legend/claude-shannon) — Applied Boolean algebra to circuits in 1937; Zuse independently adopted binary computing",
         "subsections": [
           {
             "id": "influenced-by",
             "title": "Influenced By",
-            "markdown": "- [Charles Babbage](../charles-babbage/) — Babbage's Analytical Engine was a conceptual predecessor, though Zuse developed his ideas independently"
+            "markdown": "- [Charles Babbage](/legend/charles-babbage) — Babbage's Analytical Engine was a conceptual predecessor, though Zuse developed his ideas independently"
           },
           {
             "id": "contemporaries-worked-independently",
             "title": "Contemporaries (worked independently)",
-            "markdown": "- [Alan Turing](../../foundational-cs/alan-turing/) — Developed the theoretical framework for computing around the same time; Zuse was unaware of Turing's work due to wartime isolation\n- [John von Neumann](../../foundational-cs/john-von-neumann/) — Developed the stored-program architecture; also worked independently from Zuse\n- [Claude Shannon](../../foundational-cs/claude-shannon/) — Applied Boolean algebra to circuits in 1937; Zuse independently adopted binary computing"
+            "markdown": "- [Alan Turing](/legend/alan-turing) — Developed the theoretical framework for computing around the same time; Zuse was unaware of Turing's work due to wartime isolation\n- [John von Neumann](/legend/john-von-neumann) — Developed the stored-program architecture; also worked independently from Zuse\n- [Claude Shannon](/legend/claude-shannon) — Applied Boolean algebra to circuits in 1937; Zuse independently adopted binary computing"
           }
         ]
       },
@@ -2633,7 +2638,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Herman Hollerith](../herman-hollerith/)\n- [↑ Category Overview](../README.md)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Herman Hollerith](/legend/herman-hollerith)\n- [↑ Category Overview](/category/pioneers)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -2979,7 +2984,13 @@ export const legendDetails = {
       "Mathematical Biology",
       "Foundational Computer Science"
     ],
-    "relatedSlugs": [],
+    "relatedSlugs": [
+      "ada-lovelace",
+      "claude-shannon",
+      "john-von-neumann",
+      "alonzo-church",
+      "donald-knuth"
+    ],
     "featured": false,
     "introQuote": {
       "text": "*The man who taught rocks to think — and then got punished for being himself.*"
@@ -3128,7 +3139,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "| Person | Connection | Link |\n|--------|-----------|------|\n| **Ada Lovelace** | Conceptual predecessor — wrote the first algorithm; Turing brought the theory to mathematical rigor | [Ada Lovelace](../../pioneers/ada-lovelace/) |\n| **Claude Shannon** | Contemporary; Shannon's information theory complemented Turing's computational theory | [Claude Shannon](../claude-shannon/) |\n| **John von Neumann** | Colleague at Princeton; von Neumann architecture drew on Turing's theoretical work | [John von Neumann](../john-von-neumann/) |\n| **Alonzo Church** | PhD advisor at Princeton; co-creator of the Church-Turing thesis | *Not yet in repo* |\n| **Donald Knuth** | Carried forward Turing's legacy in algorithmic analysis | [Donald Knuth](../donald-knuth/) |\n\n---",
+        "markdown": "| Person | Connection | Link |\n|--------|-----------|------|\n| **Ada Lovelace** | Conceptual predecessor — wrote the first algorithm; Turing brought the theory to mathematical rigor | [Ada Lovelace](/legend/ada-lovelace) |\n| **Claude Shannon** | Contemporary; Shannon's information theory complemented Turing's computational theory | [Claude Shannon](/legend/claude-shannon) |\n| **John von Neumann** | Colleague at Princeton; von Neumann architecture drew on Turing's theoretical work | [John von Neumann](/legend/john-von-neumann) |\n| **Alonzo Church** | PhD advisor at Princeton; co-creator of the Church-Turing thesis | [Alonzo Church](/legend/alonzo-church) |\n| **Donald Knuth** | Carried forward Turing's legacy in algorithmic analysis | [Donald Knuth](/legend/donald-knuth) |\n\n---",
         "subsections": []
       },
       {
@@ -3172,7 +3183,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [↑ Category Overview](../README.md)\n- [Next: John von Neumann →](../john-von-neumann/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [↑ Category Overview](/category/foundational-cs)\n- [Next: John von Neumann →](/legend/john-von-neumann)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -3277,7 +3288,38 @@ export const legendDetails = {
         "event": "Appears on the Bank of England £50 note"
       }
     ],
-    "relatedFigures": [],
+    "relatedFigures": [
+      {
+        "name": "Ada Lovelace",
+        "href": "/legend/ada-lovelace",
+        "resolvedSlug": "ada-lovelace",
+        "relationship": "Conceptual predecessor — wrote the first algorithm; Turing brought the theory to mathematical rigor"
+      },
+      {
+        "name": "Claude Shannon",
+        "href": "/legend/claude-shannon",
+        "resolvedSlug": "claude-shannon",
+        "relationship": "Contemporary; Shannon's information theory complemented Turing's computational theory"
+      },
+      {
+        "name": "John von Neumann",
+        "href": "/legend/john-von-neumann",
+        "resolvedSlug": "john-von-neumann",
+        "relationship": "Colleague at Princeton; von Neumann architecture drew on Turing's theoretical work"
+      },
+      {
+        "name": "Alonzo Church",
+        "href": "/legend/alonzo-church",
+        "resolvedSlug": "alonzo-church",
+        "relationship": "PhD advisor at Princeton; co-creator of the Church-Turing thesis"
+      },
+      {
+        "name": "Donald Knuth",
+        "href": "/legend/donald-knuth",
+        "resolvedSlug": "donald-knuth",
+        "relationship": "Carried forward Turing's legacy in algorithmic analysis"
+      }
+    ],
     "resources": [
       {
         "title": "Andrew Hodges",
@@ -3592,7 +3634,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Alan Turing](../alan-turing/) — Church supervised Turing at Princeton and their names are forever linked through the Church–Turing thesis\n- [Donald Knuth](../donald-knuth/) — later theorist working in a world Church helped mathematically define\n- [John von Neumann](../john-von-neumann/) — another giant of formal and architectural computing thought from the same broad era",
+        "markdown": "| Person | Connection | Link |\n|--------|-----------|------|\n| **Alan Turing** | Supervised by Church at Princeton; co-namesake of the Church–Turing thesis | [Alan Turing](/legend/alan-turing) |\n| **Donald Knuth** | Later theorist working in a world Church helped mathematically define | [Donald Knuth](/legend/donald-knuth) |\n| **John von Neumann** | Another giant of formal and architectural computing thought from the same era | [John von Neumann](/legend/john-von-neumann) |",
         "subsections": []
       },
       {
@@ -3620,7 +3662,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Alan Turing](../alan-turing/)\n- [↑ Category Overview](../README.md)\n- [Next: John von Neumann →](../john-von-neumann/)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Alan Turing](/legend/alan-turing)\n- [↑ Category Overview](/category/foundational-cs)\n- [Next: John von Neumann →](/legend/john-von-neumann)\n\n---\n\n**Last Updated:** 2026-04-16",
         "subsections": []
       }
     ],
@@ -3713,19 +3755,19 @@ export const legendDetails = {
         "name": "Alan Turing",
         "href": "/legend/alan-turing",
         "resolvedSlug": "alan-turing",
-        "relationship": "Church supervised Turing at Princeton and their names are forever linked through the Church–Turing thesis"
+        "relationship": "Supervised by Church at Princeton; co-namesake of the Church–Turing thesis"
       },
       {
         "name": "Donald Knuth",
         "href": "/legend/donald-knuth",
         "resolvedSlug": "donald-knuth",
-        "relationship": "later theorist working in a world Church helped mathematically define"
+        "relationship": "Later theorist working in a world Church helped mathematically define"
       },
       {
         "name": "John von Neumann",
         "href": "/legend/john-von-neumann",
         "resolvedSlug": "john-von-neumann",
-        "relationship": "another giant of formal and architectural computing thought from the same broad era"
+        "relationship": "Another giant of formal and architectural computing thought from the same era"
       }
     ],
     "resources": [
@@ -3895,12 +3937,12 @@ export const legendDetails = {
         "id": "major-contributions",
         "kind": "contributions",
         "title": "Major Contributions",
-        "markdown": "### 1. Boolean Algebra Applied to Circuit Design (1937)\n\nShannon's master's thesis, *\"A Symbolic Analysis of Relay and Switching Circuits,\"* is where the magic began. He realized that [George Boole](../../pioneers/george-boole/)'s abstract mathematical logic — all those ANDs, ORs, and NOTs — could be directly mapped onto electrical switches and circuits.\n\nBefore Shannon, circuit design was basically an art form — engineers wired things up and hoped for the best. After Shannon, it was a **science**. This single insight is the theoretical foundation of every digital circuit in every device you've ever used. Your phone, your laptop, your smart toaster — they all owe Shannon a thank-you note.\n\n### 2. \"A Mathematical Theory of Communication\" (1948)\n\nThis is **THE paper**. The one. The big kahuna. Published in the *Bell System Technical Journal*, this paper single-handedly **founded the field of information theory**.\n\nWhat did it do? Oh, just a few things:\n\n- **Introduced the \"bit\"** (binary digit) as the fundamental unit of information. Every time you hear someone talk about bits and bytes, that's Shannon.\n- **Defined Shannon entropy** — a mathematical measure of uncertainty or information content. (Yes, it's related to thermodynamic entropy. No, that's not a coincidence. Shannon asked John von Neumann what to call it, and von Neumann said \"entropy\" because \"nobody really knows what entropy is, so in a debate you will always have the advantage.\")\n- **Proved the channel capacity theorem** — there's a maximum rate at which information can be reliably transmitted over a noisy channel. And he showed you could actually *achieve* that rate with clever enough coding. This was mind-blowing at the time.\n- **Made reliable digital communication mathematically provable.** Before Shannon, people hoped their messages got through. After Shannon, they could *guarantee* it (given the right error-correcting codes).\n\nIf you've ever streamed a movie, made a phone call, sent a text, or downloaded a file without it turning into gibberish, you have Claude Shannon to thank.\n\n### 3. Cryptography Work During WWII\n\nDuring World War II, Shannon worked on cryptography and fire-control systems at Bell Labs. His classified paper *\"A Mathematical Theory of Cryptography\"* (1945) laid the groundwork for modern cryptographic theory. He proved the conditions under which a cipher could be truly unbreakable (the one-time pad). This work was so ahead of its time that it remained classified for years.\n\n### 4. Shannon's Noisy-Channel Coding Theorem\n\nPart of his 1948 masterpiece, but it deserves its own spotlight. Shannon proved that for any communication channel with noise, there exists a coding scheme that allows information to be transmitted with an arbitrarily low probability of error, as long as the transmission rate stays below the channel capacity. Engineers spent the next **50 years** trying to find codes that actually approached this theoretical limit. (Spoiler: turbo codes and LDPC codes finally got close in the 1990s.)\n\n---",
+        "markdown": "### 1. Boolean Algebra Applied to Circuit Design (1937)\n\nShannon's master's thesis, *\"A Symbolic Analysis of Relay and Switching Circuits,\"* is where the magic began. He realized that [George Boole](/legend/george-boole)'s abstract mathematical logic — all those ANDs, ORs, and NOTs — could be directly mapped onto electrical switches and circuits.\n\nBefore Shannon, circuit design was basically an art form — engineers wired things up and hoped for the best. After Shannon, it was a **science**. This single insight is the theoretical foundation of every digital circuit in every device you've ever used. Your phone, your laptop, your smart toaster — they all owe Shannon a thank-you note.\n\n### 2. \"A Mathematical Theory of Communication\" (1948)\n\nThis is **THE paper**. The one. The big kahuna. Published in the *Bell System Technical Journal*, this paper single-handedly **founded the field of information theory**.\n\nWhat did it do? Oh, just a few things:\n\n- **Introduced the \"bit\"** (binary digit) as the fundamental unit of information. Every time you hear someone talk about bits and bytes, that's Shannon.\n- **Defined Shannon entropy** — a mathematical measure of uncertainty or information content. (Yes, it's related to thermodynamic entropy. No, that's not a coincidence. Shannon asked John von Neumann what to call it, and von Neumann said \"entropy\" because \"nobody really knows what entropy is, so in a debate you will always have the advantage.\")\n- **Proved the channel capacity theorem** — there's a maximum rate at which information can be reliably transmitted over a noisy channel. And he showed you could actually *achieve* that rate with clever enough coding. This was mind-blowing at the time.\n- **Made reliable digital communication mathematically provable.** Before Shannon, people hoped their messages got through. After Shannon, they could *guarantee* it (given the right error-correcting codes).\n\nIf you've ever streamed a movie, made a phone call, sent a text, or downloaded a file without it turning into gibberish, you have Claude Shannon to thank.\n\n### 3. Cryptography Work During WWII\n\nDuring World War II, Shannon worked on cryptography and fire-control systems at Bell Labs. His classified paper *\"A Mathematical Theory of Cryptography\"* (1945) laid the groundwork for modern cryptographic theory. He proved the conditions under which a cipher could be truly unbreakable (the one-time pad). This work was so ahead of its time that it remained classified for years.\n\n### 4. Shannon's Noisy-Channel Coding Theorem\n\nPart of his 1948 masterpiece, but it deserves its own spotlight. Shannon proved that for any communication channel with noise, there exists a coding scheme that allows information to be transmitted with an arbitrarily low probability of error, as long as the transmission rate stays below the channel capacity. Engineers spent the next **50 years** trying to find codes that actually approached this theoretical limit. (Spoiler: turbo codes and LDPC codes finally got close in the 1990s.)\n\n---",
         "subsections": [
           {
             "id": "1-boolean-algebra-applied-to-circuit-design-1937",
             "title": "1. Boolean Algebra Applied to Circuit Design (1937)",
-            "markdown": "Shannon's master's thesis, *\"A Symbolic Analysis of Relay and Switching Circuits,\"* is where the magic began. He realized that [George Boole](../../pioneers/george-boole/)'s abstract mathematical logic — all those ANDs, ORs, and NOTs — could be directly mapped onto electrical switches and circuits.\n\nBefore Shannon, circuit design was basically an art form — engineers wired things up and hoped for the best. After Shannon, it was a **science**. This single insight is the theoretical foundation of every digital circuit in every device you've ever used. Your phone, your laptop, your smart toaster — they all owe Shannon a thank-you note."
+            "markdown": "Shannon's master's thesis, *\"A Symbolic Analysis of Relay and Switching Circuits,\"* is where the magic began. He realized that [George Boole](/legend/george-boole)'s abstract mathematical logic — all those ANDs, ORs, and NOTs — could be directly mapped onto electrical switches and circuits.\n\nBefore Shannon, circuit design was basically an art form — engineers wired things up and hoped for the best. After Shannon, it was a **science**. This single insight is the theoretical foundation of every digital circuit in every device you've ever used. Your phone, your laptop, your smart toaster — they all owe Shannon a thank-you note."
           },
           {
             "id": "2-a-mathematical-theory-of-communication-1948",
@@ -3937,7 +3979,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[George Boole](../../pioneers/george-boole/)** — Created the Boolean algebra that Shannon applied to circuit design. Boole provided the math; Shannon made it *physical*.\n- **[Alan Turing](../alan-turing/)** — Fellow giant of 20th-century theoretical computer science. While Turing formalized computation, Shannon formalized communication. They actually met and discussed the idea of thinking machines over tea. (Peak nerd energy.)\n- **[John von Neumann](../john-von-neumann/)** — Polymath extraordinaire who worked in overlapping fields. The guy who told Shannon to call his measure \"entropy\" for strategic debate purposes.\n\n---",
+        "markdown": "| Person | Connection | Link |\n|--------|-----------|------|\n| **George Boole** | Created the Boolean algebra that Shannon applied to circuit design. Boole provided the math; Shannon made it physical. | [George Boole](/legend/george-boole) |\n| **Alan Turing** | Fellow giant of 20th-century theoretical computer science. While Turing formalized computation, Shannon formalized communication. | [Alan Turing](/legend/alan-turing) |\n| **John von Neumann** | Polymath extraordinaire who worked in overlapping fields. The guy who told Shannon to call his measure \"entropy\" for strategic debate purposes. | [John von Neumann](/legend/john-von-neumann) |\n\n---",
         "subsections": []
       },
       {
@@ -3951,7 +3993,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: John von Neumann](../john-von-neumann/)\n- [↑ Category Overview](../README.md)\n- [Next: Grace Hopper →](../grace-hopper/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: John von Neumann](/legend/john-von-neumann)\n- [↑ Category Overview](/category/foundational-cs)\n- [Next: Grace Hopper →](/legend/grace-hopper)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -3973,13 +4015,13 @@ export const legendDetails = {
         "name": "George Boole",
         "href": "/legend/george-boole",
         "resolvedSlug": "george-boole",
-        "relationship": "Created the Boolean algebra that Shannon applied to circuit design. Boole provided the math; Shannon made it *physical*."
+        "relationship": "Created the Boolean algebra that Shannon applied to circuit design. Boole provided the math; Shannon made it physical."
       },
       {
         "name": "Alan Turing",
         "href": "/legend/alan-turing",
         "resolvedSlug": "alan-turing",
-        "relationship": "Fellow giant of 20th-century theoretical computer science. While Turing formalized computation, Shannon formalized communication. They actually met and discussed the idea of thinking machines over tea. (Peak nerd energy.)"
+        "relationship": "Fellow giant of 20th-century theoretical computer science. While Turing formalized computation, Shannon formalized communication."
       },
       {
         "name": "John von Neumann",
@@ -4212,7 +4254,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Edsger Dijkstra](../edsger-dijkstra/) — fellow algorithm pioneer and opinionated genius\n- [Tony Hoare](../tony-hoare/) — inventor of Quicksort, which Knuth analyzed extensively in TAOCP\n- [Alan Turing](../alan-turing/) — the theoretical foundation upon which Knuth built\n- [Claude Shannon](../claude-shannon/) — another mathematician who changed everything\n- [Grace Hopper](../grace-hopper/) — pioneer of practical programming\n\n---",
+        "markdown": "| Person | Connection | Link |\n|--------|-----------|------|\n| **Edsger Dijkstra** | Fellow algorithm pioneer and opinionated genius | [Edsger Dijkstra](/legend/edsger-dijkstra) |\n| **Tony Hoare** | Inventor of Quicksort, which Knuth analyzed extensively in TAOCP | [Tony Hoare](/legend/tony-hoare) |\n| **Alan Turing** | The theoretical foundation upon which Knuth built | [Alan Turing](/legend/alan-turing) |\n| **Claude Shannon** | Another mathematician who changed everything | [Claude Shannon](/legend/claude-shannon) |\n| **Grace Hopper** | Pioneer of practical programming | [Grace Hopper](/legend/grace-hopper) |\n\n---",
         "subsections": []
       },
       {
@@ -4226,7 +4268,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Grace Hopper](../grace-hopper/)\n- [↑ Category Overview](../README.md)\n- [Next: Edsger Dijkstra →](../edsger-dijkstra/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Grace Hopper](/legend/grace-hopper)\n- [↑ Category Overview](/category/foundational-cs)\n- [Next: Edsger Dijkstra →](/legend/edsger-dijkstra)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -4254,31 +4296,31 @@ export const legendDetails = {
         "name": "Edsger Dijkstra",
         "href": "/legend/edsger-dijkstra",
         "resolvedSlug": "edsger-dijkstra",
-        "relationship": "fellow algorithm pioneer and opinionated genius"
+        "relationship": "Fellow algorithm pioneer and opinionated genius"
       },
       {
         "name": "Tony Hoare",
         "href": "/legend/tony-hoare",
         "resolvedSlug": "tony-hoare",
-        "relationship": "inventor of Quicksort, which Knuth analyzed extensively in TAOCP"
+        "relationship": "Inventor of Quicksort, which Knuth analyzed extensively in TAOCP"
       },
       {
         "name": "Alan Turing",
         "href": "/legend/alan-turing",
         "resolvedSlug": "alan-turing",
-        "relationship": "the theoretical foundation upon which Knuth built"
+        "relationship": "The theoretical foundation upon which Knuth built"
       },
       {
         "name": "Claude Shannon",
         "href": "/legend/claude-shannon",
         "resolvedSlug": "claude-shannon",
-        "relationship": "another mathematician who changed everything"
+        "relationship": "Another mathematician who changed everything"
       },
       {
         "name": "Grace Hopper",
         "href": "/legend/grace-hopper",
         "resolvedSlug": "grace-hopper",
-        "relationship": "pioneer of practical programming"
+        "relationship": "Pioneer of practical programming"
       }
     ],
     "resources": [],
@@ -4506,7 +4548,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Donald Knuth](../donald-knuth/) — Fellow giant of algorithms and programming methodology. Knuth and Dijkstra had enormous mutual respect, despite very different working styles.\n- [Tony Hoare](../tony-hoare/) — Collaborated on structured programming. Invented quicksort and CSP. Another champion of program correctness.\n- [Alan Turing](../alan-turing/) — The foundational figure whose theoretical work underpinned everything Dijkstra built upon.\n\n---",
+        "markdown": "| Person | Connection | Link |\n|--------|-----------|------|\n| **Donald Knuth** | Fellow giant of algorithms and programming methodology. Knuth and Dijkstra had enormous mutual respect, despite very different working styles. | [Donald Knuth](/legend/donald-knuth) |\n| **Tony Hoare** | Collaborated on structured programming. Invented quicksort and CSP. Another champion of program correctness. | [Tony Hoare](/legend/tony-hoare) |\n| **Alan Turing** | The foundational figure whose theoretical work underpinned everything Dijkstra built upon. | [Alan Turing](/legend/alan-turing) |\n\n---",
         "subsections": []
       },
       {
@@ -4520,7 +4562,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Donald Knuth](../donald-knuth/)\n- [↑ Category Overview](../README.md)\n- [Next: Tony Hoare →](../tony-hoare/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Donald Knuth](/legend/donald-knuth)\n- [↑ Category Overview](/category/foundational-cs)\n- [Next: Tony Hoare →](/legend/tony-hoare)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -4784,7 +4826,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Ada Lovelace](../../pioneers/ada-lovelace/) — The original computing visionary, a century before Grace\n- [Dennis Ritchie](../../systems-languages/dennis-ritchie/) — Created C, carrying forward the compiler revolution Grace started\n- [Alan Turing](../alan-turing/) — Laid the theoretical foundation for everything Grace built\n- [Frances Allen](../../systems-languages/frances-allen/) — Continued Grace's compiler optimization legacy and became the first woman to win the Turing Award",
+        "markdown": "| Person | Connection | Link |\n|--------|-----------|------|\n| **Ada Lovelace** | The original computing visionary, a century before Grace | [Ada Lovelace](/legend/ada-lovelace) |\n| **Dennis Ritchie** | Created C, carrying forward the compiler revolution Grace started | [Dennis Ritchie](/legend/dennis-ritchie) |\n| **Alan Turing** | Laid the theoretical foundation for everything Grace built | [Alan Turing](/legend/alan-turing) |\n| **Frances Allen** | Continued Grace's compiler optimization legacy and became the first woman to win the Turing Award | [Frances Allen](/legend/frances-allen) |",
         "subsections": []
       },
       {
@@ -4798,7 +4840,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Claude Shannon](../claude-shannon/)\n- [↑ Category Overview](../README.md)\n- [Next: Donald Knuth →](../donald-knuth/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Claude Shannon](/legend/claude-shannon)\n- [↑ Category Overview](/category/foundational-cs)\n- [Next: Donald Knuth →](/legend/donald-knuth)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -5110,7 +5152,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [**Alan Turing**](../alan-turing/) — Fellow computing pioneer; Turing's theoretical work on computability complemented von Neumann's practical architectural designs. They met and deeply respected each other's work.\n- [**Claude Shannon**](../claude-shannon/) — Father of information theory; both worked at the intersection of mathematics and engineering to lay the foundations of the digital age.\n- [**Grace Hopper**](../grace-hopper/) — Programming pioneer who built on the stored-program concepts that von Neumann helped formalize.\n- [**Herman Hollerith**](../../pioneers/herman-hollerith/) — Earlier computing pioneer whose tabulating machines were precursors to the electronic computers von Neumann helped design.\n\n---",
+        "markdown": "| Person | Connection | Link |\n|--------|-----------|------|\n| **Alan Turing** | Fellow computing pioneer; Turing's theoretical work on computability complemented von Neumann's practical architectural designs | [Alan Turing](/legend/alan-turing) |\n| **Claude Shannon** | Father of information theory; both worked at the intersection of mathematics and engineering to lay the foundations of the digital age | [Claude Shannon](/legend/claude-shannon) |\n| **Grace Hopper** | Programming pioneer who built on the stored-program concepts that von Neumann helped formalize | [Grace Hopper](/legend/grace-hopper) |\n| **Herman Hollerith** | Earlier computing pioneer whose tabulating machines were precursors to the electronic computers von Neumann helped design | [Herman Hollerith](/legend/herman-hollerith) |\n\n---",
         "subsections": []
       },
       {
@@ -5154,7 +5196,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Alan Turing](../alan-turing/)\n- [↑ Category Overview](../README.md)\n- [Next: Claude Shannon →](../claude-shannon/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Alan Turing](/legend/alan-turing)\n- [↑ Category Overview](/category/foundational-cs)\n- [Next: Claude Shannon →](/legend/claude-shannon)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -5239,25 +5281,25 @@ export const legendDetails = {
         "name": "Alan Turing",
         "href": "/legend/alan-turing",
         "resolvedSlug": "alan-turing",
-        "relationship": "Fellow computing pioneer; Turing's theoretical work on computability complemented von Neumann's practical architectural designs. They met and deeply respected each other's work."
+        "relationship": "Fellow computing pioneer; Turing's theoretical work on computability complemented von Neumann's practical architectural designs"
       },
       {
         "name": "Claude Shannon",
         "href": "/legend/claude-shannon",
         "resolvedSlug": "claude-shannon",
-        "relationship": "Father of information theory; both worked at the intersection of mathematics and engineering to lay the foundations of the digital age."
+        "relationship": "Father of information theory; both worked at the intersection of mathematics and engineering to lay the foundations of the digital age"
       },
       {
         "name": "Grace Hopper",
         "href": "/legend/grace-hopper",
         "resolvedSlug": "grace-hopper",
-        "relationship": "Programming pioneer who built on the stored-program concepts that von Neumann helped formalize."
+        "relationship": "Programming pioneer who built on the stored-program concepts that von Neumann helped formalize"
       },
       {
         "name": "Herman Hollerith",
         "href": "/legend/herman-hollerith",
         "resolvedSlug": "herman-hollerith",
-        "relationship": "Earlier computing pioneer whose tabulating machines were precursors to the electronic computers von Neumann helped design."
+        "relationship": "Earlier computing pioneer whose tabulating machines were precursors to the electronic computers von Neumann helped design"
       }
     ],
     "resources": [
@@ -5563,7 +5605,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Donald Knuth](../donald-knuth/) — Fellow algorithms giant; the Knuth-Hoare quote attribution mystery endures\n- [Edsger Dijkstra](../edsger-dijkstra/) — Shared Hoare's passion for formal methods and program correctness; they were kindred spirits in the \"programs should be provably correct\" camp\n- [Alan Turing](../alan-turing/) — The award Hoare received in 1980 bears this man's name, and for good reason\n\n---",
+        "markdown": "| Person | Connection | Link |\n|--------|-----------|------|\n| **Donald Knuth** | Fellow algorithms giant; the Knuth-Hoare quote attribution mystery endures | [Donald Knuth](/legend/donald-knuth) |\n| **Edsger Dijkstra** | Shared Hoare's passion for formal methods and program correctness; they were kindred spirits in the \"programs should be provably correct\" camp | [Edsger Dijkstra](/legend/edsger-dijkstra) |\n| **Alan Turing** | The award Hoare received in 1980 bears this man's name, and for good reason | [Alan Turing](/legend/alan-turing) |\n\n---",
         "subsections": []
       },
       {
@@ -5577,7 +5619,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Edsger Dijkstra](../edsger-dijkstra/)\n- [↑ Category Overview](../README.md)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Edsger Dijkstra](/legend/edsger-dijkstra)\n- [↑ Category Overview](/category/foundational-cs)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -5855,7 +5897,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[John McCarthy](../../ai-pioneers/john-mccarthy/)** — PhD advisor at Stanford; AI pioneer\n- **[Frances Allen](../frances-allen/)** — Fellow woman Turing Award winner; compiler optimization pioneer\n- **[Grace Hopper](../../foundational-cs/grace-hopper/)** — Pioneer for women in computing\n- **[Edsger Dijkstra](../../foundational-cs/edsger-dijkstra/)** — Fellow advocate for rigorous programming methodology\n- **[Tony Hoare](../../foundational-cs/tony-hoare/)** — Formal methods pioneer; CSP influenced Liskov's distributed systems work",
+        "markdown": "- **[John McCarthy](/legend/john-mccarthy)** — PhD advisor at Stanford; AI pioneer\n- **[Frances Allen](/legend/frances-allen)** — Fellow woman Turing Award winner; compiler optimization pioneer\n- **[Grace Hopper](/legend/grace-hopper)** — Pioneer for women in computing\n- **[Edsger Dijkstra](/legend/edsger-dijkstra)** — Fellow advocate for rigorous programming methodology\n- **[Tony Hoare](/legend/tony-hoare)** — Formal methods pioneer; CSP influenced Liskov's distributed systems work",
         "subsections": []
       },
       {
@@ -5883,7 +5925,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Frances Allen](../frances-allen/)\n- [↑ Category Overview](../README.md)\n- [Next: Bjarne Stroustrup →](../bjarne-stroustrup/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Frances Allen](/legend/frances-allen)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Bjarne Stroustrup →](/legend/bjarne-stroustrup)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -6307,7 +6349,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Dennis Ritchie](../dennis-ritchie/)** — Created C, the language Stroustrup extended\n- **[Ken Thompson](../ken-thompson/)** — Co-creator of Unix and the systems culture C++ lives in\n- **[Barbara Liskov](../barbara-liskov/)** — Liskov substitution principle, key OOP concept used in C++\n- **[Guido van Rossum](../guido-van-rossum/)** — Python, often positioned as C++'s \"opposite\" philosophy",
+        "markdown": "- **[Dennis Ritchie](/legend/dennis-ritchie)** — Created C, the language Stroustrup extended\n- **[Ken Thompson](/legend/ken-thompson)** — Co-creator of Unix and the systems culture C++ lives in\n- **[Barbara Liskov](/legend/barbara-liskov)** — Liskov substitution principle, key OOP concept used in C++\n- **[Guido van Rossum](/legend/guido-van-rossum)** — Python, often positioned as C++'s \"opposite\" philosophy",
         "subsections": []
       },
       {
@@ -6335,7 +6377,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Barbara Liskov](../barbara-liskov/)\n- [↑ Category Overview](../README.md)\n- [Next: James Gosling →](../james-gosling/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Barbara Liskov](/legend/barbara-liskov)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: James Gosling →](/legend/james-gosling)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -6753,7 +6795,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[James Gosling](../james-gosling/)** — Java creator; JavaScript was named to ride Java's marketing wave\n- **[Guido van Rossum](../guido-van-rossum/)** — Python, a competing scripting language\n- **[Dennis Ritchie](../dennis-ritchie/)** — C's syntax influenced JavaScript's appearance\n- **[Tim Berners-Lee](../../web-internet/tim-berners-lee/)** — Created the Web that JavaScript brought to life",
+        "markdown": "- **[James Gosling](/legend/james-gosling)** — Java creator; JavaScript was named to ride Java's marketing wave\n- **[Guido van Rossum](/legend/guido-van-rossum)** — Python, a competing scripting language\n- **[Dennis Ritchie](/legend/dennis-ritchie)** — C's syntax influenced JavaScript's appearance\n- **[Tim Berners-Lee](/legend/tim-berners-lee)** — Created the Web that JavaScript brought to life",
         "subsections": []
       },
       {
@@ -6781,7 +6823,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Guido van Rossum](../guido-van-rossum/)\n- [↑ Category Overview](../README.md)\n- [Next: Linus Torvalds →](../linus-torvalds/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Guido van Rossum](/legend/guido-van-rossum)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Linus Torvalds →](/legend/linus-torvalds)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -7155,7 +7197,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Ken Thompson](../ken-thompson/)** — Co-creator of Unix, co-recipient of the Turing Award, lifelong collaborator\n- **[Linus Torvalds](../linus-torvalds/)** — Created Linux, directly inspired by Unix\n- **[Bjarne Stroustrup](../bjarne-stroustrup/)** — Extended C into C++\n- **[Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan)** — Co-author of K&R\n- **[Donald Knuth](../../foundational-cs/donald-knuth/)** — Fellow giant of computer science",
+        "markdown": "- **[Ken Thompson](/legend/ken-thompson)** — Co-creator of Unix, co-recipient of the Turing Award, lifelong collaborator\n- **[Linus Torvalds](/legend/linus-torvalds)** — Created Linux, directly inspired by Unix\n- **[Bjarne Stroustrup](/legend/bjarne-stroustrup)** — Extended C into C++\n- **[Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan)** — Co-author of K&R\n- **[Donald Knuth](/legend/donald-knuth)** — Fellow giant of computer science",
         "subsections": []
       },
       {
@@ -7183,7 +7225,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Margaret Hamilton](../margaret-hamilton/)\n- [↑ Category Overview](../README.md)\n- [Next: Ken Thompson →](../ken-thompson/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Margaret Hamilton](/legend/margaret-hamilton)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Ken Thompson →](/legend/ken-thompson)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -7583,7 +7625,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Grace Hopper](../../foundational-cs/grace-hopper/)** — Pioneer for women in computing; created the first compiler\n- **[Barbara Liskov](../barbara-liskov/)** — Fellow woman Turing Award winner; programming languages pioneer\n- **[Donald Knuth](../../foundational-cs/donald-knuth/)** — Analysis of algorithms; complementary work on making software efficient\n- **[John Cocke](https://en.wikipedia.org/wiki/John_Cocke)** — IBM colleague, co-author, RISC pioneer",
+        "markdown": "- **[Grace Hopper](/legend/grace-hopper)** — Pioneer for women in computing; created the first compiler\n- **[Barbara Liskov](/legend/barbara-liskov)** — Fellow woman Turing Award winner; programming languages pioneer\n- **[Donald Knuth](/legend/donald-knuth)** — Analysis of algorithms; complementary work on making software efficient\n- **[John Cocke](https://en.wikipedia.org/wiki/John_Cocke)** — IBM colleague, co-author, RISC pioneer",
         "subsections": []
       },
       {
@@ -7611,7 +7653,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Ken Thompson](../ken-thompson/)\n- [↑ Category Overview](../README.md)\n- [Next: Barbara Liskov →](../barbara-liskov/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Ken Thompson](/legend/ken-thompson)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Barbara Liskov →](/legend/barbara-liskov)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -8016,7 +8058,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Seymour Cray](../seymour-cray/) — fellow architect of high-performance systems during a nearby era\n- [John von Neumann](../../foundational-cs/john-von-neumann/) — namesake of one of Bell's major honors and an earlier architectural giant\n- [Donald Knuth](../../foundational-cs/donald-knuth/) — coauthor Allen Newell links Bell into the broader theoretical and systems lineage of modern CS",
+        "markdown": "- [Seymour Cray](/legend/seymour-cray) — fellow architect of high-performance systems during a nearby era\n- [John von Neumann](/legend/john-von-neumann) — namesake of one of Bell's major honors and an earlier architectural giant\n- [Donald Knuth](/legend/donald-knuth) — coauthor Allen Newell links Bell into the broader theoretical and systems lineage of modern CS",
         "subsections": []
       },
       {
@@ -8044,7 +8086,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Seymour Cray](../seymour-cray/)\n- [↑ Category Overview](../README.md)\n- [Next: Frances Allen →](../frances-allen/)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Seymour Cray](/legend/seymour-cray)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Frances Allen →](/legend/frances-allen)\n\n---\n\n**Last Updated:** 2026-04-16",
         "subsections": []
       }
     ],
@@ -8457,7 +8499,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Dennis Ritchie](../dennis-ritchie/)** — C influenced Python's implementation (CPython is written in C)\n- **[Bjarne Stroustrup](../bjarne-stroustrup/)** — C++, representing the \"opposite philosophy\" — performance over simplicity\n- **[Brendan Eich](../brendan-eich/)** — JavaScript, Python's rival for \"most popular language\"\n- **[Geoffrey Hinton](../../modern-ai-ml/geoffrey-hinton/)** — Deep learning pioneer; Python is the language of AI",
+        "markdown": "- **[Dennis Ritchie](/legend/dennis-ritchie)** — C influenced Python's implementation (CPython is written in C)\n- **[Bjarne Stroustrup](/legend/bjarne-stroustrup)** — C++, representing the \"opposite philosophy\" — performance over simplicity\n- **[Brendan Eich](/legend/brendan-eich)** — JavaScript, Python's rival for \"most popular language\"\n- **[Geoffrey Hinton](/legend/geoffrey-hinton)** — Deep learning pioneer; Python is the language of AI",
         "subsections": []
       },
       {
@@ -8485,7 +8527,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: James Gosling](../james-gosling/)\n- [↑ Category Overview](../README.md)\n- [Next: Brendan Eich →](../brendan-eich/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: James Gosling](/legend/james-gosling)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Brendan Eich →](/legend/brendan-eich)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -8928,7 +8970,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Dennis Ritchie](../dennis-ritchie/)** — C's influence on Java's syntax is unmistakable\n- **[Bjarne Stroustrup](../bjarne-stroustrup/)** — C++ was what Java was designed to improve upon\n- **[Guido van Rossum](../guido-van-rossum/)** — Python, Java's eternal rival in popularity rankings\n- **[Brendan Eich](../brendan-eich/)** — JavaScript was named to ride Java's hype wave (despite being unrelated)",
+        "markdown": "- **[Dennis Ritchie](/legend/dennis-ritchie)** — C's influence on Java's syntax is unmistakable\n- **[Bjarne Stroustrup](/legend/bjarne-stroustrup)** — C++ was what Java was designed to improve upon\n- **[Guido van Rossum](/legend/guido-van-rossum)** — Python, Java's eternal rival in popularity rankings\n- **[Brendan Eich](/legend/brendan-eich)** — JavaScript was named to ride Java's hype wave (despite being unrelated)",
         "subsections": []
       },
       {
@@ -8956,7 +8998,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Bjarne Stroustrup](../bjarne-stroustrup/)\n- [↑ Category Overview](../README.md)\n- [Next: Guido van Rossum →](../guido-van-rossum/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Bjarne Stroustrup](/legend/bjarne-stroustrup)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Guido van Rossum →](/legend/guido-van-rossum)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -9295,7 +9337,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Thomas E. Kurtz](../thomas-kurtz/)** — Co-creator of BASIC, lifelong collaborator\n- **[Grace Hopper](../../foundational-cs/grace-hopper/)** — Pioneer of accessible programming languages\n- **[John McCarthy](../../ai-pioneers/john-mccarthy/)** — Created Lisp; contemporary in language design\n- **[Guido van Rossum](../guido-van-rossum/)** — Python creator, shares philosophy of simplicity\n- **[Dennis Ritchie](../dennis-ritchie/)** — C language, opposite philosophy (expert-focused)",
+        "markdown": "- **[Thomas E. Kurtz](/legend/thomas-kurtz)** — Co-creator of BASIC, lifelong collaborator\n- **[Grace Hopper](/legend/grace-hopper)** — Pioneer of accessible programming languages\n- **[John McCarthy](/legend/john-mccarthy)** — Created Lisp; contemporary in language design\n- **[Guido van Rossum](/legend/guido-van-rossum)** — Python creator, shares philosophy of simplicity\n- **[Dennis Ritchie](/legend/dennis-ritchie)** — C language, opposite philosophy (expert-focused)",
         "subsections": []
       },
       {
@@ -9323,7 +9365,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [↑ Category Overview](../README.md)\n- [Next: Thomas E. Kurtz →](../thomas-kurtz/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Thomas E. Kurtz →](/legend/thomas-kurtz)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -9767,7 +9809,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Dennis Ritchie](../dennis-ritchie/)** — Co-creator of Unix, created C from Thompson's B\n- **[Linus Torvalds](../linus-torvalds/)** — Created Linux, directly inspired by Unix\n- **[Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)** — Co-created UTF-8 and Go with Thompson\n- **[Tony Hoare](../../foundational-cs/tony-hoare/)** — CSP influenced Go's concurrency model",
+        "markdown": "- **[Dennis Ritchie](/legend/dennis-ritchie)** — Co-creator of Unix, created C from Thompson's B\n- **[Linus Torvalds](/legend/linus-torvalds)** — Created Linux, directly inspired by Unix\n- **[Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)** — Co-created UTF-8 and Go with Thompson\n- **[Tony Hoare](/legend/tony-hoare)** — CSP influenced Go's concurrency model",
         "subsections": []
       },
       {
@@ -9795,7 +9837,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Dennis Ritchie](../dennis-ritchie/)\n- [↑ Category Overview](../README.md)\n- [Next: Frances Allen →](../frances-allen/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Dennis Ritchie](/legend/dennis-ritchie)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Frances Allen →](/legend/frances-allen)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -10208,7 +10250,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Dennis Ritchie](../dennis-ritchie/)** — Created C (Linux is written in C) and Unix (Linux is Unix-like)\n- **[Ken Thompson](../ken-thompson/)** — Co-created Unix, the direct inspiration for Linux\n- **[Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman)** — GNU project, GPL license — Linux uses GNU tools and the GPL\n- **[Andrew Tanenbaum](https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum)** — Created Minix, which inspired Linux (and then had a famous debate with Torvalds about kernel design)",
+        "markdown": "- **[Dennis Ritchie](/legend/dennis-ritchie)** — Created C (Linux is written in C) and Unix (Linux is Unix-like)\n- **[Ken Thompson](/legend/ken-thompson)** — Co-created Unix, the direct inspiration for Linux\n- **[Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman)** — GNU project, GPL license — Linux uses GNU tools and the GPL\n- **[Andrew Tanenbaum](https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum)** — Created Minix, which inspired Linux (and then had a famous debate with Torvalds about kernel design)",
         "subsections": []
       },
       {
@@ -10236,7 +10278,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Brendan Eich](../brendan-eich/)\n- [↑ Category Overview](../README.md)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Brendan Eich](/legend/brendan-eich)\n- [↑ Category Overview](/category/systems-languages)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -10667,7 +10709,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Grace Hopper](../../foundational-cs/grace-hopper/)** — Pioneer of compilers, contemporary in early computing\n- **[Ada Lovelace](../../pioneers/ada-lovelace/)** — First programmer; Hamilton received the Ada Lovelace Award\n- **[Frances Allen](../frances-allen/)** — Compiler optimization pioneer, fellow woman in computing\n- **[Barbara Liskov](../barbara-liskov/)** — Data abstraction pioneer, contemporary in software engineering\n- **[Alan Turing](../../foundational-cs/alan-turing/)** — Theoretical foundations Hamilton built upon",
+        "markdown": "- **[Grace Hopper](/legend/grace-hopper)** — Pioneer of compilers, contemporary in early computing\n- **[Ada Lovelace](/legend/ada-lovelace)** — First programmer; Hamilton received the Ada Lovelace Award\n- **[Frances Allen](/legend/frances-allen)** — Compiler optimization pioneer, fellow woman in computing\n- **[Barbara Liskov](/legend/barbara-liskov)** — Data abstraction pioneer, contemporary in software engineering\n- **[Alan Turing](/legend/alan-turing)** — Theoretical foundations Hamilton built upon",
         "subsections": []
       },
       {
@@ -10695,7 +10737,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Thomas E. Kurtz](../thomas-kurtz/)\n- [↑ Category Overview](../README.md)\n- [Next: Dennis Ritchie →](../dennis-ritchie/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Thomas E. Kurtz](/legend/thomas-kurtz)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Dennis Ritchie →](/legend/dennis-ritchie)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -11133,7 +11175,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Gordon Bell](../gordon-bell/) — another major computer architect who shaped the structure of modern computing systems\n- [John von Neumann](../../foundational-cs/john-von-neumann/) — earlier architectural pioneer for stored-program machines\n- [John Atanasoff](../../pioneers/john-atanasoff/) — part of the earlier hardware lineage that made digital computing possible",
+        "markdown": "- [Gordon Bell](/legend/gordon-bell) — another major computer architect who shaped the structure of modern computing systems\n- [John von Neumann](/legend/john-von-neumann) — earlier architectural pioneer for stored-program machines\n- [John Atanasoff](/legend/john-atanasoff) — part of the earlier hardware lineage that made digital computing possible",
         "subsections": []
       },
       {
@@ -11161,7 +11203,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Steve Wozniak](../steve-wozniak/)\n- [↑ Category Overview](../README.md)\n- [Next: Gordon Bell →](../gordon-bell/)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Steve Wozniak](/legend/steve-wozniak)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Gordon Bell →](/legend/gordon-bell)\n\n---\n\n**Last Updated:** 2026-04-16",
         "subsections": []
       }
     ],
@@ -11551,7 +11593,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Steve Jobs](https://en.wikipedia.org/wiki/Steve_Jobs) — Apple co-founder and Wozniak's most famous collaborator\n- [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay) — not a direct collaborator, but a fellow visionary about personal computing's possibilities\n- [Dennis Ritchie](../dennis-ritchie/) — another foundational figure whose work shaped the machines and software of the PC era\n- [Linus Torvalds](../linus-torvalds/) — later builder of mass-market personal computing systems atop the world Woz helped create",
+        "markdown": "- [Steve Jobs](https://en.wikipedia.org/wiki/Steve_Jobs) — Apple co-founder and Wozniak's most famous collaborator\n- [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay) — not a direct collaborator, but a fellow visionary about personal computing's possibilities\n- [Dennis Ritchie](/legend/dennis-ritchie) — another foundational figure whose work shaped the machines and software of the PC era\n- [Linus Torvalds](/legend/linus-torvalds) — later builder of mass-market personal computing systems atop the world Woz helped create",
         "subsections": []
       },
       {
@@ -11579,7 +11621,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Ken Thompson](../ken-thompson/)\n- [↑ Category Overview](../README.md)\n- [Next: Seymour Cray →](../seymour-cray/)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Ken Thompson](/legend/ken-thompson)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Seymour Cray →](/legend/seymour-cray)\n\n---\n\n**Last Updated:** 2026-04-16",
         "subsections": []
       }
     ],
@@ -11913,7 +11955,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[John G. Kemeny](../john-kemeny/)** — Co-creator of BASIC, lifelong collaborator\n- **[Grace Hopper](../../foundational-cs/grace-hopper/)** — Pioneer of accessible programming languages\n- **[John McCarthy](../../ai-pioneers/john-mccarthy/)** — Created Lisp; contemporary in language design\n- **[Guido van Rossum](../guido-van-rossum/)** — Python creator, shares philosophy of simplicity\n- **[Dennis Ritchie](../dennis-ritchie/)** — C language, opposite philosophy (expert-focused)",
+        "markdown": "- **[John G. Kemeny](/legend/john-kemeny)** — Co-creator of BASIC, lifelong collaborator\n- **[Grace Hopper](/legend/grace-hopper)** — Pioneer of accessible programming languages\n- **[John McCarthy](/legend/john-mccarthy)** — Created Lisp; contemporary in language design\n- **[Guido van Rossum](/legend/guido-van-rossum)** — Python creator, shares philosophy of simplicity\n- **[Dennis Ritchie](/legend/dennis-ritchie)** — C language, opposite philosophy (expert-focused)",
         "subsections": []
       },
       {
@@ -11941,7 +11983,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: John G. Kemeny](../john-kemeny/)\n- [↑ Category Overview](../README.md)\n- [Next: Margaret Hamilton →](../margaret-hamilton/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: John G. Kemeny](/legend/john-kemeny)\n- [↑ Category Overview](/category/systems-languages)\n- [Next: Margaret Hamilton →](/legend/margaret-hamilton)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -12220,7 +12262,13 @@ export const legendDetails = {
       "Computer Science",
       "AI Pioneers"
     ],
-    "relatedSlugs": [],
+    "relatedSlugs": [
+      "herbert-simon",
+      "john-mccarthy",
+      "marvin-minsky",
+      "alan-turing",
+      "claude-shannon"
+    ],
     "featured": false,
     "introQuote": {
       "text": "\"The only reason we don't understand the mind is because it's complicated — not because it's mysterious.\""
@@ -12272,7 +12320,7 @@ export const legendDetails = {
         "id": "at-a-glance",
         "kind": "quick-facts",
         "title": "At a Glance",
-        "markdown": "| Detail | Info |\n|---|---|\n| **Born** | March 19, 1927 — San Francisco, California |\n| **Died** | July 19, 1992 — Pittsburgh, Pennsylvania (age 65) |\n| **Nationality** | American |\n| **Fields** | Artificial Intelligence, Cognitive Science, Computer Science |\n| **Institutions** | RAND Corporation, Carnegie Mellon University |\n| **Known for** | Logic Theorist, General Problem Solver, Soar, Unified Theories of Cognition |\n| **Key collaborator** | [Herbert Simon](../herbert-simon/) |\n\n---",
+        "markdown": "| Detail | Info |\n|---|---|\n| **Born** | March 19, 1927 — San Francisco, California |\n| **Died** | July 19, 1992 — Pittsburgh, Pennsylvania (age 65) |\n| **Nationality** | American |\n| **Fields** | Artificial Intelligence, Cognitive Science, Computer Science |\n| **Institutions** | RAND Corporation, Carnegie Mellon University |\n| **Known for** | Logic Theorist, General Problem Solver, Soar, Unified Theories of Cognition |\n| **Key collaborator** | [Herbert Simon](/legend/herbert-simon) |\n\n---",
         "subsections": []
       },
       {
@@ -12363,7 +12411,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "| Name | Relationship | Link |\n|---|---|---|\n| **Herbert Simon** | Lifelong collaborator; co-creator of Logic Theorist, GPS; co-recipient of the Turing Award | [Herbert Simon](../herbert-simon/) |\n| **John McCarthy** | Organized the Dartmouth Conference; pursued a different (more logic-based) approach to AI | [John McCarthy](../john-mccarthy/) |\n| **Marvin Minsky** | Fellow AI founding father; different school of thought but mutual respect | [Marvin Minsky](../marvin-minsky/) |\n| **Alan Turing** | Laid the theoretical foundations for computation and machine intelligence | [Alan Turing](../../foundational-cs/alan-turing/) |\n| **Claude Shannon** | Information theory pioneer; attended the Dartmouth Conference | [Claude Shannon](../../foundational-cs/claude-shannon/) |\n\n---",
+        "markdown": "| Name | Relationship | Link |\n|---|---|---|\n| **Herbert Simon** | Lifelong collaborator; co-creator of Logic Theorist, GPS; co-recipient of the Turing Award | [Herbert Simon](/legend/herbert-simon) |\n| **John McCarthy** | Organized the Dartmouth Conference; pursued a different (more logic-based) approach to AI | [John McCarthy](/legend/john-mccarthy) |\n| **Marvin Minsky** | Fellow AI founding father; different school of thought but mutual respect | [Marvin Minsky](/legend/marvin-minsky) |\n| **Alan Turing** | Laid the theoretical foundations for computation and machine intelligence | [Alan Turing](/legend/alan-turing) |\n| **Claude Shannon** | Information theory pioneer; attended the Dartmouth Conference | [Claude Shannon](/legend/claude-shannon) |\n\n---",
         "subsections": []
       },
       {
@@ -12407,7 +12455,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Marvin Minsky](../marvin-minsky/)\n- [↑ Category Overview](../README.md)\n- [Next: Herbert Simon →](../herbert-simon/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Marvin Minsky](/legend/marvin-minsky)\n- [↑ Category Overview](/category/ai-pioneers)\n- [Next: Herbert Simon →](/legend/herbert-simon)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -12553,7 +12601,38 @@ export const legendDetails = {
         "event": "Died on July 19 in Pittsburgh, Pennsylvania"
       }
     ],
-    "relatedFigures": [],
+    "relatedFigures": [
+      {
+        "name": "Herbert Simon",
+        "href": "/legend/herbert-simon",
+        "resolvedSlug": "herbert-simon",
+        "relationship": "Lifelong collaborator; co-creator of Logic Theorist, GPS; co-recipient of the Turing Award"
+      },
+      {
+        "name": "John McCarthy",
+        "href": "/legend/john-mccarthy",
+        "resolvedSlug": "john-mccarthy",
+        "relationship": "Organized the Dartmouth Conference; pursued a different (more logic-based) approach to AI"
+      },
+      {
+        "name": "Marvin Minsky",
+        "href": "/legend/marvin-minsky",
+        "resolvedSlug": "marvin-minsky",
+        "relationship": "Fellow AI founding father; different school of thought but mutual respect"
+      },
+      {
+        "name": "Alan Turing",
+        "href": "/legend/alan-turing",
+        "resolvedSlug": "alan-turing",
+        "relationship": "Laid the theoretical foundations for computation and machine intelligence"
+      },
+      {
+        "name": "Claude Shannon",
+        "href": "/legend/claude-shannon",
+        "resolvedSlug": "claude-shannon",
+        "relationship": "Information theory pioneer; attended the Dartmouth Conference"
+      }
+    ],
     "resources": [
       {
         "title": "*Human Problem Solving* (1972, with Herbert Simon)",
@@ -12748,7 +12827,7 @@ export const legendDetails = {
         "id": "biography",
         "kind": "biography",
         "title": "Biography",
-        "markdown": "### Early Life & Education\n\nHerbert Alexander Simon grew up in Milwaukee, Wisconsin, in a household that prized intellectual curiosity. His father, Arthur Simon, was an electrical engineer who had emigrated from Germany, and his mother, Edna Merkel Simon, was an accomplished pianist. Young Herbert was the kind of kid who read the encyclopedia for fun — which, frankly, explains a lot about what came next.\n\nSimon attended the University of Chicago, where he earned his BA in Political Science in 1936. He stuck around for his PhD, which he completed in 1943. His doctoral dissertation — *Administrative Behavior* — would go on to become one of the most cited works in organizational theory. Most people struggle to get anyone to read their dissertation; Simon's became a classic. Overachiever doesn't quite cover it.\n\n### Career\n\nSimon's career is less a straight line and more a sprawling map of human knowledge. He joined the Illinois Institute of Technology as a professor of political science in 1942, but by 1949, Carnegie Mellon University (then Carnegie Institute of Technology) came calling, and he moved to Pittsburgh — where he'd remain for the rest of his career, spanning over five decades.\n\nAt Carnegie Mellon, Simon became a professor in what would eventually be the departments of computer science, psychology, *and* business — because apparently one department couldn't contain him. He co-founded the field of artificial intelligence alongside [Allen Newell](../allen-newell/), creating the **Logic Theorist** in 1956 — widely considered the first true AI program. The Logic Theorist proved 38 of the first 52 theorems in Whitehead and Russell's *Principia Mathematica*, and even found a shorter proof for one of them. When they submitted it to the *Journal of Symbolic Logic*, it was rejected — partly because one of its authors was a computer. The reviewers were apparently not ready for that level of collaboration.\n\nSimon and Newell followed up with the **General Problem Solver (GPS)** in 1959, an early attempt at building a general-purpose reasoning engine. While GPS didn't solve *all* problems (the name was aspirational), it introduced foundational ideas about means-ends analysis that influenced AI research for decades.\n\nMeanwhile, Simon was busy revolutionizing economics with his theory of **bounded rationality** — the idea that humans don't actually optimize decisions like the perfectly rational agents that classical economics assumed. Instead, people \"**satisfice**\" (a delightful portmanteau of \"satisfy\" and \"suffice\"): they look for solutions that are *good enough* rather than perfect. If you've ever picked a restaurant by going to the first decent place you saw instead of evaluating every option in the city, congratulations — you've proven Herbert Simon right.\n\nThis insight was so profound that it earned him the **Nobel Memorial Prize in Economics in 1978**, making him one of the very few computer scientists to win a Nobel. (The Swedes called it \"pioneering research into the decision-making process within economic organizations.\" Simon probably called it \"Tuesday.\")\n\n### Later Life\n\nSimon never really slowed down. He continued publishing prolifically into the 1990s, contributing to cognitive psychology, philosophy of science, and AI research. He taught himself Chinese — reportedly reaching a conversational level — because apparently mastering five or six academic fields left him with free time.\n\nHe was known as a generous mentor and a warm, witty presence at Carnegie Mellon. Colleagues recalled his ability to ask exactly the right question in seminars, cutting through complexity with a clarity that made everyone else wonder why they hadn't thought of it first.\n\nHerbert Simon passed away on February 9, 2001, in Pittsburgh, at the age of 84. He left behind a legacy that spans more disciplines than most universities have departments.\n\n---",
+        "markdown": "### Early Life & Education\n\nHerbert Alexander Simon grew up in Milwaukee, Wisconsin, in a household that prized intellectual curiosity. His father, Arthur Simon, was an electrical engineer who had emigrated from Germany, and his mother, Edna Merkel Simon, was an accomplished pianist. Young Herbert was the kind of kid who read the encyclopedia for fun — which, frankly, explains a lot about what came next.\n\nSimon attended the University of Chicago, where he earned his BA in Political Science in 1936. He stuck around for his PhD, which he completed in 1943. His doctoral dissertation — *Administrative Behavior* — would go on to become one of the most cited works in organizational theory. Most people struggle to get anyone to read their dissertation; Simon's became a classic. Overachiever doesn't quite cover it.\n\n### Career\n\nSimon's career is less a straight line and more a sprawling map of human knowledge. He joined the Illinois Institute of Technology as a professor of political science in 1942, but by 1949, Carnegie Mellon University (then Carnegie Institute of Technology) came calling, and he moved to Pittsburgh — where he'd remain for the rest of his career, spanning over five decades.\n\nAt Carnegie Mellon, Simon became a professor in what would eventually be the departments of computer science, psychology, *and* business — because apparently one department couldn't contain him. He co-founded the field of artificial intelligence alongside [Allen Newell](/legend/allen-newell), creating the **Logic Theorist** in 1956 — widely considered the first true AI program. The Logic Theorist proved 38 of the first 52 theorems in Whitehead and Russell's *Principia Mathematica*, and even found a shorter proof for one of them. When they submitted it to the *Journal of Symbolic Logic*, it was rejected — partly because one of its authors was a computer. The reviewers were apparently not ready for that level of collaboration.\n\nSimon and Newell followed up with the **General Problem Solver (GPS)** in 1959, an early attempt at building a general-purpose reasoning engine. While GPS didn't solve *all* problems (the name was aspirational), it introduced foundational ideas about means-ends analysis that influenced AI research for decades.\n\nMeanwhile, Simon was busy revolutionizing economics with his theory of **bounded rationality** — the idea that humans don't actually optimize decisions like the perfectly rational agents that classical economics assumed. Instead, people \"**satisfice**\" (a delightful portmanteau of \"satisfy\" and \"suffice\"): they look for solutions that are *good enough* rather than perfect. If you've ever picked a restaurant by going to the first decent place you saw instead of evaluating every option in the city, congratulations — you've proven Herbert Simon right.\n\nThis insight was so profound that it earned him the **Nobel Memorial Prize in Economics in 1978**, making him one of the very few computer scientists to win a Nobel. (The Swedes called it \"pioneering research into the decision-making process within economic organizations.\" Simon probably called it \"Tuesday.\")\n\n### Later Life\n\nSimon never really slowed down. He continued publishing prolifically into the 1990s, contributing to cognitive psychology, philosophy of science, and AI research. He taught himself Chinese — reportedly reaching a conversational level — because apparently mastering five or six academic fields left him with free time.\n\nHe was known as a generous mentor and a warm, witty presence at Carnegie Mellon. Colleagues recalled his ability to ask exactly the right question in seminars, cutting through complexity with a clarity that made everyone else wonder why they hadn't thought of it first.\n\nHerbert Simon passed away on February 9, 2001, in Pittsburgh, at the age of 84. He left behind a legacy that spans more disciplines than most universities have departments.\n\n---",
         "subsections": [
           {
             "id": "early-life-education",
@@ -12758,7 +12837,7 @@ export const legendDetails = {
           {
             "id": "career",
             "title": "Career",
-            "markdown": "Simon's career is less a straight line and more a sprawling map of human knowledge. He joined the Illinois Institute of Technology as a professor of political science in 1942, but by 1949, Carnegie Mellon University (then Carnegie Institute of Technology) came calling, and he moved to Pittsburgh — where he'd remain for the rest of his career, spanning over five decades.\n\nAt Carnegie Mellon, Simon became a professor in what would eventually be the departments of computer science, psychology, *and* business — because apparently one department couldn't contain him. He co-founded the field of artificial intelligence alongside [Allen Newell](../allen-newell/), creating the **Logic Theorist** in 1956 — widely considered the first true AI program. The Logic Theorist proved 38 of the first 52 theorems in Whitehead and Russell's *Principia Mathematica*, and even found a shorter proof for one of them. When they submitted it to the *Journal of Symbolic Logic*, it was rejected — partly because one of its authors was a computer. The reviewers were apparently not ready for that level of collaboration.\n\nSimon and Newell followed up with the **General Problem Solver (GPS)** in 1959, an early attempt at building a general-purpose reasoning engine. While GPS didn't solve *all* problems (the name was aspirational), it introduced foundational ideas about means-ends analysis that influenced AI research for decades.\n\nMeanwhile, Simon was busy revolutionizing economics with his theory of **bounded rationality** — the idea that humans don't actually optimize decisions like the perfectly rational agents that classical economics assumed. Instead, people \"**satisfice**\" (a delightful portmanteau of \"satisfy\" and \"suffice\"): they look for solutions that are *good enough* rather than perfect. If you've ever picked a restaurant by going to the first decent place you saw instead of evaluating every option in the city, congratulations — you've proven Herbert Simon right.\n\nThis insight was so profound that it earned him the **Nobel Memorial Prize in Economics in 1978**, making him one of the very few computer scientists to win a Nobel. (The Swedes called it \"pioneering research into the decision-making process within economic organizations.\" Simon probably called it \"Tuesday.\")"
+            "markdown": "Simon's career is less a straight line and more a sprawling map of human knowledge. He joined the Illinois Institute of Technology as a professor of political science in 1942, but by 1949, Carnegie Mellon University (then Carnegie Institute of Technology) came calling, and he moved to Pittsburgh — where he'd remain for the rest of his career, spanning over five decades.\n\nAt Carnegie Mellon, Simon became a professor in what would eventually be the departments of computer science, psychology, *and* business — because apparently one department couldn't contain him. He co-founded the field of artificial intelligence alongside [Allen Newell](/legend/allen-newell), creating the **Logic Theorist** in 1956 — widely considered the first true AI program. The Logic Theorist proved 38 of the first 52 theorems in Whitehead and Russell's *Principia Mathematica*, and even found a shorter proof for one of them. When they submitted it to the *Journal of Symbolic Logic*, it was rejected — partly because one of its authors was a computer. The reviewers were apparently not ready for that level of collaboration.\n\nSimon and Newell followed up with the **General Problem Solver (GPS)** in 1959, an early attempt at building a general-purpose reasoning engine. While GPS didn't solve *all* problems (the name was aspirational), it introduced foundational ideas about means-ends analysis that influenced AI research for decades.\n\nMeanwhile, Simon was busy revolutionizing economics with his theory of **bounded rationality** — the idea that humans don't actually optimize decisions like the perfectly rational agents that classical economics assumed. Instead, people \"**satisfice**\" (a delightful portmanteau of \"satisfy\" and \"suffice\"): they look for solutions that are *good enough* rather than perfect. If you've ever picked a restaurant by going to the first decent place you saw instead of evaluating every option in the city, congratulations — you've proven Herbert Simon right.\n\nThis insight was so profound that it earned him the **Nobel Memorial Prize in Economics in 1978**, making him one of the very few computer scientists to win a Nobel. (The Swedes called it \"pioneering research into the decision-making process within economic organizations.\" Simon probably called it \"Tuesday.\")"
           },
           {
             "id": "later-life",
@@ -12771,17 +12850,17 @@ export const legendDetails = {
         "id": "major-contributions",
         "kind": "contributions",
         "title": "Major Contributions",
-        "markdown": "### Logic Theorist (1956)\n\n| | |\n|---|---|\n| **Year** | 1956 |\n| **Context** | Created with [Allen Newell](../allen-newell/) and Cliff Shaw at RAND Corporation, presented at the Dartmouth Conference — the event that gave AI its name |\n| **Technical Details** | The Logic Theorist used heuristic search to prove theorems from Whitehead and Russell's *Principia Mathematica*. It employed recursive search strategies and could construct proofs by working backward from the desired theorem. It successfully proved 38 of the first 52 theorems and found a novel, shorter proof for Theorem 2.85. |\n| **Impact** | Widely considered the **first artificial intelligence program**. Demonstrated that machines could perform tasks previously thought to require human intelligence — namely, symbolic reasoning and mathematical proof. Launched the field of AI as a serious scientific endeavor. |\n\n### General Problem Solver (1959)\n\n| | |\n|---|---|\n| **Year** | 1959 |\n| **Context** | Developed with [Allen Newell](../allen-newell/) and Cliff Shaw as an extension of ideas from the Logic Theorist |\n| **Technical Details** | GPS used **means-ends analysis**: it compared the current state to the goal state, identified differences, and applied operators to reduce those differences. It was designed to be domain-independent — a general-purpose problem solver that could handle any well-defined problem. In practice, it worked best on puzzles and formal logic, but the architecture was visionary. |\n| **Impact** | Introduced fundamental concepts in AI problem-solving that influenced everything from automated planning to expert systems. The idea that intelligence could be modeled as search through a problem space became a cornerstone of AI research. |\n\n### Bounded Rationality & Satisficing (1955–1978)\n\n| | |\n|---|---|\n| **Year** | 1955 (initial publication), recognized with 1978 Nobel Prize |\n| **Context** | Classical economics assumed humans were perfectly rational maximizers. Simon said: \"Have you *met* humans?\" |\n| **Technical Details** | Simon proposed that human decision-making is constrained by limited information, limited cognitive capacity, and limited time. Rather than optimizing, people use heuristics and settle for satisfactory solutions — they **satisfice**. He formalized this in models of organizational decision-making that accounted for real-world constraints rather than idealized rationality. |\n| **Impact** | Overthrew one of the foundational assumptions of classical economics. Gave rise to behavioral economics, influenced cognitive psychology, and earned Simon the **Nobel Memorial Prize in Economics (1978)**. Every time a behavioral economist publishes a paper, they owe Herbert Simon a footnote. |\n\n### The Sciences of the Artificial (1969)\n\n| | |\n|---|---|\n| **Year** | 1969 (1st edition); revised 1981, 1996 |\n| **Context** | A visionary book on the nature of designed (as opposed to natural) systems |\n| **Technical Details** | Simon argued that the study of artificial (human-made) systems — from computers to organizations to economic markets — required its own methodology, distinct from the natural sciences. He introduced concepts like \"nearly decomposable systems\" and the \"architecture of complexity,\" arguing that complex systems are built from hierarchies of simpler subsystems. |\n| **Impact** | Became a foundational text in design science, systems engineering, and computer science. Its ideas about complexity and hierarchy continue to influence software architecture, organizational design, and AI research. |\n\n### Administrative Behavior (1947)\n\n| | |\n|---|---|\n| **Year** | 1947 |\n| **Context** | Originally Simon's doctoral dissertation at the University of Chicago |\n| **Technical Details** | Analyzed how decisions are actually made within organizations, challenging the prevailing \"rational actor\" model. Introduced the concept of \"administrative man\" as opposed to \"economic man,\" emphasizing that organizational decision-making is shaped by institutional structure, information flow, and human cognitive limits. |\n| **Impact** | Became one of the most influential books in organizational theory and public administration. Still widely assigned in business schools and political science programs. Not bad for a dissertation. |\n\n---",
+        "markdown": "### Logic Theorist (1956)\n\n| | |\n|---|---|\n| **Year** | 1956 |\n| **Context** | Created with [Allen Newell](/legend/allen-newell) and Cliff Shaw at RAND Corporation, presented at the Dartmouth Conference — the event that gave AI its name |\n| **Technical Details** | The Logic Theorist used heuristic search to prove theorems from Whitehead and Russell's *Principia Mathematica*. It employed recursive search strategies and could construct proofs by working backward from the desired theorem. It successfully proved 38 of the first 52 theorems and found a novel, shorter proof for Theorem 2.85. |\n| **Impact** | Widely considered the **first artificial intelligence program**. Demonstrated that machines could perform tasks previously thought to require human intelligence — namely, symbolic reasoning and mathematical proof. Launched the field of AI as a serious scientific endeavor. |\n\n### General Problem Solver (1959)\n\n| | |\n|---|---|\n| **Year** | 1959 |\n| **Context** | Developed with [Allen Newell](/legend/allen-newell) and Cliff Shaw as an extension of ideas from the Logic Theorist |\n| **Technical Details** | GPS used **means-ends analysis**: it compared the current state to the goal state, identified differences, and applied operators to reduce those differences. It was designed to be domain-independent — a general-purpose problem solver that could handle any well-defined problem. In practice, it worked best on puzzles and formal logic, but the architecture was visionary. |\n| **Impact** | Introduced fundamental concepts in AI problem-solving that influenced everything from automated planning to expert systems. The idea that intelligence could be modeled as search through a problem space became a cornerstone of AI research. |\n\n### Bounded Rationality & Satisficing (1955–1978)\n\n| | |\n|---|---|\n| **Year** | 1955 (initial publication), recognized with 1978 Nobel Prize |\n| **Context** | Classical economics assumed humans were perfectly rational maximizers. Simon said: \"Have you *met* humans?\" |\n| **Technical Details** | Simon proposed that human decision-making is constrained by limited information, limited cognitive capacity, and limited time. Rather than optimizing, people use heuristics and settle for satisfactory solutions — they **satisfice**. He formalized this in models of organizational decision-making that accounted for real-world constraints rather than idealized rationality. |\n| **Impact** | Overthrew one of the foundational assumptions of classical economics. Gave rise to behavioral economics, influenced cognitive psychology, and earned Simon the **Nobel Memorial Prize in Economics (1978)**. Every time a behavioral economist publishes a paper, they owe Herbert Simon a footnote. |\n\n### The Sciences of the Artificial (1969)\n\n| | |\n|---|---|\n| **Year** | 1969 (1st edition); revised 1981, 1996 |\n| **Context** | A visionary book on the nature of designed (as opposed to natural) systems |\n| **Technical Details** | Simon argued that the study of artificial (human-made) systems — from computers to organizations to economic markets — required its own methodology, distinct from the natural sciences. He introduced concepts like \"nearly decomposable systems\" and the \"architecture of complexity,\" arguing that complex systems are built from hierarchies of simpler subsystems. |\n| **Impact** | Became a foundational text in design science, systems engineering, and computer science. Its ideas about complexity and hierarchy continue to influence software architecture, organizational design, and AI research. |\n\n### Administrative Behavior (1947)\n\n| | |\n|---|---|\n| **Year** | 1947 |\n| **Context** | Originally Simon's doctoral dissertation at the University of Chicago |\n| **Technical Details** | Analyzed how decisions are actually made within organizations, challenging the prevailing \"rational actor\" model. Introduced the concept of \"administrative man\" as opposed to \"economic man,\" emphasizing that organizational decision-making is shaped by institutional structure, information flow, and human cognitive limits. |\n| **Impact** | Became one of the most influential books in organizational theory and public administration. Still widely assigned in business schools and political science programs. Not bad for a dissertation. |\n\n---",
         "subsections": [
           {
             "id": "logic-theorist-1956",
             "title": "Logic Theorist (1956)",
-            "markdown": "| | |\n|---|---|\n| **Year** | 1956 |\n| **Context** | Created with [Allen Newell](../allen-newell/) and Cliff Shaw at RAND Corporation, presented at the Dartmouth Conference — the event that gave AI its name |\n| **Technical Details** | The Logic Theorist used heuristic search to prove theorems from Whitehead and Russell's *Principia Mathematica*. It employed recursive search strategies and could construct proofs by working backward from the desired theorem. It successfully proved 38 of the first 52 theorems and found a novel, shorter proof for Theorem 2.85. |\n| **Impact** | Widely considered the **first artificial intelligence program**. Demonstrated that machines could perform tasks previously thought to require human intelligence — namely, symbolic reasoning and mathematical proof. Launched the field of AI as a serious scientific endeavor. |"
+            "markdown": "| | |\n|---|---|\n| **Year** | 1956 |\n| **Context** | Created with [Allen Newell](/legend/allen-newell) and Cliff Shaw at RAND Corporation, presented at the Dartmouth Conference — the event that gave AI its name |\n| **Technical Details** | The Logic Theorist used heuristic search to prove theorems from Whitehead and Russell's *Principia Mathematica*. It employed recursive search strategies and could construct proofs by working backward from the desired theorem. It successfully proved 38 of the first 52 theorems and found a novel, shorter proof for Theorem 2.85. |\n| **Impact** | Widely considered the **first artificial intelligence program**. Demonstrated that machines could perform tasks previously thought to require human intelligence — namely, symbolic reasoning and mathematical proof. Launched the field of AI as a serious scientific endeavor. |"
           },
           {
             "id": "general-problem-solver-1959",
             "title": "General Problem Solver (1959)",
-            "markdown": "| | |\n|---|---|\n| **Year** | 1959 |\n| **Context** | Developed with [Allen Newell](../allen-newell/) and Cliff Shaw as an extension of ideas from the Logic Theorist |\n| **Technical Details** | GPS used **means-ends analysis**: it compared the current state to the goal state, identified differences, and applied operators to reduce those differences. It was designed to be domain-independent — a general-purpose problem solver that could handle any well-defined problem. In practice, it worked best on puzzles and formal logic, but the architecture was visionary. |\n| **Impact** | Introduced fundamental concepts in AI problem-solving that influenced everything from automated planning to expert systems. The idea that intelligence could be modeled as search through a problem space became a cornerstone of AI research. |"
+            "markdown": "| | |\n|---|---|\n| **Year** | 1959 |\n| **Context** | Developed with [Allen Newell](/legend/allen-newell) and Cliff Shaw as an extension of ideas from the Logic Theorist |\n| **Technical Details** | GPS used **means-ends analysis**: it compared the current state to the goal state, identified differences, and applied operators to reduce those differences. It was designed to be domain-independent — a general-purpose problem solver that could handle any well-defined problem. In practice, it worked best on puzzles and formal logic, but the architecture was visionary. |\n| **Impact** | Introduced fundamental concepts in AI problem-solving that influenced everything from automated planning to expert systems. The idea that intelligence could be modeled as search through a problem space became a cornerstone of AI research. |"
           },
           {
             "id": "bounded-rationality-satisficing-1955-1978",
@@ -12832,7 +12911,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Allen Newell](../allen-newell/)** — Lifelong collaborator and co-creator of the Logic Theorist, GPS, and much of early AI. Their partnership was one of the most productive in the history of computer science.\n- **[John McCarthy](../john-mccarthy/)** — Fellow AI founder and organizer of the 1956 Dartmouth Conference. McCarthy coined the term \"artificial intelligence\"; Simon and Newell brought the first working program.\n- **[Marvin Minsky](../marvin-minsky/)** — Fellow AI pioneer who helped establish MIT's AI Lab. Where Simon focused on problem-solving and decision-making, Minsky explored knowledge representation and perception.\n- **[Alan Turing](../../foundational-cs/alan-turing/)** — Turing's foundational work on computation and machine intelligence set the stage for everything Simon built. The Turing Test and Simon's Logic Theorist are two sides of the same coin: can machines think?\n- **[Judea Pearl](../../modern-ai-ml/judea-pearl/)** — Extended work on decision-making under uncertainty and causal reasoning, building on foundations that Simon helped lay.\n\n---",
+        "markdown": "- **[Allen Newell](/legend/allen-newell)** — Lifelong collaborator and co-creator of the Logic Theorist, GPS, and much of early AI. Their partnership was one of the most productive in the history of computer science.\n- **[John McCarthy](/legend/john-mccarthy)** — Fellow AI founder and organizer of the 1956 Dartmouth Conference. McCarthy coined the term \"artificial intelligence\"; Simon and Newell brought the first working program.\n- **[Marvin Minsky](/legend/marvin-minsky)** — Fellow AI pioneer who helped establish MIT's AI Lab. Where Simon focused on problem-solving and decision-making, Minsky explored knowledge representation and perception.\n- **[Alan Turing](/legend/alan-turing)** — Turing's foundational work on computation and machine intelligence set the stage for everything Simon built. The Turing Test and Simon's Logic Theorist are two sides of the same coin: can machines think?\n- **[Judea Pearl](/legend/judea-pearl)** — Extended work on decision-making under uncertainty and causal reasoning, building on foundations that Simon helped lay.\n\n---",
         "subsections": []
       },
       {
@@ -12876,7 +12955,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Allen Newell](../allen-newell/)\n- [↑ Category Overview](../README.md)\n\n---\n\n<div align=\"center\">\n\n**Last Updated:** 2026-04-13\n\n</div>",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Allen Newell](/legend/allen-newell)\n- [↑ Category Overview](/category/ai-pioneers)\n\n---\n\n<div align=\"center\">\n\n**Last Updated:** 2026-04-13\n\n</div>",
         "subsections": []
       }
     ],
@@ -13431,7 +13510,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [**Marvin Minsky**](../marvin-minsky/) — Co-organized the 1956 Dartmouth Conference; fellow founding father of AI and lifelong intellectual sparring partner\n- [**Allen Newell**](../allen-newell/) — Dartmouth Conference participant; pioneered symbolic AI and cognitive architectures\n- [**Herbert Simon**](../herbert-simon/) — Dartmouth Conference participant; Nobel laureate who co-developed early AI programs\n- [**Alan Turing**](../../foundational-cs/alan-turing/) — Foundational work on computability and machine intelligence that McCarthy built upon\n- [**Barbara Liskov**](../../systems-languages/barbara-liskov/) — PhD student of McCarthy at Stanford; went on to win her own Turing Award (2008)\n\n---",
+        "markdown": "- [**Marvin Minsky**](/legend/marvin-minsky) — Co-organized the 1956 Dartmouth Conference; fellow founding father of AI and lifelong intellectual sparring partner\n- [**Allen Newell**](/legend/allen-newell) — Dartmouth Conference participant; pioneered symbolic AI and cognitive architectures\n- [**Herbert Simon**](/legend/herbert-simon) — Dartmouth Conference participant; Nobel laureate who co-developed early AI programs\n- [**Alan Turing**](/legend/alan-turing) — Foundational work on computability and machine intelligence that McCarthy built upon\n- [**Barbara Liskov**](/legend/barbara-liskov) — PhD student of McCarthy at Stanford; went on to win her own Turing Award (2008)\n\n---",
         "subsections": []
       },
       {
@@ -13459,7 +13538,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [↑ Category Overview](../README.md)\n- [Next: Marvin Minsky →](../marvin-minsky/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [↑ Category Overview](/category/ai-pioneers)\n- [Next: Marvin Minsky →](/legend/marvin-minsky)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -13829,7 +13908,7 @@ export const legendDetails = {
         "id": "biography",
         "kind": "biography",
         "title": "Biography",
-        "markdown": "### Early Life & Education\n\nMarvin Lee Minsky grew up in New York City, the kind of kid who took things apart just to see how they worked — and sometimes even put them back together. He attended the Bronx High School of Science and the Phillips Academy in Andover, two institutions with a knack for producing future Nobel laureates and, in Minsky's case, someone who would help invent an entire field.\n\nAfter graduating high school, Minsky served in the U.S. Navy during World War II (1944–1945). When the war ended, he turned his attention to mathematics, earning his BA from Harvard University in 1950. He then headed to Princeton University, where he completed his PhD in mathematics in 1954. His doctoral thesis explored the theory of neural networks — a topic he'd keep poking at (and occasionally setting on fire) for the rest of his career.\n\n### Career\n\nMinsky joined the faculty at MIT in 1958, and by 1959 he and [John McCarthy](../john-mccarthy/) had co-founded the MIT Artificial Intelligence Laboratory — one of the true birthplaces of AI research. The lab became a magnet for brilliant, eccentric minds, and Minsky was arguably the most brilliant and eccentric of them all.\n\nHis interests were staggeringly broad. He didn't just theorize about intelligence — he built things. In 1951, while still a graduate student at Princeton, he constructed the **SNARC** (Stochastic Neural Analog Reinforcement Calculator), one of the first artificial neural network machines. It was built from vacuum tubes and a surplus autopilot mechanism. Yes, really. A recycled autopilot. The machine could simulate 40 neurons and learned through reinforcement — a remarkable achievement for an era when most computers filled entire rooms and did little more than crunch numbers.\n\nHe went on to invent robotic arms (including the famous \"tentacle arm\" and the \"Minsky arm\"), a head-mounted graphical display that was an early precursor to virtual reality, and — in a delightful left turn — the **confocal scanning microscope** in 1957. That's right: one of the most important tools in modern biology was invented by an AI researcher. The man had range.\n\nMinsky served as a consultant on Stanley Kubrick's *2001: A Space Odyssey* (1968). The film's iconic villain, HAL 9000, was partly inspired by the work being done at the MIT AI Lab. Minsky reportedly found HAL's breakdown entirely plausible — which is either reassuring or terrifying, depending on your perspective.\n\n### Later Life\n\nIn his later decades, Minsky continued to teach, write, and provoke. He remained active at MIT, mentoring students and stirring up debates in the AI community. He was known for being wildly creative, deeply eclectic, and occasionally contrarian — the sort of person who would challenge a room full of experts just to see if anyone could keep up.\n\nHe published *The Emotion Machine* in 2006, extending his earlier \"Society of Mind\" ideas to encompass emotions, consciousness, and common sense reasoning. He never stopped insisting that understanding the mind was the central challenge of science.\n\nMarvin Minsky passed away on January 24, 2016, at the age of 88. He left behind a field he helped create, a lab that changed the world, and a legacy of ideas that researchers are still unpacking today.\n\n---",
+        "markdown": "### Early Life & Education\n\nMarvin Lee Minsky grew up in New York City, the kind of kid who took things apart just to see how they worked — and sometimes even put them back together. He attended the Bronx High School of Science and the Phillips Academy in Andover, two institutions with a knack for producing future Nobel laureates and, in Minsky's case, someone who would help invent an entire field.\n\nAfter graduating high school, Minsky served in the U.S. Navy during World War II (1944–1945). When the war ended, he turned his attention to mathematics, earning his BA from Harvard University in 1950. He then headed to Princeton University, where he completed his PhD in mathematics in 1954. His doctoral thesis explored the theory of neural networks — a topic he'd keep poking at (and occasionally setting on fire) for the rest of his career.\n\n### Career\n\nMinsky joined the faculty at MIT in 1958, and by 1959 he and [John McCarthy](/legend/john-mccarthy) had co-founded the MIT Artificial Intelligence Laboratory — one of the true birthplaces of AI research. The lab became a magnet for brilliant, eccentric minds, and Minsky was arguably the most brilliant and eccentric of them all.\n\nHis interests were staggeringly broad. He didn't just theorize about intelligence — he built things. In 1951, while still a graduate student at Princeton, he constructed the **SNARC** (Stochastic Neural Analog Reinforcement Calculator), one of the first artificial neural network machines. It was built from vacuum tubes and a surplus autopilot mechanism. Yes, really. A recycled autopilot. The machine could simulate 40 neurons and learned through reinforcement — a remarkable achievement for an era when most computers filled entire rooms and did little more than crunch numbers.\n\nHe went on to invent robotic arms (including the famous \"tentacle arm\" and the \"Minsky arm\"), a head-mounted graphical display that was an early precursor to virtual reality, and — in a delightful left turn — the **confocal scanning microscope** in 1957. That's right: one of the most important tools in modern biology was invented by an AI researcher. The man had range.\n\nMinsky served as a consultant on Stanley Kubrick's *2001: A Space Odyssey* (1968). The film's iconic villain, HAL 9000, was partly inspired by the work being done at the MIT AI Lab. Minsky reportedly found HAL's breakdown entirely plausible — which is either reassuring or terrifying, depending on your perspective.\n\n### Later Life\n\nIn his later decades, Minsky continued to teach, write, and provoke. He remained active at MIT, mentoring students and stirring up debates in the AI community. He was known for being wildly creative, deeply eclectic, and occasionally contrarian — the sort of person who would challenge a room full of experts just to see if anyone could keep up.\n\nHe published *The Emotion Machine* in 2006, extending his earlier \"Society of Mind\" ideas to encompass emotions, consciousness, and common sense reasoning. He never stopped insisting that understanding the mind was the central challenge of science.\n\nMarvin Minsky passed away on January 24, 2016, at the age of 88. He left behind a field he helped create, a lab that changed the world, and a legacy of ideas that researchers are still unpacking today.\n\n---",
         "subsections": [
           {
             "id": "early-life-education",
@@ -13839,7 +13918,7 @@ export const legendDetails = {
           {
             "id": "career",
             "title": "Career",
-            "markdown": "Minsky joined the faculty at MIT in 1958, and by 1959 he and [John McCarthy](../john-mccarthy/) had co-founded the MIT Artificial Intelligence Laboratory — one of the true birthplaces of AI research. The lab became a magnet for brilliant, eccentric minds, and Minsky was arguably the most brilliant and eccentric of them all.\n\nHis interests were staggeringly broad. He didn't just theorize about intelligence — he built things. In 1951, while still a graduate student at Princeton, he constructed the **SNARC** (Stochastic Neural Analog Reinforcement Calculator), one of the first artificial neural network machines. It was built from vacuum tubes and a surplus autopilot mechanism. Yes, really. A recycled autopilot. The machine could simulate 40 neurons and learned through reinforcement — a remarkable achievement for an era when most computers filled entire rooms and did little more than crunch numbers.\n\nHe went on to invent robotic arms (including the famous \"tentacle arm\" and the \"Minsky arm\"), a head-mounted graphical display that was an early precursor to virtual reality, and — in a delightful left turn — the **confocal scanning microscope** in 1957. That's right: one of the most important tools in modern biology was invented by an AI researcher. The man had range.\n\nMinsky served as a consultant on Stanley Kubrick's *2001: A Space Odyssey* (1968). The film's iconic villain, HAL 9000, was partly inspired by the work being done at the MIT AI Lab. Minsky reportedly found HAL's breakdown entirely plausible — which is either reassuring or terrifying, depending on your perspective."
+            "markdown": "Minsky joined the faculty at MIT in 1958, and by 1959 he and [John McCarthy](/legend/john-mccarthy) had co-founded the MIT Artificial Intelligence Laboratory — one of the true birthplaces of AI research. The lab became a magnet for brilliant, eccentric minds, and Minsky was arguably the most brilliant and eccentric of them all.\n\nHis interests were staggeringly broad. He didn't just theorize about intelligence — he built things. In 1951, while still a graduate student at Princeton, he constructed the **SNARC** (Stochastic Neural Analog Reinforcement Calculator), one of the first artificial neural network machines. It was built from vacuum tubes and a surplus autopilot mechanism. Yes, really. A recycled autopilot. The machine could simulate 40 neurons and learned through reinforcement — a remarkable achievement for an era when most computers filled entire rooms and did little more than crunch numbers.\n\nHe went on to invent robotic arms (including the famous \"tentacle arm\" and the \"Minsky arm\"), a head-mounted graphical display that was an early precursor to virtual reality, and — in a delightful left turn — the **confocal scanning microscope** in 1957. That's right: one of the most important tools in modern biology was invented by an AI researcher. The man had range.\n\nMinsky served as a consultant on Stanley Kubrick's *2001: A Space Odyssey* (1968). The film's iconic villain, HAL 9000, was partly inspired by the work being done at the MIT AI Lab. Minsky reportedly found HAL's breakdown entirely plausible — which is either reassuring or terrifying, depending on your perspective."
           },
           {
             "id": "later-life",
@@ -13852,7 +13931,7 @@ export const legendDetails = {
         "id": "major-contributions",
         "kind": "contributions",
         "title": "Major Contributions",
-        "markdown": "### SNARC — Stochastic Neural Analog Reinforcement Calculator (1951)\n\n| Detail | Description |\n|---|---|\n| **Year** | 1951 |\n| **Context** | Built while Minsky was a graduate student at Princeton |\n| **Technical Details** | One of the first artificial neural network machines. Constructed from 40 Hebb synapses using vacuum tubes and a surplus autopilot mechanism. The network learned via reinforcement, adjusting connection weights based on success or failure. |\n| **Impact** | Demonstrated that machines could simulate neural learning processes. A foundational proof-of-concept for connectionist AI, decades before the term existed. |\n\n### Co-founding the MIT AI Laboratory (1959)\n\n| Detail | Description |\n|---|---|\n| **Year** | 1959 |\n| **Context** | Co-founded with John McCarthy at MIT |\n| **Technical Details** | Established one of the world's first dedicated AI research labs. The lab pursued a broad research agenda including robotics, computer vision, natural language processing, and machine learning. |\n| **Impact** | Became the epicenter of AI research for decades. Alumni and affiliates include dozens of Turing Award winners, company founders, and field-defining researchers. |\n\n### Confocal Scanning Microscope (1957)\n\n| Detail | Description |\n|---|---|\n| **Year** | 1957 |\n| **Context** | Patented while at MIT — a rare foray into optics |\n| **Technical Details** | Invented the principle of confocal microscopy, which uses point illumination and a spatial pinhole to eliminate out-of-focus light, enabling optical sectioning of thick specimens. |\n| **Impact** | Revolutionized biological imaging. Modern confocal microscopes are standard equipment in biology and medical research labs worldwide. Not bad for a side project. |\n\n### *Perceptrons* (1969)\n\n| Detail | Description |\n|---|---|\n| **Year** | 1969 |\n| **Context** | Co-authored with Seymour Papert |\n| **Technical Details** | Provided a rigorous mathematical analysis of single-layer perceptrons, proving they could not compute certain functions (most famously, XOR). Demonstrated fundamental limitations of the then-dominant neural network architectures. |\n| **Impact** | This is the big controversial one. The book is often blamed for triggering the first \"AI winter\" — a decade-plus drought in neural network research funding and interest. Somewhat unfairly: Minsky and Papert showed *real* limitations, but the backlash was wildly disproportionate. Many researchers (and funding agencies) interpreted the book as proof that neural networks were a dead end, which wasn't quite what the authors said. It took until the 1980s and researchers like [Geoffrey Hinton](../../modern-ai-ml/geoffrey-hinton/) to revive the field with multi-layer networks and backpropagation. |\n\n### Society of Mind (1986)\n\n| Detail | Description |\n|---|---|\n| **Year** | 1986 |\n| **Context** | Published as a book, *The Society of Mind* |\n| **Technical Details** | Proposed that intelligence is not the product of any single mechanism but emerges from the interaction of many small, simple agents (\"agents\" in the cognitive sense — not the Silicon Valley sense). Each agent is essentially mindless on its own, but their collective interaction produces what we experience as thought, memory, and consciousness. |\n| **Impact** | Offered a radically different framework for understanding intelligence — one that anticipated modern ideas about emergent behavior, multi-agent systems, and distributed cognition. Influenced AI, cognitive science, psychology, and philosophy of mind. |\n\n### Robotics Innovations\n\n| Detail | Description |\n|---|---|\n| **Years** | 1960s–1970s |\n| **Context** | Developed at the MIT AI Lab |\n| **Technical Details** | Designed several influential robotic manipulators, including the \"tentacle arm\" (a flexible, multi-jointed arm) and the \"Minsky arm.\" Also developed a head-mounted graphical display — an early ancestor of modern VR headsets. |\n| **Impact** | Advanced the state of the art in robotic manipulation and human-computer interaction. |\n\n---",
+        "markdown": "### SNARC — Stochastic Neural Analog Reinforcement Calculator (1951)\n\n| Detail | Description |\n|---|---|\n| **Year** | 1951 |\n| **Context** | Built while Minsky was a graduate student at Princeton |\n| **Technical Details** | One of the first artificial neural network machines. Constructed from 40 Hebb synapses using vacuum tubes and a surplus autopilot mechanism. The network learned via reinforcement, adjusting connection weights based on success or failure. |\n| **Impact** | Demonstrated that machines could simulate neural learning processes. A foundational proof-of-concept for connectionist AI, decades before the term existed. |\n\n### Co-founding the MIT AI Laboratory (1959)\n\n| Detail | Description |\n|---|---|\n| **Year** | 1959 |\n| **Context** | Co-founded with John McCarthy at MIT |\n| **Technical Details** | Established one of the world's first dedicated AI research labs. The lab pursued a broad research agenda including robotics, computer vision, natural language processing, and machine learning. |\n| **Impact** | Became the epicenter of AI research for decades. Alumni and affiliates include dozens of Turing Award winners, company founders, and field-defining researchers. |\n\n### Confocal Scanning Microscope (1957)\n\n| Detail | Description |\n|---|---|\n| **Year** | 1957 |\n| **Context** | Patented while at MIT — a rare foray into optics |\n| **Technical Details** | Invented the principle of confocal microscopy, which uses point illumination and a spatial pinhole to eliminate out-of-focus light, enabling optical sectioning of thick specimens. |\n| **Impact** | Revolutionized biological imaging. Modern confocal microscopes are standard equipment in biology and medical research labs worldwide. Not bad for a side project. |\n\n### *Perceptrons* (1969)\n\n| Detail | Description |\n|---|---|\n| **Year** | 1969 |\n| **Context** | Co-authored with Seymour Papert |\n| **Technical Details** | Provided a rigorous mathematical analysis of single-layer perceptrons, proving they could not compute certain functions (most famously, XOR). Demonstrated fundamental limitations of the then-dominant neural network architectures. |\n| **Impact** | This is the big controversial one. The book is often blamed for triggering the first \"AI winter\" — a decade-plus drought in neural network research funding and interest. Somewhat unfairly: Minsky and Papert showed *real* limitations, but the backlash was wildly disproportionate. Many researchers (and funding agencies) interpreted the book as proof that neural networks were a dead end, which wasn't quite what the authors said. It took until the 1980s and researchers like [Geoffrey Hinton](/legend/geoffrey-hinton) to revive the field with multi-layer networks and backpropagation. |\n\n### Society of Mind (1986)\n\n| Detail | Description |\n|---|---|\n| **Year** | 1986 |\n| **Context** | Published as a book, *The Society of Mind* |\n| **Technical Details** | Proposed that intelligence is not the product of any single mechanism but emerges from the interaction of many small, simple agents (\"agents\" in the cognitive sense — not the Silicon Valley sense). Each agent is essentially mindless on its own, but their collective interaction produces what we experience as thought, memory, and consciousness. |\n| **Impact** | Offered a radically different framework for understanding intelligence — one that anticipated modern ideas about emergent behavior, multi-agent systems, and distributed cognition. Influenced AI, cognitive science, psychology, and philosophy of mind. |\n\n### Robotics Innovations\n\n| Detail | Description |\n|---|---|\n| **Years** | 1960s–1970s |\n| **Context** | Developed at the MIT AI Lab |\n| **Technical Details** | Designed several influential robotic manipulators, including the \"tentacle arm\" (a flexible, multi-jointed arm) and the \"Minsky arm.\" Also developed a head-mounted graphical display — an early ancestor of modern VR headsets. |\n| **Impact** | Advanced the state of the art in robotic manipulation and human-computer interaction. |\n\n---",
         "subsections": [
           {
             "id": "snarc-stochastic-neural-analog-reinforcement-calculator-1951",
@@ -13872,7 +13951,7 @@ export const legendDetails = {
           {
             "id": "perceptrons-1969",
             "title": "Perceptrons* (1969)",
-            "markdown": "| Detail | Description |\n|---|---|\n| **Year** | 1969 |\n| **Context** | Co-authored with Seymour Papert |\n| **Technical Details** | Provided a rigorous mathematical analysis of single-layer perceptrons, proving they could not compute certain functions (most famously, XOR). Demonstrated fundamental limitations of the then-dominant neural network architectures. |\n| **Impact** | This is the big controversial one. The book is often blamed for triggering the first \"AI winter\" — a decade-plus drought in neural network research funding and interest. Somewhat unfairly: Minsky and Papert showed *real* limitations, but the backlash was wildly disproportionate. Many researchers (and funding agencies) interpreted the book as proof that neural networks were a dead end, which wasn't quite what the authors said. It took until the 1980s and researchers like [Geoffrey Hinton](../../modern-ai-ml/geoffrey-hinton/) to revive the field with multi-layer networks and backpropagation. |"
+            "markdown": "| Detail | Description |\n|---|---|\n| **Year** | 1969 |\n| **Context** | Co-authored with Seymour Papert |\n| **Technical Details** | Provided a rigorous mathematical analysis of single-layer perceptrons, proving they could not compute certain functions (most famously, XOR). Demonstrated fundamental limitations of the then-dominant neural network architectures. |\n| **Impact** | This is the big controversial one. The book is often blamed for triggering the first \"AI winter\" — a decade-plus drought in neural network research funding and interest. Somewhat unfairly: Minsky and Papert showed *real* limitations, but the backlash was wildly disproportionate. Many researchers (and funding agencies) interpreted the book as proof that neural networks were a dead end, which wasn't quite what the authors said. It took until the 1980s and researchers like [Geoffrey Hinton](/legend/geoffrey-hinton) to revive the field with multi-layer networks and backpropagation. |"
           },
           {
             "id": "society-of-mind-1986",
@@ -13911,14 +13990,14 @@ export const legendDetails = {
         "id": "influence-legacy",
         "kind": "influence",
         "title": "Influence & Legacy",
-        "markdown": "Marvin Minsky's influence on artificial intelligence is almost impossible to overstate — and yet it's complicated. He helped *create* the field, co-founding one of its most important institutions and contributing foundational ideas about neural networks, knowledge representation, and the nature of intelligence. But he also, through *Perceptrons*, inadvertently helped *stall* one of its most productive research directions for over a decade.\n\nHistory has been kind to Minsky on the whole. The limitations he identified in single-layer perceptrons were real, and the deeper lesson — that understanding the boundaries of a technique is as important as celebrating its successes — remains relevant. The neural network revolution that eventually followed (led by researchers like [Geoffrey Hinton](../../modern-ai-ml/geoffrey-hinton/), [Yann LeCun](../../modern-ai-ml/yann-lecun/), and [Yoshua Bengio](../../modern-ai-ml/yoshua-bengio/)) built directly on the mathematical foundations that Minsky helped establish.\n\nHis \"Society of Mind\" framework anticipated many ideas now central to AI and cognitive science: emergent behavior, modularity, multi-agent systems, and the notion that intelligence doesn't require a single, unified \"self.\" These ideas continue to echo through modern research on large language models, multi-agent architectures, and artificial general intelligence.\n\nBeyond his technical contributions, Minsky was a singular personality — a polymath who moved fluidly between mathematics, engineering, music, philosophy, and film consulting. He played the piano, built gadgets for fun, and was known for giving lectures that were equal parts brilliant and bewildering. He was, in the best sense, a reminder that the most interesting minds don't stay in their lanes.\n\n---",
+        "markdown": "Marvin Minsky's influence on artificial intelligence is almost impossible to overstate — and yet it's complicated. He helped *create* the field, co-founding one of its most important institutions and contributing foundational ideas about neural networks, knowledge representation, and the nature of intelligence. But he also, through *Perceptrons*, inadvertently helped *stall* one of its most productive research directions for over a decade.\n\nHistory has been kind to Minsky on the whole. The limitations he identified in single-layer perceptrons were real, and the deeper lesson — that understanding the boundaries of a technique is as important as celebrating its successes — remains relevant. The neural network revolution that eventually followed (led by researchers like [Geoffrey Hinton](/legend/geoffrey-hinton), [Yann LeCun](/legend/yann-lecun), and [Yoshua Bengio](/legend/yoshua-bengio)) built directly on the mathematical foundations that Minsky helped establish.\n\nHis \"Society of Mind\" framework anticipated many ideas now central to AI and cognitive science: emergent behavior, modularity, multi-agent systems, and the notion that intelligence doesn't require a single, unified \"self.\" These ideas continue to echo through modern research on large language models, multi-agent architectures, and artificial general intelligence.\n\nBeyond his technical contributions, Minsky was a singular personality — a polymath who moved fluidly between mathematics, engineering, music, philosophy, and film consulting. He played the piano, built gadgets for fun, and was known for giving lectures that were equal parts brilliant and bewildering. He was, in the best sense, a reminder that the most interesting minds don't stay in their lanes.\n\n---",
         "subsections": []
       },
       {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[John McCarthy](../john-mccarthy/)** — Co-founded the MIT AI Lab with Minsky in 1959. Together they established one of the most important research centers in computing history.\n- **[Allen Newell](../allen-newell/)** — Fellow AI pioneer who, alongside Herbert Simon, pursued a complementary symbolic approach to artificial intelligence.\n- **[Herbert Simon](../herbert-simon/)** — Fellow AI pioneer and Nobel laureate who collaborated with Newell on foundational AI systems.\n- **[Geoffrey Hinton](../../modern-ai-ml/geoffrey-hinton/)** — Helped revive neural network research in the 1980s and beyond, overcoming the limitations Minsky and Papert had identified in *Perceptrons*.\n- **[Alan Turing](../../foundational-cs/alan-turing/)** — Laid the foundational theoretical groundwork for machine intelligence that inspired Minsky and the entire AI field.\n\n---",
+        "markdown": "- **[John McCarthy](/legend/john-mccarthy)** — Co-founded the MIT AI Lab with Minsky in 1959. Together they established one of the most important research centers in computing history.\n- **[Allen Newell](/legend/allen-newell)** — Fellow AI pioneer who, alongside Herbert Simon, pursued a complementary symbolic approach to artificial intelligence.\n- **[Herbert Simon](/legend/herbert-simon)** — Fellow AI pioneer and Nobel laureate who collaborated with Newell on foundational AI systems.\n- **[Geoffrey Hinton](/legend/geoffrey-hinton)** — Helped revive neural network research in the 1980s and beyond, overcoming the limitations Minsky and Papert had identified in *Perceptrons*.\n- **[Alan Turing](/legend/alan-turing)** — Laid the foundational theoretical groundwork for machine intelligence that inspired Minsky and the entire AI field.\n\n---",
         "subsections": []
       },
       {
@@ -13946,7 +14025,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: John McCarthy](../john-mccarthy/)\n- [↑ Category Overview](../README.md)\n- [Next: Allen Newell →](../allen-newell/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: John McCarthy](/legend/john-mccarthy)\n- [↑ Category Overview](/category/ai-pioneers)\n- [Next: Allen Newell →](/legend/allen-newell)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -14415,7 +14494,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Geoffrey Hinton](../geoffrey-hinton/) — Deep learning pioneer whose foundational ideas Ng helped popularize and scale\n- [Yann LeCun](../yann-lecun/) — Fellow deep learning leader and convolutional neural network pioneer\n- [Yoshua Bengio](../yoshua-bengio/) — Fellow deep learning pioneer; together with Hinton and LeCun, one of the \"Godfathers of Deep Learning\"\n- [Judea Pearl](../judea-pearl/) — Pioneered a different, causality-based approach to AI intelligence\n\n---",
+        "markdown": "- [Geoffrey Hinton](/legend/geoffrey-hinton) — Deep learning pioneer whose foundational ideas Ng helped popularize and scale\n- [Yann LeCun](/legend/yann-lecun) — Fellow deep learning leader and convolutional neural network pioneer\n- [Yoshua Bengio](/legend/yoshua-bengio) — Fellow deep learning pioneer; together with Hinton and LeCun, one of the \"Godfathers of Deep Learning\"\n- [Judea Pearl](/legend/judea-pearl) — Pioneered a different, causality-based approach to AI intelligence\n\n---",
         "subsections": []
       },
       {
@@ -14429,7 +14508,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Yoshua Bengio](../yoshua-bengio/)\n- [↑ Category Overview](../README.md)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Yoshua Bengio](/legend/yoshua-bengio)\n- [↑ Category Overview](/category/modern-ai-ml)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -14625,17 +14704,17 @@ export const legendDetails = {
         "id": "biography",
         "kind": "biography",
         "title": "Biography",
-        "markdown": "### Early Life & Education\n\nGeoffrey Everest Hinton was born in London in 1947 into what can only be described as an absurdly accomplished family. His great-great-grandfather was [George Boole](../../pioneers/george-boole/) — yes, *that* Boole, the one behind Boolean algebra, the logic that literally makes every computer on Earth tick. He's also related to George Everest, the surveyor after whom the world's tallest mountain is named. No pressure growing up, right?\n\nHinton studied experimental psychology at King's College, Cambridge, earning his BA in 1970. He was fascinated by how the brain learns — not in the hand-wavy philosophical sense, but in the \"can we actually build something that does this?\" sense. This led him to the University of Edinburgh, where he completed his PhD in artificial intelligence in 1978 under Christopher Longuet-Higgins.\n\n### Career\n\nHinton's timing could not have been worse — or, depending on how you look at it, better. He committed himself to neural networks right when [Marvin Minsky](../../ai-pioneers/marvin-minsky/) and Seymour Papert's 1969 book *Perceptrons* had essentially convinced the AI community that neural networks were a dead end. Funding dried up. Colleagues moved on. The \"AI winter\" was brutal.\n\nHinton didn't care. He kept working.\n\nAfter his PhD, he did postdoctoral work at the University of Sussex and UC San Diego. In 1982, he joined Carnegie Mellon University, where he began the work that would eventually change everything. But Hinton was politically uncomfortable in Reagan-era America, and in 1987 he moved to the University of Toronto — a decision that would accidentally turn Toronto into one of the world's great AI research hubs.\n\nIn 1985, he and Terry Sejnowski developed **Boltzmann Machines**, the first successful learning algorithm for neural networks with hidden units. Then in 1986, along with David Rumelhart and Ronald Williams, Hinton published the landmark paper on **backpropagation** — the algorithm for training multi-layer neural networks by propagating errors backward through the network. This wasn't technically a new invention (the math had been around), but their paper is what made it *practical* and *popular*. Backpropagation is, without exaggeration, the single most important algorithm in deep learning.\n\nStill, the AI community remained skeptical. For two more decades, neural networks were considered a niche interest — the \"weird uncle\" at the AI family reunion, if you will.\n\nThen came 2006. Hinton published his work on **Deep Belief Networks**, showing that deep neural networks could be effectively trained by pre-training each layer as a Restricted Boltzmann Machine. This paper is widely cited as the moment that reignited the deep learning revolution. People started paying attention again.\n\nBut the real earthquake came in 2012. Hinton's student Alex Krizhevsky, along with Ilya Sutskever, built **AlexNet** — a deep convolutional neural network that won the ImageNet Large Scale Visual Recognition Challenge by a *staggering* margin. The computer vision community was shocked. AlexNet didn't just win; it obliterated the competition, cutting the error rate nearly in half compared to traditional approaches. And it did this using GPUs, which was considered unorthodox at the time. This single result is often credited with launching the modern deep learning era.\n\nIn 2013, Google acquired Hinton's startup DNNresearch (which was basically Hinton and two grad students) and he joined **Google Brain** as a Vice President and Engineering Fellow, splitting his time between Google and the University of Toronto.\n\nNever one to rest on his laurels, Hinton introduced **Capsule Networks** in 2017 — his attempt to address fundamental limitations in how CNNs handle spatial hierarchies and viewpoint changes. The idea was elegant, though capsule networks haven't (yet) achieved the same widespread adoption as his earlier innovations.\n\nFun fact: Hinton has a notoriously bad back and has worked standing up for years. He reportedly hasn't sat down for extended periods in decades. The man literally cannot sit still — which, metaphorically, also describes his research career.\n\n### Later Life & Legacy\n\nIn May 2023, Hinton made headlines by **leaving Google** specifically so he could speak freely about the dangers of artificial intelligence. He became one of the most prominent and credible voices warning about existential risks from AI — a remarkable turn for someone who spent his entire career building the technology. When the \"Godfather of Deep Learning\" says he's worried, people listen.\n\nIn 2024, Hinton was awarded the **Nobel Prize in Physics** alongside John Hopfield for their foundational work on artificial neural networks and machine learning. A Nobel Prize. In *Physics*. For work on neural networks. If that doesn't tell you how much the world has changed, nothing will.\n\n---",
+        "markdown": "### Early Life & Education\n\nGeoffrey Everest Hinton was born in London in 1947 into what can only be described as an absurdly accomplished family. His great-great-grandfather was [George Boole](/legend/george-boole) — yes, *that* Boole, the one behind Boolean algebra, the logic that literally makes every computer on Earth tick. He's also related to George Everest, the surveyor after whom the world's tallest mountain is named. No pressure growing up, right?\n\nHinton studied experimental psychology at King's College, Cambridge, earning his BA in 1970. He was fascinated by how the brain learns — not in the hand-wavy philosophical sense, but in the \"can we actually build something that does this?\" sense. This led him to the University of Edinburgh, where he completed his PhD in artificial intelligence in 1978 under Christopher Longuet-Higgins.\n\n### Career\n\nHinton's timing could not have been worse — or, depending on how you look at it, better. He committed himself to neural networks right when [Marvin Minsky](/legend/marvin-minsky) and Seymour Papert's 1969 book *Perceptrons* had essentially convinced the AI community that neural networks were a dead end. Funding dried up. Colleagues moved on. The \"AI winter\" was brutal.\n\nHinton didn't care. He kept working.\n\nAfter his PhD, he did postdoctoral work at the University of Sussex and UC San Diego. In 1982, he joined Carnegie Mellon University, where he began the work that would eventually change everything. But Hinton was politically uncomfortable in Reagan-era America, and in 1987 he moved to the University of Toronto — a decision that would accidentally turn Toronto into one of the world's great AI research hubs.\n\nIn 1985, he and Terry Sejnowski developed **Boltzmann Machines**, the first successful learning algorithm for neural networks with hidden units. Then in 1986, along with David Rumelhart and Ronald Williams, Hinton published the landmark paper on **backpropagation** — the algorithm for training multi-layer neural networks by propagating errors backward through the network. This wasn't technically a new invention (the math had been around), but their paper is what made it *practical* and *popular*. Backpropagation is, without exaggeration, the single most important algorithm in deep learning.\n\nStill, the AI community remained skeptical. For two more decades, neural networks were considered a niche interest — the \"weird uncle\" at the AI family reunion, if you will.\n\nThen came 2006. Hinton published his work on **Deep Belief Networks**, showing that deep neural networks could be effectively trained by pre-training each layer as a Restricted Boltzmann Machine. This paper is widely cited as the moment that reignited the deep learning revolution. People started paying attention again.\n\nBut the real earthquake came in 2012. Hinton's student Alex Krizhevsky, along with Ilya Sutskever, built **AlexNet** — a deep convolutional neural network that won the ImageNet Large Scale Visual Recognition Challenge by a *staggering* margin. The computer vision community was shocked. AlexNet didn't just win; it obliterated the competition, cutting the error rate nearly in half compared to traditional approaches. And it did this using GPUs, which was considered unorthodox at the time. This single result is often credited with launching the modern deep learning era.\n\nIn 2013, Google acquired Hinton's startup DNNresearch (which was basically Hinton and two grad students) and he joined **Google Brain** as a Vice President and Engineering Fellow, splitting his time between Google and the University of Toronto.\n\nNever one to rest on his laurels, Hinton introduced **Capsule Networks** in 2017 — his attempt to address fundamental limitations in how CNNs handle spatial hierarchies and viewpoint changes. The idea was elegant, though capsule networks haven't (yet) achieved the same widespread adoption as his earlier innovations.\n\nFun fact: Hinton has a notoriously bad back and has worked standing up for years. He reportedly hasn't sat down for extended periods in decades. The man literally cannot sit still — which, metaphorically, also describes his research career.\n\n### Later Life & Legacy\n\nIn May 2023, Hinton made headlines by **leaving Google** specifically so he could speak freely about the dangers of artificial intelligence. He became one of the most prominent and credible voices warning about existential risks from AI — a remarkable turn for someone who spent his entire career building the technology. When the \"Godfather of Deep Learning\" says he's worried, people listen.\n\nIn 2024, Hinton was awarded the **Nobel Prize in Physics** alongside John Hopfield for their foundational work on artificial neural networks and machine learning. A Nobel Prize. In *Physics*. For work on neural networks. If that doesn't tell you how much the world has changed, nothing will.\n\n---",
         "subsections": [
           {
             "id": "early-life-education",
             "title": "Early Life & Education",
-            "markdown": "Geoffrey Everest Hinton was born in London in 1947 into what can only be described as an absurdly accomplished family. His great-great-grandfather was [George Boole](../../pioneers/george-boole/) — yes, *that* Boole, the one behind Boolean algebra, the logic that literally makes every computer on Earth tick. He's also related to George Everest, the surveyor after whom the world's tallest mountain is named. No pressure growing up, right?\n\nHinton studied experimental psychology at King's College, Cambridge, earning his BA in 1970. He was fascinated by how the brain learns — not in the hand-wavy philosophical sense, but in the \"can we actually build something that does this?\" sense. This led him to the University of Edinburgh, where he completed his PhD in artificial intelligence in 1978 under Christopher Longuet-Higgins."
+            "markdown": "Geoffrey Everest Hinton was born in London in 1947 into what can only be described as an absurdly accomplished family. His great-great-grandfather was [George Boole](/legend/george-boole) — yes, *that* Boole, the one behind Boolean algebra, the logic that literally makes every computer on Earth tick. He's also related to George Everest, the surveyor after whom the world's tallest mountain is named. No pressure growing up, right?\n\nHinton studied experimental psychology at King's College, Cambridge, earning his BA in 1970. He was fascinated by how the brain learns — not in the hand-wavy philosophical sense, but in the \"can we actually build something that does this?\" sense. This led him to the University of Edinburgh, where he completed his PhD in artificial intelligence in 1978 under Christopher Longuet-Higgins."
           },
           {
             "id": "career",
             "title": "Career",
-            "markdown": "Hinton's timing could not have been worse — or, depending on how you look at it, better. He committed himself to neural networks right when [Marvin Minsky](../../ai-pioneers/marvin-minsky/) and Seymour Papert's 1969 book *Perceptrons* had essentially convinced the AI community that neural networks were a dead end. Funding dried up. Colleagues moved on. The \"AI winter\" was brutal.\n\nHinton didn't care. He kept working.\n\nAfter his PhD, he did postdoctoral work at the University of Sussex and UC San Diego. In 1982, he joined Carnegie Mellon University, where he began the work that would eventually change everything. But Hinton was politically uncomfortable in Reagan-era America, and in 1987 he moved to the University of Toronto — a decision that would accidentally turn Toronto into one of the world's great AI research hubs.\n\nIn 1985, he and Terry Sejnowski developed **Boltzmann Machines**, the first successful learning algorithm for neural networks with hidden units. Then in 1986, along with David Rumelhart and Ronald Williams, Hinton published the landmark paper on **backpropagation** — the algorithm for training multi-layer neural networks by propagating errors backward through the network. This wasn't technically a new invention (the math had been around), but their paper is what made it *practical* and *popular*. Backpropagation is, without exaggeration, the single most important algorithm in deep learning.\n\nStill, the AI community remained skeptical. For two more decades, neural networks were considered a niche interest — the \"weird uncle\" at the AI family reunion, if you will.\n\nThen came 2006. Hinton published his work on **Deep Belief Networks**, showing that deep neural networks could be effectively trained by pre-training each layer as a Restricted Boltzmann Machine. This paper is widely cited as the moment that reignited the deep learning revolution. People started paying attention again.\n\nBut the real earthquake came in 2012. Hinton's student Alex Krizhevsky, along with Ilya Sutskever, built **AlexNet** — a deep convolutional neural network that won the ImageNet Large Scale Visual Recognition Challenge by a *staggering* margin. The computer vision community was shocked. AlexNet didn't just win; it obliterated the competition, cutting the error rate nearly in half compared to traditional approaches. And it did this using GPUs, which was considered unorthodox at the time. This single result is often credited with launching the modern deep learning era.\n\nIn 2013, Google acquired Hinton's startup DNNresearch (which was basically Hinton and two grad students) and he joined **Google Brain** as a Vice President and Engineering Fellow, splitting his time between Google and the University of Toronto.\n\nNever one to rest on his laurels, Hinton introduced **Capsule Networks** in 2017 — his attempt to address fundamental limitations in how CNNs handle spatial hierarchies and viewpoint changes. The idea was elegant, though capsule networks haven't (yet) achieved the same widespread adoption as his earlier innovations.\n\nFun fact: Hinton has a notoriously bad back and has worked standing up for years. He reportedly hasn't sat down for extended periods in decades. The man literally cannot sit still — which, metaphorically, also describes his research career."
+            "markdown": "Hinton's timing could not have been worse — or, depending on how you look at it, better. He committed himself to neural networks right when [Marvin Minsky](/legend/marvin-minsky) and Seymour Papert's 1969 book *Perceptrons* had essentially convinced the AI community that neural networks were a dead end. Funding dried up. Colleagues moved on. The \"AI winter\" was brutal.\n\nHinton didn't care. He kept working.\n\nAfter his PhD, he did postdoctoral work at the University of Sussex and UC San Diego. In 1982, he joined Carnegie Mellon University, where he began the work that would eventually change everything. But Hinton was politically uncomfortable in Reagan-era America, and in 1987 he moved to the University of Toronto — a decision that would accidentally turn Toronto into one of the world's great AI research hubs.\n\nIn 1985, he and Terry Sejnowski developed **Boltzmann Machines**, the first successful learning algorithm for neural networks with hidden units. Then in 1986, along with David Rumelhart and Ronald Williams, Hinton published the landmark paper on **backpropagation** — the algorithm for training multi-layer neural networks by propagating errors backward through the network. This wasn't technically a new invention (the math had been around), but their paper is what made it *practical* and *popular*. Backpropagation is, without exaggeration, the single most important algorithm in deep learning.\n\nStill, the AI community remained skeptical. For two more decades, neural networks were considered a niche interest — the \"weird uncle\" at the AI family reunion, if you will.\n\nThen came 2006. Hinton published his work on **Deep Belief Networks**, showing that deep neural networks could be effectively trained by pre-training each layer as a Restricted Boltzmann Machine. This paper is widely cited as the moment that reignited the deep learning revolution. People started paying attention again.\n\nBut the real earthquake came in 2012. Hinton's student Alex Krizhevsky, along with Ilya Sutskever, built **AlexNet** — a deep convolutional neural network that won the ImageNet Large Scale Visual Recognition Challenge by a *staggering* margin. The computer vision community was shocked. AlexNet didn't just win; it obliterated the competition, cutting the error rate nearly in half compared to traditional approaches. And it did this using GPUs, which was considered unorthodox at the time. This single result is often credited with launching the modern deep learning era.\n\nIn 2013, Google acquired Hinton's startup DNNresearch (which was basically Hinton and two grad students) and he joined **Google Brain** as a Vice President and Engineering Fellow, splitting his time between Google and the University of Toronto.\n\nNever one to rest on his laurels, Hinton introduced **Capsule Networks** in 2017 — his attempt to address fundamental limitations in how CNNs handle spatial hierarchies and viewpoint changes. The idea was elegant, though capsule networks haven't (yet) achieved the same widespread adoption as his earlier innovations.\n\nFun fact: Hinton has a notoriously bad back and has worked standing up for years. He reportedly hasn't sat down for extended periods in decades. The man literally cannot sit still — which, metaphorically, also describes his research career."
           },
           {
             "id": "later-life-legacy",
@@ -14688,7 +14767,7 @@ export const legendDetails = {
         "id": "awards-honors",
         "kind": "awards",
         "title": "Awards & Honors",
-        "markdown": "| Year | Award | Notes |\n|------|-------|-------|\n| 2001 | Rumelhart Prize | For contributions to the theoretical foundations of human cognition |\n| 2005 | IJCAI Award for Research Excellence | For sustained excellence in AI research |\n| 2010 | Herzberg Canada Gold Medal | Canada's top science and engineering prize |\n| 2011 | BBVA Foundation Frontiers of Knowledge Award | For contributions to machine learning |\n| 2016 | IEEE/RSE James Clerk Maxwell Medal | For groundbreaking contributions to deep learning |\n| 2018 | **ACM A.M. Turing Award** | Shared with [Yann LeCun](../yann-lecun/) and [Yoshua Bengio](../yoshua-bengio/) — the \"Godfathers of AI\" |\n| 2021 | Dickson Prize in Science | From Carnegie Mellon University |\n| 2022 | Princess of Asturias Award for Technical & Scientific Research | Shared with LeCun, Bengio, Demis Hassabis, and others |\n| 2024 | **Nobel Prize in Physics** | Shared with John Hopfield — for foundational discoveries enabling machine learning with artificial neural networks |\n\n---",
+        "markdown": "| Year | Award | Notes |\n|------|-------|-------|\n| 2001 | Rumelhart Prize | For contributions to the theoretical foundations of human cognition |\n| 2005 | IJCAI Award for Research Excellence | For sustained excellence in AI research |\n| 2010 | Herzberg Canada Gold Medal | Canada's top science and engineering prize |\n| 2011 | BBVA Foundation Frontiers of Knowledge Award | For contributions to machine learning |\n| 2016 | IEEE/RSE James Clerk Maxwell Medal | For groundbreaking contributions to deep learning |\n| 2018 | **ACM A.M. Turing Award** | Shared with [Yann LeCun](/legend/yann-lecun) and [Yoshua Bengio](/legend/yoshua-bengio) — the \"Godfathers of AI\" |\n| 2021 | Dickson Prize in Science | From Carnegie Mellon University |\n| 2022 | Princess of Asturias Award for Technical & Scientific Research | Shared with LeCun, Bengio, Demis Hassabis, and others |\n| 2024 | **Nobel Prize in Physics** | Shared with John Hopfield — for foundational discoveries enabling machine learning with artificial neural networks |\n\n---",
         "subsections": []
       },
       {
@@ -14702,14 +14781,14 @@ export const legendDetails = {
         "id": "influence-legacy",
         "kind": "influence",
         "title": "Influence & Legacy",
-        "markdown": "Geoffrey Hinton's influence on modern computing is difficult to overstate. He spent decades in the wilderness, stubbornly insisting that neural networks would eventually work when almost the entire AI community had written them off. He was right.\n\nThe lineage of his research reads like a history of deep learning itself: backpropagation made training possible, Boltzmann Machines introduced probabilistic learning, Deep Belief Networks proved depth was valuable, and AlexNet proved it to everyone who was still skeptical. His students and collaborators — including Yann LeCun, Ilya Sutskever, Alex Krizhevsky, and [Andrew Ng](../andrew-ng/) — went on to lead AI research at virtually every major technology company and university.\n\nHis decision to leave Google in 2023 to warn about AI risks added a dramatic late chapter to his story. The person who did more than anyone to create modern AI became one of its most vocal critics — not because he thought the technology was bad, but because he understood better than most just how powerful it was becoming.\n\nThe University of Toronto, which he joined somewhat randomly in the 1980s, became a global center for AI research largely because of his presence. The \"Toronto school\" of deep learning shaped a generation of researchers.\n\nWhen they gave him the Turing Award in 2018, it felt overdue. When they gave him the Nobel Prize in 2024, it felt inevitable.\n\n---",
+        "markdown": "Geoffrey Hinton's influence on modern computing is difficult to overstate. He spent decades in the wilderness, stubbornly insisting that neural networks would eventually work when almost the entire AI community had written them off. He was right.\n\nThe lineage of his research reads like a history of deep learning itself: backpropagation made training possible, Boltzmann Machines introduced probabilistic learning, Deep Belief Networks proved depth was valuable, and AlexNet proved it to everyone who was still skeptical. His students and collaborators — including Yann LeCun, Ilya Sutskever, Alex Krizhevsky, and [Andrew Ng](/legend/andrew-ng) — went on to lead AI research at virtually every major technology company and university.\n\nHis decision to leave Google in 2023 to warn about AI risks added a dramatic late chapter to his story. The person who did more than anyone to create modern AI became one of its most vocal critics — not because he thought the technology was bad, but because he understood better than most just how powerful it was becoming.\n\nThe University of Toronto, which he joined somewhat randomly in the 1980s, became a global center for AI research largely because of his presence. The \"Toronto school\" of deep learning shaped a generation of researchers.\n\nWhen they gave him the Turing Award in 2018, it felt overdue. When they gave him the Nobel Prize in 2024, it felt inevitable.\n\n---",
         "subsections": []
       },
       {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Yann LeCun](../yann-lecun/) — Fellow \"Godfather of AI,\" Turing Award co-recipient (2018), pioneer of convolutional neural networks\n- [Yoshua Bengio](../yoshua-bengio/) — Fellow \"Godfather of AI,\" Turing Award co-recipient (2018), pioneer of sequence modeling and attention mechanisms\n- [Marvin Minsky](../../ai-pioneers/marvin-minsky/) — His *Perceptrons* (1969) nearly killed neural network research; Hinton proved him wrong\n- [George Boole](../../pioneers/george-boole/) — Hinton's great-great-grandfather (!) — inventor of Boolean algebra\n- [Andrew Ng](../andrew-ng/) — Student of Hinton's intellectual tradition, helped bring deep learning to the mainstream\n\n---",
+        "markdown": "- [Yann LeCun](/legend/yann-lecun) — Fellow \"Godfather of AI,\" Turing Award co-recipient (2018), pioneer of convolutional neural networks\n- [Yoshua Bengio](/legend/yoshua-bengio) — Fellow \"Godfather of AI,\" Turing Award co-recipient (2018), pioneer of sequence modeling and attention mechanisms\n- [Marvin Minsky](/legend/marvin-minsky) — His *Perceptrons* (1969) nearly killed neural network research; Hinton proved him wrong\n- [George Boole](/legend/george-boole) — Hinton's great-great-grandfather (!) — inventor of Boolean algebra\n- [Andrew Ng](/legend/andrew-ng) — Student of Hinton's intellectual tradition, helped bring deep learning to the mainstream\n\n---",
         "subsections": []
       },
       {
@@ -14737,7 +14816,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Judea Pearl](../judea-pearl/)\n- [↑ Category Overview](../README.md)\n- [Next: Yann LeCun →](../yann-lecun/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Judea Pearl](/legend/judea-pearl)\n- [↑ Category Overview](/category/modern-ai-ml)\n- [Next: Yann LeCun →](/legend/yann-lecun)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -15270,7 +15349,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Herbert Simon](../../ai-pioneers/herbert-simon/) — decision-making and bounded rationality; another giant of AI theory\n- [Geoffrey Hinton](../geoffrey-hinton/) — deep learning pioneer (and a frequent target of Pearl's causal critiques)\n- [Yoshua Bengio](../yoshua-bengio/) — deep learning pioneer increasingly interested in causality and Pearl's ideas\n- [Andrew Ng](../andrew-ng/) — ML popularizer and educator\n- [George Boole](../../pioneers/george-boole/) — formal logic foundations that underpin all of this\n\n---",
+        "markdown": "- [Herbert Simon](/legend/herbert-simon) — decision-making and bounded rationality; another giant of AI theory\n- [Geoffrey Hinton](/legend/geoffrey-hinton) — deep learning pioneer (and a frequent target of Pearl's causal critiques)\n- [Yoshua Bengio](/legend/yoshua-bengio) — deep learning pioneer increasingly interested in causality and Pearl's ideas\n- [Andrew Ng](/legend/andrew-ng) — ML popularizer and educator\n- [George Boole](/legend/george-boole) — formal logic foundations that underpin all of this\n\n---",
         "subsections": []
       },
       {
@@ -15284,7 +15363,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [↑ Category Overview](../README.md)\n- [Next: Geoffrey Hinton →](../geoffrey-hinton/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [↑ Category Overview](/category/modern-ai-ml)\n- [Next: Geoffrey Hinton →](/legend/geoffrey-hinton)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -15576,7 +15655,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Geoffrey Hinton](../geoffrey-hinton/)** — Mentor figure, backpropagation pioneer, Turing Award co-recipient, and fellow Godfather of Deep Learning\n- **[Yoshua Bengio](../yoshua-bengio/)** — Third Godfather, Turing Award co-recipient, pioneer of sequence learning and attention mechanisms\n- **[Andrew Ng](../andrew-ng/)** — Fellow deep learning popularizer, co-founder of Google Brain, and the person who made ML accessible to millions through online courses\n- **[Judea Pearl](../judea-pearl/)** — Represents a very different approach to AI through causal reasoning; the kind of thinker LeCun engages with seriously\n- **[Brendan Eich](../../systems-languages/brendan-eich/)** — A similarly outspoken tech figure, though in a very different domain\n\n---",
+        "markdown": "- **[Geoffrey Hinton](/legend/geoffrey-hinton)** — Mentor figure, backpropagation pioneer, Turing Award co-recipient, and fellow Godfather of Deep Learning\n- **[Yoshua Bengio](/legend/yoshua-bengio)** — Third Godfather, Turing Award co-recipient, pioneer of sequence learning and attention mechanisms\n- **[Andrew Ng](/legend/andrew-ng)** — Fellow deep learning popularizer, co-founder of Google Brain, and the person who made ML accessible to millions through online courses\n- **[Judea Pearl](/legend/judea-pearl)** — Represents a very different approach to AI through causal reasoning; the kind of thinker LeCun engages with seriously\n- **[Brendan Eich](/legend/brendan-eich)** — A similarly outspoken tech figure, though in a very different domain\n\n---",
         "subsections": []
       },
       {
@@ -15597,7 +15676,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Geoffrey Hinton](../geoffrey-hinton/)\n- [↑ Category Overview](../README.md)\n- [Next: Yoshua Bengio →](../yoshua-bengio/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Geoffrey Hinton](/legend/geoffrey-hinton)\n- [↑ Category Overview](/category/modern-ai-ml)\n- [Next: Yoshua Bengio →](/legend/yoshua-bengio)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -15867,7 +15946,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Geoffrey Hinton](../geoffrey-hinton/) — Fellow \"Godfather of AI\" and Turing Award co-recipient. Backpropagation pioneer.\n- [Yann LeCun](../yann-lecun/) — Fellow \"Godfather of AI\" and Turing Award co-recipient. Convolutional neural networks pioneer.\n- [Andrew Ng](../andrew-ng/) — Fellow deep learning educator and evangelist. Co-founded Google Brain and Coursera.\n- **Ian Goodfellow** — Invented GANs while a PhD student in Bengio's lab at Mila.\n- [Judea Pearl](../judea-pearl/) — Causal reasoning and Bayesian networks pioneer.\n\n---",
+        "markdown": "- [Geoffrey Hinton](/legend/geoffrey-hinton) — Fellow \"Godfather of AI\" and Turing Award co-recipient. Backpropagation pioneer.\n- [Yann LeCun](/legend/yann-lecun) — Fellow \"Godfather of AI\" and Turing Award co-recipient. Convolutional neural networks pioneer.\n- [Andrew Ng](/legend/andrew-ng) — Fellow deep learning educator and evangelist. Co-founded Google Brain and Coursera.\n- [Ian Goodfellow](https://en.wikipedia.org/wiki/Ian_Goodfellow) — Invented GANs while a PhD student in Bengio's lab at Mila.\n- [Judea Pearl](/legend/judea-pearl) — Causal reasoning and Bayesian networks pioneer.\n\n---",
         "subsections": []
       },
       {
@@ -15881,7 +15960,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Yann LeCun](../yann-lecun/)\n- [↑ Category Overview](../README.md)\n- [Next: Andrew Ng →](../andrew-ng/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Yann LeCun](/legend/yann-lecun)\n- [↑ Category Overview](/category/modern-ai-ml)\n- [Next: Andrew Ng →](/legend/andrew-ng)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -15939,6 +16018,11 @@ export const legendDetails = {
         "href": "/legend/andrew-ng",
         "resolvedSlug": "andrew-ng",
         "relationship": "Fellow deep learning educator and evangelist. Co-founded Google Brain and Coursera."
+      },
+      {
+        "name": "Ian Goodfellow",
+        "href": "https://en.wikipedia.org/wiki/Ian_Goodfellow",
+        "relationship": "Invented GANs while a PhD student in Bengio's lab at Mila."
       },
       {
         "name": "Judea Pearl",
@@ -16137,7 +16221,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Vint Cerf](../vint-cerf/) — co-creator of TCP/IP, the other half of the partnership that built the Internet\n- [Tim Berners-Lee](../tim-berners-lee/) — built the World Wide Web on top of Kahn's internet infrastructure\n- [Radia Perlman](../radia-perlman/) — networking pioneer, inventor of the Spanning Tree Protocol (STP)\n- [Claude Shannon](../../foundational-cs/claude-shannon/) — father of information theory, the mathematical foundation under all digital communication\n- [Dennis Ritchie](../../systems-languages/dennis-ritchie/) — co-creator of Unix, the operating system that early internet infrastructure ran on\n\n---",
+        "markdown": "- [Vint Cerf](/legend/vint-cerf) — co-creator of TCP/IP, the other half of the partnership that built the Internet\n- [Tim Berners-Lee](/legend/tim-berners-lee) — built the World Wide Web on top of Kahn's internet infrastructure\n- [Radia Perlman](/legend/radia-perlman) — networking pioneer, inventor of the Spanning Tree Protocol (STP)\n- [Claude Shannon](/legend/claude-shannon) — father of information theory, the mathematical foundation under all digital communication\n- [Dennis Ritchie](/legend/dennis-ritchie) — co-creator of Unix, the operating system that early internet infrastructure ran on\n\n---",
         "subsections": []
       },
       {
@@ -16151,7 +16235,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [↑ Category Overview](../README.md)\n- [Next: Vint Cerf →](../vint-cerf/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [↑ Category Overview](/category/web-internet)\n- [Next: Vint Cerf →](/legend/vint-cerf)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -16436,7 +16520,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Bob Kahn](../bob-kahn/) — co-creator of the Internet's transport foundations\n- [Vint Cerf](../vint-cerf/) — co-creator of TCP/IP, the protocol suite DNS runs atop\n- [Tim Berners-Lee](../tim-berners-lee/) — built the Web on the human-usable Internet that DNS helped scale\n- [Radia Perlman](../radia-perlman/) — another key architect of Internet-scale infrastructure",
+        "markdown": "- [Bob Kahn](/legend/bob-kahn) — co-creator of the Internet's transport foundations\n- [Vint Cerf](/legend/vint-cerf) — co-creator of TCP/IP, the protocol suite DNS runs atop\n- [Tim Berners-Lee](/legend/tim-berners-lee) — built the Web on the human-usable Internet that DNS helped scale\n- [Radia Perlman](/legend/radia-perlman) — another key architect of Internet-scale infrastructure",
         "subsections": []
       },
       {
@@ -16464,7 +16548,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Radia Perlman](../radia-perlman/)\n- [↑ Category Overview](../README.md)\n- [Next: Tim Berners-Lee →](../tim-berners-lee/)\n\n---\n\n**Last Updated:** 2026-04-16",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Radia Perlman](/legend/radia-perlman)\n- [↑ Category Overview](/category/web-internet)\n- [Next: Tim Berners-Lee →](/legend/tim-berners-lee)\n\n---\n\n**Last Updated:** 2026-04-16",
         "subsections": []
       }
     ],
@@ -16910,7 +16994,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Vint Cerf](../vint-cerf/) — \"Father of the Internet\" and TCP/IP co-creator (she dislikes the \"Mother\" counterpart label)\n- [Bob Kahn](../bob-kahn/) — TCP/IP co-creator and internet architecture pioneer\n- [Tim Berners-Lee](../tim-berners-lee/) — the Web runs on the networks she helped make reliable\n- [Grace Hopper](../../foundational-cs/grace-hopper/) — fellow pioneering woman in computing\n- [Frances Allen](../../systems-languages/frances-allen/) — fellow woman Turing Award–adjacent pioneer in systems\n- [Barbara Liskov](../../systems-languages/barbara-liskov/) — fellow woman Turing Award winner from MIT\n\n---",
+        "markdown": "- [Vint Cerf](/legend/vint-cerf) — \"Father of the Internet\" and TCP/IP co-creator (she dislikes the \"Mother\" counterpart label)\n- [Bob Kahn](/legend/bob-kahn) — TCP/IP co-creator and internet architecture pioneer\n- [Tim Berners-Lee](/legend/tim-berners-lee) — the Web runs on the networks she helped make reliable\n- [Grace Hopper](/legend/grace-hopper) — fellow pioneering woman in computing\n- [Frances Allen](/legend/frances-allen) — fellow woman Turing Award–adjacent pioneer in systems\n- [Barbara Liskov](/legend/barbara-liskov) — fellow woman Turing Award winner from MIT\n\n---",
         "subsections": []
       },
       {
@@ -16924,7 +17008,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Vint Cerf](../vint-cerf/)\n- [↑ Category Overview](../README.md)\n- [Next: Tim Berners-Lee →](../tim-berners-lee/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Vint Cerf](/legend/vint-cerf)\n- [↑ Category Overview](/category/web-internet)\n- [Next: Tim Berners-Lee →](/legend/tim-berners-lee)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -17202,14 +17286,14 @@ export const legendDetails = {
         "id": "influence-legacy",
         "kind": "influence",
         "title": "Influence & Legacy",
-        "markdown": "It's genuinely difficult to overstate Tim Berners-Lee's impact. Before the Web, the internet existed but was a cryptic realm of FTP servers, Gopher menus, and command-line interfaces — useful for academics and engineers, baffling for everyone else. Berners-Lee didn't invent the internet (that was [Vint Cerf](../vint-cerf/) and [Bob Kahn](../bob-kahn/) with TCP/IP), but he built the application layer that made it useful to ordinary human beings. The internet is the highway system; the Web is every shop, library, office, and café built along those roads.\n\nThe distinction matters: the **internet** is infrastructure (cables, protocols, routers); the **Web** is what you actually *use* — browsers, websites, links, search engines. One made global networking possible; the other made it *accessible*.\n\nHis decision to make the Web free and open set the template for the modern open-source movement and enabled the rise of Google, Amazon, Facebook, Wikipedia, and countless other platforms. Every website, every web app, every e-commerce transaction, every cat video — all of it traces back to one proposal that a CERN manager thought was \"vague but exciting.\"\n\nAnd unlike many tech pioneers who cashed in and moved on, Berners-Lee has spent his career *defending* the Web — fighting for net neutrality, advocating for digital rights, and now working on Solid to address the privacy crisis. He could have been a billionaire. Instead, he chose to be a steward.\n\n---",
+        "markdown": "It's genuinely difficult to overstate Tim Berners-Lee's impact. Before the Web, the internet existed but was a cryptic realm of FTP servers, Gopher menus, and command-line interfaces — useful for academics and engineers, baffling for everyone else. Berners-Lee didn't invent the internet (that was [Vint Cerf](/legend/vint-cerf) and [Bob Kahn](/legend/bob-kahn) with TCP/IP), but he built the application layer that made it useful to ordinary human beings. The internet is the highway system; the Web is every shop, library, office, and café built along those roads.\n\nThe distinction matters: the **internet** is infrastructure (cables, protocols, routers); the **Web** is what you actually *use* — browsers, websites, links, search engines. One made global networking possible; the other made it *accessible*.\n\nHis decision to make the Web free and open set the template for the modern open-source movement and enabled the rise of Google, Amazon, Facebook, Wikipedia, and countless other platforms. Every website, every web app, every e-commerce transaction, every cat video — all of it traces back to one proposal that a CERN manager thought was \"vague but exciting.\"\n\nAnd unlike many tech pioneers who cashed in and moved on, Berners-Lee has spent his career *defending* the Web — fighting for net neutrality, advocating for digital rights, and now working on Solid to address the privacy crisis. He could have been a billionaire. Instead, he chose to be a steward.\n\n---",
         "subsections": []
       },
       {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- [Vint Cerf](../vint-cerf/) — Co-created TCP/IP, the internet protocol suite that the Web runs on\n- [Bob Kahn](../bob-kahn/) — Co-created TCP/IP alongside Cerf; built the network foundation the Web depends on\n- [Radia Perlman](../radia-perlman/) — Invented the Spanning Tree Protocol; her networking infrastructure underpins the internet the Web travels across\n- [Brendan Eich](../../systems-languages/brendan-eich/) — Created JavaScript in 1995, which transformed the Web from static documents into dynamic, interactive applications\n- [Alan Turing](../../foundational-cs/alan-turing/) — Namesake of the Turing Award, which Berners-Lee received in 2016\n\n---",
+        "markdown": "- [Vint Cerf](/legend/vint-cerf) — Co-created TCP/IP, the internet protocol suite that the Web runs on\n- [Bob Kahn](/legend/bob-kahn) — Co-created TCP/IP alongside Cerf; built the network foundation the Web depends on\n- [Radia Perlman](/legend/radia-perlman) — Invented the Spanning Tree Protocol; her networking infrastructure underpins the internet the Web travels across\n- [Brendan Eich](/legend/brendan-eich) — Created JavaScript in 1995, which transformed the Web from static documents into dynamic, interactive applications\n- [Alan Turing](/legend/alan-turing) — Namesake of the Turing Award, which Berners-Lee received in 2016\n\n---",
         "subsections": []
       },
       {
@@ -17237,7 +17321,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Radia Perlman](../radia-perlman/)\n- [↑ Category Overview](../README.md)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Radia Perlman](/legend/radia-perlman)\n- [↑ Category Overview](/category/web-internet)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
@@ -17666,7 +17750,7 @@ export const legendDetails = {
         "id": "who-is-vint-cerf",
         "kind": "custom-markdown",
         "title": "Who Is Vint Cerf?",
-        "markdown": "If the internet had a birth certificate, Vint Cerf's name would be on it — right next to [Bob Kahn](../bob-kahn/)'s.\n\nVinton Gray Cerf is a computer scientist who, along with Bob Kahn, designed **TCP/IP** (Transmission Control Protocol / Internet Protocol), the foundational communication protocol that makes the internet work. Not a part of the internet. Not a layer on top of the internet. TCP/IP *is* the internet. Every device that connects — your phone, your laptop, that questionable smart toaster — uses TCP/IP to send and receive data. Cerf and Kahn didn't just contribute to the internet. They *architected* it.\n\nHe's been called a \"Father of the Internet,\" has received virtually every major award in computing and public service, and currently holds the title of **Vice President and Chief Internet Evangelist at Google**. Yes, that's his real title. He evangelizes the internet. At Google. While wearing a three-piece suit.\n\n> *\"The internet is for everyone.\"*  \n> — Vint Cerf\n\n---",
+        "markdown": "If the internet had a birth certificate, Vint Cerf's name would be on it — right next to [Bob Kahn](/legend/bob-kahn)'s.\n\nVinton Gray Cerf is a computer scientist who, along with Bob Kahn, designed **TCP/IP** (Transmission Control Protocol / Internet Protocol), the foundational communication protocol that makes the internet work. Not a part of the internet. Not a layer on top of the internet. TCP/IP *is* the internet. Every device that connects — your phone, your laptop, that questionable smart toaster — uses TCP/IP to send and receive data. Cerf and Kahn didn't just contribute to the internet. They *architected* it.\n\nHe's been called a \"Father of the Internet,\" has received virtually every major award in computing and public service, and currently holds the title of **Vice President and Chief Internet Evangelist at Google**. Yes, that's his real title. He evangelizes the internet. At Google. While wearing a three-piece suit.\n\n> *\"The internet is for everyone.\"*  \n> — Vint Cerf\n\n---",
         "subsections": []
       },
       {
@@ -17680,12 +17764,12 @@ export const legendDetails = {
         "id": "key-contributions",
         "kind": "custom-markdown",
         "title": "Key Contributions",
-        "markdown": "### TCP/IP — The Protocol Suite That Runs the World (1974)\n\nIn 1974, Cerf and [Bob Kahn](../bob-kahn/) published **\"A Protocol for Packet Network Intercommunication\"** — a paper that laid out the architecture for what would become TCP/IP. This wasn't just an academic exercise. It was a blueprint for connecting *every network on Earth* into a single, unified system.\n\nHere's the core idea: before TCP/IP, different computer networks couldn't talk to each other. Each network had its own protocols, its own rules, its own way of doing things. TCP/IP solved this by creating a universal language — a common set of rules that any network could adopt to exchange data with any other network. **TCP** handles breaking data into packets, ensuring they arrive correctly, and reassembling them. **IP** handles addressing and routing — making sure packets get from point A to point B, even across multiple networks.\n\nThis is THE foundational technology of the internet. It's how data gets from here to there. Every email, every web page, every video stream, every online game — all of it rides on TCP/IP. If [Claude Shannon](../../foundational-cs/claude-shannon/) gave us the theory of information, Cerf and Kahn gave us the plumbing to move it around the planet.\n\n### DARPA and the Growth of the Internet (1976–1982)\n\nFrom 1976 to 1982, Cerf worked at the **Defense Advanced Research Projects Agency (DARPA)**, where he played a key role in funding and overseeing the development of internet and internet-related technologies. He wasn't just designing protocols anymore — he was managing the program that was building the actual internet infrastructure.\n\n### Flag Day — The Internet Is Born (January 1, 1983)\n\nOne of the most consequential moments in internet history happened on **January 1, 1983** — known as **\"Flag Day.\"** This was the day that ARPANET officially transitioned from its original protocol (NCP, the Network Control Protocol) to TCP/IP. Cerf played a key role in planning and executing this transition.\n\nIt was, in a very real sense, the day the internet as we know it was born. Before Flag Day, ARPANET was a closed research network. After Flag Day, it was running the protocol that would eventually connect billions of devices worldwide. The switch was mandatory and non-negotiable — every host on ARPANET had to convert. They even printed buttons that said **\"I survived the TCP/IP transition.\"**\n\n### Internet Governance\n\nCerf has been instrumental in establishing the organizational structures that govern how the internet operates. He helped create and lead:\n\n- **The Internet Architecture Board (IAB)** — which oversees the technical evolution of internet standards\n- **ICANN (Internet Corporation for Assigned Names and Numbers)** — which manages domain names and IP address allocation\n- Various other standards bodies and governance organizations\n\nSomeone had to decide how this thing would be managed, and Cerf was consistently at the table.\n\n### Commercial Email — MCI Mail (1980s)\n\nAs VP of Digital Information Services at **MCI**, Cerf helped bring email to the commercial world through **MCI Mail** — one of the first commercial email services. This was a pivotal step in taking the internet from an academic and military tool to something ordinary people and businesses could use.\n\n### Google — Chief Internet Evangelist (2005–Present)\n\nSince 2005, Cerf has served as **Vice President and Chief Internet Evangelist at Google**. In this role, he's been involved in internet policy, technology strategy, and — true to his title — evangelizing the open internet. He advocates for net neutrality, open standards, universal access, and keeping the internet a platform for everyone.\n\n### The Interplanetary Internet\n\nBecause connecting every device on *Earth* apparently wasn't ambitious enough, Cerf has been working on the **Interplanetary Internet** — a project to extend internet protocols for **deep space communication**. The idea is to create a network architecture that can handle the enormous delays and disruptions inherent in communicating across millions of miles of space. When humans eventually send data from Mars, they'll probably be using protocols Cerf helped design. The man literally wants to network the solar system.\n\n---",
+        "markdown": "### TCP/IP — The Protocol Suite That Runs the World (1974)\n\nIn 1974, Cerf and [Bob Kahn](/legend/bob-kahn) published **\"A Protocol for Packet Network Intercommunication\"** — a paper that laid out the architecture for what would become TCP/IP. This wasn't just an academic exercise. It was a blueprint for connecting *every network on Earth* into a single, unified system.\n\nHere's the core idea: before TCP/IP, different computer networks couldn't talk to each other. Each network had its own protocols, its own rules, its own way of doing things. TCP/IP solved this by creating a universal language — a common set of rules that any network could adopt to exchange data with any other network. **TCP** handles breaking data into packets, ensuring they arrive correctly, and reassembling them. **IP** handles addressing and routing — making sure packets get from point A to point B, even across multiple networks.\n\nThis is THE foundational technology of the internet. It's how data gets from here to there. Every email, every web page, every video stream, every online game — all of it rides on TCP/IP. If [Claude Shannon](/legend/claude-shannon) gave us the theory of information, Cerf and Kahn gave us the plumbing to move it around the planet.\n\n### DARPA and the Growth of the Internet (1976–1982)\n\nFrom 1976 to 1982, Cerf worked at the **Defense Advanced Research Projects Agency (DARPA)**, where he played a key role in funding and overseeing the development of internet and internet-related technologies. He wasn't just designing protocols anymore — he was managing the program that was building the actual internet infrastructure.\n\n### Flag Day — The Internet Is Born (January 1, 1983)\n\nOne of the most consequential moments in internet history happened on **January 1, 1983** — known as **\"Flag Day.\"** This was the day that ARPANET officially transitioned from its original protocol (NCP, the Network Control Protocol) to TCP/IP. Cerf played a key role in planning and executing this transition.\n\nIt was, in a very real sense, the day the internet as we know it was born. Before Flag Day, ARPANET was a closed research network. After Flag Day, it was running the protocol that would eventually connect billions of devices worldwide. The switch was mandatory and non-negotiable — every host on ARPANET had to convert. They even printed buttons that said **\"I survived the TCP/IP transition.\"**\n\n### Internet Governance\n\nCerf has been instrumental in establishing the organizational structures that govern how the internet operates. He helped create and lead:\n\n- **The Internet Architecture Board (IAB)** — which oversees the technical evolution of internet standards\n- **ICANN (Internet Corporation for Assigned Names and Numbers)** — which manages domain names and IP address allocation\n- Various other standards bodies and governance organizations\n\nSomeone had to decide how this thing would be managed, and Cerf was consistently at the table.\n\n### Commercial Email — MCI Mail (1980s)\n\nAs VP of Digital Information Services at **MCI**, Cerf helped bring email to the commercial world through **MCI Mail** — one of the first commercial email services. This was a pivotal step in taking the internet from an academic and military tool to something ordinary people and businesses could use.\n\n### Google — Chief Internet Evangelist (2005–Present)\n\nSince 2005, Cerf has served as **Vice President and Chief Internet Evangelist at Google**. In this role, he's been involved in internet policy, technology strategy, and — true to his title — evangelizing the open internet. He advocates for net neutrality, open standards, universal access, and keeping the internet a platform for everyone.\n\n### The Interplanetary Internet\n\nBecause connecting every device on *Earth* apparently wasn't ambitious enough, Cerf has been working on the **Interplanetary Internet** — a project to extend internet protocols for **deep space communication**. The idea is to create a network architecture that can handle the enormous delays and disruptions inherent in communicating across millions of miles of space. When humans eventually send data from Mars, they'll probably be using protocols Cerf helped design. The man literally wants to network the solar system.\n\n---",
         "subsections": [
           {
             "id": "tcp-ip-the-protocol-suite-that-runs-the-world-1974",
             "title": "TCP/IP — The Protocol Suite That Runs the World (1974)",
-            "markdown": "In 1974, Cerf and [Bob Kahn](../bob-kahn/) published **\"A Protocol for Packet Network Intercommunication\"** — a paper that laid out the architecture for what would become TCP/IP. This wasn't just an academic exercise. It was a blueprint for connecting *every network on Earth* into a single, unified system.\n\nHere's the core idea: before TCP/IP, different computer networks couldn't talk to each other. Each network had its own protocols, its own rules, its own way of doing things. TCP/IP solved this by creating a universal language — a common set of rules that any network could adopt to exchange data with any other network. **TCP** handles breaking data into packets, ensuring they arrive correctly, and reassembling them. **IP** handles addressing and routing — making sure packets get from point A to point B, even across multiple networks.\n\nThis is THE foundational technology of the internet. It's how data gets from here to there. Every email, every web page, every video stream, every online game — all of it rides on TCP/IP. If [Claude Shannon](../../foundational-cs/claude-shannon/) gave us the theory of information, Cerf and Kahn gave us the plumbing to move it around the planet."
+            "markdown": "In 1974, Cerf and [Bob Kahn](/legend/bob-kahn) published **\"A Protocol for Packet Network Intercommunication\"** — a paper that laid out the architecture for what would become TCP/IP. This wasn't just an academic exercise. It was a blueprint for connecting *every network on Earth* into a single, unified system.\n\nHere's the core idea: before TCP/IP, different computer networks couldn't talk to each other. Each network had its own protocols, its own rules, its own way of doing things. TCP/IP solved this by creating a universal language — a common set of rules that any network could adopt to exchange data with any other network. **TCP** handles breaking data into packets, ensuring they arrive correctly, and reassembling them. **IP** handles addressing and routing — making sure packets get from point A to point B, even across multiple networks.\n\nThis is THE foundational technology of the internet. It's how data gets from here to there. Every email, every web page, every video stream, every online game — all of it rides on TCP/IP. If [Claude Shannon](/legend/claude-shannon) gave us the theory of information, Cerf and Kahn gave us the plumbing to move it around the planet."
           },
           {
             "id": "darpa-and-the-growth-of-the-internet-1976-1982",
@@ -17737,7 +17821,7 @@ export const legendDetails = {
         "id": "awards-honors",
         "kind": "awards",
         "title": "Awards & Honors",
-        "markdown": "- **Turing Award** (2004, shared with [Bob Kahn](../bob-kahn/)) — for foundational work on the internet\n- **Presidential Medal of Freedom** (2005) — the highest civilian honor in the United States\n- **National Medal of Technology and Innovation**\n- **Marconi Prize**\n- **Charles Stark Draper Prize**\n- Member of the **National Academy of Engineering**\n- Fellow of the **ACM**, **IEEE**, and numerous other organizations\n- Approximately forty honorary degrees from universities around the world\n- Too many other awards and honors to list without this section becoming longer than the rest of the article\n\n---",
+        "markdown": "- **Turing Award** (2004, shared with [Bob Kahn](/legend/bob-kahn)) — for foundational work on the internet\n- **Presidential Medal of Freedom** (2005) — the highest civilian honor in the United States\n- **National Medal of Technology and Innovation**\n- **Marconi Prize**\n- **Charles Stark Draper Prize**\n- Member of the **National Academy of Engineering**\n- Fellow of the **ACM**, **IEEE**, and numerous other organizations\n- Approximately forty honorary degrees from universities around the world\n- Too many other awards and honors to list without this section becoming longer than the rest of the article\n\n---",
         "subsections": []
       },
       {
@@ -17758,7 +17842,7 @@ export const legendDetails = {
         "id": "related-figures",
         "kind": "related-figures",
         "title": "Related Figures",
-        "markdown": "- **[Bob Kahn](../bob-kahn/)** — Co-creator of TCP/IP, lifelong collaborator, and the other \"Father of the Internet\"\n- **[Tim Berners-Lee](../tim-berners-lee/)** — Built the World Wide Web on top of the internet that Cerf and Kahn created\n- **[Radia Perlman](../radia-perlman/)** — Networking pioneer whose spanning tree protocol helped make large-scale networks possible\n- **[Claude Shannon](../../foundational-cs/claude-shannon/)** — The father of information theory, which underlies all digital communication and networking\n- **[Dennis Ritchie](../../systems-languages/dennis-ritchie/)** — Created Unix and C, the operating system and language the early internet ran on\n\n---",
+        "markdown": "- **[Bob Kahn](/legend/bob-kahn)** — Co-creator of TCP/IP, lifelong collaborator, and the other \"Father of the Internet\"\n- **[Tim Berners-Lee](/legend/tim-berners-lee)** — Built the World Wide Web on top of the internet that Cerf and Kahn created\n- **[Radia Perlman](/legend/radia-perlman)** — Networking pioneer whose spanning tree protocol helped make large-scale networks possible\n- **[Claude Shannon](/legend/claude-shannon)** — The father of information theory, which underlies all digital communication and networking\n- **[Dennis Ritchie](/legend/dennis-ritchie)** — Created Unix and C, the operating system and language the early internet ran on\n\n---",
         "subsections": []
       },
       {
@@ -17772,7 +17856,7 @@ export const legendDetails = {
         "id": "navigation",
         "kind": "navigation",
         "title": "Navigation",
-        "markdown": "- [← Main Index](../../README.md)\n- [← Previous: Bob Kahn](../bob-kahn/)\n- [↑ Category Overview](../README.md)\n- [Next: Radia Perlman →](../radia-perlman/)\n\n---\n\n**Last Updated:** 2026-04-13",
+        "markdown": "- [← Main Index](/)\n- [← Previous: Bob Kahn](/legend/bob-kahn)\n- [↑ Category Overview](/category/web-internet)\n- [Next: Radia Perlman →](/legend/radia-perlman)\n\n---\n\n**Last Updated:** 2026-04-13",
         "subsections": []
       }
     ],
