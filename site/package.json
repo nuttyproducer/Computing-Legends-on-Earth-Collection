@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "content:scan": "node scripts/content/scan-repo.mjs",
     "content:scan:json": "node scripts/content/scan-repo.mjs --json",
-    "content:build": "node scripts/content/build-content.mjs"
+    "content:build": "node scripts/content/build-content.mjs",
+    "content:fix-links": "node scripts/content/fix-source-links.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",

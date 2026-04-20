@@ -91,7 +91,7 @@ In short: Bengio didn't just help invent modern AI. He's trying to make sure it 
 - [Geoffrey Hinton](../geoffrey-hinton/) — Fellow "Godfather of AI" and Turing Award co-recipient. Backpropagation pioneer.
 - [Yann LeCun](../yann-lecun/) — Fellow "Godfather of AI" and Turing Award co-recipient. Convolutional neural networks pioneer.
 - [Andrew Ng](../andrew-ng/) — Fellow deep learning educator and evangelist. Co-founded Google Brain and Coursera.
-- **Ian Goodfellow** — Invented GANs while a PhD student in Bengio's lab at Mila.
+- [Ian Goodfellow](https://en.wikipedia.org/wiki/Ian_Goodfellow) — Invented GANs while a PhD student in Bengio's lab at Mila.
 - [Judea Pearl](../judea-pearl/) — Causal reasoning and Bayesian networks pioneer.
 
 ---

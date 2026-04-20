@@ -1,10 +1,31 @@
-import { defineConfig } from 'vite'
+import { copyFile } from 'node:fs/promises'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { defineConfig, type Plugin, type ResolvedConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+
+function githubPagesSpaFallback(): Plugin {
+  let resolvedConfig: ResolvedConfig
+
+  return {
+    name: 'github-pages-spa-fallback',
+    apply: 'build',
+    configResolved(config) {
+      resolvedConfig = config
+    },
+    async closeBundle() {
+      const configDir = path.dirname(fileURLToPath(import.meta.url))
+      const outDir = path.resolve(configDir, resolvedConfig.build.outDir)
+
+      await copyFile(path.join(outDir, 'index.html'), path.join(outDir, '404.html'))
+    },
+  }
+}
 
 // https://vite.dev/config/
 export default defineConfig({
   base: '/Computing-Legends-on-Earth-Collection/',
-  plugins: [react()],
+  plugins: [react(), githubPagesSpaFallback()],
   build: {
     rollupOptions: {
       output: {
