@@ -16,7 +16,9 @@
 
 </div>
 
-> ⭐ If this collection taught you something, helped with a lesson, or sent you down a fun rabbit hole, please star the repo and share it.
+
+⭐ If this collection taught you something, helped with a lesson, or sent you down a fun rabbit hole, please star the repo and share it.
+
 
 A curated collection of **43 computing legends** whose ideas still shape the way we build software, train AI, design networks, and understand computation itself.
 
