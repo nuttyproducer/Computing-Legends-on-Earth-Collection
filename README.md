@@ -17,7 +17,11 @@
 </div>
 
 
-<div align="center">⭐ If this collection taught you something, helped with a lesson, or sent you down a fun rabbit hole, please star the repo and share it.</div>
+<div align="center">
+
+<h2>🌟 <span style="background: #ffe066; padding: 0.3em 0.8em; border-radius: 0.5em; color: #b02a37;">If this collection taught you something, helped with a lesson, or sent you down a fun rabbit hole,<br><b>please <a href="https://github.com/nuttyproducer/Computing-Legends-on-Earth-Collection/stargazers">star the repo</a> and share it!</b> 🌟</span></h2>
+
+</div>
 
 
 A curated collection of **43 computing legends** whose ideas still shape the way we build software, train AI, design networks, and understand computation itself.
